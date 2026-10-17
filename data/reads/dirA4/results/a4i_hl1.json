@@ -1,0 +1,38 @@
+{
+ "0": {
+  "n": 200,
+  "illposed": 70.0,
+  "invented_target_share": 49.0,
+  "own_r4_illposed": 80.5,
+  "HL1": true,
+  "unknown_majority_by_class": {
+   "SOLVABLE": "4/60",
+   "AMBIGUOUS": "7/43",
+   "UNSOLVABLE": "35/97"
+  }
+ },
+ "1": {
+  "n": 200,
+  "illposed": 80.5,
+  "invented_target_share": 61.0,
+  "own_r4_illposed": 80.0,
+  "HL1": true,
+  "unknown_majority_by_class": {
+   "SOLVABLE": "4/39",
+   "AMBIGUOUS": "7/63",
+   "UNSOLVABLE": "32/98"
+  }
+ },
+ "2": {
+  "n": 200,
+  "illposed": 79.0,
+  "invented_target_share": 56.0,
+  "own_r4_illposed": 78.5,
+  "HL1": true,
+  "unknown_majority_by_class": {
+   "SOLVABLE": "7/42",
+   "AMBIGUOUS": "5/52",
+   "UNSOLVABLE": "41/106"
+  }
+ }
+}

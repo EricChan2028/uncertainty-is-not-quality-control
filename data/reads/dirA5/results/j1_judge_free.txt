@@ -1,0 +1,28 @@
+UMWP qwen3_4b base: {'rate_U': 0.7933333333333333, 'rate_A': 0.685, 'n_inband_A': 411}
+  qwen3_4b_Base_own_a3_s0_r3: ratio base 1.158 -> r3 2.845 (x2.46) powered True -> True
+  qwen3_4b_Base_own_a3_s1_r3: ratio base 1.158 -> r3 2.300 (x1.99) powered True -> True
+  qwen3_4b_Base_own_a3_s2_r3: ratio base 1.158 -> r3 3.304 (x2.85) powered True -> True
+  qwen3_4b_Base_own_a3_s3_r3: ratio base 1.158 -> r3 4.966 (x4.29) powered True -> True
+  qwen3_4b_Base_own_a3_s4_r3: ratio base 1.158 -> r3 2.275 (x1.96) powered True -> True
+UMWP qwen3_8b base: {'rate_U': 0.5633333333333334, 'rate_A': 0.7883333333333333, 'n_inband_A': 473}
+  qwen3_8b_Base_own_a3_s0_r3: ratio base 0.715 -> r3 1.065 (x1.49) powered True -> True
+  qwen3_8b_Base_own_a3_s1_r3: ratio base 0.715 -> r3 0.981 (x1.37) powered True -> True
+  qwen3_8b_Base_own_a3_s2_r3: ratio base 0.715 -> r3 1.332 (x1.86) powered True -> True
+UMWP phi4mini base: {'rate_U': 0.3516666666666667, 'rate_A': 0.22333333333333333, 'n_inband_A': 134}
+  phi4mini_own_a4_s0_r3: ratio base 1.575 -> r3 7.135 (x4.53) powered True -> True
+  phi4mini_own_a4_s1_r3: ratio base 1.575 -> r3 6.300 (x4.00) powered True -> True
+J-P2: True (10/10 powered lineages)
+twins qwen3_4b base (/home/tione/notebook/rsi_rl/dirA/results/qwen3_4b_base_shard*of8.jsonl): {'rate_U': 0.5415703883495145, 'rate_A': 0.640998786407767, 'n_inband_A': 264.0915, 'n_U': 412, 'n_A': 412}
+twins qwen3_8b base (/home/tione/notebook/rsi_rl/dirA/results/qwen3_8b_base_shard*.jsonl): {'rate_U': 0.3342063106796117, 'rate_A': 0.4838640776699029, 'n_inband_A': 199.352, 'n_U': 412, 'n_A': 412}
+twins phi4mini base (/home/tione/notebook/rsi_rl/dirA/results/phi4mini_shard*of8.jsonl): {'rate_U': 0.3542876213592233, 'rate_A': 0.4840776699029126, 'n_inband_A': 199.44, 'n_U': 412, 'n_A': 412}
+  twins qwen3_4b_Base_own_a3_s0_r3: ratio base 0.845 -> r3 1.314 (x1.55)
+  twins qwen3_4b_Base_own_a3_s1_r3: ratio base 0.845 -> r3 1.250 (x1.48)
+  twins qwen3_4b_Base_own_a3_s2_r3: ratio base 0.845 -> r3 1.390 (x1.65)
+  twins qwen3_4b_Base_own_a3_s3_r3: ratio base 0.845 -> r3 1.408 (x1.67)
+  twins qwen3_4b_Base_own_a3_s4_r3: ratio base 0.845 -> r3 1.292 (x1.53)
+  twins qwen3_8b_Base_own_a3_s0_r3: ratio base 0.691 -> r3 0.827 (x1.20)
+  twins qwen3_8b_Base_own_a3_s1_r3: ratio base 0.691 -> r3 0.791 (x1.15)
+  twins qwen3_8b_Base_own_a3_s2_r3: ratio base 0.691 -> r3 0.945 (x1.37)
+  twins phi4mini_own_a4_s0_r3: ratio base 0.732 -> r3 1.749 (x2.39)
+  twins phi4mini_own_a4_s1_r3: ratio base 0.732 -> r3 1.874 (x2.56)
+J-P3: True (8/10 lineages read)

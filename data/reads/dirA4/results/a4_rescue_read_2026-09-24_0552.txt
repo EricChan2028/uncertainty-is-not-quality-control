@@ -1,0 +1,13 @@
+seed | arm        | acc   | Q1u   | abstain uns / intact (abs prompt)
+s0   | own        | 81.9  | 0.347 | 0.714 / 0.072
+s0   | rescue_abs | 82.3  | 0.335 | - / -
+s0   | own_clean  | 81.8  | 0.240 | 0.662 / 0.065
+  -> seed 0: HA1 False | HA2 True | HA3 None
+s1   | own        | 81.5  | 0.316 | 0.693 / 0.064
+s1   | rescue_abs | 81.9  | 0.197 | 0.242 / 0.006
+s1   | own_clean  | 81.7  | 0.218 | 0.733 / 0.063
+  -> seed 1: HA1 True | HA2 True | HA3 False
+s2   | own        | 81.8  | 0.410 | 0.699 / 0.071
+s2   | rescue_abs | 81.8  | 0.357 | 0.304 / 0.009
+s2   | own_clean  | 82.7  | - | - / -
+  -> seed 2: HA1 True | HA2 True | HA3 False

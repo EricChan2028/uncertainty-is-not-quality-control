@@ -1,0 +1,100 @@
+{
+ "history": [
+  {
+   "time": "2026-09-26 17:43:44 CST",
+   "host": "<NODE>",
+   "state": "running",
+   "gpu": "3",
+   "n_ids": 0,
+   "model": "/root/models/Qwen3-4B-Base",
+   "probe_sha256": "11f796c2af5c56afe72c802cf34e444e391c1b53f10561e5c115bb0b7f6cfa68",
+   "model_fingerprint": {
+    "path": "/root/models/Qwen3-4B-Base",
+    "realpath": "/dev/shm/models/Qwen3-4B-Base",
+    "files": {
+     ".complete": [
+      11,
+      "fdee52934dac75a9"
+     ],
+     ".msc": [
+      978,
+      "fbdb7df68a26cb41"
+     ],
+     ".mv": [
+      36,
+      "d6e36f735fee9a01"
+     ],
+     "LICENSE": [
+      11343,
+      "832dd9e00a68dd83"
+     ],
+     "README.md": [
+      2937,
+      "9fd20ab531a1dc75"
+     ],
+     "config.json": [
+      727,
+      "304b2545a258d356"
+     ],
+     "configuration.json": [
+      73,
+      "f888421726665e8a"
+     ],
+     "generation_config.json": [
+      138,
+      "8c970692323e3ea0"
+     ],
+     "merges.txt": [
+      1671853,
+      "8831e4f1a0444713"
+     ],
+     "model-00001-of-00003.safetensors": [
+      3957900840,
+      "e015ad38d137875c"
+     ],
+     "model-00002-of-00003.safetensors": [
+      3987450520,
+      "01bd86e64b5c5973"
+     ],
+     "model-00003-of-00003.safetensors": [
+      99630640,
+      "1527e495fb6277f0"
+     ],
+     "model.safetensors.index.json": [
+      32819,
+      "d6c42883a895dfef"
+     ],
+     "tokenizer.json": [
+      7031645,
+      "c0382117ea329cdf"
+     ],
+     "tokenizer_config.json": [
+      9678,
+      "3c04ed3ca964ea2f"
+     ],
+     "vocab.json": [
+      2776833,
+      "ca10d7e9fb3ed185"
+     ]
+    }
+   }
+  },
+  {
+   "time": "2026-09-26 17:49:21 CST",
+   "host": "<NODE>",
+   "state": "complete",
+   "gpu": "3",
+   "n_ids": 1200,
+   "model": "/root/models/Qwen3-4B-Base",
+   "probe_sha256": "11f796c2af5c56afe72c802cf34e444e391c1b53f10561e5c115bb0b7f6cfa68"
+  }
+ ],
+ "registration": "A11",
+ "bench": "umwp",
+ "tag": "absfix_qwen3_4b_base",
+ "state": "complete",
+ "host": "<NODE>",
+ "model": "/root/models/Qwen3-4B-Base",
+ "probe_sha256": "11f796c2af5c56afe72c802cf34e444e391c1b53f10561e5c115bb0b7f6cfa68",
+ "n_ids": 1200
+}

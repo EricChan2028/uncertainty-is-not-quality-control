@@ -1,0 +1,153 @@
+{
+ "part": "A12 part 1 (raw R-Zero challenger audit)",
+ "n_items": 1200,
+ "n_blind": 850,
+ "complete": false,
+ "passes_run": 1,
+ "passes": [
+  {
+   "file": "blind_verdicts.json",
+   "n_expected_batches": 48,
+   "n_raw": 1200,
+   "n_valid": 850,
+   "n_invalid_label": 0,
+   "n_unknown_key": 0,
+   "n_out_of_range": 0,
+   "n_dropped_batch": 350,
+   "n_conflict_keys": 0,
+   "n_malformed": 0,
+   "passed_null_return": [],
+   "dropped": [
+    [
+     26,
+     50
+    ],
+    [
+     201,
+     225
+    ],
+    [
+     326,
+     350
+    ],
+    [
+     476,
+     500
+    ],
+    [
+     501,
+     525
+    ],
+    [
+     676,
+     700
+    ],
+    [
+     751,
+     775
+    ],
+    [
+     826,
+     850
+    ],
+    [
+     851,
+     875
+    ],
+    [
+     876,
+     900
+    ],
+    [
+     901,
+     925
+    ],
+    [
+     976,
+     1000
+    ],
+    [
+     1076,
+     1100
+    ],
+    [
+     1151,
+     1175
+    ]
+   ],
+   "absent": [],
+   "transcript_dirs": [
+    "wf_8eba3d04-117"
+   ],
+   "port": "<PORT>",
+   "n_judge_sessions": 48,
+   "n_sessions_with_local_computation": 33,
+   "n_keys_labelled": 850,
+   "n_keys_filled": 850
+  }
+ ],
+ "n_missing": 350,
+ "next_pass_ranges": [
+  [
+   26,
+   50
+  ],
+  [
+   201,
+   225
+  ],
+  [
+   326,
+   350
+  ],
+  [
+   476,
+   500
+  ],
+  [
+   501,
+   525
+  ],
+  [
+   676,
+   700
+  ],
+  [
+   751,
+   775
+  ],
+  [
+   826,
+   850
+  ],
+  [
+   851,
+   875
+  ],
+  [
+   876,
+   900
+  ],
+  [
+   901,
+   925
+  ],
+  [
+   976,
+   1000
+  ],
+  [
+   1076,
+   1100
+  ],
+  [
+   1151,
+   1175
+  ]
+ ],
+ "items_sha256": "cd32d8ec37a88febf6468755aee25a984278f5c058f487a721b47676de5bef3d",
+ "key_sha256": "389f2d4a8f0e23f0032b0b23cd815ed38869685b069ab420bce75a79b24f9ca9",
+ "reading": {
+  "label": "INCOMPLETE (next pass mandatory)"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "math500_train": {
+  "n": 500,
+  "greedy_acc": 0.342,
+  "maj_acc": 0.4,
+  "pass_k": 0.632,
+  "k": 8,
+  "mean_p_mode": 0.39475,
+  "sample_trunc": 0.001,
+  "mean_len": 287.08725,
+  "model": "/dev/shm/ckpt_b/llama3p2_3b_fmt_s0/final"
+ },
+ "math_heldout1000": {
+  "n": 1000,
+  "greedy_acc": 0.367,
+  "maj_acc": 0.415,
+  "pass_k": 0.632,
+  "k": 8,
+  "mean_p_mode": 0.39925,
+  "sample_trunc": 0.002375,
+  "mean_len": 269.634125,
+  "model": "/dev/shm/ckpt_b/llama3p2_3b_fmt_s0/final"
+ },
+ "gsm8k_test500": {
+  "n": 500,
+  "greedy_acc": 0.718,
+  "maj_acc": 0.8,
+  "pass_k": 0.926,
+  "k": 8,
+  "mean_p_mode": 0.72275,
+  "sample_trunc": 0.00025,
+  "mean_len": 157.91125,
+  "model": "/dev/shm/ckpt_b/llama3p2_3b_fmt_s0/final"
+ }
+}

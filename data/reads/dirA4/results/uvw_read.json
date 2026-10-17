@@ -1,0 +1,410 @@
+{
+ "seeds": {
+  "0": {
+   "arms": {
+    "own": {
+     "acc": 81.93333333333334,
+     "acc_strict": 81.89999999999999,
+     "q1u": 0.3470873786407767,
+     "abs_uns": 0.7138197815533981,
+     "abs_int": 0.07222605893186004
+    },
+    "rescue_uv": {
+     "acc": 21.366666666666664,
+     "acc_strict": 21.366666666666664,
+     "q1u": 0.24029126213592233,
+     "abs_uns": 0.9655643203883495,
+     "abs_int": 0.8533609576427256
+    },
+    "rescue_uv_w1": {
+     "acc": 81.4,
+     "acc_strict": 81.36666666666666,
+     "q1u": 0.3470873786407767,
+     "abs_uns": 0.7949787621359223,
+     "abs_int": 0.13397790055248618
+    },
+    "rescue_abs": {
+     "acc": 82.26666666666667,
+     "acc_strict": 82.23333333333333,
+     "q1u": 0.33495145631067963,
+     "abs_uns": 0.32069174757281554,
+     "abs_int": 0.01156767955801105
+    },
+    "own_clean": {
+     "acc": 81.83333333333333,
+     "acc_strict": 81.83333333333333,
+     "q1u": 0.24029126213592233,
+     "abs_uns": 0.6615594660194175,
+     "abs_int": 0.06531998158379373
+    }
+   },
+   "HU1": true,
+   "HU2": false,
+   "HU3": false
+  },
+  "1": {
+   "arms": {
+    "own": {
+     "acc": 81.46666666666667,
+     "acc_strict": 81.4,
+     "q1u": 0.3155339805825243,
+     "abs_uns": 0.6928094660194175,
+     "abs_int": 0.06411141804788213
+    },
+    "rescue_uv": {
+     "acc": 79.2,
+     "acc_strict": 79.16666666666667,
+     "q1u": 0.30097087378640774,
+     "abs_uns": 0.9978003640776699,
+     "abs_int": 0.9918278084714549
+    },
+    "rescue_uv_w1": {
+     "acc": 82.23333333333333,
+     "acc_strict": 82.2,
+     "q1u": 0.23300970873786409,
+     "abs_uns": 0.8235740291262136,
+     "abs_int": 0.13271178637200737
+    },
+    "rescue_abs": {
+     "acc": 81.89999999999999,
+     "acc_strict": 81.89999999999999,
+     "q1u": 0.1966019417475728,
+     "abs_uns": 0.2421116504854369,
+     "abs_int": 0.006042817679558011
+    },
+    "own_clean": {
+     "acc": 81.73333333333333,
+     "acc_strict": 81.66666666666667,
+     "q1u": 0.21844660194174756,
+     "abs_uns": 0.7330097087378641,
+     "abs_int": 0.06290285451197053
+    }
+   },
+   "HU1": false,
+   "HU2": false,
+   "HU3": false
+  }
+ },
+ "pools": {
+  "qwen_s0": {
+   "comp": {
+    "own_r3": {
+     "count_unknown": {
+      "n_admitted": 422,
+      "illposed_share": 77.96208530805687,
+      "unsolvable_share": 54.976303317535546,
+      "illposed_with_unknown_majority_share_of_admitted": 11.848341232227488,
+      "hallucination_target_share": 66.11374407582939,
+      "in_band_mass": {
+       "SOLVABLE": 0.14553990610328638,
+       "AMBIGUOUS": 0.5388888888888889,
+       "UNSOLVABLE": 0.6843657817109144
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 400,
+      "illposed_share": 76.75,
+      "unsolvable_share": 52.5,
+      "illposed_with_unknown_majority_share_of_admitted": 7.0,
+      "hallucination_target_share": 69.75,
+      "in_band_mass": {
+       "SOLVABLE": 0.14553990610328638,
+       "AMBIGUOUS": 0.5388888888888889,
+       "UNSOLVABLE": 0.6194690265486725
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.003129890453834116,
+      "AMBIGUOUS": 0.005555555555555556,
+      "UNSOLVABLE": 0.20353982300884957
+     }
+    },
+    "base": {
+     "count_unknown": {
+      "n_admitted": 774,
+      "illposed_share": 57.10594315245478,
+      "unsolvable_share": 37.2093023255814,
+      "illposed_with_unknown_majority_share_of_admitted": 14.857881136950905,
+      "hallucination_target_share": 42.248062015503876,
+      "in_band_mass": {
+       "SOLVABLE": 0.5195618153364632,
+       "AMBIGUOUS": 0.8555555555555555,
+       "UNSOLVABLE": 0.8495575221238938
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 675,
+      "illposed_share": 53.77777777777778,
+      "unsolvable_share": 32.44444444444444,
+      "illposed_with_unknown_majority_share_of_admitted": 5.333333333333333,
+      "hallucination_target_share": 48.44444444444444,
+      "in_band_mass": {
+       "SOLVABLE": 0.48826291079812206,
+       "AMBIGUOUS": 0.8,
+       "UNSOLVABLE": 0.6460176991150443
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.03755868544600939,
+      "AMBIGUOUS": 0.07222222222222222,
+      "UNSOLVABLE": 0.3392330383480826
+     }
+    },
+    "rescue_uv": {
+     "count_unknown": {
+      "n_admitted": 0,
+      "illposed_share": 0.0,
+      "unsolvable_share": 0.0,
+      "illposed_with_unknown_majority_share_of_admitted": 0.0,
+      "hallucination_target_share": 0.0,
+      "in_band_mass": {
+       "SOLVABLE": 0.0,
+       "AMBIGUOUS": 0.0,
+       "UNSOLVABLE": 0.0
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 0,
+      "illposed_share": 0.0,
+      "unsolvable_share": 0.0,
+      "illposed_with_unknown_majority_share_of_admitted": 0.0,
+      "hallucination_target_share": 0.0,
+      "in_band_mass": {
+       "SOLVABLE": 0.0,
+       "AMBIGUOUS": 0.0,
+       "UNSOLVABLE": 0.0
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 1.0,
+      "AMBIGUOUS": 1.0,
+      "UNSOLVABLE": 1.0
+     }
+    },
+    "rescue_uv_w1": {
+     "count_unknown": {
+      "n_admitted": 414,
+      "illposed_share": 73.18840579710145,
+      "unsolvable_share": 49.27536231884058,
+      "illposed_with_unknown_majority_share_of_admitted": 16.908212560386474,
+      "hallucination_target_share": 56.28019323671498,
+      "in_band_mass": {
+       "SOLVABLE": 0.17370892018779344,
+       "AMBIGUOUS": 0.55,
+       "UNSOLVABLE": 0.6017699115044248
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 389,
+      "illposed_share": 72.49357326478149,
+      "unsolvable_share": 47.04370179948586,
+      "illposed_with_unknown_majority_share_of_admitted": 12.596401028277635,
+      "hallucination_target_share": 59.897172236503856,
+      "in_band_mass": {
+       "SOLVABLE": 0.1674491392801252,
+       "AMBIGUOUS": 0.55,
+       "UNSOLVABLE": 0.5398230088495575
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.0297339593114241,
+      "AMBIGUOUS": 0.06666666666666667,
+      "UNSOLVABLE": 0.4247787610619469
+     }
+    },
+    "rescue_abs": {
+     "count_unknown": {
+      "n_admitted": 419,
+      "illposed_share": 77.08830548926014,
+      "unsolvable_share": 54.17661097852029,
+      "illposed_with_unknown_majority_share_of_admitted": 0.954653937947494,
+      "hallucination_target_share": 76.13365155131265,
+      "in_band_mass": {
+       "SOLVABLE": 0.15023474178403756,
+       "AMBIGUOUS": 0.5333333333333333,
+       "UNSOLVABLE": 0.6696165191740413
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 416,
+      "illposed_share": 76.92307692307692,
+      "unsolvable_share": 53.84615384615385,
+      "illposed_with_unknown_majority_share_of_admitted": 0.2403846153846154,
+      "hallucination_target_share": 76.6826923076923,
+      "in_band_mass": {
+       "SOLVABLE": 0.15023474178403756,
+       "AMBIGUOUS": 0.5333333333333333,
+       "UNSOLVABLE": 0.6607669616519174
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.0,
+      "AMBIGUOUS": 0.0,
+      "UNSOLVABLE": 0.011799410029498525
+     }
+    }
+   },
+   "HU4": true
+  },
+  "qwen_s1": {
+   "comp": {
+    "own_r3": {
+     "count_unknown": {
+      "n_admitted": 415,
+      "illposed_share": 80.96385542168674,
+      "unsolvable_share": 56.3855421686747,
+      "illposed_with_unknown_majority_share_of_admitted": 9.63855421686747,
+      "hallucination_target_share": 71.32530120481928,
+      "in_band_mass": {
+       "SOLVABLE": 0.1301482701812191,
+       "AMBIGUOUS": 0.5730337078651685,
+       "UNSOLVABLE": 0.6666666666666666
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 394,
+      "illposed_share": 80.45685279187818,
+      "unsolvable_share": 54.568527918781726,
+      "illposed_with_unknown_majority_share_of_admitted": 5.32994923857868,
+      "hallucination_target_share": 75.1269035532995,
+      "in_band_mass": {
+       "SOLVABLE": 0.12685337726523888,
+       "AMBIGUOUS": 0.5730337078651685,
+       "UNSOLVABLE": 0.6125356125356125
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.004942339373970346,
+      "AMBIGUOUS": 0.0,
+      "UNSOLVABLE": 0.1737891737891738
+     }
+    },
+    "base": {
+     "count_unknown": {
+      "n_admitted": 800,
+      "illposed_share": 56.0,
+      "unsolvable_share": 37.0,
+      "illposed_with_unknown_majority_share_of_admitted": 14.75,
+      "hallucination_target_share": 41.25,
+      "in_band_mass": {
+       "SOLVABLE": 0.5799011532125206,
+       "AMBIGUOUS": 0.8539325842696629,
+       "UNSOLVABLE": 0.8433048433048433
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 706,
+      "illposed_share": 51.69971671388102,
+      "unsolvable_share": 32.01133144475921,
+      "illposed_with_unknown_majority_share_of_admitted": 4.957507082152975,
+      "hallucination_target_share": 46.742209631728045,
+      "in_band_mass": {
+       "SOLVABLE": 0.5617792421746294,
+       "AMBIGUOUS": 0.7808988764044944,
+       "UNSOLVABLE": 0.6438746438746439
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.023064250411861616,
+      "AMBIGUOUS": 0.07865168539325842,
+      "UNSOLVABLE": 0.33903133903133903
+     }
+    },
+    "rescue_uv": {
+     "count_unknown": {
+      "n_admitted": 3,
+      "illposed_share": 66.66666666666667,
+      "unsolvable_share": 33.333333333333336,
+      "illposed_with_unknown_majority_share_of_admitted": 66.66666666666667,
+      "hallucination_target_share": 0.0,
+      "in_band_mass": {
+       "SOLVABLE": 0.0016474464579901153,
+       "AMBIGUOUS": 0.0056179775280898875,
+       "UNSOLVABLE": 0.002849002849002849
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 1,
+      "illposed_share": 100.0,
+      "unsolvable_share": 100.0,
+      "illposed_with_unknown_majority_share_of_admitted": 100.0,
+      "hallucination_target_share": 0.0,
+      "in_band_mass": {
+       "SOLVABLE": 0.0,
+       "AMBIGUOUS": 0.0,
+       "UNSOLVABLE": 0.002849002849002849
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 1.0,
+      "AMBIGUOUS": 1.0,
+      "UNSOLVABLE": 1.0
+     }
+    },
+    "rescue_uv_w1": {
+     "count_unknown": {
+      "n_admitted": 407,
+      "illposed_share": 76.16707616707616,
+      "unsolvable_share": 47.91154791154791,
+      "illposed_with_unknown_majority_share_of_admitted": 18.42751842751843,
+      "hallucination_target_share": 57.73955773955774,
+      "in_band_mass": {
+       "SOLVABLE": 0.15980230642504117,
+       "AMBIGUOUS": 0.6460674157303371,
+       "UNSOLVABLE": 0.5555555555555556
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 380,
+      "illposed_share": 75.0,
+      "unsolvable_share": 46.05263157894737,
+      "illposed_with_unknown_majority_share_of_admitted": 13.157894736842104,
+      "hallucination_target_share": 61.8421052631579,
+      "in_band_mass": {
+       "SOLVABLE": 0.15650741350906094,
+       "AMBIGUOUS": 0.6179775280898876,
+       "UNSOLVABLE": 0.4985754985754986
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.019769357495881382,
+      "AMBIGUOUS": 0.11235955056179775,
+      "UNSOLVABLE": 0.41595441595441596
+     }
+    },
+    "rescue_abs": {
+     "count_unknown": {
+      "n_admitted": 404,
+      "illposed_share": 81.18811881188118,
+      "unsolvable_share": 58.415841584158414,
+      "illposed_with_unknown_majority_share_of_admitted": 0.0,
+      "hallucination_target_share": 81.18811881188118,
+      "in_band_mass": {
+       "SOLVABLE": 0.12520593080724876,
+       "AMBIGUOUS": 0.5168539325842697,
+       "UNSOLVABLE": 0.6723646723646723
+      }
+     },
+     "plain_p_mode": {
+      "n_admitted": 404,
+      "illposed_share": 81.18811881188118,
+      "unsolvable_share": 58.415841584158414,
+      "illposed_with_unknown_majority_share_of_admitted": 0.0,
+      "hallucination_target_share": 81.18811881188118,
+      "in_band_mass": {
+       "SOLVABLE": 0.12520593080724876,
+       "AMBIGUOUS": 0.5168539325842697,
+       "UNSOLVABLE": 0.6723646723646723
+      }
+     },
+     "unknown_plurality_by_class": {
+      "SOLVABLE": 0.0,
+      "AMBIGUOUS": 0.0,
+      "UNSOLVABLE": 0.0
+     }
+    }
+   },
+   "HU4": true
+  }
+ }
+}

@@ -1,0 +1,5 @@
+plain rzero_s0_it3 /run/ti/rzero/s0/models/rzero_qwen3_4b_Base_s0_solver_v3/global_step_15/actor/huggingface
+plain rzero_s1_it3 /run/ti/rzero/s1/models/rzero_qwen3_4b_Base_s1_solver_v3/global_step_15/actor/huggingface
+plain chat_rzero_s0_it3 /run/ti/rzero/links/rz_s0_it3_chat
+plain chat_rzero_s1_it3 /run/ti/rzero/links/rz_s1_it3_chat
+plain chat_qwen3_4b_base /run/ti/rzero/links/qwen3_4b_chat

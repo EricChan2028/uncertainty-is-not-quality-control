@@ -1,0 +1,24 @@
+# Placeholders (the only edits to the verbatim workflow text)
+# <SSH>          ssh command to the compute host (host, port and user removed)
+# <REPO>         project root on the compute host; <RUN_DIR> = the directory holding the item file (<REPO>/dirB/runs/<RUN>)
+# <PART_FILE>    <RUN_DIR>/audit_parts/<A>-<B>.json (fixed pools: <REPO>/dirA3/results/pool_audit/<POOL>/parts/<A>-<B>.json)
+# <LOCAL_PART>   a temporary local file of the judge (workstation path removed)
+# <A>, <B>, <M>  item slice [A, B) of the ordered item list, M = B - A (20 or 25)
+# <MODEL>        the proposer's model name as written in the workflow (e.g. Qwen3-4B-Base, Llama-3.2-3B, Phi-4-mini-instruct)
+# The judge's structured return schema: verdict in {SOLVABLE, UNSOLVABLE, AMBIGUOUS}, confidence (number), note (string), k, id.
+# The fetch command and the returned run="<RUN>" show the judge the run directory and name (see PROTOCOL.md).
+
+You are a careful mathematician validating a benchmark of ILL-POSED math word problems. Fetch twins <A>..<B-1> (0-based index into the registered probe set) with this exact command (Bash tool, one call, do not modify it):
+<SSH> 'cd <REPO>; python3 -c "
+import json
+tw=[json.loads(l) for l in open(\"data/hp_twins.jsonl\")]
+P=[r for r in tw if r[\"task\"]==0 or r[\"split_kind\"]==\"template\"]
+for i in range(<A>,<B>):
+    r=P[i]; print(\"=== idx\", i, \"fam\", r[\"fam\"], \"task\", r[\"task\"]); print(\"INTACT:\", r[\"intact\"]); print(\"DELETED:\", r[\"deleted\"]); print(\"ANSWER (of intact):\", r[\"answer\"])
+"'
+For EACH twin decide, about the DELETED problem on its own (use the intact one only to see what was removed):
+  UNSOLVABLE          - the deleted text does not determine a unique numeric answer (a needed quantity or relation is missing);
+  SOLVABLE_SAME       - still uniquely solvable AND the same answer as the intact one (the removed sentence was redundant);
+  SOLVABLE_DIFFERENT  - uniquely solvable but the answer differs (the deletion turned it into another well-posed problem, e.g. an additive fee/leg/discount was removed);
+  AMBIGUOUS           - cannot tell / the intact problem itself is broken.
+Be strict: "a reasonable default assumption would fill the gap" still counts as UNSOLVABLE. Give confidence 0-1 and a <= 20-word note. Return all <M> verdicts with the correct idx, fam and task exactly as printed.

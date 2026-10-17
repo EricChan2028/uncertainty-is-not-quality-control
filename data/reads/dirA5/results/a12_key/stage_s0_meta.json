@@ -1,0 +1,96 @@
+{
+ "seed": 0,
+ "host": "<NODE1>",
+ "cells": {
+  "it1": {
+   "n_generated": 8000,
+   "n_parsed": 7499,
+   "n_scored": 6859,
+   "n_admitted": 3678,
+   "status_method": "ordered",
+   "status_counts_all_parsed": {
+    "admitted": 3678,
+    "scored_rejected": 3181,
+    "not_scored": 640
+   },
+   "shard_sha256": {
+    "0": "beffd10bbc7df2402e54cedd908e19449b58e7c83f3090a22a9c136af0876742",
+    "1": "9a2c3147ddfde923f8b5db5403ac21aca52e34f53ce3e7f2a4609d00efb0653f",
+    "2": "3c832c5646b1596ca5861d640926e72efd7c068afa81a8022ca509228b07f441",
+    "3": "15f841555f5ac641cd10fbe7724112cdee338eaaea5c61960db822579b41eaad",
+    "4": "93585eedb2fa0687941ce182400e21562829efb1ce846e5aaede26c6ddde05b5",
+    "5": "c8c82fefeab83ee272d10b4bdcb5b61ae8a14496bea5382b5fdd9357fc05c5a7",
+    "6": "49205518f8d667a6db46ac65a4ef4121263202f1a051ab4dbe02d0d9ab3fb1cb",
+    "7": "3e95e1f0d39288d632bc9c678a94178f4009c23cca7ff5c2ae3ca781f88554cb"
+   },
+   "pool_sha256": "927934bfaf71bbfe033dd78a7d225912a3936be893599ec7cbfa203f139dbc3e",
+   "admitted_sha256": "8d236558404fc8cb5144d56d800ed3b5e229c217df7ec8a9b945ef53b137b6cf",
+   "sample_seed": 2026092613,
+   "sample_status_counts": {
+    "admitted": 99,
+    "scored_rejected": 86,
+    "not_scored": 15
+   }
+  },
+  "it2": {
+   "n_generated": 8000,
+   "n_parsed": 7083,
+   "n_scored": 6290,
+   "n_admitted": 3817,
+   "status_method": "ordered",
+   "status_counts_all_parsed": {
+    "admitted": 3817,
+    "scored_rejected": 2473,
+    "not_scored": 793
+   },
+   "shard_sha256": {
+    "0": "48fb53d66d25ff6b3f560b0a81f1cd610f0e77286acb9bd6e003cec5de3413f5",
+    "1": "6cdfd318dc9f3f035abdc673afc7fa88a490626fbe56235f44b4696503b7e5fe",
+    "2": "cf25adcb6678a35a34181de4fe97d9a6cf3eb2458e31b96e38cae14744a562a5",
+    "3": "680d82c4d85fc55b66bb08400ca7db9bede9963d7edb7816bef56cb952aefd16",
+    "4": "55a059f55377a09df63dc15c3e46cf0928da59caa4788cabfe1a695159b8e904",
+    "5": "07ab07482a537c9665682b26c0cfefbe72b445224b89b875b99258fba2197f07",
+    "6": "7dd22bc04ae14022a5a035c6db1619557d9c07a38c37fda11401883f85fa0d4f",
+    "7": "f7f8d3406a18ee588e63790ccf5bca91bb0d6d6e957ec19fedb19c9146ee0550"
+   },
+   "pool_sha256": "c43a669cf84b4059ec458aabbcb8ef1e3b466df0ff30da6fe517c598cb3ffecd",
+   "admitted_sha256": "aff1fe534932f4d6a0b6f2bb172ff7cd975741f19fc6265819370a8580b305f8",
+   "sample_seed": 2026092614,
+   "sample_status_counts": {
+    "admitted": 123,
+    "scored_rejected": 53,
+    "not_scored": 24
+   }
+  },
+  "it3": {
+   "n_generated": 8000,
+   "n_parsed": 6840,
+   "n_scored": 6379,
+   "n_admitted": 4271,
+   "status_method": "ordered",
+   "status_counts_all_parsed": {
+    "scored_rejected": 2108,
+    "admitted": 4271,
+    "not_scored": 461
+   },
+   "shard_sha256": {
+    "0": "10a947c939d6640214d69ea3c4e980e45b8ed12f2ac61a9ceb8d87234bd682a8",
+    "1": "8a2beeb4bb2927a9d533be9f9c1a31ee70c25a751b16119d79860d096843d1ac",
+    "2": "0f6975e6bcfa1f66d13138fb544daea26feebbe9c05287d786ceb9f31971b184",
+    "3": "3c8a200ae13a834678fb0e9b86187431f3998f75c11bca631ff634631eb47ebb",
+    "4": "f8280441f1dcbd5b6c5b4c889fc3a2b2333c3d1e551177bbff4b46dc427ad0af",
+    "5": "34758b5c9e606b389f840bd553c48ae93070a5e89bedcffbaa1f4aeaa265088d",
+    "6": "42f4d9053b3eb3e389c8196df695aeeef358da1e316a8b792631e638c6cf34af",
+    "7": "8aad6fc065bba1107cea529d7fd57e923ba4003b1193fc316c218a75a8b718f3"
+   },
+   "pool_sha256": "6107c15a32cba349240e3cb241a5359fde274dd7906bcc3080c4ada8e182f247",
+   "admitted_sha256": "4e3429a129a15c9583f4dcb5f5c4ffa605bd6b2d6698331b099caa688b48a3b5",
+   "sample_seed": 2026092615,
+   "sample_status_counts": {
+    "admitted": 126,
+    "scored_rejected": 61,
+    "not_scored": 13
+   }
+  }
+ }
+}

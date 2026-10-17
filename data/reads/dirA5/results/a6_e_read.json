@@ -1,0 +1,102 @@
+{
+ "E1": {
+  "sum": false,
+  "mip_gsm8k": true,
+  "mip_math": false
+ },
+ "E2": {
+  "sum": true,
+  "mip_gsm8k": true,
+  "mip_math": true
+ },
+ "values": {
+  "sum_s0": {
+   "CA_own_a3": 0.31690140845070425,
+   "ABS_own_a3": 0.5184859154929577,
+   "CA_own_clean_a3": 0.2323943661971831,
+   "ABS_own_clean_a3": 0.5435739436619719
+  },
+  "sum_s1": {
+   "CA_own_a3": 0.25,
+   "ABS_own_a3": 0.5162852112676056,
+   "CA_own_clean_a3": 0.22535211267605634,
+   "ABS_own_clean_a3": 0.5448943661971831
+  },
+  "sum_s2": {
+   "CA_own_a3": 0.30633802816901406,
+   "ABS_own_a3": 0.5585387323943662,
+   "CA_own_clean_a3": 0.27816901408450706,
+   "ABS_own_clean_a3": 0.5118838028169014
+  },
+  "sum_s3": {
+   "CA_own_a3": 0.3732394366197183,
+   "ABS_own_a3": 0.5268485915492958,
+   "CA_own_clean_a3": 0.31338028169014087,
+   "ABS_own_clean_a3": 0.5074823943661971
+  },
+  "mip_gsm8k_s0": {
+   "CA_own_a3": 0.5945017182130584,
+   "ABS_own_a3": 0.7076890034364262,
+   "CA_own_clean_a3": 0.35223367697594504,
+   "ABS_own_clean_a3": 0.719286941580756
+  },
+  "mip_gsm8k_s1": {
+   "CA_own_a3": 0.48281786941580757,
+   "ABS_own_a3": 0.7177835051546392,
+   "CA_own_clean_a3": 0.37800687285223367,
+   "ABS_own_clean_a3": 0.7300257731958762
+  },
+  "mip_gsm8k_s2": {
+   "CA_own_a3": 0.654639175257732,
+   "ABS_own_a3": 0.7240120274914089,
+   "CA_own_clean_a3": 0.42439862542955326,
+   "ABS_own_clean_a3": 0.7244415807560137
+  },
+  "mip_gsm8k_s3": {
+   "CA_own_a3": 0.6872852233676976,
+   "ABS_own_a3": 0.7225085910652921,
+   "CA_own_clean_a3": 0.5773195876288659,
+   "ABS_own_clean_a3": 0.7377577319587629
+  },
+  "mip_math_s0": {
+   "CA_own_a3": 0.2692307692307692,
+   "ABS_own_a3": 0.6009615384615384,
+   "CA_own_clean_a3": 0.25,
+   "ABS_own_clean_a3": 0.6370192307692307
+  },
+  "mip_math_s1": {
+   "CA_own_a3": 0.23076923076923078,
+   "ABS_own_a3": 0.6346153846153846,
+   "CA_own_clean_a3": 0.17307692307692307,
+   "ABS_own_clean_a3": 0.6274038461538461
+  },
+  "mip_math_s2": {
+   "CA_own_a3": 0.3076923076923077,
+   "ABS_own_a3": 0.6346153846153846,
+   "CA_own_clean_a3": 0.25,
+   "ABS_own_clean_a3": 0.6394230769230769
+  },
+  "mip_math_s3": {
+   "CA_own_a3": 0.34615384615384615,
+   "ABS_own_a3": 0.6105769230769231,
+   "CA_own_clean_a3": 0.3269230769230769,
+   "ABS_own_clean_a3": 0.6201923076923077
+  }
+ },
+ "verdicts": {
+  "E1": false,
+  "E2": true,
+  "per_set": {
+   "E1": {
+    "sum": false,
+    "mip_gsm8k": true,
+    "mip_math": false
+   },
+   "E2": {
+    "sum": true,
+    "mip_gsm8k": true,
+    "mip_math": true
+   }
+  }
+ }
+}

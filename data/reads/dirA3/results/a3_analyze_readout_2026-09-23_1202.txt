@@ -1,0 +1,261 @@
+==========================================================================================================================================================================
+A3 loop readout (A3d: accuracies are lenient-extraction greedy; strict boxed-only in brackets; 'v3' = not yet re-evaluated).
+guard: admit% of proposals | deleted vs intact tracer admit% (ratio) | confident% del/int || audit: unsolvable% + ambiguous% of admitted proposals
+solver: MATH-500 | held-out | GSM8K | boxed rate on MATH | no-op acc, abstain% (abs prompt) | Q1u plain | Q1u abs-prompt, abstain% uns/int
+==========================================================================================================================================================================
+
+## llama3p2_3b_own_a3_s0   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  69.0% | del  64.5 vs int  66.5 (0.97) | conf  33.5/ 40.0 || audit uns 51.0% amb 12.5% (n=200)
+      MATH   0.0( v3 ) | held   0.0( v3 ) | GSM   0.0( v3 ) | boxed   -% | noop   0.0,   0% | Q1u 1.000 | Q1u-abs 1.000 abs   0.0/  0.0
+
+## llama3p2_3b_own_a3_s1   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  68.1% | del  63.0 vs int  72.5 (0.87) | conf  36.0/ 41.0 || audit uns 49.5% amb 20.0% (n=200)
+      MATH   2.8( v3 ) | held   3.4( v3 ) | GSM  55.2( v3 ) | boxed   -% | noop   0.2,   0% | Q1u 0.973 | Q1u-abs 0.959 abs   4.2/  0.1
+
+## llama3p2_3b_own_a3_s2   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  70.7% | del  69.5 vs int  66.0 (1.05) | conf  32.5/ 41.0 || audit uns 50.5% amb 14.5% (n=200)
+      MATH  33.0(   5) | held  33.2(   4) | GSM  74.2(  73) | boxed  21% | noop   0.0,   1% | Q1u 0.386 | Q1u-abs 0.461 abs   3.1/  0.3
+  r2: admit  59.1% | del  65.0 vs int  50.0 (1.30) | conf  61.0/ 73.0 || audit uns 62.5% amb 12.0% (n=200)
+      MATH  28.0(   6) | held  33.9(   8) | GSM  39.2(  34) | boxed  21% | noop   0.6,   2% | Q1u 0.396 | Q1u-abs 0.274 abs   1.8/  0.6
+  r3: admit  76.4% | del  72.5 vs int  74.0 (0.98) | conf  54.5/ 56.0 || audit uns 54.0% amb 17.5% (n=200)
+      MATH  17.6(   1) | held  16.7(   0) | GSM  48.4(  49) | boxed   1% | noop   0.0,   0% | Q1u 0.985 | Q1u-abs 1.000 abs   0.0/  0.0
+
+## llama3p2_3b_own_a3_s3   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  69.4% | del  65.5 vs int  57.5 (1.14) | conf  32.5/ 47.0 || audit uns 48.5% amb 18.5% (n=200)
+      MATH  33.6(   4) | held  33.9(   5) | GSM  70.8(  70) | boxed  20% | noop   0.4,   1% | Q1u 0.417 | Q1u-abs 0.374 abs   5.9/  0.3
+  r2: admit  59.8% | del  69.5 vs int  52.0 (1.34) | conf  52.0/ 63.0 || audit uns 58.5% amb 15.0% (n=200)
+      MATH  13.2(   1) | held  15.1(   1) | GSM  55.8(  55) | boxed   4% | noop   0.0,   1% | Q1u 0.313 | Q1u-abs 0.257 abs   7.1/  0.5
+  r3: admit  68.3% | del  71.5 vs int  72.5 (0.99) | conf  60.0/ 52.0 || audit uns 57.5% amb 11.5% (n=200)
+      MATH  35.4(   5) | held  36.8(   7) | GSM  64.8(  65) | boxed  22% | noop   0.0,   1% | Q1u 0.490 | Q1u-abs 0.335 abs  14.4/  1.2
+
+## llama3p2_3b_own_a3_s4   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  68.8% | del  69.5 vs int  70.5 (0.99) | conf  35.0/ 45.0 || audit uns 48.0% amb 19.0% (n=200)
+      MATH  35.2(  18) | held  36.8(  19) | GSM  75.4(  74) | boxed  49% | noop  13.2,   5% | Q1u 0.359 | Q1u-abs 0.590 abs  39.2/  3.8
+  r2: admit  60.5% | del  65.5 vs int  52.5 (1.25) | conf  60.0/ 67.0 || audit uns 60.0% amb 16.5% (n=200)
+      MATH  37.4(  23) | held  36.9(  21) | GSM  70.4(  69) | boxed  57% | noop   1.6,   8% | Q1u 0.400 | Q1u-abs 0.476 abs  30.1/  5.5
+  r3: admit  63.3% | del  68.5 vs int  60.5 (1.13) | conf  60.0/ 66.0 || audit uns 47.5% amb 24.5% (n=200)
+      MATH  25.6(   5) | held  29.0(   7) | GSM  62.0(  54) | boxed  22% | noop   0.2,   0% | Q1u 0.434 | Q1u-abs 0.461 abs   2.6/  0.3
+
+## llama3p2_3b_own_clean_a3_s0   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  69.0% | del  64.5 vs int  66.5 (0.97) | conf  33.5/ 40.0 || audit pending | train set 397/1085 (clean)
+      MATH  29.6(   9) | held  32.1(  10) | GSM  70.0(  69) | boxed  25% | noop   1.4,   1% | Q1u 0.308 | Q1u-abs 0.323 abs   8.9/  0.8
+  r2: admit  61.1% | del  59.0 vs int  53.5 (1.10) | conf  42.0/ 57.0 || audit uns 50.5% amb 18.5% (n=200) | train set 312/948 (clean)
+      MATH  35.0(  20) | held  34.4(  18) | GSM  70.6(  71) | boxed  48% | noop   1.2,   4% | Q1u 0.279 | Q1u-abs 0.252 abs  18.1/  4.0
+  r3: admit  68.1% | del  72.5 vs int  58.5 (1.24) | conf  49.0/ 69.0 || audit uns 55.0% amb 20.0% (n=200) | train set 336/1072 (clean)
+      MATH  29.0(   8) | held  30.4(   9) | GSM  59.8(  56) | boxed  22% | noop   0.0,   2% | Q1u 0.699 | Q1u-abs 0.709 abs  12.4/  1.0
+
+## llama3p2_3b_own_clean_a3_s1   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  68.1% | del  63.0 vs int  72.5 (0.87) | conf  36.0/ 41.0 || audit pending | train set 414/1082 (clean)
+      MATH  12.0(   2) | held  11.2(   2) | GSM  36.6(  36) | boxed   3% | noop   0.0,   0% | Q1u 0.993 | Q1u-abs 0.990 abs   3.8/  0.1
+
+## llama3p2_3b_own_dirty_a3_s0   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  69.0% | del  64.5 vs int  66.5 (0.97) | conf  33.5/ 40.0 || audit pending | train set 688/1085 (dirty)
+      MATH  31.4(   7) | held  34.3(   8) | GSM  70.0(  70) | boxed  32% | noop   0.0,   2% | Q1u 0.464 | Q1u-abs 0.415 abs  11.2/  0.8
+
+## llama3p2_3b_own_dirty_a3_s1   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  68.1% | del  63.0 vs int  72.5 (0.87) | conf  36.0/ 41.0 || audit pending | train set 668/1082 (dirty)
+      MATH  27.0(  13) | held  27.8(  14) | GSM  68.8(  68) | boxed  25% | noop   0.0,   0% | Q1u 0.568 | Q1u-abs 0.609 abs  11.1/  0.6
+
+## llama3p2_3b_own_sub_a3_s0   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  69.0% | del  64.5 vs int  66.5 (0.97) | conf  33.5/ 40.0 || audit pending | train set 542/1085 (sub)
+      MATH  32.4(  12) | held  32.7(  11) | GSM  68.6(  67) | boxed  36% | noop   3.6,   0% | Q1u 0.391 | Q1u-abs 0.320 abs  16.7/  1.4
+  r2: admit  61.9% | del  71.5 vs int  60.0 (1.19) | conf  54.5/ 56.0 || audit uns 64.5% amb 15.0% (n=200) | train set 498/995 (sub)
+      MATH  36.4(  18) | held  35.6(  16) | GSM  63.4(  63) | boxed  50% | noop   1.6,   4% | Q1u 0.422 | Q1u-abs 0.393 abs  30.1/  4.9
+  r3: admit  64.3% | del  71.0 vs int  66.5 (1.07) | conf  60.5/ 67.0 || audit uns 52.0% amb 21.5% (n=200) | train set 520/1040 (sub)
+      MATH  26.6(   2) | held  27.1(   2) | GSM  34.0(  33) | boxed   7% | noop   0.0,   0% | Q1u 0.867 | Q1u-abs 0.757 abs   1.4/  0.0
+
+## llama3p2_3b_own_sub_a3_s1   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  68.1% | del  63.0 vs int  72.5 (0.87) | conf  36.0/ 41.0 || audit pending | train set 541/1082 (sub)
+      MATH  12.6(   0) | held  11.9(   0) | GSM  39.4(  39) | boxed   0% | noop   0.0,   0% | Q1u 0.990 | Q1u-abs 0.988 abs   0.2/  0.0
+  r2: guard pending || audit pending
+      solver eval pending
+
+## llama3p2_3b_own_sub_a3_s2   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  70.7% | del  69.5 vs int  66.0 (1.05) | conf  32.5/ 41.0 || audit pending | train set 555/1110 (sub)
+      MATH  32.0(   8) | held  33.7(   7) | GSM  70.8(  70) | boxed  27% | noop   0.0,   3% | Q1u 0.388 | Q1u-abs 0.376 abs   8.6/  0.8
+  r2: admit  61.2% | del  61.0 vs int  55.5 (1.10) | conf  62.0/ 72.0 || audit uns 56.5% amb 17.5% (n=200) | train set 480/961 (sub)
+      MATH  26.6(   9) | held  28.0(   8) | GSM  64.4(  64) | boxed  20% | noop   0.0,   3% | Q1u 0.226 | Q1u-abs 0.248 abs   4.0/  0.4
+  r3: admit  73.5% | del  79.0 vs int  74.5 (1.06) | conf  51.5/ 50.5 || audit uns 48.5% amb 21.0% (n=200) | train set 590/1180 (sub)
+      MATH   2.6(   0) | held   1.7(   0) | GSM   6.6(   6) | boxed   0% | noop   0.0,   0% | Q1u 1.000 | Q1u-abs 0.995 abs   0.0/  0.0
+
+## llama3p2_3b_own_tg_a3_s0   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  50.8% | del  41.0 vs int  49.5 (0.83) | conf  36.5/ 39.0 || audit uns 32.5% amb 20.5% (n=200)
+      MATH  14.6(   3) | held  13.7(   3) | GSM  34.4(  32) | boxed   4% | noop   0.4,   0% | Q1u 0.934 | Q1u-abs 0.969 abs   8.1/  0.6
+
+## llama3p2_3b_own_tg_a3_s1   base: MATH  40.4(  29) | held  37.4(  28) | GSM  72.0(  72) | boxed  66%  Q1u 0.211
+  r1: admit  38.6% | del  25.0 vs int  36.5 (0.68) | conf  32.5/ 44.0 || audit uns 31.0% amb 19.5% (n=200)
+      MATH  34.8(  10) | held  35.7(  11) | GSM  75.6(  75) | boxed  30% | noop   2.2,   2% | Q1u 0.364 | Q1u-abs 0.333 abs  15.9/  1.3
+  r2: admit  29.5% | del  26.5 vs int  31.0 (0.85) | conf  59.0/ 67.5 || audit uns 41.5% amb 20.0% (n=200)
+      MATH  32.2(   7) | held  34.0(   7) | GSM  67.4(  67) | boxed  21% | noop   0.4,   3% | Q1u 0.583 | Q1u-abs 0.626 abs  24.7/  2.3
+  r3: admit  39.5% | del  35.5 vs int  35.5 (1.00) | conf  58.5/ 66.5 || audit uns 55.0% amb 15.5% (n=200)
+      MATH  29.4(   3) | held  30.0(   4) | GSM  51.2(  50) | boxed   8% | noop   0.2,   1% | Q1u 0.684 | Q1u-abs 0.575 abs   8.9/  0.4
+
+## qwen3_4b_Base_own_a3_s0   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  63.0% | del  60.5 vs int  74.0 (0.82) | conf  23.0/ 46.5 || audit uns 37.0% amb 18.0% (n=200)
+      MATH  76.0(  76) | held  74.4(  74) | GSM  89.0(  89) | boxed  96% | noop  66.8,  10% | Q1u 0.204 | Q1u-abs 0.934 abs  70.6/ 12.3
+  r2: admit  41.8% | del  70.0 vs int  51.5 (1.36) | conf  62.5/ 82.0 || audit uns 58.0% amb 14.5% (n=200)
+      MATH  77.0(  77) | held  74.8(  75) | GSM  91.0(  91) | boxed  97% | noop  67.8,   7% | Q1u 0.284 | Q1u-abs 0.944 abs  70.0/  8.0
+  r3: admit  36.7% | del  53.5 vs int  33.5 (1.60) | conf  80.5/ 91.5 || audit uns 64.5% amb 11.5% (n=200)
+      MATH  77.4(  77) | held  76.4(  76) | GSM  92.0(  92) | boxed  98% | noop  70.0,   4% | Q1u 0.347 | Q1u-abs 0.956 abs  71.4/  7.2
+  r4: admit  37.6% | del  48.5 vs int  32.5 (1.49) | conf  82.0/ 92.5 || audit uns 65.5% amb 15.0% (n=200)
+      MATH  76.6(  77) | held  77.3(  77) | GSM  93.2(  93) | boxed  98% | noop  71.0,   4% | Q1u 0.430 | Q1u-abs 0.971 abs  69.9/  5.7
+  r5: admit  34.2% | del  42.5 vs int  29.5 (1.44) | conf  88.0/ 94.0 || audit uns 65.0% amb 16.0% (n=200)
+      MATH  75.2(  75) | held  76.0(  76) | GSM  90.4(  90) | boxed  98% | noop  70.2,   5% | Q1u 0.478 | Q1u-abs 0.978 abs  68.0/  5.4
+  r6: admit  33.3% | del  33.0 vs int  19.5 (1.69) | conf  90.0/ 97.5 || audit uns 64.0% amb 19.0% (n=200)
+      MATH  78.0(  78) | held  75.3(  75) | GSM  90.2(  90) | boxed  99% | noop  70.0,   5% | Q1u 0.454 | Q1u-abs 0.971 abs  66.0/  4.4
+
+## qwen3_4b_Base_own_a3_s1   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  64.8% | del  58.5 vs int  76.5 (0.76) | conf  21.0/ 48.5 || audit uns 40.5% amb 15.5% (n=200)
+      MATH  75.6(  76) | held  74.3(  74) | GSM  90.2(  90) | boxed  97% | noop  64.0,  11% | Q1u 0.221 | Q1u-abs 0.939 abs  71.0/ 12.9
+  r2: admit  39.6% | del  67.0 vs int  43.0 (1.56) | conf  71.0/ 87.0 || audit uns 56.5% amb 19.0% (n=200)
+      MATH  78.0(  78) | held  75.9(  76) | GSM  91.8(  92) | boxed  97% | noop  71.4,   7% | Q1u 0.252 | Q1u-abs 0.947 abs  72.1/  8.4
+  r3: admit  38.2% | del  49.0 vs int  30.0 (1.63) | conf  76.0/ 88.5 || audit uns 66.5% amb 16.5% (n=200)
+      MATH  76.6(  77) | held  75.6(  75) | GSM  92.2(  92) | boxed  97% | noop  69.8,   7% | Q1u 0.316 | Q1u-abs 0.939 abs  69.3/  6.4
+  r4: admit  35.3% | del  48.5 vs int  29.0 (1.67) | conf  83.0/ 90.0 || audit uns 65.5% amb 14.5% (n=200)
+      MATH  76.8(  77) | held  74.0(  74) | GSM  92.0(  92) | boxed  99% | noop  70.4,   8% | Q1u 0.323 | Q1u-abs 0.964 abs  70.2/  6.8
+  r5: admit  34.3% | del  41.5 vs int  23.0 (1.80) | conf  83.5/ 92.5 || audit uns 59.0% amb 15.0% (n=200)
+      MATH  77.0(  77) | held  75.7(  76) | GSM  90.2(  90) | boxed  98% | noop  69.8,   8% | Q1u 0.345 | Q1u-abs 0.973 abs  71.6/  6.8
+  r6: admit  28.7% | del  36.5 vs int  22.0 (1.66) | conf  91.5/ 95.0 || audit uns 55.5% amb 27.0% (n=200)
+      MATH  76.4(  76) | held  75.0(  75) | GSM  91.0(  91) | boxed  99% | noop  67.4,   9% | Q1u 0.386 | Q1u-abs 0.968 abs  71.3/  6.8
+
+## qwen3_4b_Base_own_a3_s2   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  62.7% | del  62.0 vs int  72.5 (0.86) | conf  22.0/ 44.0 || audit uns 46.0% amb 13.0% (n=200)
+      MATH  75.6( v3 ) | held  74.7( v3 ) | GSM  87.8( v3 ) | boxed   -% | noop  66.6,  13% | Q1u 0.255 | Q1u-abs 0.920 abs  70.5/ 11.4
+  r2: admit  43.7% | del  70.0 vs int  39.5 (1.77) | conf  68.0/ 86.5 || audit uns 53.0% amb 14.5% (n=200)
+      MATH  79.0(  79) | held  76.6(  76) | GSM  90.6(  91) | boxed  98% | noop  66.8,   7% | Q1u 0.350 | Q1u-abs 0.920 abs  70.0/  7.6
+  r3: admit  36.5% | del  53.5 vs int  35.5 (1.51) | conf  81.0/ 88.0 || audit uns 64.0% amb 14.0% (n=200)
+      MATH  78.0(  78) | held  77.0(  77) | GSM  90.4(  90) | boxed  98% | noop  67.2,   6% | Q1u 0.410 | Q1u-abs 0.930 abs  69.9/  7.1
+  r4: admit  33.4% | del  51.5 vs int  34.0 (1.51) | conf  86.0/ 88.0 || audit uns 52.0% amb 26.5% (n=200)
+      MATH  76.8(  76) | held  76.6(  77) | GSM  90.8(  91) | boxed  98% | noop  67.6,   7% | Q1u 0.502 | Q1u-abs 0.959 abs  66.6/  6.0
+  r5: admit  34.2% | del  39.5 vs int  28.0 (1.41) | conf  87.5/ 91.5 || audit uns 58.5% amb 22.0% (n=200)
+      MATH  77.0(  77) | held  77.6(  78) | GSM  90.8(  91) | boxed  99% | noop  68.2,   4% | Q1u 0.553 | Q1u-abs 0.983 abs  63.5/  4.3
+  r6: admit  33.0% | del  37.0 vs int  28.0 (1.32) | conf  87.0/ 95.5 || audit uns 56.5% amb 20.0% (n=200)
+      solver eval pending
+
+## qwen3_4b_Base_own_a3_s3   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  61.9% | del  58.0 vs int  65.0 (0.89) | conf  19.5/ 46.5 || audit uns 39.5% amb 16.5% (n=200)
+      MATH  75.2(  75) | held  73.7(  74) | GSM  87.8(  88) | boxed  97% | noop  65.6,  12% | Q1u 0.299 | Q1u-abs 0.949 abs  75.1/ 13.9
+  r2: admit  45.3% | del  72.5 vs int  48.0 (1.51) | conf  49.0/ 75.0 || audit uns 52.5% amb 19.5% (n=200)
+      MATH  76.8(  77) | held  76.0(  76) | GSM  92.6(  93) | boxed  98% | noop  69.8,   8% | Q1u 0.415 | Q1u-abs 0.905 abs  70.0/  8.4
+  r3: admit  37.5% | del  47.5 vs int  34.0 (1.40) | conf  77.0/ 92.0 || audit uns 61.0% amb 17.0% (n=200)
+      MATH  75.8(  76) | held  76.9(  77) | GSM  91.4(  91) | boxed  98% | noop  69.0,   7% | Q1u 0.483 | Q1u-abs 0.937 abs  67.9/  6.6
+
+## qwen3_4b_Base_own_a3_s4   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  64.3% | del  57.0 vs int  71.0 (0.80) | conf  22.0/ 35.5 || audit uns 42.0% amb 15.5% (n=200)
+      MATH  76.8(  77) | held  75.8(  76) | GSM  86.6(  86) | boxed  97% | noop  67.8,  11% | Q1u 0.284 | Q1u-abs 0.951 abs  74.8/ 12.6
+  r2: admit  41.7% | del  65.5 vs int  35.0 (1.87) | conf  59.5/ 84.5 || audit uns 59.0% amb 17.0% (n=200)
+      MATH  75.8(  76) | held  75.7(  76) | GSM  91.0(  91) | boxed  99% | noop  69.2,   6% | Q1u 0.359 | Q1u-abs 0.934 abs  69.1/  7.3
+  r3: admit  35.5% | del  53.5 vs int  41.0 (1.30) | conf  78.0/ 85.0 || audit uns 64.0% amb 20.5% (n=200)
+      MATH  77.2(  77) | held  76.5(  76) | GSM  91.8(  92) | boxed  98% | noop  70.4,   5% | Q1u 0.393 | Q1u-abs 0.968 abs  66.9/  6.3
+
+## qwen3_4b_Base_own_azr_a3_s0   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  86.9% | del  98.5 vs int  97.0 (1.02) | conf  23.5/ 48.0 || audit uns 36.5% amb 13.5% (n=200)
+      MATH  73.0(  73) | held  74.8(  75) | GSM  86.6(  87) | boxed  97% | noop  67.8,  10% | Q1u 0.216 | Q1u-abs 0.925 abs  68.6/ 11.6
+  r2: admit  59.9% | del  86.0 vs int  69.5 (1.24) | conf  56.5/ 82.5 || audit uns 52.5% amb 15.0% (n=200)
+      MATH  76.0(  76) | held  76.6(  76) | GSM  90.8(  91) | boxed  98% | noop  64.6,  10% | Q1u 0.248 | Q1u-abs 0.900 abs  68.1/  7.8
+  r3: admit  49.4% | del  74.0 vs int  52.0 (1.42) | conf  76.0/ 87.5 || audit uns 55.5% amb 18.0% (n=200)
+      MATH  76.8(  77) | held  75.7(  76) | GSM  92.2(  92) | boxed  98% | noop  66.4,   9% | Q1u 0.269 | Q1u-abs 0.915 abs  65.6/  7.1
+
+## qwen3_4b_Base_own_azr_a3_s1   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  85.5% | del  97.0 vs int  95.5 (1.02) | conf  21.0/ 48.0 || audit uns 34.0% amb 16.5% (n=200)
+      MATH  76.6(  77) | held  75.1(  75) | GSM  88.0(  88) | boxed  97% | noop  66.2,  13% | Q1u 0.214 | Q1u-abs 0.954 abs  71.2/ 13.8
+  r2: admit  61.9% | del  88.0 vs int  66.0 (1.33) | conf  66.5/ 83.5 || audit uns 49.5% amb 13.0% (n=200)
+      MATH  78.2(  78) | held  74.9(  75) | GSM  91.0(  91) | boxed  98% | noop  65.8,   9% | Q1u 0.260 | Q1u-abs 0.903 abs  69.1/  8.6
+  r3: admit  54.4% | del  73.5 vs int  52.5 (1.40) | conf  78.5/ 88.0 || audit uns 43.5% amb 23.5% (n=200)
+      MATH  75.6(  76) | held  75.6(  76) | GSM  91.4(  91) | boxed  98% | noop  68.0,   9% | Q1u 0.228 | Q1u-abs 0.920 abs  68.2/  7.1
+
+## qwen3_4b_Base_own_clean_a3_s0   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  63.0% | del  60.5 vs int  74.0 (0.82) | conf  23.0/ 46.5 || audit pending | train set 491/999 (clean)
+      MATH  74.6(  75) | held  74.7(  75) | GSM  90.4(  90) | boxed  96% | noop  68.8,  10% | Q1u 0.204 | Q1u-abs 0.942 abs  70.8/ 13.7
+  r2: admit  41.8% | del  70.5 vs int  44.0 (1.60) | conf  56.5/ 84.0 || audit uns 62.5% amb 16.0% (n=200) | train set 199/710 (clean)
+      MATH  76.6(  77) | held  76.3(  76) | GSM  91.2(  91) | boxed  98% | noop  69.8,   8% | Q1u 0.226 | Q1u-abs 0.900 abs  69.2/  9.2
+  r3: admit  35.1% | del  59.5 vs int  28.5 (2.09) | conf  70.5/ 89.5 || audit uns 56.5% amb 24.0% (n=200) | train set 129/576 (clean)
+      MATH  76.4(  76) | held  76.9(  77) | GSM  92.2(  92) | boxed  98% | noop  72.2,   6% | Q1u 0.240 | Q1u-abs 0.915 abs  66.2/  6.5
+
+## qwen3_4b_Base_own_clean_a3_s1   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  64.8% | del  58.5 vs int  76.5 (0.76) | conf  21.0/ 48.5 || audit pending | train set 490/1006 (clean)
+      MATH  75.6(  76) | held  75.9(  76) | GSM  87.6(  88) | boxed  97% | noop  66.6,  13% | Q1u 0.231 | Q1u-abs 0.954 abs  73.5/ 13.7
+  r2: admit  39.6% | del  71.0 vs int  35.5 (2.00) | conf  63.0/ 84.0 || audit uns 53.0% amb 20.0% (n=200) | train set 199/665 (clean)
+      MATH  77.0(  77) | held  76.1(  76) | GSM  89.6(  90) | boxed  98% | noop  70.0,   9% | Q1u 0.269 | Q1u-abs 0.947 abs  76.8/  9.7
+  r3: admit  39.1% | del  62.5 vs int  30.0 (2.08) | conf  71.0/ 90.5 || audit uns 50.0% amb 25.0% (n=200) | train set 168/629 (clean)
+      MATH  77.0(  77) | held  76.4(  76) | GSM  91.8(  92) | boxed  97% | noop  73.8,   5% | Q1u 0.218 | Q1u-abs 0.954 abs  73.3/  6.3
+
+## qwen3_4b_Base_own_dirty_a3_s0   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  63.0% | del  60.5 vs int  74.0 (0.82) | conf  23.0/ 46.5 || audit pending | train set 508/999 (dirty)
+      MATH  75.4(  75) | held  74.6(  74) | GSM  90.0(  90) | boxed  98% | noop  67.0,  11% | Q1u 0.177 | Q1u-abs 0.905 abs  67.2/ 12.5
+
+## qwen3_4b_Base_own_dirty_a3_s1   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  64.8% | del  58.5 vs int  76.5 (0.76) | conf  21.0/ 48.5 || audit pending | train set 516/1006 (dirty)
+      MATH  72.6(  72) | held  71.3(  70) | GSM  84.6(  85) | boxed  95% | noop  64.4,  12% | Q1u 0.243 | Q1u-abs 0.917 abs  67.0/ 13.4
+
+## qwen3_4b_Base_own_sub_a3_s0   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  63.0% | del  60.5 vs int  74.0 (0.82) | conf  23.0/ 46.5 || audit pending | train set 500/999 (sub)
+      MATH  75.6(  75) | held  73.2(  73) | GSM  84.2(  84) | boxed  97% | noop  65.0,  12% | Q1u 0.238 | Q1u-abs 0.932 abs  72.0/ 13.3
+  r2: admit  40.9% | del  70.5 vs int  53.0 (1.33) | conf  46.0/ 77.5 || audit uns 52.5% amb 16.5% (n=200) | train set 356/713 (sub)
+      MATH  77.0(  77) | held  75.9(  76) | GSM  91.6(  91) | boxed  98% | noop  66.2,   8% | Q1u 0.277 | Q1u-abs 0.898 abs  66.6/  7.8
+  r3: admit  37.7% | del  52.0 vs int  35.5 (1.46) | conf  78.5/ 84.5 || audit uns 56.5% amb 24.5% (n=200) | train set 300/601 (sub)
+      MATH  76.2(  76) | held  76.0(  76) | GSM  91.2(  91) | boxed  98% | noop  67.8,   6% | Q1u 0.277 | Q1u-abs 0.925 abs  65.1/  6.9
+
+## qwen3_4b_Base_own_sub_a3_s1   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  64.8% | del  58.5 vs int  76.5 (0.76) | conf  21.0/ 48.5 || audit pending | train set 503/1006 (sub)
+      MATH  75.2(  75) | held  75.3(  75) | GSM  88.0(  88) | boxed  97% | noop  66.6,  11% | Q1u 0.269 | Q1u-abs 0.942 abs  73.0/ 13.6
+  r2: admit  40.0% | del  61.0 vs int  44.5 (1.37) | conf  67.5/ 86.0 || audit uns 54.0% amb 18.5% (n=200) | train set 332/665 (sub)
+      MATH  76.4(  76) | held  76.4(  76) | GSM  90.4(  90) | boxed  99% | noop  68.0,   9% | Q1u 0.434 | Q1u-abs 0.939 abs  73.2/  9.4
+  r3: admit  36.7% | del  55.5 vs int  31.0 (1.79) | conf  79.0/ 88.0 || audit uns 54.5% amb 19.5% (n=200) | train set 298/596 (sub)
+      MATH  77.0(  77) | held  76.5(  76) | GSM  91.6(  92) | boxed  98% | noop  69.0,   8% | Q1u 0.393 | Q1u-abs 0.949 abs  70.8/  7.3
+
+## qwen3_4b_Base_own_sub_a3_s2   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  62.7% | del  62.0 vs int  72.5 (0.86) | conf  22.0/ 44.0 || audit pending | train set 494/987 (sub)
+      MATH  76.6(  77) | held  75.5(  75) | GSM  86.0(  86) | boxed  98% | noop  68.2,  12% | Q1u 0.235 | Q1u-abs 0.961 abs  72.7/ 13.1
+  r2: admit  42.5% | del  72.0 vs int  44.0 (1.64) | conf  56.0/ 84.0 || audit uns 56.5% amb 20.0% (n=200) | train set 358/715 (sub)
+      MATH  76.2(  76) | held  77.4(  77) | GSM  92.2(  92) | boxed  98% | noop  69.6,   8% | Q1u 0.359 | Q1u-abs 0.922 abs  71.2/  7.7
+  r3: admit  36.0% | del  52.0 vs int  35.0 (1.49) | conf  82.0/ 88.5 || audit uns 49.5% amb 27.0% (n=200) | train set 294/589 (sub)
+      MATH  75.0(  75) | held  75.3(  75) | GSM  93.4(  93) | boxed  97% | noop  73.6,   4% | Q1u 0.376 | Q1u-abs 0.942 abs  67.4/  5.2
+
+## qwen3_4b_Base_own_tg_a3_s0   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  63.0% | del  35.5 vs int  60.0 (0.59) | conf  24.0/ 46.5 || audit uns 29.5% amb 14.0% (n=200)
+      MATH  74.4(  74) | held  73.6(  74) | GSM  88.8(  89) | boxed  97% | noop  62.8,  13% | Q1u 0.245 | Q1u-abs 0.949 abs  72.5/ 13.4
+  r2: admit  40.7% | del  35.5 vs int  48.0 (0.74) | conf  45.0/ 78.5 || audit uns 39.5% amb 18.5% (n=200)
+      MATH  77.0(  77) | held  75.7(  76) | GSM  90.0(  90) | boxed  98% | noop  66.8,   8% | Q1u 0.381 | Q1u-abs 0.930 abs  69.8/  7.7
+  r3: admit  35.8% | del  43.0 vs int  34.5 (1.25) | conf  70.0/ 88.5 || audit uns 50.5% amb 18.5% (n=200)
+      MATH  77.6(  78) | held  76.1(  76) | GSM  91.6(  92) | boxed  98% | noop  70.2,   8% | Q1u 0.456 | Q1u-abs 0.944 abs  70.5/  6.4
+
+## qwen3_4b_Base_own_tg_a3_s1   base: MATH  70.2(  66) | held  68.0(  65) | GSM  82.2(  82) | boxed  91%  Q1u 0.104
+  r1: admit  48.5% | del  26.5 vs int  57.5 (0.46) | conf  21.5/ 50.5 || audit uns 37.0% amb 12.0% (n=200)
+      MATH  76.0(  76) | held  74.2(  74) | GSM  88.0(  88) | boxed  96% | noop  66.4,  12% | Q1u 0.199 | Q1u-abs 0.949 abs  71.5/ 13.1
+  r2: admit  24.7% | del  21.0 vs int  30.0 (0.70) | conf  61.0/ 85.5 || audit uns 33.5% amb 18.0% (n=200)
+      MATH  75.2(  75) | held  75.4(  75) | GSM  92.2(  92) | boxed  99% | noop  68.2,   8% | Q1u 0.206 | Q1u-abs 0.927 abs  71.6/ 10.5
+  r3: admit  30.8% | del  35.5 vs int  30.5 (1.16) | conf  73.0/ 90.0 || audit uns 35.0% amb 22.0% (n=200)
+      MATH  78.0(  78) | held  76.0(  76) | GSM  93.0(  93) | boxed  99% | noop  69.0,   7% | Q1u 0.257 | Q1u-abs 0.930 abs  71.3/  8.9
+
+## qwen3_8b_Base_own_a3_s0   base: MATH  74.0(  74) | held  73.5(  73) | GSM  87.2(  87) | boxed  95%  Q1u 0.015
+  r1: admit  46.0% | del  72.0 vs int  71.5 (1.01) | conf  46.0/ 67.5 || audit uns 36.0% amb 21.5% (n=200)
+      MATH  77.8(  78) | held  79.3(  79) | GSM  91.4(  91) | boxed  98% | noop  68.4,  10% | Q1u 0.063 | Q1u-abs 0.794 abs  50.4/  9.1
+  r2: admit  33.5% | del  62.0 vs int  39.0 (1.59) | conf  69.0/ 89.5 || audit uns 51.5% amb 16.5% (n=200)
+      MATH  79.0(  79) | held  78.4(  78) | GSM  92.2(  92) | boxed  99% | noop  71.0,   5% | Q1u 0.080 | Q1u-abs 0.816 abs  52.5/  8.5
+  r3: admit  28.3% | del  56.0 vs int  31.0 (1.81) | conf  78.0/ 91.0 || audit uns 59.5% amb 17.0% (n=200)
+      MATH  79.4(  79) | held  78.4(  78) | GSM  92.2(  92) | boxed  99% | noop  73.6,   4% | Q1u 0.083 | Q1u-abs 0.786 abs  47.8/  6.7
+
+## qwen3_8b_Base_own_a3_s1   base: MATH  74.0(  74) | held  73.5(  73) | GSM  87.2(  87) | boxed  95%  Q1u 0.015
+  r1: admit  53.9% | del  66.0 vs int  73.5 (0.90) | conf  31.0/ 68.0 || audit uns 38.0% amb 20.0% (n=200)
+      MATH  79.0( v3 ) | held  78.0( v3 ) | GSM  94.0( v3 ) | boxed   -% | noop  71.6,   6% | Q1u 0.041 | Q1u-abs 0.818 abs  48.8/  9.5
+  r2: admit  32.2% | del  58.5 vs int  27.5 (2.13) | conf  73.5/ 93.5 || audit uns 53.0% amb 16.5% (n=200)
+      MATH  78.0(  78) | held  78.0(  78) | GSM  93.6(  94) | boxed  98% | noop  71.6,   3% | Q1u 0.044 | Q1u-abs 0.842 abs  53.1/  7.6
+  r3: admit  29.1% | del  46.5 vs int  25.5 (1.82) | conf  82.0/ 92.0 || audit uns 56.5% amb 13.0% (n=200)
+      MATH  79.0(  79) | held  79.0(  79) | GSM  93.0(  93) | boxed  98% | noop  72.4,   3% | Q1u 0.073 | Q1u-abs 0.825 abs  52.4/  6.8
+  r4: admit  27.6% | del  44.0 vs int  20.5 (2.15) | conf  79.5/ 96.0 || audit uns 58.0% amb 20.5% (n=200)
+      MATH  78.2(  78) | held  78.4(  78) | GSM  93.0(  93) | boxed  98% | noop  72.8,   2% | Q1u 0.107 | Q1u-abs 0.876 abs  56.8/  7.1
+  r5: admit  26.0% | del  33.5 vs int  19.5 (1.72) | conf  87.5/ 94.5 || audit uns 50.5% amb 26.5% (n=200)
+      MATH  79.0(  79) | held  78.1(  78) | GSM  91.8(  92) | boxed  99% | noop     -,   -% | Q1u 0.122 | Q1u-abs     - abs    -/   -
+
+## qwen3_8b_Base_own_a3_s2   base: MATH  74.0(  74) | held  73.5(  73) | GSM  87.2(  87) | boxed  95%  Q1u 0.015
+  r1: admit  57.9% | del  75.0 vs int  78.0 (0.96) | conf  37.5/ 63.5 || audit uns 35.0% amb 17.5% (n=200)
+      MATH  80.6( v3 ) | held  78.4( v3 ) | GSM  92.2( v3 ) | boxed   -% | noop  70.4,   6% | Q1u 0.092 | Q1u-abs 0.869 abs  57.6/ 10.5
+  r2: admit  37.0% | del  65.5 vs int  30.0 (2.18) | conf  74.5/ 90.5 || audit uns 51.0% amb 15.5% (n=200)
+      MATH  79.0(  79) | held  78.6(  79) | GSM  93.8(  94) | boxed  99% | noop  70.0,   4% | Q1u 0.114 | Q1u-abs 0.920 abs  59.0/  8.0
+  r3: admit  33.7% | del  52.5 vs int  25.0 (2.10) | conf  81.0/ 93.0 || audit uns 56.0% amb 18.0% (n=200)
+      MATH  79.2(  79) | held  77.8(  78) | GSM  93.6(  94) | boxed  99% | noop  74.2,   3% | Q1u 0.129 | Q1u-abs 0.910 abs  61.3/  6.8
+  r4: admit  26.6% | del  48.0 vs int  22.0 (2.18) | conf  85.5/ 95.0 || audit uns 49.5% amb 26.0% (n=200)
+      MATH  78.0(  78) | held  79.1(  79) | GSM  92.8(  93) | boxed  98% | noop  73.2,   2% | Q1u 0.141 | Q1u-abs 0.932 abs  63.1/  6.8
+  r5: admit  24.3% | del  32.5 vs int  15.0 (2.17) | conf  90.0/ 95.5 || audit uns 54.5% amb 18.5% (n=200)
+      MATH  79.4(  79) | held  78.0(  78) | GSM  93.4(  93) | boxed  99% | noop  73.2,   3% | Q1u 0.153 | Q1u-abs 0.928 abs  62.8/  8.4

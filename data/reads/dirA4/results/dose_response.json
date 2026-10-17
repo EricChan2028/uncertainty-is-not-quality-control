@@ -1,0 +1,496 @@
+{
+ "points": [
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s0",
+   "arm": "own",
+   "seed": 0,
+   "round": 1,
+   "frac": 0.5085085085085085,
+   "dose": 0.5085085085085085,
+   "q1u": 0.20388349514563106
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s0",
+   "arm": "own",
+   "seed": 0,
+   "round": 2,
+   "frac": 0.674616991643454,
+   "dose": 1.1831255001519625,
+   "q1u": 0.28398058252427183
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s0",
+   "arm": "own",
+   "seed": 0,
+   "round": 3,
+   "frac": 0.7174367622259696,
+   "dose": 1.9005622623779321,
+   "q1u": 0.3470873786407767
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s0",
+   "arm": "own",
+   "seed": 0,
+   "round": 4,
+   "frac": 0.7486593591905566,
+   "dose": 2.649221621568489,
+   "q1u": 0.42961165048543687
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s0",
+   "arm": "own",
+   "seed": 0,
+   "round": 5,
+   "frac": 0.7506378986866792,
+   "dose": 3.399859520255168,
+   "q1u": 0.47815533980582525
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s0",
+   "arm": "own",
+   "seed": 0,
+   "round": 6,
+   "frac": 0.7861203319502074,
+   "dose": 4.185979852205375,
+   "q1u": 0.4538834951456311
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s1",
+   "arm": "own",
+   "seed": 1,
+   "round": 1,
+   "frac": 0.5129224652087475,
+   "dose": 0.5129224652087475,
+   "q1u": 0.220873786407767
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s1",
+   "arm": "own",
+   "seed": 1,
+   "round": 2,
+   "frac": 0.7069461077844311,
+   "dose": 1.2198685729931786,
+   "q1u": 0.2524271844660194
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s1",
+   "arm": "own",
+   "seed": 1,
+   "round": 3,
+   "frac": 0.774114671163575,
+   "dose": 1.9939832441567535,
+   "q1u": 0.3155339805825243
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s1",
+   "arm": "own",
+   "seed": 1,
+   "round": 4,
+   "frac": 0.7513513513513513,
+   "dose": 2.7453345955081048,
+   "q1u": 0.32281553398058255
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s1",
+   "arm": "own",
+   "seed": 1,
+   "round": 5,
+   "frac": 0.7162666666666667,
+   "dose": 3.4616012621747716,
+   "q1u": 0.3446601941747573
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s1",
+   "arm": "own",
+   "seed": 1,
+   "round": 6,
+   "frac": 0.7720157657657657,
+   "dose": 4.233617027940538,
+   "q1u": 0.3859223300970874
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s2",
+   "arm": "own",
+   "seed": 2,
+   "round": 1,
+   "frac": 0.5298885511651469,
+   "dose": 0.5298885511651469,
+   "q1u": 0.25485436893203883
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s2",
+   "arm": "own",
+   "seed": 2,
+   "round": 2,
+   "frac": 0.6640712290502794,
+   "dose": 1.1939597802154263,
+   "q1u": 0.34951456310679613
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s2",
+   "arm": "own",
+   "seed": 2,
+   "round": 3,
+   "frac": 0.7263069139966273,
+   "dose": 1.9202666942120534,
+   "q1u": 0.41019417475728154
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s2",
+   "arm": "own",
+   "seed": 2,
+   "round": 4,
+   "frac": 0.7285171790235081,
+   "dose": 2.6487838732355615,
+   "q1u": 0.5024271844660194
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s2",
+   "arm": "own",
+   "seed": 2,
+   "round": 5,
+   "frac": 0.7479326923076923,
+   "dose": 3.3967165655432536,
+   "q1u": 0.5533980582524272
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s2",
+   "arm": "own",
+   "seed": 2,
+   "round": 6,
+   "frac": 0.714703557312253,
+   "dose": 4.111420122855507,
+   "q1u": 0.6383495145631068
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s3",
+   "arm": "own",
+   "seed": 3,
+   "round": 1,
+   "frac": 0.5444915254237288,
+   "dose": 0.5444915254237288,
+   "q1u": 0.29854368932038833
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s3",
+   "arm": "own",
+   "seed": 3,
+   "round": 2,
+   "frac": 0.6822251655629138,
+   "dose": 1.2267166909866427,
+   "q1u": 0.41504854368932037
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s3",
+   "arm": "own",
+   "seed": 3,
+   "round": 3,
+   "frac": 0.7252470187393527,
+   "dose": 1.9519637097259954,
+   "q1u": 0.4830097087378641
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s4",
+   "arm": "own",
+   "seed": 4,
+   "round": 1,
+   "frac": 0.5414984863773966,
+   "dose": 0.5414984863773966,
+   "q1u": 0.28398058252427183
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s4",
+   "arm": "own",
+   "seed": 4,
+   "round": 2,
+   "frac": 0.727762962962963,
+   "dose": 1.2692614493403596,
+   "q1u": 0.3592233009708738
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_a3_s4",
+   "arm": "own",
+   "seed": 4,
+   "round": 3,
+   "frac": 0.7550597269624573,
+   "dose": 2.024321176302817,
+   "q1u": 0.3932038834951456
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_azr_a3_s0",
+   "arm": "own_azr",
+   "seed": 0,
+   "round": 1,
+   "frac": 0.5010775862068966,
+   "dose": 0.5010775862068966,
+   "q1u": 0.21601941747572814
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_azr_a3_s0",
+   "arm": "own_azr",
+   "seed": 0,
+   "round": 2,
+   "frac": 0.6367691532258064,
+   "dose": 1.137846739432703,
+   "q1u": 0.24757281553398058
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_azr_a3_s0",
+   "arm": "own_azr",
+   "seed": 0,
+   "round": 3,
+   "frac": 0.6891625615763546,
+   "dose": 1.8270093010090576,
+   "q1u": 0.26941747572815533
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_azr_a3_s1",
+   "arm": "own_azr",
+   "seed": 1,
+   "round": 1,
+   "frac": 0.5046897810218978,
+   "dose": 0.5046897810218978,
+   "q1u": 0.21359223300970873
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_azr_a3_s1",
+   "arm": "own_azr",
+   "seed": 1,
+   "round": 2,
+   "frac": 0.6087117472852912,
+   "dose": 1.113401528307189,
+   "q1u": 0.25970873786407767
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_azr_a3_s1",
+   "arm": "own_azr",
+   "seed": 1,
+   "round": 3,
+   "frac": 0.6451818181818182,
+   "dose": 1.758583346489007,
+   "q1u": 0.22815533980582525
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_clean_a3_s0",
+   "arm": "own_clean",
+   "seed": 0,
+   "round": 1,
+   "frac": 0.0,
+   "dose": 0.0,
+   "q1u": 0.20388349514563106
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_clean_a3_s0",
+   "arm": "own_clean",
+   "seed": 0,
+   "round": 2,
+   "frac": 0.0,
+   "dose": 0.0,
+   "q1u": 0.22572815533980584
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_clean_a3_s0",
+   "arm": "own_clean",
+   "seed": 0,
+   "round": 3,
+   "frac": 0.0,
+   "dose": 0.0,
+   "q1u": 0.24029126213592233
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_clean_a3_s1",
+   "arm": "own_clean",
+   "seed": 1,
+   "round": 1,
+   "frac": 0.0,
+   "dose": 0.0,
+   "q1u": 0.23058252427184467
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_clean_a3_s1",
+   "arm": "own_clean",
+   "seed": 1,
+   "round": 2,
+   "frac": 0.0,
+   "dose": 0.0,
+   "q1u": 0.26941747572815533
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_clean_a3_s1",
+   "arm": "own_clean",
+   "seed": 1,
+   "round": 3,
+   "frac": 0.0,
+   "dose": 0.0,
+   "q1u": 0.21844660194174756
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_dirty_a3_s0",
+   "arm": "own_dirty",
+   "seed": 0,
+   "round": 1,
+   "frac": 1.0,
+   "dose": 1.0,
+   "q1u": 0.17718446601941748
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_dirty_a3_s1",
+   "arm": "own_dirty",
+   "seed": 1,
+   "round": 1,
+   "frac": 1.0,
+   "dose": 1.0,
+   "q1u": 0.24271844660194175
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s0",
+   "arm": "own_sub",
+   "seed": 0,
+   "round": 1,
+   "frac": 0.5055780821917808,
+   "dose": 0.5055780821917808,
+   "q1u": 0.23786407766990292
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s0",
+   "arm": "own_sub",
+   "seed": 0,
+   "round": 2,
+   "frac": 0.6638202247191011,
+   "dose": 1.1693983069108818,
+   "q1u": 0.2766990291262136
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s0",
+   "arm": "own_sub",
+   "seed": 0,
+   "round": 3,
+   "frac": 0.7392333333333334,
+   "dose": 1.9086316402442152,
+   "q1u": 0.2766990291262136
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s1",
+   "arm": "own_sub",
+   "seed": 1,
+   "round": 1,
+   "frac": 0.49875475408419057,
+   "dose": 0.49875475408419057,
+   "q1u": 0.26941747572815533
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s1",
+   "arm": "own_sub",
+   "seed": 1,
+   "round": 2,
+   "frac": 0.6797439759036145,
+   "dose": 1.1784987299878051,
+   "q1u": 0.4344660194174757
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s1",
+   "arm": "own_sub",
+   "seed": 1,
+   "round": 3,
+   "frac": 0.716979865771812,
+   "dose": 1.8954785957596172,
+   "q1u": 0.3932038834951456
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s2",
+   "arm": "own_sub",
+   "seed": 2,
+   "round": 1,
+   "frac": 0.524401452527827,
+   "dose": 0.524401452527827,
+   "q1u": 0.2354368932038835
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s2",
+   "arm": "own_sub",
+   "seed": 2,
+   "round": 2,
+   "frac": 0.7075558659217878,
+   "dose": 1.2319573184496146,
+   "q1u": 0.3592233009708738
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_sub_a3_s2",
+   "arm": "own_sub",
+   "seed": 2,
+   "round": 3,
+   "frac": 0.7138945578231293,
+   "dose": 1.945851876272744,
+   "q1u": 0.3762135922330097
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_tg_a3_s0",
+   "arm": "own_tg",
+   "seed": 0,
+   "round": 1,
+   "frac": 0.4217051705170517,
+   "dose": 0.4217051705170517,
+   "q1u": 0.24514563106796117
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_tg_a3_s0",
+   "arm": "own_tg",
+   "seed": 0,
+   "round": 2,
+   "frac": 0.5391469194312796,
+   "dose": 0.9608520899483313,
+   "q1u": 0.38106796116504854
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_tg_a3_s0",
+   "arm": "own_tg",
+   "seed": 0,
+   "round": 3,
+   "frac": 0.6529203539823009,
+   "dose": 1.6137724439306322,
+   "q1u": 0.4563106796116505
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_tg_a3_s1",
+   "arm": "own_tg",
+   "seed": 1,
+   "round": 1,
+   "frac": 0.4494467496542185,
+   "dose": 0.4494467496542185,
+   "q1u": 0.19902912621359223
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_tg_a3_s1",
+   "arm": "own_tg",
+   "seed": 1,
+   "round": 2,
+   "frac": 0.48736220472440944,
+   "dose": 0.936808954378628,
+   "q1u": 0.20631067961165048
+  },
+  {
+   "lineage": "qwen3_4b_Base_own_tg_a3_s1",
+   "arm": "own_tg",
+   "seed": 1,
+   "round": 3,
+   "frac": 0.5612033195020747,
+   "dose": 1.4980122738807027,
+   "q1u": 0.25728155339805825
+  }
+ ],
+ "coef": [
+  0.2062791655243193,
+  0.0153529876259456,
+  0.05182625091088623
+ ],
+ "ci_lo": [
+  0.16479938269773628,
+  -0.012380666612381692,
+  -0.09872816162627401
+ ],
+ "ci_hi": [
+  0.24687746323368598,
+  0.12276555496290661,
+  0.09443998535175997
+ ]
+}

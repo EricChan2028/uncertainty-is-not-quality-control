@@ -1,0 +1,68 @@
+{
+ "transcript_dirs": [
+  "wf_3f5bfa74-1da"
+ ],
+ "port": "<PORT>",
+ "n_expected": 1,
+ "n_batches_seen": 1,
+ "unexpected": [],
+ "passed": [
+  [
+   626,
+   650
+  ]
+ ],
+ "dropped": [],
+ "absent": [],
+ "n_judge_sessions": 1,
+ "n_sessions_with_local_computation": 1,
+ "per_batch": {
+  "626-650": {
+   "lines": [
+    626,
+    650
+   ],
+   "transcripts": [
+    {
+     "file": "wf_3f5bfa74-1da\\agent-ac23507cfb59a560f.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 5,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "c212b50ed70ecf366018739085136d5b1282ddd47b5e0e4d3f431b271340b692",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "712f084d3ae010f03f6303074c32f7bb1be315226184dce5e0a5aefebd0bc0e6"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > q634.py <<'EOF'\\nimport math,re\\ndef ok(s):\\n    for "
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > q639.py <<'EOF'\\nimport itertools,sys\\ndef cubic_grap"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  }
+ }
+}

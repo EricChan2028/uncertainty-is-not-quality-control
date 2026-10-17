@@ -1,0 +1,15 @@
+absfix qwen3_4b_Base_rescue_uv_a4_s0_r3 /dev/shm/ckpt_b/qwen3_4b_Base_rescue_uv_a4_s0_r3/final
+absfix qwen3_4b_Base_rescue_uv_a4_s1_r3 /run/ti/rev6_ckpt/qwen3_4b_Base_rescue_uv_a4_s1_r3/final
+absfix qwen3_4b_Base_rescue_uv_a4_s2_r3 /dev/shm/ckpt_b/qwen3_4b_Base_rescue_uv_a4_s2_r3/final
+absfix qwen3_4b_Base_rescue_uv_a4_s4_r3 /run/ti/rev6_ckpt/qwen3_4b_Base_rescue_uv_a4_s4_r3/final
+absfix qwen3_4b_Base_rescue_abs_a4_s0_r3 /dev/shm/ckpt_b/qwen3_4b_Base_rescue_abs_a4_s0_r3/final
+absfix qwen3_4b_Base_rescue_abs_a4_s1_r3 /dev/shm/ckpt_b/qwen3_4b_Base_rescue_abs_a4_s1_r3/final
+absfix qwen3_4b_Base_rescue_abs_a4_s2_r3 /run/ti/rev6_ckpt/qwen3_4b_Base_rescue_abs_a4_s2_r3/final
+absfix qwen3_4b_Base_loop_uv_a4_s0_r4 /dev/shm/ckpt_b/qwen3_4b_Base_loop_uv_a4_s0_r4/final
+absfix qwen3_4b_Base_loop_uv_a4_s2_r4 /dev/shm/ckpt_b/qwen3_4b_Base_loop_uv_a4_s2_r4/final
+absfix qwen3_4b_Base_coev_ag_a4_s0_r3 /run/ti/rev6_ckpt/qwen3_4b_Base_coev_ag_a4_s0_r3/final
+absfix qwen3_4b_Base_coev_ag_a4_s1_r3 /dev/shm/ckpt_b/qwen3_4b_Base_coev_ag_a4_s1_r3/final
+absfix qwen3_4b_Base_tg_abs4_a5_s0_r4 /dev/shm/ckpt_b/qwen3_4b_Base_tg_abs4_a5_s0_r4/final
+absfix qwen3_4b_Base_tg_abs4_a5_s1_r4 /run/ti/rev6_ckpt/qwen3_4b_Base_tg_abs4_a5_s1_r4/final
+absfix qwen3_4b_Base_tg_abs4_a5_s2_r4 /dev/shm/ckpt_b/qwen3_4b_Base_tg_abs4_a5_s2_r4/final
+absfix qwen3_4b_Base_tg_t4_a5_s1_r4 /run/ti/rev6_ckpt/qwen3_4b_Base_tg_t4_a5_s1_r4/final

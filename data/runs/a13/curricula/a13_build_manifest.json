@@ -1,0 +1,843 @@
+{
+ "builder_sha256": "ab6ef460d74b81df036d83b3d9fba9c857f597077eac17348d8b7726de33c4ae",
+ "dev": false,
+ "registration": "A13_registration_2026-09-27.md",
+ "root": "/home/tione/notebook/rsi_rl",
+ "seeds": {
+  "0": {
+   "R0_bytes": 160747,
+   "R0_sha256": "a4cd93eb55911a77b8adfd6fb5a0ac41d6b28718cc2e348807863fb285e0e64c",
+   "composition": {
+    "R0": {
+     "ill_posed_proposals": 109,
+     "kinds": {
+      "proposed": 145,
+      "tracer_intact": 17
+     },
+     "n": 162,
+     "passes_per_item": 11.8519,
+     "proposed_by_label": {
+      "AMBIGUOUS": 20,
+      "SOLVABLE": 36,
+      "UNSOLVABLE": 89
+     },
+     "solvable_proposals": 36
+    },
+    "R_rnd1": {
+     "ill_posed_proposals": 82,
+     "kinds": {
+      "proposed": 113,
+      "tracer_deleted": 32,
+      "tracer_intact": 17
+     },
+     "n": 162,
+     "passes_per_item": 11.8519,
+     "proposed_by_label": {
+      "AMBIGUOUS": 15,
+      "SOLVABLE": 31,
+      "UNSOLVABLE": 67
+     },
+     "solvable_proposals": 31
+    },
+    "S_cln1": {
+     "ill_posed_proposals": 0,
+     "kinds": {
+      "proposed": 95,
+      "tracer_intact": 67
+     },
+     "n": 162,
+     "passes_per_item": 11.8519,
+     "proposed_by_label": {
+      "SOLVABLE": 95
+     },
+     "solvable_proposals": 95
+    },
+    "replacements": {
+     "AMBIGUOUS": 5,
+     "SOLVABLE": 5,
+     "UNSOLVABLE": 22
+    }
+   },
+   "deleted_positions": [
+    18,
+    20,
+    22,
+    26,
+    27,
+    33,
+    38,
+    43,
+    53,
+    55,
+    64,
+    82,
+    90,
+    94,
+    95,
+    97,
+    98,
+    100,
+    108,
+    109,
+    110,
+    117,
+    120,
+    125,
+    126,
+    130,
+    132,
+    138,
+    145,
+    148,
+    152,
+    160
+   ],
+   "inputs_sha256": {
+    "R": "5be8eefe2e96cf3cca47d3ba7a8958101bbfbeba20cad677d3a75320f5afa3eb",
+    "S": "384917f5255c204ba2d0c1a7a842de60c190be6b427b9732583d0c48362f72b1",
+    "audit": "9783c54f37e8c5b26bf78e120dc1b4376185c3045624d8a4f4fb5bbe31bde450",
+    "band": "8a1296800db6f701e5ad0ba9a869fa8399aae702e396bba893076a3df26491b9",
+    "parts": "67cb9bddc145b05923f85aabf6c54c80a176a6f7fc1830951fac10c939e4ec95"
+   },
+   "k_replaced": 32,
+   "labels_order_independent": true,
+   "name": "qwen3_4b_Base_r0_a13_s0_r3",
+   "pool_size": 306,
+   "replaced_ids": [
+    "trd:303:1",
+    "trd:279:1",
+    "trd:279:6",
+    "trd:278:3",
+    "trd:443:2",
+    "trd:395:5",
+    "trd:304:6",
+    "trd:152:1",
+    "trd:214:7",
+    "trd:269:2",
+    "trd:121:3",
+    "trd:307:5",
+    "trd:166:3",
+    "trd:234:3",
+    "trd:412:6",
+    "trd:365:3",
+    "trd:225:5",
+    "trd:166:5",
+    "trd:125:4",
+    "trd:145:5",
+    "trd:378:6",
+    "trd:397:1",
+    "trd:393:4",
+    "trd:103:5",
+    "trd:399:1",
+    "trd:149:7",
+    "trd:431:4",
+    "trd:369:2",
+    "trd:169:5",
+    "trd:263:2",
+    "trd:373:5",
+    "trd:34:5"
+   ],
+   "replacement_ids": [
+    "prop3:91",
+    "prop3:356",
+    "prop3:47",
+    "prop3:986",
+    "prop3:674",
+    "prop3:312",
+    "prop3:826",
+    "prop3:837",
+    "prop3:458",
+    "prop3:208",
+    "prop3:485",
+    "prop3:823",
+    "prop3:760",
+    "prop3:950",
+    "prop3:401",
+    "prop3:106",
+    "prop3:610",
+    "prop3:891",
+    "prop3:974",
+    "prop3:665",
+    "prop3:817",
+    "prop3:867",
+    "prop3:138",
+    "prop3:852",
+    "prop3:151",
+    "prop3:337",
+    "prop3:1046",
+    "prop3:592",
+    "prop3:697",
+    "prop3:906",
+    "prop3:1003",
+    "prop3:916"
+   ],
+   "rng": {
+    "A13_replacement": 20260927,
+    "A6_R": 20260924
+   },
+   "seed": 0
+  },
+  "1": {
+   "R0_bytes": 148988,
+   "R0_sha256": "8b9a2f5723628edc226a2756b9369ce1ae0e831e284595c4c546b7c5bbcaa9b3",
+   "composition": {
+    "R0": {
+     "ill_posed_proposals": 103,
+     "kinds": {
+      "proposed": 134,
+      "tracer_intact": 14
+     },
+     "n": 148,
+     "passes_per_item": 12.973,
+     "proposed_by_label": {
+      "AMBIGUOUS": 33,
+      "SOLVABLE": 31,
+      "UNSOLVABLE": 70
+     },
+     "solvable_proposals": 31
+    },
+    "R_rnd1": {
+     "ill_posed_proposals": 89,
+     "kinds": {
+      "proposed": 114,
+      "tracer_deleted": 20,
+      "tracer_intact": 14
+     },
+     "n": 148,
+     "passes_per_item": 12.973,
+     "proposed_by_label": {
+      "AMBIGUOUS": 28,
+      "SOLVABLE": 25,
+      "UNSOLVABLE": 61
+     },
+     "solvable_proposals": 25
+    },
+    "S_cln1": {
+     "ill_posed_proposals": 0,
+     "kinds": {
+      "proposed": 88,
+      "tracer_intact": 60
+     },
+     "n": 148,
+     "passes_per_item": 12.973,
+     "proposed_by_label": {
+      "SOLVABLE": 88
+     },
+     "solvable_proposals": 88
+    },
+    "replacements": {
+     "AMBIGUOUS": 5,
+     "SOLVABLE": 6,
+     "UNSOLVABLE": 9
+    }
+   },
+   "deleted_positions": [
+    5,
+    19,
+    22,
+    34,
+    37,
+    43,
+    76,
+    78,
+    82,
+    96,
+    98,
+    114,
+    115,
+    116,
+    124,
+    128,
+    129,
+    134,
+    135,
+    142
+   ],
+   "inputs_sha256": {
+    "R": "1c011f2339bef7d40fb8c20d586694db070b3abe7d057120a2df9f6bc72f993c",
+    "S": "0916187af8f99c38bc494457d974055bd828e349ea92f3d7b4016988455ed4d8",
+    "audit": "842069b8b938c6662921b784a46cc37fa661d401d062a3ee3a75f0999ccf0ef7",
+    "band": "8afdfa690359a98573a2f6053f53af70cb767c3765f8349a526f53632a3a5868",
+    "parts": "d540ab0643bcc6ab64184e5b2ab979075029c3db493c0e66a28dfa87cae6af83"
+   },
+   "k_replaced": 20,
+   "labels_order_independent": true,
+   "name": "qwen3_4b_Base_r0_a13_s1_r3",
+   "pool_size": 321,
+   "replaced_ids": [
+    "trd:369:6",
+    "trd:213:2",
+    "trd:426:4",
+    "trd:5:7",
+    "trd:313:6",
+    "trd:111:2",
+    "trd:280:7",
+    "trd:53:1",
+    "trd:440:4",
+    "trd:302:6",
+    "trd:248:6",
+    "trd:249:3",
+    "trd:3:1",
+    "trd:339:2",
+    "trd:226:3",
+    "trd:353:5",
+    "trd:363:3",
+    "trd:269:6",
+    "trd:248:2",
+    "trd:416:7"
+   ],
+   "replacement_ids": [
+    "prop103:705",
+    "prop103:174",
+    "prop103:1087",
+    "prop103:532",
+    "prop103:1054",
+    "prop103:551",
+    "prop103:656",
+    "prop103:546",
+    "prop103:130",
+    "prop103:622",
+    "prop103:26",
+    "prop103:599",
+    "prop103:630",
+    "prop103:757",
+    "prop103:504",
+    "prop103:578",
+    "prop103:40",
+    "prop103:928",
+    "prop103:820",
+    "prop103:1125"
+   ],
+   "rng": {
+    "A13_replacement": 20260928,
+    "A6_R": 20260925
+   },
+   "seed": 1
+  },
+  "2": {
+   "R0_bytes": 183399,
+   "R0_sha256": "f3c672c53c1b33a2cb37a18e78b8f555113aff28995ea77eb6302135a8c9c27b",
+   "composition": {
+    "R0": {
+     "ill_posed_proposals": 117,
+     "kinds": {
+      "proposed": 159,
+      "tracer_intact": 18
+     },
+     "n": 177,
+     "passes_per_item": 10.8475,
+     "proposed_by_label": {
+      "AMBIGUOUS": 30,
+      "SOLVABLE": 42,
+      "UNSOLVABLE": 87
+     },
+     "solvable_proposals": 42
+    },
+    "R_rnd1": {
+     "ill_posed_proposals": 88,
+     "kinds": {
+      "proposed": 120,
+      "tracer_deleted": 39,
+      "tracer_intact": 18
+     },
+     "n": 177,
+     "passes_per_item": 10.8475,
+     "proposed_by_label": {
+      "AMBIGUOUS": 21,
+      "SOLVABLE": 32,
+      "UNSOLVABLE": 67
+     },
+     "solvable_proposals": 32
+    },
+    "S_cln1": {
+     "ill_posed_proposals": 0,
+     "kinds": {
+      "proposed": 106,
+      "tracer_intact": 71
+     },
+     "n": 177,
+     "passes_per_item": 10.8475,
+     "proposed_by_label": {
+      "SOLVABLE": 106
+     },
+     "solvable_proposals": 106
+    },
+    "replacements": {
+     "AMBIGUOUS": 9,
+     "SOLVABLE": 10,
+     "UNSOLVABLE": 20
+    }
+   },
+   "deleted_positions": [
+    3,
+    5,
+    11,
+    16,
+    23,
+    24,
+    27,
+    29,
+    31,
+    35,
+    36,
+    46,
+    54,
+    71,
+    80,
+    87,
+    93,
+    98,
+    109,
+    113,
+    119,
+    121,
+    122,
+    125,
+    127,
+    133,
+    135,
+    136,
+    138,
+    143,
+    147,
+    154,
+    159,
+    164,
+    166,
+    172,
+    173,
+    174,
+    176
+   ],
+   "inputs_sha256": {
+    "R": "5fddb403fa4fcaa6079163164c38f0b16ecc2e5348f4a874e306a6a0fbb11fe4",
+    "S": "5c48197873df1f93fec3c6a187193959d55c98de085866c5c9c69613da7297e8",
+    "audit": "8957053a0a6ff55cfd91f61784b49ca3c41a1ef3bd30198b50bfb86d01e11c60",
+    "band": "fa59f58016da552a7ffe934b8980001add8cc18600718e411c73f1124e4188f7",
+    "parts": "cde053955396124437fce116beb72792ffbb61a6496790004c252e748703782d"
+   },
+   "k_replaced": 39,
+   "labels_order_independent": true,
+   "name": "qwen3_4b_Base_r0_a13_s2_r3",
+   "pool_size": 295,
+   "replaced_ids": [
+    "trd:438:6",
+    "trd:132:4",
+    "trd:73:6",
+    "trd:407:1",
+    "trd:295:5",
+    "trd:199:1",
+    "trd:119:3",
+    "trd:71:4",
+    "trd:415:2",
+    "trd:341:2",
+    "trd:395:7",
+    "trd:426:7",
+    "trd:116:3",
+    "trd:303:7",
+    "trd:105:2",
+    "trd:39:3",
+    "trd:211:5",
+    "trd:51:5",
+    "trd:111:1",
+    "trd:308:2",
+    "trd:260:4",
+    "trd:190:3",
+    "trd:46:2",
+    "trd:332:1",
+    "trd:217:3",
+    "trd:47:4",
+    "trd:231:4",
+    "trd:311:1",
+    "trd:336:7",
+    "trd:412:2",
+    "trd:154:4",
+    "trd:75:7",
+    "trd:204:1",
+    "trd:303:4",
+    "trd:154:5",
+    "trd:179:1",
+    "trd:265:7",
+    "trd:335:2",
+    "trd:111:5"
+   ],
+   "replacement_ids": [
+    "prop203:388",
+    "prop203:895",
+    "prop203:308",
+    "prop203:1127",
+    "prop203:160",
+    "prop203:276",
+    "prop203:1101",
+    "prop203:851",
+    "prop203:744",
+    "prop203:361",
+    "prop203:907",
+    "prop203:287",
+    "prop203:173",
+    "prop203:923",
+    "prop203:658",
+    "prop203:791",
+    "prop203:701",
+    "prop203:1128",
+    "prop203:585",
+    "prop203:1094",
+    "prop203:603",
+    "prop203:722",
+    "prop203:815",
+    "prop203:1055",
+    "prop203:398",
+    "prop203:376",
+    "prop203:674",
+    "prop203:1059",
+    "prop203:641",
+    "prop203:859",
+    "prop203:504",
+    "prop203:812",
+    "prop203:894",
+    "prop203:489",
+    "prop203:47",
+    "prop203:1099",
+    "prop203:947",
+    "prop203:410",
+    "prop203:1098"
+   ],
+   "rng": {
+    "A13_replacement": 20260929,
+    "A6_R": 20260926
+   },
+   "seed": 2
+  },
+  "3": {
+   "R0_bytes": 146600,
+   "R0_sha256": "ab04539c7d4f1d3b3423c2196d79362cb3acb85a4468974ea9d3e299d726338a",
+   "composition": {
+    "R0": {
+     "ill_posed_proposals": 103,
+     "kinds": {
+      "proposed": 130,
+      "tracer_intact": 21
+     },
+     "n": 151,
+     "passes_per_item": 12.7152,
+     "proposed_by_label": {
+      "AMBIGUOUS": 30,
+      "SOLVABLE": 27,
+      "UNSOLVABLE": 73
+     },
+     "solvable_proposals": 27
+    },
+    "R_rnd1": {
+     "ill_posed_proposals": 79,
+     "kinds": {
+      "proposed": 97,
+      "tracer_deleted": 33,
+      "tracer_intact": 21
+     },
+     "n": 151,
+     "passes_per_item": 12.7152,
+     "proposed_by_label": {
+      "AMBIGUOUS": 25,
+      "SOLVABLE": 18,
+      "UNSOLVABLE": 54
+     },
+     "solvable_proposals": 18
+    },
+    "S_cln1": {
+     "ill_posed_proposals": 0,
+     "kinds": {
+      "proposed": 83,
+      "tracer_intact": 68
+     },
+     "n": 151,
+     "passes_per_item": 12.7152,
+     "proposed_by_label": {
+      "SOLVABLE": 83
+     },
+     "solvable_proposals": 83
+    },
+    "replacements": {
+     "AMBIGUOUS": 5,
+     "SOLVABLE": 9,
+     "UNSOLVABLE": 19
+    }
+   },
+   "deleted_positions": [
+    1,
+    2,
+    6,
+    13,
+    29,
+    32,
+    42,
+    45,
+    46,
+    47,
+    48,
+    64,
+    66,
+    67,
+    68,
+    84,
+    89,
+    94,
+    99,
+    100,
+    113,
+    114,
+    115,
+    118,
+    119,
+    123,
+    124,
+    133,
+    137,
+    138,
+    144,
+    147,
+    150
+   ],
+   "inputs_sha256": {
+    "R": "adab2b36ba768d1ad97c5ae15f8e89b22babeb4235f6302d77703db7a55631e2",
+    "S": "31d7070526b9fbbd632e7edf6e020d6f5ea19a7a118ca52931a87c450fe15ef3",
+    "audit": "d28dd64300e417c049fcfdca7075a0bf822e9d00853c28172e3f1917ac98f86a",
+    "band": "a9368057d31d5fb15355b2a4a2bd49c0fc18fb8b7bfc43a31bf4cd5e69b69ca8",
+    "parts": "2804232ba4c92e4c4ff63cc36b7f6325e28cfa026f4f145d72740ac0de8f6128"
+   },
+   "k_replaced": 33,
+   "labels_order_independent": true,
+   "name": "qwen3_4b_Base_r0_a13_s3_r3",
+   "pool_size": 327,
+   "replaced_ids": [
+    "trd:265:7",
+    "trd:395:7",
+    "trd:347:6",
+    "trd:119:1",
+    "trd:259:3",
+    "trd:365:2",
+    "trd:427:2",
+    "trd:120:1",
+    "trd:173:5",
+    "trd:407:3",
+    "trd:322:3",
+    "trd:279:3",
+    "trd:403:1",
+    "trd:28:4",
+    "trd:36:5",
+    "trd:267:3",
+    "trd:287:3",
+    "trd:290:6",
+    "trd:389:2",
+    "trd:323:2",
+    "trd:259:1",
+    "trd:154:5",
+    "trd:23:7",
+    "trd:303:5",
+    "trd:401:1",
+    "trd:316:1",
+    "trd:394:3",
+    "trd:41:5",
+    "trd:137:2",
+    "trd:99:4",
+    "trd:435:2",
+    "trd:182:2",
+    "trd:225:4"
+   ],
+   "replacement_ids": [
+    "prop303:353",
+    "prop303:850",
+    "prop303:479",
+    "prop303:967",
+    "prop303:229",
+    "prop303:723",
+    "prop303:707",
+    "prop303:263",
+    "prop303:242",
+    "prop303:1091",
+    "prop303:608",
+    "prop303:952",
+    "prop303:73",
+    "prop303:1005",
+    "prop303:963",
+    "prop303:382",
+    "prop303:782",
+    "prop303:712",
+    "prop303:223",
+    "prop303:161",
+    "prop303:989",
+    "prop303:1003",
+    "prop303:397",
+    "prop303:715",
+    "prop303:577",
+    "prop303:986",
+    "prop303:689",
+    "prop303:632",
+    "prop303:104",
+    "prop303:72",
+    "prop303:653",
+    "prop303:1061",
+    "prop303:841"
+   ],
+   "rng": {
+    "A13_replacement": 20260930,
+    "A6_R": 20260927
+   },
+   "seed": 3
+  },
+  "4": {
+   "R0_bytes": 172512,
+   "R0_sha256": "52bb2cf1326833742a4f6a17c65c048cc705ae98e64bd0793d3404b0944e34f4",
+   "composition": {
+    "R0": {
+     "ill_posed_proposals": 115,
+     "kinds": {
+      "proposed": 140,
+      "tracer_intact": 26
+     },
+     "n": 166,
+     "passes_per_item": 11.5663,
+     "proposed_by_label": {
+      "AMBIGUOUS": 36,
+      "SOLVABLE": 25,
+      "UNSOLVABLE": 79
+     },
+     "solvable_proposals": 25
+    },
+    "R_rnd1": {
+     "ill_posed_proposals": 95,
+     "kinds": {
+      "proposed": 114,
+      "tracer_deleted": 26,
+      "tracer_intact": 26
+     },
+     "n": 166,
+     "passes_per_item": 11.5663,
+     "proposed_by_label": {
+      "AMBIGUOUS": 28,
+      "SOLVABLE": 19,
+      "UNSOLVABLE": 67
+     },
+     "solvable_proposals": 19
+    },
+    "S_cln1": {
+     "ill_posed_proposals": 0,
+     "kinds": {
+      "proposed": 84,
+      "tracer_intact": 82
+     },
+     "n": 166,
+     "passes_per_item": 11.5663,
+     "proposed_by_label": {
+      "SOLVABLE": 84
+     },
+     "solvable_proposals": 84
+    },
+    "replacements": {
+     "AMBIGUOUS": 8,
+     "SOLVABLE": 6,
+     "UNSOLVABLE": 12
+    }
+   },
+   "deleted_positions": [
+    5,
+    6,
+    8,
+    12,
+    13,
+    34,
+    35,
+    44,
+    48,
+    49,
+    57,
+    62,
+    63,
+    67,
+    80,
+    85,
+    119,
+    121,
+    124,
+    125,
+    128,
+    129,
+    142,
+    149,
+    156,
+    163
+   ],
+   "inputs_sha256": {
+    "R": "e5663154ffbfc556f635e481725d9314313cc0a7bf20c74ff4078da98bd94f57",
+    "S": "004d65de18b47eff5f85961642f680272e97469ec7680e11731ae7fc7328ae22",
+    "audit": "41cdf4464d96f208c57ad66b5f6b6801cb0197c2d88a22b812ddb306045d00a1",
+    "band": "3e08c00f89bf9833f5fd52040be17c834af2f8ab33a27dccc065358c78950e5f",
+    "parts": "0b2e40e8f5bb466ec18465dbe417c317387c186d40d9f2e071b0b977bae73650"
+   },
+   "k_replaced": 26,
+   "labels_order_independent": true,
+   "name": "qwen3_4b_Base_r0_a13_s4_r3",
+   "pool_size": 283,
+   "replaced_ids": [
+    "trd:427:5",
+    "trd:91:6",
+    "trd:444:7",
+    "trd:36:2",
+    "trd:132:3",
+    "trd:419:3",
+    "trd:247:2",
+    "trd:63:2",
+    "trd:373:4",
+    "trd:25:7",
+    "trd:382:2",
+    "trd:107:3",
+    "trd:401:7",
+    "trd:10:6",
+    "trd:154:2",
+    "trd:339:4",
+    "trd:175:5",
+    "trd:220:2",
+    "trd:444:3",
+    "trd:343:6",
+    "trd:30:5",
+    "trd:174:2",
+    "trd:189:4",
+    "trd:185:2",
+    "trd:440:7",
+    "trd:273:5"
+   ],
+   "replacement_ids": [
+    "prop403:962",
+    "prop403:115",
+    "prop403:65",
+    "prop403:1066",
+    "prop403:176",
+    "prop403:640",
+    "prop403:31",
+    "prop403:676",
+    "prop403:544",
+    "prop403:794",
+    "prop403:1029",
+    "prop403:945",
+    "prop403:1001",
+    "prop403:915",
+    "prop403:567",
+    "prop403:1091",
+    "prop403:941",
+    "prop403:764",
+    "prop403:100",
+    "prop403:169",
+    "prop403:717",
+    "prop403:954",
+    "prop403:330",
+    "prop403:1096",
+    "prop403:1071",
+    "prop403:267"
+   ],
+   "rng": {
+    "A13_replacement": 20260931,
+    "A6_R": 20260928
+   },
+   "seed": 4
+  }
+ }
+}

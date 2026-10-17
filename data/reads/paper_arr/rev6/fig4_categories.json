@@ -1,0 +1,129 @@
+{
+ "llm_flags_strict_parser": {
+  "base|A": {
+   "silent_answer": 0.9073660714285714,
+   "other_non_answer": 0.08035714285714286,
+   "conditional_answer": 0.012276785714285714,
+   "n": 896
+  },
+  "r5_s1|U": {
+   "conditional_answer": 0.2845982142857143,
+   "other_non_answer": 0.04799107142857143,
+   "flag_and_decline": 0.20647321428571427,
+   "silent_answer": 0.4609375,
+   "n": 896
+  },
+  "r5_s0|A": {
+   "silent_answer": 0.9296875,
+   "conditional_answer": 0.041294642857142856,
+   "other_non_answer": 0.0234375,
+   "flag_and_decline": 0.005580357142857143,
+   "n": 896
+  },
+  "r5_s0|U": {
+   "flag_and_decline": 0.28236607142857145,
+   "silent_answer": 0.3515625,
+   "conditional_answer": 0.33816964285714285,
+   "other_non_answer": 0.027901785714285716,
+   "n": 896
+  },
+  "r5_s1|A": {
+   "silent_answer": 0.9185267857142857,
+   "conditional_answer": 0.027901785714285716,
+   "other_non_answer": 0.05022321428571429,
+   "flag_and_decline": 0.0033482142857142855,
+   "n": 896
+  },
+  "r5_s2|U": {
+   "silent_answer": 0.27901785714285715,
+   "flag_and_decline": 0.3470982142857143,
+   "conditional_answer": 0.3560267857142857,
+   "other_non_answer": 0.017857142857142856,
+   "n": 896
+  },
+  "r5_s2|A": {
+   "silent_answer": 0.9252232142857143,
+   "conditional_answer": 0.0546875,
+   "other_non_answer": 0.014508928571428572,
+   "flag_and_decline": 0.005580357142857143,
+   "n": 896
+  },
+  "base|U": {
+   "silent_answer": 0.7790178571428571,
+   "flag_and_decline": 0.05133928571428571,
+   "conditional_answer": 0.09933035714285714,
+   "other_non_answer": 0.0703125,
+   "n": 896
+  }
+ },
+ "units_strict": {
+  "base|A": {
+   "n": 112,
+   "self_consistent": 0.41964285714285715,
+   "self_consistent_no_sample_flagged": 0.4107142857142857
+  },
+  "r5_s1|U": {
+   "n": 112,
+   "self_consistent": 0.4107142857142857,
+   "self_consistent_no_sample_flagged": 0.08035714285714286
+  },
+  "r5_s0|A": {
+   "n": 112,
+   "self_consistent": 0.9285714285714286,
+   "self_consistent_no_sample_flagged": 0.7946428571428571
+  },
+  "r5_s0|U": {
+   "n": 112,
+   "self_consistent": 0.49107142857142855,
+   "self_consistent_no_sample_flagged": 0.05357142857142857
+  },
+  "r5_s1|A": {
+   "n": 112,
+   "self_consistent": 0.8303571428571429,
+   "self_consistent_no_sample_flagged": 0.75
+  },
+  "r5_s2|U": {
+   "n": 112,
+   "self_consistent": 0.42857142857142855,
+   "self_consistent_no_sample_flagged": 0.0625
+  },
+  "r5_s2|A": {
+   "n": 112,
+   "self_consistent": 0.9196428571428571,
+   "self_consistent_no_sample_flagged": 0.7589285714285714
+  },
+  "base|U": {
+   "n": 112,
+   "self_consistent": 0.14285714285714285,
+   "self_consistent_no_sample_flagged": 0.07142857142857142
+  }
+ },
+ "human_part_b": {
+  "base|U": {
+   "silent_answer": 0.8169642857142857,
+   "conditional_answer": 0.10491071428571429,
+   "other_non_answer": 0.04017857142857143,
+   "flag_and_decline": 0.03794642857142857,
+   "n": 448
+  },
+  "r5|U": {
+   "conditional_answer": 0.3013392857142857,
+   "flag_and_decline": 0.27901785714285715,
+   "other_non_answer": 0.017857142857142856,
+   "silent_answer": 0.4017857142857143,
+   "n": 448
+  },
+  "r5|A": {
+   "silent_answer": 0.9276315789473685,
+   "conditional_answer": 0.07236842105263158,
+   "n": 152
+  },
+  "base|A": {
+   "silent_answer": 0.9407894736842105,
+   "conditional_answer": 0.019736842105263157,
+   "other_non_answer": 0.03289473684210526,
+   "flag_and_decline": 0.006578947368421052,
+   "n": 152
+  }
+ }
+}

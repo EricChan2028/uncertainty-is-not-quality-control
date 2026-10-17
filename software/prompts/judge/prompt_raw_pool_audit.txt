@@ -1,0 +1,31 @@
+# Placeholders (the only edits to the verbatim workflow text)
+# <SSH>          ssh command to the compute host (host, port and user removed)
+# <REPO>         project root on the compute host; <RUN_DIR> = the directory holding the item file (<REPO>/dirB/runs/<RUN>)
+# <PART_FILE>    <RUN_DIR>/audit_parts/<A>-<B>.json (fixed pools: <REPO>/dirA3/results/pool_audit/<POOL>/parts/<A>-<B>.json)
+# <LOCAL_PART>   a temporary local file of the judge (workstation path removed)
+# <A>, <B>, <M>  item slice [A, B) of the ordered item list, M = B - A (20 or 25)
+# <MODEL>        the proposer's model name as written in the workflow (e.g. Qwen3-4B-Base, Llama-3.2-3B, Phi-4-mini-instruct)
+# The judge's structured return schema: verdict in {SOLVABLE, UNSOLVABLE, AMBIGUOUS}, confidence (number), note (string), k, id.
+# The fetch command and the returned run="<RUN>" show the judge the run directory and name (see PROTOCOL.md).
+# Pool audits (fixed_pool_audits/): items in proposed.jsonl order, k = line index. Raw proposal audits
+# (raw_proposal_audits/): the same text after a Random(0) shuffle of proposed.jsonl, first 200.
+
+You are a careful mathematician auditing self-generated training questions.
+Step 1: fetch questions <A>..<B-1> with this exact command (Bash tool, one call):
+<SSH> 'cd <RUN_DIR>; python3 -c "
+import json, random
+P=[json.loads(l) for l in open(\"proposed.jsonl\")]
+for k in range(<A>,<B>):
+    print(\"=== k\", k, \"id\", P[k][\"id\"]); print(P[k][\"problem\"])
+"'
+These were written by a <MODEL> language model as self-play training candidates. For EACH question decide:
+  SOLVABLE    - the text determines a unique numeric answer (state it briefly in the note);
+  UNSOLVABLE  - a needed quantity/relation is missing, or the text is self-contradictory, so no unique answer exists;
+  AMBIGUOUS   - two reasonable readings give different answers.
+Be strict: a default assumption you would have to invent makes it UNSOLVABLE. Confidence 0-1, note <= 20 words.
+Step 2: write ALL <M> verdicts as one JSON object {"verdicts": [{"k": 0, "id": "...", "verdict": "SOLVABLE", "confidence": 0.9, "note": "..."}, ...]} to the local file <LOCAL_PART> with the Write tool (plain JSON, nothing else in the file).
+Step 3: push and verify with this exact command (Bash tool, one call):
+<SSH> "cat > <PART_FILE>" < <LOCAL_PART> && <SSH> "python3 <REPO>/dirA3/code/a3_part_check.py <PART_FILE>"
+The printed number must equal <M>. If it does, set pushed=true and verified_n to that number; otherwise retry the push once, and if it still fails set pushed=false.
+Step 4: delete the local file: rm <LOCAL_PART>
+Return run="<RUN>", a=<A>, b=<B>, n=<M>, counts (SOLVABLE/UNSOLVABLE/AMBIGUOUS), pushed, verified_n. Include the verdicts array in your return ONLY if pushed is false.

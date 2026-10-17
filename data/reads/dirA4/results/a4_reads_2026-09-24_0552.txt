@@ -1,0 +1,53 @@
+=== PF (abstention guard, arm own_ag): PF2 uns <= 30 every round & rise r1->r3 < 10 & ratio <= 0.6 every round; PF3 acc_r3 >= own_r3 - 2; PF4 Q1u_r3 <= own Q1u_r3
+  qwen3_4b_Base_own_ag_a4_s0 r1: acc 78.2 | Q1u 0.218 | abstain(uns) 0.750 | ratio 0.27 admit 46.2% | audit uns 25.0 ill 48.0 | raw uns -
+  qwen3_4b_Base_own_ag_a4_s0 r2: acc 77.5 | Q1u 0.240 | abstain(uns) 0.724 | ratio 0.30 admit 28.0% | audit uns 38.0 ill 66.5 | raw uns -
+  qwen3_4b_Base_own_ag_a4_s0 r3: acc 79.4 | Q1u 0.257 | abstain(uns) 0.733 | ratio 0.19 admit 25.9% | audit uns 36.5 ill 63.0 | raw uns -
+  -> seed 0: PF2 False | PF3 False (own r3 81.9) | PF4 True (own Q1u r3 0.347)
+  qwen3_4b_Base_own_ag_a4_s1 r1: acc 79.4 | Q1u 0.265 | abstain(uns) 0.743 | ratio 0.27 admit 53.8% | audit uns 20.5 ill 38.5 | raw uns -
+  qwen3_4b_Base_own_ag_a4_s1 r2: acc 81.1 | Q1u 0.274 | abstain(uns) 0.744 | ratio 0.43 admit 29.7% | audit uns 35.0 ill 67.0 | raw uns -
+  qwen3_4b_Base_own_ag_a4_s1 r3: acc 81.9 | Q1u 0.216 | abstain(uns) - | ratio 0.27 admit 29.6% | audit uns 39.5 ill 69.0 | raw uns -  (running)
+  -> seed 1: PF2 False | PF3 True (own r3 81.5) | PF4 True (own Q1u r3 0.316)
+  qwen3_4b_Base_own_ag_a4_s2 r1: acc 79.2 | Q1u 0.228 | abstain(uns) 0.707 | ratio 0.41 admit 53.8% | audit uns 22.0 ill 38.0 | raw uns -
+  qwen3_4b_Base_own_ag_a4_s2 r2: acc 78.8 | Q1u 0.218 | abstain(uns) 0.735 | ratio 0.32 admit 33.2% | audit uns 35.0 ill 64.5 | raw uns -
+  qwen3_4b_Base_own_ag_a4_s2 r3: acc 80.1 | Q1u 0.192 | abstain(uns) 0.728 | ratio 0.24 admit 29.8% | audit uns 34.5 ill 65.0 | raw uns -
+  -> seed 2: PF2 False | PF3 True (own r3 81.8) | PF4 True (own Q1u r3 0.410)
+  qwen3_8b_Base_own_ag_a4_s1 r1: acc 82.9 | Q1u 0.036 | abstain(uns) 0.465 | ratio 0.24 admit 58.9% | audit uns 19.5 ill 41.0 | raw uns -
+  qwen3_8b_Base_own_ag_a4_s1 r2: acc 82.9 | Q1u 0.044 | abstain(uns) 0.479 | ratio 0.33 admit 27.7% | audit uns 35.5 ill 60.0 | raw uns -
+  qwen3_8b_Base_own_ag_a4_s1 r3: acc - | Q1u - | abstain(uns) - | ratio - admit -% | audit uns - ill - | raw uns -  (running)
+  -> seed 1: PF2 False | PF3 False (own r3 83.7) | PF4 False (own Q1u r3 0.073)
+  qwen3_8b_Base_own_ag_a4_s2 r1: acc 83.5 | Q1u 0.085 | abstain(uns) 0.658 | ratio 0.36 admit 61.7% | audit uns 16.5 ill 34.5 | raw uns -
+  qwen3_8b_Base_own_ag_a4_s2 r2: acc 83.9 | Q1u 0.100 | abstain(uns) 0.650 | ratio 0.22 admit 29.3% | audit uns 35.5 ill 61.5 | raw uns -
+  qwen3_8b_Base_own_ag_a4_s2 r3: acc - | Q1u - | abstain(uns) - | ratio 0.21 admit 27.7% | audit uns 36.5 ill 64.0 | raw uns -  (running)
+  -> seed 2: PF2 False | PF3 False (own r3 83.5) | PF4 False (own Q1u r3 0.129)
+  phi4mini_own_ag_a4_s0 r1: acc 77.0 | Q1u 0.495 | abstain(uns) 0.548 | ratio 0.78 admit 35.6% | audit uns 25.5 ill 51.5 | raw uns -
+  phi4mini_own_ag_a4_s0 r2: acc 78.0 | Q1u 0.549 | abstain(uns) 0.521 | ratio 0.56 admit 37.0% | audit uns 38.5 ill 69.5 | raw uns -
+  phi4mini_own_ag_a4_s0 r3: acc 76.9 | Q1u 0.600 | abstain(uns) 0.510 | ratio 0.69 admit 31.9% | audit uns 44.5 ill 76.0 | raw uns -
+  -> seed 0: PF2 False | PF3 True (own r3 77.8) | PF4 True (own Q1u r3 0.641)
+  phi4mini_own_ag_a4_s1 r1: acc 76.9 | Q1u 0.476 | abstain(uns) 0.552 | ratio 0.53 admit 34.6% | audit uns 27.5 ill 53.5 | raw uns -
+  phi4mini_own_ag_a4_s1 r2: acc 77.4 | Q1u 0.505 | abstain(uns) 0.535 | ratio 0.53 admit 35.6% | audit uns 48.0 ill 73.0 | raw uns -
+  phi4mini_own_ag_a4_s1 r3: acc 76.0 | Q1u 0.541 | abstain(uns) 0.544 | ratio 0.43 admit 36.4% | audit uns 45.0 ill 71.5 | raw uns -
+  -> seed 1: PF2 False | PF3 True (own r3 77.8) | PF4 True (own Q1u r3 0.587)
+=== PC (co-evolving proposer): PC1 raw uns rise r1->r3 >= 15 & admitted r3 >= own r3; PC2 coev acc_r3 <= own_r3 - 2; PC3 coev_ag raw rise < 10 & acc_r3 >= coev_r3 + 2 & >= own_r3 - 2
+  qwen3_4b_Base_coev_a4_s0 r1: acc 78.6 | Q1u 0.211 | abstain(uns) 0.691 | ratio 0.82 admit 63.0% | audit uns 37.0 ill 55.0 | raw uns -
+  qwen3_4b_Base_coev_a4_s0 r2: acc 81.6 | Q1u 0.308 | abstain(uns) 0.697 | ratio 1.41 admit 38.5% | audit uns 47.5 ill 71.5 | raw uns 25.0
+  qwen3_4b_Base_coev_a4_s0 r3: acc 81.8 | Q1u 0.362 | abstain(uns) 0.721 | ratio 1.68 admit 33.5% | audit uns 55.0 ill 74.5 | raw uns 25.5
+  qwen3_4b_Base_coev_ag_a4_s0 r1: acc 77.9 | Q1u 0.206 | abstain(uns) 0.739 | ratio 0.28 admit 45.7% | audit uns 26.5 ill 53.0 | raw uns -
+  qwen3_4b_Base_coev_ag_a4_s0 r2: acc 81.4 | Q1u 0.260 | abstain(uns) 0.767 | ratio 0.21 admit 31.5% | audit uns 34.5 ill 61.0 | raw uns 31.0
+  qwen3_4b_Base_coev_ag_a4_s0 r3: acc 80.5 | Q1u 0.260 | abstain(uns) 0.770 | ratio 0.25 admit 36.4% | audit uns 36.5 ill 68.5 | raw uns 27.0
+  -> seed 0: PC1 False (raw uns r1 29.3 -> r3 25.5) | PC2 False (coev r3 81.8 vs own 81.9) | PC3 False (coev_ag r3 80.5)
+  qwen3_4b_Base_coev_a4_s1 r1: acc 80.8 | Q1u 0.245 | abstain(uns) 0.723 | ratio 0.76 admit 64.8% | audit uns 40.5 ill 56.0 | raw uns -
+  qwen3_4b_Base_coev_a4_s1 r2: acc 80.9 | Q1u 0.301 | abstain(uns) 0.697 | ratio 1.68 admit 31.8% | audit uns 47.0 ill 70.5 | raw uns 22.0
+  qwen3_4b_Base_coev_a4_s1 r3: acc 80.6 | Q1u 0.359 | abstain(uns) 0.697 | ratio 1.50 admit 29.7% | audit uns 46.0 ill 75.5 | raw uns 26.5
+  qwen3_4b_Base_coev_ag_a4_s1 r1: acc 79.0 | Q1u 0.286 | abstain(uns) 0.753 | ratio 0.26 admit 53.3% | audit uns 21.5 ill 41.0 | raw uns -
+  qwen3_4b_Base_coev_ag_a4_s1 r2: acc 80.6 | Q1u 0.354 | abstain(uns) 0.751 | ratio 0.39 admit 26.6% | audit uns 31.0 ill 63.0 | raw uns 22.0
+  qwen3_4b_Base_coev_ag_a4_s1 r3: acc 81.4 | Q1u 0.333 | abstain(uns) 0.737 | ratio 0.29 admit 26.0% | audit uns 37.5 ill 71.5 | raw uns 25.0
+  -> seed 1: PC1 False (raw uns r1 29.3 -> r3 26.5) | PC2 False (coev r3 80.6 vs own 81.5) | PC3 False (coev_ag r3 81.4)
+=== PG (Phi-4-mini family): PG1 own ratio rises r1->r2 & audited uns rises >= 10 r1->r3 without collapse; PG2 = PF2 & PF3 on Phi own_ag
+  phi4mini_own_a4_s0 r1: acc 77.5 | Q1u 0.498 | abstain(uns) 0.536 | ratio 1.00 admit 38.1% | audit uns 26.5 ill 59.5 | raw uns -
+  phi4mini_own_a4_s0 r2: acc 77.5 | Q1u 0.566 | abstain(uns) 0.509 | ratio 1.68 admit 42.7% | audit uns 51.5 ill 76.5 | raw uns -
+  phi4mini_own_a4_s0 r3: acc 77.8 | Q1u 0.641 | abstain(uns) 0.478 | ratio 1.67 admit 36.1% | audit uns 53.0 ill 83.5 | raw uns -
+  -> seed 0: PG1 True (base acc 76.3, collapsed False)
+  phi4mini_own_a4_s1 r1: acc 77.2 | Q1u 0.490 | abstain(uns) 0.531 | ratio 1.04 admit 39.7% | audit uns 33.0 ill 61.0 | raw uns -
+  phi4mini_own_a4_s1 r2: acc 77.8 | Q1u 0.549 | abstain(uns) 0.511 | ratio 1.67 admit 42.4% | audit uns 51.5 ill 76.0 | raw uns -
+  phi4mini_own_a4_s1 r3: acc 77.8 | Q1u 0.587 | abstain(uns) 0.508 | ratio 1.66 admit 42.2% | audit uns 57.0 ill 80.5 | raw uns -
+  -> seed 1: PG1 True (base acc 76.3, collapsed False)

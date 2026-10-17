@@ -1,0 +1,44 @@
+pool	agreement_key	source_dir	solver_checkpoint	prompt	guard	admission_stat	band_lo	band_hi	n_candidates	n_tracers	note
+qwen_s0_r1	qwen_s0/base	dirA3/results/guard_diag/qwen_s0/base	Qwen3-4B-Base	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0/r1	dirA3/results/guard_diag/qwen_s0/r1	qwen3_4b_Base_own_a3_s0_r1	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0/r2	dirA3/results/guard_diag/qwen_s0/r2	qwen3_4b_Base_own_a3_s0_r2	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0/r3	dirA3/results/guard_diag/qwen_s0/r3	qwen3_4b_Base_own_a3_s0_r3	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0/r4	dirA3/results/guard_diag/qwen_s0/r4	qwen3_4b_Base_own_a3_s0_r4	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0/r5	dirA3/results/guard_diag/qwen_s0/r5	qwen3_4b_Base_own_a3_s0_r5	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0_ag/base	dirA3/results/guard_diag/qwen_s0_ag/base	Qwen3-4B-Base	abstention	abstain	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0_ag/r1	dirA3/results/guard_diag/qwen_s0_ag/r1	qwen3_4b_Base_own_a3_s0_r1	abstention	abstain	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0_ag/r2	dirA3/results/guard_diag/qwen_s0_ag/r2	qwen3_4b_Base_own_a3_s0_r2	abstention	abstain	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0_ag/r3	dirA3/results/guard_diag/qwen_s0_ag/r3	qwen3_4b_Base_own_a3_s0_r3	abstention	abstain	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0_ag/r4	dirA3/results/guard_diag/qwen_s0_ag/r4	qwen3_4b_Base_own_a3_s0_r4	abstention	abstain	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	qwen_s0_ag/r5	dirA3/results/guard_diag/qwen_s0_ag/r5	qwen3_4b_Base_own_a3_s0_r5	abstention	abstain	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	scale_qwen3_14b/base	dirA3/results/guard_diag/scale_qwen3_14b/base	Qwen3-14B-Base	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	scale_qwen3_14b/Qwen3-14B	dirA3/results/guard_diag/scale_qwen3_14b/r1	Qwen3-14B	plain	rzero	p_mode	0.25	0.75	1158	400	vendor post-trained model Qwen3-14B, not a checkpoint of our training (source directory named r1)
+qwen_s0_r1	scale_qwen25_32b/base	dirA3/results/guard_diag/scale_qwen25_32b/base	Qwen2.5-32B-Base	plain	rzero	p_mode	0.25	0.75	1158	400	
+qwen_s0_r1	scale_qwen25_32b/Qwen2.5-32B-Instruct	dirA3/results/guard_diag/scale_qwen25_32b/r1	Qwen2.5-32B-Instruct	plain	rzero	p_mode	0.25	0.75	1158	400	vendor post-trained model Qwen2.5-32B-Instruct, not a checkpoint of our training (source directory named r1)
+qwen_s0_r1	uv/pool_s0/rescue_abs_s0	dirA3/results/guard_diag/uv/pool_s0/rescue_abs_s0	qwen3_4b_Base_rescue_abs_a4_s0_r3	abstention	rzero	p_mode	0.25	0.75	1158	400	abstention prompt, admission on p_mode (R-Zero band): these guard passes ran without --count_unknown, so admit = p_mode in [0.25, 0.75]; the loop_uv rule max(p_mode, abstain) in the band can be recomputed from p_mode and abstain
+qwen_s0_r1	uv/pool_s0/rescue_uv_s0	dirA3/results/guard_diag/uv/pool_s0/rescue_uv_s0	qwen3_4b_Base_rescue_uv_a4_s0_r3	abstention	rzero	p_mode	0.25	0.75	1158	400	abstention prompt, admission on p_mode (R-Zero band): these guard passes ran without --count_unknown, so admit = p_mode in [0.25, 0.75]; the loop_uv rule max(p_mode, abstain) in the band can be recomputed from p_mode and abstain
+qwen_s0_r1	uv/pool_s0/rescue_uvw_s0	dirA3/results/guard_diag/uv/pool_s0/rescue_uvw_s0	qwen3_4b_Base_rescue_uvw_a4_s0_r3	abstention	rzero	p_mode	0.25	0.75	1158	400	abstention prompt, admission on p_mode (R-Zero band): these guard passes ran without --count_unknown, so admit = p_mode in [0.25, 0.75]; the loop_uv rule max(p_mode, abstain) in the band can be recomputed from p_mode and abstain
+qwen_s1_r1	qwen_s1/base	dirA3/results/guard_diag/qwen_s1/base	Qwen3-4B-Base	plain	rzero	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1/r1	dirA3/results/guard_diag/qwen_s1/r1	qwen3_4b_Base_own_a3_s1_r1	plain	rzero	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1/r2	dirA3/results/guard_diag/qwen_s1/r2	qwen3_4b_Base_own_a3_s1_r2	plain	rzero	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1/r3	dirA3/results/guard_diag/qwen_s1/r3	qwen3_4b_Base_own_a3_s1_r3	plain	rzero	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1/r4	dirA3/results/guard_diag/qwen_s1/r4	qwen3_4b_Base_own_a3_s1_r4	plain	rzero	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1/r5	dirA3/results/guard_diag/qwen_s1/r5	qwen3_4b_Base_own_a3_s1_r5	plain	rzero	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1_ag/base	dirA3/results/guard_diag/qwen_s1_ag/base	Qwen3-4B-Base	abstention	abstain	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1_ag/r1	dirA3/results/guard_diag/qwen_s1_ag/r1	qwen3_4b_Base_own_a3_s1_r1	abstention	abstain	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1_ag/r2	dirA3/results/guard_diag/qwen_s1_ag/r2	qwen3_4b_Base_own_a3_s1_r2	abstention	abstain	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1_ag/r3	dirA3/results/guard_diag/qwen_s1_ag/r3	qwen3_4b_Base_own_a3_s1_r3	abstention	abstain	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1_ag/r4	dirA3/results/guard_diag/qwen_s1_ag/r4	qwen3_4b_Base_own_a3_s1_r4	abstention	abstain	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	qwen_s1_ag/r5	dirA3/results/guard_diag/qwen_s1_ag/r5	qwen3_4b_Base_own_a3_s1_r5	abstention	abstain	p_mode	0.25	0.75	1136	400	
+qwen_s1_r1	uv/pool_s1/rescue_abs_s1	dirA3/results/guard_diag/uv/pool_s1/rescue_abs_s1	qwen3_4b_Base_rescue_abs_a4_s1_r3	abstention	rzero	p_mode	0.25	0.75	1136	400	abstention prompt, admission on p_mode (R-Zero band): these guard passes ran without --count_unknown, so admit = p_mode in [0.25, 0.75]; the loop_uv rule max(p_mode, abstain) in the band can be recomputed from p_mode and abstain
+qwen_s1_r1	uv/pool_s1/rescue_uv_s1	dirA3/results/guard_diag/uv/pool_s1/rescue_uv_s1	qwen3_4b_Base_rescue_uv_a4_s1_r3	abstention	rzero	p_mode	0.25	0.75	1136	400	abstention prompt, admission on p_mode (R-Zero band): these guard passes ran without --count_unknown, so admit = p_mode in [0.25, 0.75]; the loop_uv rule max(p_mode, abstain) in the band can be recomputed from p_mode and abstain
+qwen_s1_r1	uv/pool_s1/rescue_uvw_s1	dirA3/results/guard_diag/uv/pool_s1/rescue_uvw_s1	qwen3_4b_Base_rescue_uvw_a4_s1_r3	abstention	rzero	p_mode	0.25	0.75	1136	400	abstention prompt, admission on p_mode (R-Zero band): these guard passes ran without --count_unknown, so admit = p_mode in [0.25, 0.75]; the loop_uv rule max(p_mode, abstain) in the band can be recomputed from p_mode and abstain
+front_q25_7b	front_q25_7b/base	dirA3/results/guard_diag/front_q25_7b/base	Qwen3-4B-Base	plain	rzero	p_mode	0.25	0.75	1199	400	
+front_q25_7b	front_q25_7b/r1	dirA3/results/guard_diag/front_q25_7b/r1	qwen3_4b_Base_own_a3_s0_r1	plain	rzero	p_mode	0.25	0.75	1199	400	
+front_q25_7b	front_q25_7b/r2	dirA3/results/guard_diag/front_q25_7b/r2	qwen3_4b_Base_own_a3_s0_r2	plain	rzero	p_mode	0.25	0.75	1199	400	
+front_q25_7b	front_q25_7b/r3	dirA3/results/guard_diag/front_q25_7b/r3	qwen3_4b_Base_own_a3_s0_r3	plain	rzero	p_mode	0.25	0.75	1199	400	
+front_q25_7b	front_q25_7b/r4	dirA3/results/guard_diag/front_q25_7b/r4	qwen3_4b_Base_own_a3_s0_r4	plain	rzero	p_mode	0.25	0.75	1199	400	
+front_q25_7b	front_q25_7b/r5	dirA3/results/guard_diag/front_q25_7b/r5	qwen3_4b_Base_own_a3_s0_r5	plain	rzero	p_mode	0.25	0.75	1199	400	
+evo_r3	evo_r3/r3	dirA3/results/guard_diag/evo_r3/r3	qwen3_4b_Base_own_a3_s0_r3	plain	rzero	p_mode	0.25	0.75	1106	400	
+evo_r3	evo_r3/r4	dirA3/results/guard_diag/evo_r3/r4	qwen3_4b_Base_own_a3_s0_r4	plain	rzero	p_mode	0.25	0.75	1106	400	
+evo_r3	evo_r3/r5	dirA3/results/guard_diag/evo_r3/r5	qwen3_4b_Base_own_a3_s0_r5	plain	rzero	p_mode	0.25	0.75	1106	400	

@@ -1,0 +1,84 @@
+{
+ "history": [
+  {
+   "time": "2026-09-26 17:34:20 CST",
+   "host": "<NODE>",
+   "state": "running",
+   "gpu": "0",
+   "n_ids": 0,
+   "model": "/run/ti/rzero/s1/models/rzero_qwen3_4b_Base_s1_solver_v3/global_step_15/actor/huggingface",
+   "probe_sha256": "11f796c2af5c56afe72c802cf34e444e391c1b53f10561e5c115bb0b7f6cfa68",
+   "model_fingerprint": {
+    "path": "/run/ti/rzero/s1/models/rzero_qwen3_4b_Base_s1_solver_v3/global_step_15/actor/huggingface",
+    "realpath": "/run/ti/rzero/s1/models/rzero_qwen3_4b_Base_s1_solver_v3/global_step_15/actor/huggingface",
+    "files": {
+     "added_tokens.json": [
+      707,
+      "c0284b582e14987f"
+     ],
+     "chat_template.jinja": [
+      4116,
+      "87a2728cb8dc9fe4"
+     ],
+     "config.json": [
+      1536,
+      "dcb8471fb807a310"
+     ],
+     "generation_config.json": [
+      121,
+      "1b8358c4e5400123"
+     ],
+     "merges.txt": [
+      1671853,
+      "8831e4f1a0444713"
+     ],
+     "model-00001-of-00002.safetensors": [
+      4982305600,
+      "dc22def708a62c1a"
+     ],
+     "model-00002-of-00002.safetensors": [
+      3840588848,
+      "f0437aace8ced025"
+     ],
+     "model.safetensors.index.json": [
+      32913,
+      "bf4430457fc556e6"
+     ],
+     "special_tokens_map.json": [
+      616,
+      "6676f091c8bc4d1b"
+     ],
+     "tokenizer.json": [
+      11422654,
+      "aeb13307a71acd8f"
+     ],
+     "tokenizer_config.json": [
+      5407,
+      "67e5a0a11cd35f9c"
+     ],
+     "vocab.json": [
+      2776833,
+      "ca10d7e9fb3ed185"
+     ]
+    }
+   }
+  },
+  {
+   "time": "2026-09-26 17:40:12 CST",
+   "host": "<NODE>",
+   "state": "complete",
+   "gpu": "0",
+   "n_ids": 1200,
+   "model": "/run/ti/rzero/s1/models/rzero_qwen3_4b_Base_s1_solver_v3/global_step_15/actor/huggingface",
+   "probe_sha256": "11f796c2af5c56afe72c802cf34e444e391c1b53f10561e5c115bb0b7f6cfa68"
+  }
+ ],
+ "registration": "A11",
+ "bench": "umwp",
+ "tag": "absfix_rzero_s1_it3",
+ "state": "complete",
+ "host": "<NODE>",
+ "model": "/run/ti/rzero/s1/models/rzero_qwen3_4b_Base_s1_solver_v3/global_step_15/actor/huggingface",
+ "probe_sha256": "11f796c2af5c56afe72c802cf34e444e391c1b53f10561e5c115bb0b7f6cfa68",
+ "n_ids": 1200
+}

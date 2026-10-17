@@ -1,0 +1,1222 @@
+54bb956789e9ed72c9a024bc4dfb2a922cb61f0aba602d1c8cbe3228c28015f6  docs/registration_A17_2026-09-19.md
+ba059b425c427a735258900d075df460bae7c173e748f8916b6d91ca42f2a707  code/usability_test.py
+e16ed1fe3ee9052fe2bf330d2db60e7d83fb80820cef7da0f9ccc126a3e4bc14  docs/registration_A17b_2026-09-19.md
+b0da13341a5145561460904f3ca12717250805fbfc1a8d0a4bbacbd72cb06640  code/oracle_test.py
+18d54382251092f04e8bd25aef7240d41c76a716b55f4fd06df07b9608d99c87  docs/registration_A17c_2026-09-19.md
+f0af1b3c09a21b544b4cad62e55ecfd7c90fb43fd5e8d1b4c9e34c603c610da2  code/seed_level.py
+7d2353d5296cdec8deceea7726c8ced5c85e4dbbadc1327b61079f173848ab00  docs/registration_A17c_2026-09-19.md
+08f0ca8d6680c2323fddef2a1376b93f061ded9d93b74d2d0b08c40898e95f79  docs/registration_A17d_2026-09-19.md
+bfebaf111e4678cf124d8cf3aec3b59352da7ea325d6342fe58763c1e2defc40  docs/registration_A17e_2026-09-19.md
+d9a9163eb5b60f29a54f0ba6fcc73fec187502fdaefe86e7835de8c0f6c9a42e  code/loto_train.py
+ffa4afc605d1393b5a1c150c6c873b6ac494adaa179c818291c234748ad707fe  docs/registration_A17f_2026-09-19.md
+66af936620ed5990574cbff3cba6d5ca289ff729b2732e5d7a790246d4b59b05  results_notes/verdicts_2026-09-19.md
+75043dfebafe2e935093b4d6785cfb72cdf971da64c3fed4ec189e3ebc39e231  docs/registration_A17g_2026-09-19.md
+0cd30743c1322be40998d2a8051d039b4e3ff443014497afbea6826ef149c88c  docs/registration_A17h_2026-09-21.md
+137691c934cac42151d54718358c2f559a0422e3963f6e5ecb8520e8e3098598  results_notes/verdicts_2026-09-19.md
+55437b2917024f0a0c4e056430eb24584b290e08b121561039271306757b1a1f  docs/registration_A17i_2026-09-21.md
+1bc0dbb7f9fbc898513e51efc06983c7c4b0832aec0f178a2c9e49c454afc676  results_notes/verdicts_2026-09-19.md
+415295cd2fac2af0f72c06c341449fb2167e2c43c3ce70fed1ac42c81e0a79bd  docs/registration_A17j_2026-09-21.md
+1bc0dbb7f9fbc898513e51efc06983c7c4b0832aec0f178a2c9e49c454afc676  results_notes/verdicts_2026-09-19.md
+1c9da458d28fae4fd2294d9d2109124ebdfc5f5c969ab805c3037484fa8f6d0d  results_notes/verdicts_2026-09-19.md
+f50171bddaf958b83c2f437c6e9519ef9ddbadb71ffe0412c6f2038bb712c34b  results_notes/verdicts_2026-09-19.md
+638d16bb229c6136d4ac4bb0abcc4e1f93917cb06a947cf8a48e3e83406bdac6  results_notes/verdicts_2026-09-19.md
+b9800b2c6ae456ee34455f9d574273805ec1a60de45464d9ceeb8ed2dff4d6f9  dirA/docs/C0_registration_2026-09-21.md
+9b90c221dba54cd880d6db54cb86f0b2a0f4d57a8c3486c5d15e5253d9ac96b4  data/hp_twins.jsonl
+a4cafa44ea974d1441439c6e80e759f2a64caca5da1097ccdf7e71833eb21143  dirA/docs/C0a_amendment_2026-09-21.md
+b28457844b2b069cdefee66add0f4ee24d344e217a6cf5904f1283a6979bb1f5  dirA/code/c0_probe.py
+44d29c4c4dbaa7af80d37ff5e6a4bdbb6a6578da18996b79f6711e23ad30c848  dirA/results/C0_readout.md
+c2a6864a99dd708d538da8fe20ea1156b566b87b1195208704220f15ceeb1b95  dirB/docs/B0_registration_2026-09-21.md
+b247bf7ddf1f26cffef9428bb6301b2ae8ed0a465898145ab7f5d41b3e35cc8a  dirA/docs/C0_verdict_2026-09-21.md
+2cbc8baf9a0a417ff8f3bf26b288c7e0b687752f19ecdebd599a461b1d687b47  dirB/code/b_eval.py
+58a521c14bb56a26fa4f0e3a4481eed137c1080af5eb3bc157c26a23a3bab31b  dirB/data/gsm8k_test500.jsonl
+ac5f2df99c0ce9ba27b510fec95d84b78953a40b5a12132a449f9a3a85a1347d  dirB/data/math500_train.jsonl
+d4bde3127b4ef11cd3f6ec6ed1650a2b0ebe9296ccc9c3246e43ee4bc1c1d890  dirB/data/math_heldout1000.jsonl
+451a99c9e1b5624b6a21731ef91c9c05c3fdcbe4a804a9d46b322423e1ddaf55  /home/tione/notebook/rsi_rl/dirB/code/b_eval.py
+a25366a9b02561abaa931786f4af43bdaed3be693912be1f6f75f32a56ddd4b0  /home/tione/notebook/rsi_rl/dirB/code/b_train.py
+7e435ce3465b7d3fe9d943c5ce6c7f85e68decb947679098983164b0f2bf748f  /home/tione/notebook/rsi_rl/dirB/code/b_runner.sh
+5eb5d62848b663785fee88af8a25e1b1b90b4942a52b8e43cc6f59cffd4529fb  /home/tione/notebook/rsi_rl/dirB/code/b_analyze.py
+1a9847e817ee2a6be9260b672b70d3ca3a5cb8f2f42d047b58450d777de39ce7  /home/tione/notebook/rsi_rl/dirB/docs/B0_registration_2026-09-21.md
+0862774dedd8fb0ccca3c9c2d17aa6c61e6a7259fe90a11fea7918f27cffa8f6  /home/tione/notebook/rsi_rl/dirB/data/math500_train.jsonl
+37feca282dffc0bae6acd5cf58ec26155c01a2d71aa06420a3ea3742652753c0  dirB/docs/B0_seed0_interim_2026-09-22.md
+7bf962c308b36fcc520ad3049af6fe20295afeff86822372f4a9992dbb02cf34  dirC/data/gsm8k_train500.jsonl
+247882db5356d63f9c492b9d640b7128751ec76f44814a2fdf8a2a19ce5c7b8a  dirC/data/hp_deleted500.jsonl
+0990d9489eb26e5515472ca7e566bf5fd72a2e53337ecd9e6aa5a38acccff5d8  dirC/data/hp_intact500.jsonl
+ab40e3f94803bd4b68cbbbd72509aed5ce5d0be98c6cdab61470dad07269d524  dirC/data/math_l5_500.jsonl
+1943ef55c58f9c729df281dc76bbec2853d7595b88f54deee12ffbe0804e094b  dirC/docs/C0_registration_draft.md
+51035c5e9e57a65a15aef02b183144676eca50f42c92c594b7755a482391e0d6  dirC/code/c0v_views.py
+0f6e0caeb70207a2d6244f206f3a07bbdca4a494c57d41e569f92517d4448556  dirC/code/c0v_estimate.py
+89a8c77d9bb7175c32906df56508cf8b22c444cd274124eea88f816c3e94f562  dirC/code/c0v_hp_auc.py
+# 02:08 CST 2026-09-22: C0 draft de-duplicated (a mangled partial copy of the P5 block from a failed shell append removed; wording unchanged); views run started 02:02
+86b9d81cac77acffeb3d2943c8a59e08ac3910f31f9021742d8486d2f95f3067  dirC/docs/C0_registration_draft.md
+bed829d4c699d12d6fae64cb9a77d2934db52ff94330d483f28cf1a7b9710004  dirB/docs/A2_registration_2026-09-22.md
+79ac9cac75589a46291d796e1422117882732fee00074f6d986b99f92b51fb3d  dirB/data/mixed1000_train.jsonl
+e6e9cca82f3902e7fe1b43fca897d713e96ed755bb3346bc02425c3e69579319  dirB/code/b_train.py
+f1ad5fe2992dfb59d086a239920c7a3dc4cb71dc9b199d2027f80f92f002d059  dirB/code/pdc_util.py
+bcab339502513e527df8d2f909b4f52fc58f7e2463be6f3011fdfb242eb17344  dirB/code/b_eval.py
+6e7976659ba63b45e2647f262083b26389b33ff8ab8a797a74afc813ac5c61ba  dirA/code/c0_probe.py
+819c018f36de874a21babf2ab840bb070c8f8f8aed11fc21955200ac81bd209c  dirB/code/b_runner2.sh
+dd803081613c0550054dda17fef09453f19556573c3c4a131f28227742a214a9  dirB/queue_a2.txt
+# 2026-09-22 05:07:46 queue_a2 extended with seed 2 (registration allows a third seed)
+f094540221875560a1c353178791e6aa789dd27b8123091977309e4cb468a5d6  /home/tione/notebook/rsi_rl/dirB/queue_a2.txt
+a37a2fbd4f26c312a0cdc1b2778980edaad28a5478f250bc84d1b4e1266fec65  dirC/results/twin_validation_200.json
+3edf257c9b5cc3dcfe14ac7c462a7988b6f6e2b865f58f3528c96d4daa2c8de1  dirC/data/hp_noop500.jsonl
+a25abaf0d8fbbd2887aeaa67705e30ac898e0c080467b06f9ff9fe3e1463765e  dirA/results/twin_validation_probe543.json
+db551f423f715f27290bd303b350a595ef4d091914cf76105d532616ee5b687b  dirC/results/q1_restricted.txt
+4c78ceb09116c24289c59007e32d8d98b6d49fbfa4290e6c475d27a85732c28b  dirC/docs/twin_validation_note_2026-09-22.md
+a2c1e14001cb0834f956cab64d8b229acaaa448bf4fad564a887d2c1639cf61f  dirB/docs/A2_registration_2026-09-22.md
+478f7b99c2c859ab11bed438a4513d3e05b470dfc730e6a3701238f1d87d0f0d  dirC/docs/C0_verdict_2026-09-22.md
+27297b8da0e00777621735d1045a35383ef7efd454c2c1cfe135bde6169559cc  dirC/results/hp_referee_auc.txt
+0918dcbc0a7fd46ab38d1304281d0a4a532532cab69c5fa7311a4eaf8d9734f7  dirC/results/hp_referee_auc_unsolvable.txt
+87ee2880066c9fb30b91cf0c984ce41abdbe69c41b533eb28bd54617ff860bad  dirC/results/estimate_math500.txt
+dbeac4911d4d00725633b672b335d3ac3a1ff1578056c83b6ba30c60c246bb33  dirC/results/estimate_hp_deleted.txt
+# 2026-09-22 08:46:31 c0_probe: abstention-prompt path now uses the boxed instruction + boxed parsing (plain path unchanged)
+bea8b488e9eb0ddeccba4eb5c6efda07a235223d321fee3814baad88bbfa6a15  dirA/code/c0_probe.py
+027000c86b0b703eb80002a98d1c021c95ebad36464f31c5c0ad1359f78f8626  /home/tione/notebook/rsi_rl/dirA3/docs/A3_registration_2026-09-22.md
+46628670cba2402f91564946b056d0f5c2b3f3a4776cb2dc7c294ef50b75faac  /home/tione/notebook/rsi_rl/dirA3/code/a3_propose.py
+3bf629bbbc81d92a0d41a0a4fe7944dabf2dc12413d821f3ae33330a36fbe74a  /home/tione/notebook/rsi_rl/dirA3/code/a3_guard.py
+89e4a8d2f8ac9464297e695b674ad80e11564f5cb3874c7bf8e9ade82122495f  /home/tione/notebook/rsi_rl/dirA3/code/a3_round.sh
+0c6cdfba1c022aae9d65162862c0ceaab778aea1e3e8939151428b129b489771  /home/tione/notebook/rsi_rl/dirA3/code/a3_runner.sh
+327483f59bcaa485dcd1b7e6d4188b9fbcd08e377f780d7771b4632e300c45ad  /home/tione/notebook/rsi_rl/dirA3/queue_a3.txt
+758f44cf037bf9ca09b2d3b8f8a02a026d176fdb257ca20ab232e245356920c2  dirC/data/mip_twins.jsonl
+932bd3d7a61ebd8140b8cf70f5ae5cb4699468b0760c6dacae8f326151e27630  dirC/data/mip_deleted_only.jsonl
+1fafa34b1df5114f5e57c7568c334ad91d6dbb038194352014bf2b0111dbfb80  dirA/code/c0_probe.py
+b5b37a5d6a01e2fa752c7376cf6633b42714bb2d570da8dd75df6c2b3536d8d0  dirA/results/twin_validation_pass2.json
+dd7e8540b54783653dc29df83ee3117c7669d923b29f89f44511f8735346f1b0  dirC/results/twin_validation_kappa.txt
+f14f0915607d5311148f3361d24725844b189f299939248c23e731ec8c117f87  dirC/docs/twin_validation_note_2026-09-22.md
+# 2026-09-22 10:03:16 A3: proposer per-request seeds (round 1 of qwen3_4b s0 discarded: 126 unique proposals, tracer-dominated set); amendment A3a (8B lineage, --optimizer_device cpu)
+7089de106308a9ebde63ad4ddaa4806c50a5cbeccdd03d36ba7fc1aab1a9a9da  /home/tione/notebook/rsi_rl/dirA3/docs/A3_registration_2026-09-22.md
+066024efbaa5c27c10bc69256a786816155eeed48d406fcc33a46263c383a00d  /home/tione/notebook/rsi_rl/dirA3/code/a3_propose.py
+054d63bf8ea12852840380edd311a45bf21abc779ae3cde496051b6fa729d6aa  /home/tione/notebook/rsi_rl/dirA3/code/a3_round.sh
+c47ba342702f9603a6b2bae06a8d7168b5cd7a9c6f3fe3d8a3253b6bf0e46414  /home/tione/notebook/rsi_rl/dirA3/queue_a3.txt
+d19eea452f52c14421f72c169c1c4688d192c9836830bdbefe43858dd6a1a41d  dirB/code/b_train.py
+eb0e3bc2d7e6fe3da4d50c1845219371a2c57d4c7e2e5762c795367b6ff71dfb  dirB/runs/qwen3_4b_Base_own_a3_s0_r1/audit_admitted.json
+cc0fe7d511cf67528497188fcad239509bb5d2aa2beab18468bed358faf5229e  dirB/runs/llama3p2_3b_own_a3_s0_r1/audit_admitted.json
+c41bc180938723290e41646b6f00b8ab193f5893f594bf41e4931c3af2bc5e2e  /home/tione/notebook/rsi_rl/dirA3/docs/A3_registration_2026-09-22.md
+c7c9d084d6c2cebe2141404e2d44730b19884e76ef8fb44705ad4f4862b07cb2  /home/tione/notebook/rsi_rl/dirA3/code/a3_guard.py
+04d9484bfd39157a2d2f2b507824f01e0bf7b9802d5aa95455afdee5a3698733  /home/tione/notebook/rsi_rl/dirA3/code/a3_round.sh
+e3af12470520991c04f186286df3dd896e148c55feb8d015f1396b777ee8c461  dirB/code/b_train.py
+0b617bdad4d5fdbae6c64b0418e0aec23d9a89894f8dcefd109e1d5660fe6fb8  dirB/runs/llama3p2_3b_own_a3_s0_r1/audit_admitted.json
+b509a73ba07d35e6f21a00ccd71fe376a0b4b2ccf759bf97a07b4eb2a56d3400  dirB/runs/qwen3_4b_Base_own_a3_s0_r1/audit_admitted.json
+a4dfe610b0c55b1fa3a62137d8b9700dee44f58be8e1471ad180cce1cc33c24d  dirB/runs/qwen3_4b_Base_own_a3_s1_r1/audit_admitted.json
+0be7a7e523706484471d59c2ddd5caab69a7373712dfe5a827b335e909bf6eae  dirB/code/b_train.py
+5a8b715696b5fb0dd28e7f881e14f285d771178a6a5695676d3b679e1b61ef55  dirA3/code/a3_round1.sh
+8d816de5651e5fa717df21e7c4746f44b6c1c49a10b054f334cfb62a6a0d1783  dirA3/code/a3_runner1.sh
+327483f59bcaa485dcd1b7e6d4188b9fbcd08e377f780d7771b4632e300c45ad  /home/tione/notebook/rsi_rl/dirA3/queue_a3_single.txt
+678ab6cc3d41b33eab2c7152846dd2115ca7497fc6c9285f09173ee700ee05bd  /home/tione/notebook/rsi_rl/dirA3/queue_a3_8b.txt
+# 2026-09-22 11:38:23 A3 execution change (no protocol change): 4B/3B lineages run one-GPU with an in-process vLLM engine (b_train.py --vllm_inproc 1, sleep mode); 8B lineage stays on GPU pairs
+# 2026-09-22 11:44:17 A3: seed-2 lineages (4B/3B) added to queue_a3_single.txt to use freed capacity (registration: a third seed if a decision hinges on it; run now, reported either way)
+fbbd11e8aa3da7c5d16c8e0ddae906caed210f323990bb88df777627da6a7e9c  /home/tione/notebook/rsi_rl/dirA3/queue_a3_single.txt
+aa9a968158fa734c270cfaac20b1a96a88189f74f35a6fd2bc7ce63dda01beed  dirB/runs/llama3p2_3b_own_a3_s1_r1/audit_admitted.json
+# 2026-09-22 12:29:33 A3c amendment (attribution controls own_sub/own_clean/own_dirty, own seeds 3-4, 8B seeds 1-2) appended to A3_registration_2026-09-22.md before any result of these arms; queue_a3_single.txt extended (64 lines), queue_a3.txt = 8B s0 only (pairs on <HOST>), queue_a3_8b.txt = 8B s1/s2 (pairs on <HOST>); a3_round1.sh v2 (arms), a3_subset.py, a3_audit_merge.py; runners skip rounds whose previous final is on another host
+e9717a11264073fbe503ca4714ea74bf33fe8d7e0a52d334106ce84504503169  /home/tione/notebook/rsi_rl/dirA3/docs/A3_registration_2026-09-22.md
+2759f605b0263f503951268795a6bfd4c9a01a19651c3d0d4149c02ce50b6b60  /home/tione/notebook/rsi_rl/dirA3/queue_a3_single.txt
+678ab6cc3d41b33eab2c7152846dd2115ca7497fc6c9285f09173ee700ee05bd  /home/tione/notebook/rsi_rl/dirA3/queue_a3.txt
+6023c2d8ce07040550962d846654f071351bd0991415bddd9cdb92c822358fb4  /home/tione/notebook/rsi_rl/dirA3/queue_a3_8b.txt
+33fe37714298d30409fe3bfa5def8b9c7786dfa15b179706d96f6c7034422f34  /home/tione/notebook/rsi_rl/dirA3/code/a3_round1.sh
+2b4fef12244f9e2b730ca508aea81c057fde67e3bada2e4aec83d9baf3cc977a  /home/tione/notebook/rsi_rl/dirA3/code/a3_subset.py
+2b706fc93fdcc6c0f5adb6bf2770301927c6721adacccd41b3cc5ebdcff1c119  /home/tione/notebook/rsi_rl/dirA3/code/a3_audit_merge.py
+# 2026-09-22 12:31:02 runner locality patches (patch_runners.py)
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  dirA3/code/a3_runner1.sh
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  dirA3/code/a3_runner.sh
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  dirB/code/b_runner2.sh
+# 2026-09-22 12:31:30 runner locality patches (patch_runners.py) after restoring from .v1/.v3 backups
+15aabb5d567226151e08581da58602226568fbddb24d565c495dd1ca54a4f04f  dirA3/code/a3_runner1.sh
+9735ac02a9607747fb0aba08d615dc3ee54dfd65c49ec0ebc6e787986679532c  dirA3/code/a3_runner.sh
+59e35d431c20d16bbc54432efd683b57520e03e9b0cc5678e4f8ea3f9a606101  dirB/code/b_runner2.sh
+# 2026-09-22 12:38:51 A3 round-1 seed-2 200-item audits (Opus judges, parts in audit_parts/)
+a96ebdef33e1938a91c3156b41091c2af2ba02ecbca49552499ef473a05cc8ba  dirB/runs/qwen3_4b_Base_own_a3_s2_r1/audit_admitted.json
+db33c93ac3577f6e4dca57b181a900e9f0a6bd0cc25c25484970f5a0e0608cbb  dirB/runs/llama3p2_3b_own_a3_s2_r1/audit_admitted.json
+# 2026-09-22 12:40:20 A3c readout script (KC1-KC3, collapse rule) written before any control-arm result
+6bf48dd289d717e9864d6361bba2af11392eb36bb019384356dd559ea9e5452b  dirA3/code/a3_kc.py
+# 2026-09-22 12:45:48 full Opus audits of the four own round-1 admitted sets (audit_parts + sample200 merged by a3_audit_merge.py)
+8c6445038e89df769aa57b73c0f6d5450b5721dca5a67653ac2a3fa313e2befd  dirB/runs/llama3p2_3b_own_a3_s0_r1/audit_full.json
+3e7391f1126f08d762d935788c24ee42ac6d15c10a52f0601860786f1e2d4c97  dirB/runs/llama3p2_3b_own_a3_s1_r1/audit_full.json
+9ec5dfc587456a87d31b387279dd3365106aca23b81e8f0e611a5ffd5459a2b6  dirB/runs/qwen3_4b_Base_own_a3_s0_r1/audit_full.json
+b7a058bce4691c77b786aed1373758a82572623d3701f70a4765b71d7a2063c3  dirB/runs/qwen3_4b_Base_own_a3_s1_r1/audit_full.json
+# 2026-09-22 12:56:13 A3 8B round-1 seed-1/2 200-item audits
+8f8be4411b5dc6dd71e7d0e6afd5142852794708caf4f0cd4441f92db0d7cf59  dirB/runs/qwen3_8b_Base_own_a3_s1_r1/audit_admitted.json
+89caa61b3e690bfbc3243f0c4bde1d25a87eaf483fad5dec4d974a61e034a479  dirB/runs/qwen3_8b_Base_own_a3_s2_r1/audit_admitted.json
+# 2026-09-22 14:38:28 A3 200-item audits: llama s2 r2, 8B s0 r1
+10ccfe9407913a633212b04bd0e644e3db947109b32c22dc6dc65195c630ca33  dirB/runs/llama3p2_3b_own_a3_s2_r2/audit_admitted.json
+15b12c065721e68967dccf6e6722a34c865928b3a330bc9ca20d565cf0f59f10  dirB/runs/qwen3_8b_Base_own_a3_s0_r1/audit_admitted.json
+# 2026-09-22 14:45:31 A3d amendment (lenient answer extraction as primary accuracy, boxed rate, greedy text saved; b_eval.py v4; --redo re-evaluation of already-evaluated checkpoints)
+67a48d91b846689248bb125f8dba6c757fdf32901c8016c3287796516dbc253f  dirA3/docs/A3_registration_2026-09-22.md
+5bf7c94ac1821c473e1826e9a2623b19af92673742dc169d12e28a0478f1f189  dirB/code/b_eval.py
+# 2026-09-22 14:46:00 A3 200-item audit: qwen s0 r2
+f14aa6f2ead2c422f5586ffd0efbc43cf34e5379f10d8af4e88534e90f8efe3f  dirB/runs/qwen3_4b_Base_own_a3_s0_r2/audit_admitted.json
+# 2026-09-22 14:47:38 A3d readout scripts (lenient primary)
+7a34e9ad8e76c9c20ec15b768aae1e622caa69f27843dfee98f576137b6b7fda  dirA3/code/a3_analyze.py
+caca6019919514e3ed9c8b8ad58914baf82b750c8ee8cb8feefade306da789d8  dirA3/code/a3_kc.py
+# 2026-09-22 14:53:33 A3 200-item audits: qwen s1 r2, qwen s3 r1
+170b16bfc19878cc5b8d3069c19f410557262521fc594d0e35c1ad91bdd2b297  dirB/runs/qwen3_4b_Base_own_a3_s1_r2/audit_admitted.json
+b10baa52d610744424cf0980cd142cfe20f70b1b3da2741a54ec1425df83f6d4  dirB/runs/qwen3_4b_Base_own_a3_s3_r1/audit_admitted.json
+# 2026-09-22 15:08:39 A3 200-item audit: llama s3 r1
+b7e45d642081c1f54a016f623010dee7c324997d65403f2318247fce5220e4c2  dirB/runs/llama3p2_3b_own_a3_s3_r1/audit_admitted.json
+# 2026-09-22 15:28:29 queue_a3_single.txt: rounds 2-3 of the collapsed Llama s0/s1 own lineages commented out (collapse rule reads them at round 0; their evals of fully-truncated outputs cost 3-4 GPU-hours per round); GPU time goes to the A3c control arms
+46da8ec952d8bd83221334be3458e05dd41bfc4e09f09022e741a0bab908e00a  dirA3/queue_a3_single.txt
+# 2026-09-22 15:29:50 A3 200-item audit: qwen s4 r1
+f95784c2427ab771790342d8df977f9a4893f12ae581f723e69bea91cfa31692  dirB/runs/qwen3_4b_Base_own_a3_s4_r1/audit_admitted.json
+# 2026-09-22 15:35:17 A3 200-item audit: llama s4 r1
+5a5a969b3eefeca955e3716142738a54a307cdd7f94ee3736aa7e76b8acae149  dirB/runs/llama3p2_3b_own_a3_s4_r1/audit_admitted.json
+# 2026-09-22 16:06:36 A3 200-item audit: qwen s2 r2
+e360ec68203bc98ecedf287152ed4f0c546f69e899bdff4fe2a8c3c9b4b77118  dirB/runs/qwen3_4b_Base_own_a3_s2_r2/audit_admitted.json
+# 2026-09-22 17:12:23 A3 200-item audit: llama s2 r3
+10fe265e8161d5057d73aaab963335daca21fdba2b00483a4a0f5ab531c99420  dirB/runs/llama3p2_3b_own_a3_s2_r3/audit_admitted.json
+# 2026-09-22 17:21:26 Direction B cycle-0 verdict (24/24 runs; KB3 triggered) + final readout
+9108e0e04f3ce6d23cf232d0d77f219f08c7e8245fda833e2cc36fded4e7b61a  dirB/docs/B0_verdict_2026-09-22.md
+53ac32d6ad772aae430ea557bd5dcd607b4a6a8c05ef9456d4ac3b11d7cbae1c  dirB/results/b_readout_final_2026-09-22.txt
+1509c6c22a82fe7589b3bb67eacced858e11bceac5085b9e06abc36fb65637fc  dirB/code/b_analyze.py
+# 2026-09-22 17:43:48 A3 200-item audit: 8B s2 r2
+c8ca2e7c016863e6c8cb47caf9a58e43fe1d22d8f714a06640590a4c982b7541  dirB/runs/qwen3_8b_Base_own_a3_s2_r2/audit_admitted.json
+# 2026-09-22 18:19:48 A3 200-item audit: 8B s1 r2
+3ba9546f76350603bafaf4012f0704ce6882e9f8eb3ce20e6cc0767f8f16897d  dirB/runs/qwen3_8b_Base_own_a3_s1_r2/audit_admitted.json
+# 2026-09-22 18:35:47 A3 200-item audit: qwen s0 r3
+9783c54f37e8c5b26bf78e120dc1b4376185c3045624d8a4f4fb5bbe31bde450  dirB/runs/qwen3_4b_Base_own_a3_s0_r3/audit_admitted.json
+# 2026-09-22 18:51:26 A3 200-item audit: qwen s1 r3
+842069b8b938c6662921b784a46cc37fa661d401d062a3ee3a75f0999ccf0ef7  dirB/runs/qwen3_4b_Base_own_a3_s1_r3/audit_admitted.json
+# 2026-09-22 19:12:40 A3e amendment (own_tg tracer-calibrated guard, own_azr AZR guard, rounds 4-6) registered before any run; a3_guard.py --guard, a3_round1.sh v3, queues extended
+308504ef65a2ec58b5d924d154d0ba96f981ff8b49be50048ea7f2b3871052d6  dirA3/docs/A3_registration_2026-09-22.md
+3e9662bc64e304bfc568be06cd28f48fd59db3649de7bc69c3b49553308082e9  dirA3/code/a3_guard.py
+93f0cc914e69f99c7bae1dd6d1b93a3631f6d38096b092812565d175b3f88f61  dirA3/code/a3_round1.sh
+0864b186a63c63c0f65674aca251825103f68a1d78db7d7c9da4b3c3377da7b0  dirA3/queue_a3_single.txt
+283bc2d722b78ec435fe699fac35b441b93c90aea6b8aa5ab5df7277c896c396  dirA3/queue_a3_8b.txt
+# 2026-09-22 19:13:57 readout scripts extended to rounds 4-6 and the A3e arms
+2ba543cf929927c7b37c958ee501e408537d16798753831a84701a696fa0d8e7  dirA3/code/a3_kc.py
+819ae68f2b1a2daa128f02daa128eb1cf63b8055f2630bcf73788a1cffd43f3c  dirA3/code/a3_analyze.py
+# 2026-09-22 19:25:01 lenient re-evaluation skipped for the two collapsed Llama round-1 checkpoints (llama s0/s1 r1: truncation 0.50/0.62, read as collapsed under the A3c rule; a v4 re-run of fully truncated outputs costs 2-3 GPU-hours each while the control arms need the cards)
+# 2026-09-22 19:37:46 A3 200-item audits: own_tg qwen s0 r1 (tracer-calibrated guard), 8B s0 r2
+ef3681ade3bf5f558894a94e7e8304173381e7e37e8547a7e04fd6da045d1e78  dirB/runs/qwen3_4b_Base_own_tg_a3_s0_r1/audit_admitted.json
+b8b2490e2c1a2268405db31a855bf7373eb3457567eb980341ddf08c73267893  dirB/runs/qwen3_8b_Base_own_a3_s0_r2/audit_admitted.json
+# 2026-09-22 19:45:18 A3 200-item audit: llama own_tg s0 r1
+ec22132ca5504eeaa222760adb973633dad308e22711b1bfbf064e83f33987bb  dirB/runs/llama3p2_3b_own_tg_a3_s0_r1/audit_admitted.json
+# 2026-09-22 19:47:13 A3 200-item audit: llama own_tg s1 r1
+d347c4812d0238c0ebd307d384bd0319c1eb0bff130d633074176dae3c1ce9a1  dirB/runs/llama3p2_3b_own_tg_a3_s1_r1/audit_admitted.json
+# 2026-09-22 19:53:34 A3 200-item audit: qwen own_tg s1 r1
+430a11898f67cb9b1646b083672ddd25109981d5e20376b4fc7c31117be15f38  dirB/runs/qwen3_4b_Base_own_tg_a3_s1_r1/audit_admitted.json
+# 2026-09-22 19:59:37 A3 200-item audits: qwen own_azr s0/s1 r1 (AZR guard)
+338608e15c54c422a618b10449fa5512b5499f5cb836fbbbcf903b2cd7ca04d7  dirB/runs/qwen3_4b_Base_own_azr_a3_s0_r1/audit_admitted.json
+35ee60b499ff2dae6c7906af242db7965e233c8306948f6088ba578fbbdfde3b  dirB/runs/qwen3_4b_Base_own_azr_a3_s1_r1/audit_admitted.json
+# 2026-09-22 21:03:59 A3 200-item audit: qwen s2 r3
+8957053a0a6ff55cfd91f61784b49ca3c41a1ef3bd30198b50bfb86d01e11c60  dirB/runs/qwen3_4b_Base_own_a3_s2_r3/audit_admitted.json
+# 2026-09-22 22:03:02 A3 200-item audit: qwen s3 r2
+3aec881a79db3812dab07f8f1d6483f963f0046c0e40dc2e4c56bcd9ee73d5db  dirB/runs/qwen3_4b_Base_own_a3_s3_r2/audit_admitted.json
+# 2026-09-22 22:28:44 A3 200-item audit: llama own_tg s1 r2
+17742cea21845f9eeb9e5a54fb0be63b1a6a73ff1d75b152df357ef6df1d9a29  dirB/runs/llama3p2_3b_own_tg_a3_s1_r2/audit_admitted.json
+# 2026-09-22 22:39:56 A3 200-item audits: qwen s4 r2, 8B s2 r3
+90e138a54133c584a64e0e1f63b821991b53928d19edeb6c9cf68ebf22a14002  dirB/runs/qwen3_4b_Base_own_a3_s4_r2/audit_admitted.json
+92f713ccd084b35eadec41d100d8924c9213a09c48a54b5def959a09d5f616af  dirB/runs/qwen3_8b_Base_own_a3_s2_r3/audit_admitted.json
+# 2026-09-22 22:45:11 A3 200-item audit: llama s3 r2
+a8edd78ca397d87198c2abf873a2b5a38bd77a0ee1fedff6338275377a1431c7  dirB/runs/llama3p2_3b_own_a3_s3_r2/audit_admitted.json
+# 2026-09-22 22:51:29 A3 200-item audit: qwen s0 r4
+ad35fca329afd9961a2129dca575f6dba2e89036bc00165c5f8f7674db55b5e5  dirB/runs/qwen3_4b_Base_own_a3_s0_r4/audit_admitted.json
+# 2026-09-22 23:02:34 A3 200-item audit: qwen own_tg s0 r2
+8d070d2468ebcfd7309f1a044df298bf40e4797a593f4152c92aa23d22dbe57e  dirB/runs/qwen3_4b_Base_own_tg_a3_s0_r2/audit_admitted.json
+# 2026-09-22 23:23:20 A3 200-item audit: qwen s1 r4
+afd72318c3c30c123c5ad0fdab6ec9ef118e83f3fd45d366852d9afe0f96b85b  dirB/runs/qwen3_4b_Base_own_a3_s1_r4/audit_admitted.json
+# 2026-09-22 23:28:47 A3 200-item audit: 8B s1 r3
+a6cec1b6a9310aca3a7186f94dabea70738f1bd8a98425536d92f53817cb5691  dirB/runs/qwen3_8b_Base_own_a3_s1_r3/audit_admitted.json
+# 2026-09-22 23:34:44 A3 200-item audit: qwen own_azr s0 r2 (KA read)
+9a83a311f48b60b87f48ce47056c4dfcec32bccaf7474b7dfe19f2e500207a8b  dirB/runs/qwen3_4b_Base_own_azr_a3_s0_r2/audit_admitted.json
+# 2026-09-22 23:45:48 A3 200-item audit: qwen own_tg s1 r2
+00249265dc68fb11168f83b4bdfb9b4e166cc7a7118ded5b09d7761832e53090  dirB/runs/qwen3_4b_Base_own_tg_a3_s1_r2/audit_admitted.json
+# 2026-09-22 23:56:12 A3 200-item audit: llama own_sub s2 r2
+94fe9766e236313bf1023955033f45f229e4148566cab654bea32e2759cbef13  dirB/runs/llama3p2_3b_own_sub_a3_s2_r2/audit_admitted.json
+# 2026-09-23 00:06:32 A2 verdict (18/18; P1 holds, P2 not as predicted, P3/P4 fail; KA1-KA3 not triggered -> reported as measured, method line stops) + readouts + a2_q1.py
+f407564e1eebbef490b3d2870ccd779c0608b02ce7d8001d1f312145ef0060a5  dirB/docs/A2_verdict_2026-09-23.md
+c4a23e3ec4d743df18e2ac9b2ca719f3e4b625c07dd7d4733a1218c2829934ba  dirB/results/a2_readout_2026-09-23.txt
+ac81561369a2e5ab20d18d567c5830a44f4652bea4be4f9f9497143ca40a3e5b  dirB/results/a2_e2_read_2026-09-23.txt
+c8db9239ce5ccb1fa4724ea32ebfed6a39e6a2ee7c691d7f4a0c900d92a80ef9  dirB/code/a2_q1.py
+# 2026-09-23 00:17:47 A3 200-item audit: qwen own_azr s1 r2 (KA second seed)
+74d9d1d6cb0c8baaa85115b65902437940de60b630ee1b02dfe116afecf73a6b  dirB/runs/qwen3_4b_Base_own_azr_a3_s1_r2/audit_admitted.json
+# 2026-09-23 00:28:21 A3 200-item audit: 8B s0 r3
+4676c68a07e2c0c28e92af64996db6971f7a5bffea28a22d722bad6b8c2df878  dirB/runs/qwen3_8b_Base_own_a3_s0_r3/audit_admitted.json
+# 2026-09-23 00:33:37 A3 200-item audit: llama s4 r2
+ad48f652d8e29ec4d773eddfbc879d0ea37a33fd30213418fb35a5c8a374478c  dirB/runs/llama3p2_3b_own_a3_s4_r2/audit_admitted.json
+# 2026-09-23 01:03:11 A2 verdict addendum: own_abs Qwen s2 E2 row (all 18 hpabs_v2 done)
+63e71c3e19c23906b7891c22ddcd7fd5efceea2c79fdee98d18f45cf7c8c5c74  dirB/docs/A2_verdict_2026-09-23.md
+39c0765b0f774c10e930cebb87696bff49e5409171a561ac4fbd897e55f320e4  dirB/results/a2_e2_read_2026-09-23.txt
+# 2026-09-23 01:05:08 A3 200-item audits: own_sub s0 r2 (Llama, Qwen)
+dfd6e765554adb53e79abec667a0ded5007d99737e72c01661ce3edf851364b2  dirB/runs/llama3p2_3b_own_sub_a3_s0_r2/audit_admitted.json
+d62506ba115688f88b1a2a2e36c54cbe98964cccb04513c24df3e881deb37338  dirB/runs/qwen3_4b_Base_own_sub_a3_s0_r2/audit_admitted.json
+# 2026-09-23 01:26:06 A3 200-item audit: qwen own_sub s1 r2
+73a99ecd81cc3c952177c4a9c6f7f82eb60bf31516ee6caff4144337533eabe6  dirB/runs/qwen3_4b_Base_own_sub_a3_s1_r2/audit_admitted.json
+# 2026-09-23 01:33:23 queue_a3_single.txt: rounds 2-3 of the collapsed Llama control lineages (own_sub s1, own_clean s1, own_tg s0; all collapsed at r1) commented out under the A3c collapse rule; the just-started llama own_sub s1 r2 job stopped
+60dd39452780ab9e09052396b53893208b313e9e72adbeb54e799aedbc8ea161  /home/tione/notebook/rsi_rl/dirA3/queue_a3_single.txt
+# 2026-09-23 01:56:50 A3 200-item audits: qwen own s3 r3, qwen own_sub s2 r2
+d28dd64300e417c049fcfdca7075a0bf822e9d00853c28172e3f1917ac98f86a  dirB/runs/qwen3_4b_Base_own_a3_s3_r3/audit_admitted.json
+0af20edcd57633c3b6ebffb1d4f3b6a363753d2835a4eccf7905211b7e40fd08  dirB/runs/qwen3_4b_Base_own_sub_a3_s2_r2/audit_admitted.json
+# 2026-09-23 02:22:36 A3 200-item audit: llama own_tg s1 r3
+4e4f17a253b31c31809cb9085d8597473af405a92d1422f5d8f5ab003494ef15  dirB/runs/llama3p2_3b_own_tg_a3_s1_r3/audit_admitted.json
+# 2026-09-23 02:28:35 A3 200-item audit: qwen own_tg s0 r3
+2c257f028415be4ca077c6311005a75ecf6e2f564c7cc97695be861547e91403  dirB/runs/qwen3_4b_Base_own_tg_a3_s0_r3/audit_admitted.json
+# 2026-09-23 02:45:51 A3 FULL audit (481) + 200-sample: qwen own_clean s0 r2
+2c13eff6dac506b3c9fb0f08e3fd65b8623b60d8cccdea2cb47792ec8dcd56fe  dirB/runs/qwen3_4b_Base_own_clean_a3_s0_r2/audit_full.json
+3c27d6a995f1522dd986f7f4878e613503170de7b017aa22c4997e5483bac879  dirB/runs/qwen3_4b_Base_own_clean_a3_s0_r2/audit_admitted.json
+# 2026-09-23 02:52:58 A3 FULL audit (452) + 200-sample: qwen own_clean s1 r2; 200-sample: qwen own s0 r5
+c390cd57721f2ca4e68d7381aea152662c0d19994cb386db93c01ef09fa9aacf  dirB/runs/qwen3_4b_Base_own_clean_a3_s1_r2/audit_full.json
+74ae636264f9034a1e549e8170f8d22438a9414b39ee2898ccbb7b722c7f3dd9  dirB/runs/qwen3_4b_Base_own_clean_a3_s1_r2/audit_admitted.json
+18caef8a26a8cf98f025428946e28f1eead493d1563011bc83c2d2ddde94aafc  dirB/runs/qwen3_4b_Base_own_a3_s0_r5/audit_admitted.json
+# 2026-09-23 03:01:16 A3 200-item audit: llama s3 r3
+1cbca659a2a0c18304b9168b9b5f19d48b592d1a776cb80752ba989cee127a84  dirB/runs/llama3p2_3b_own_a3_s3_r3/audit_admitted.json
+# 2026-09-23 03:04:50 A3 200-item audits: llama own_sub s2 r3, qwen own s1 r5, qwen own_azr s0 r3
+ca76fa240aec38b94a0904672562490b83f900e237218096f67eb133efcfa153  dirB/runs/llama3p2_3b_own_sub_a3_s2_r3/audit_admitted.json
+f7e31294b8a0856763e82d730e490849839bb51ab0f13fe34feb52cdc1a6ed90  dirB/runs/qwen3_4b_Base_own_a3_s1_r5/audit_admitted.json
+53d3f9a1482ca98dc52692f10143869e83b279d506803de6a50e9b4c90a02d73  dirB/runs/qwen3_4b_Base_own_azr_a3_s0_r3/audit_admitted.json
+# 2026-09-23 03:12:41 dirB/runs/llama3p2_3b_own_clean_a3_s0_r2: full Opus audit (723 admitted, 29 judges) merged + 200-sample assembled
+b3652fe506c09bb6d829cdf9fda3937ce1d499e86255f985954211fb9c40f321  dirB/runs/llama3p2_3b_own_clean_a3_s0_r2/audit_full.json
+dff41f621c357833b420c01cd54d88dd55947a9d9d7ec4b9e55c5335605db744  dirB/runs/llama3p2_3b_own_clean_a3_s0_r2/audit_admitted.json
+# 2026-09-23 03:17:07 dirB/runs/qwen3_4b_Base_own_tg_a3_s1_r3: 200-sample Opus audit (8 judges) assembled
+1f6e497e514890ca09246445e3a716a5839fee61220446cd49f86f7b728307c6  dirB/runs/qwen3_4b_Base_own_tg_a3_s1_r3/audit_admitted.json
+# 2026-09-23 03:17:07 dirB/runs/llama3p2_3b_own_a3_s4_r3: 200-sample Opus audit (8 judges) assembled
+a1df86a3f542d6f1af89747d6f69cb85ce27092761a51e3e5fd33d8f4014d802  dirB/runs/llama3p2_3b_own_a3_s4_r3/audit_admitted.json
+# 2026-09-23 03:17:35 llama3p2_3b_own_tg_a3_s0_r1: collapsed at r1 (A3c rule); its unfinished hpabs probe eval stopped after 7 h on GPU 3 of <NODE1>; round marked done, GPU returned to the queue
+# 2026-09-23 03:27:20 dirB/runs/llama3p2_3b_own_sub_a3_s0_r3: 200-sample Opus audit (8 judges) assembled
+7d6a8e1e36d90e0dee2a4550ce7739fa569cdd99586ddbfed17b63c8173a5561  dirB/runs/llama3p2_3b_own_sub_a3_s0_r3/audit_admitted.json
+# 2026-09-23 03:28:51 audit-instrument validation: blind Opus audit (8 judges, exact A3 prompt) of 100 intact + 100 premise-deleted tracer twins
+751c15f7e12e5960e8b143c285c7da54617d0b4b281e231476e1ac1cd187955e  dirA3/results/audit_validation/sample.jsonl
+bfcf9086bf15fbc21c0e27f96cc4f66e731baf8225949287d4742c9693b8bb73  dirA3/results/audit_validation/labels.json
+504b5f00d2fd01f62f07e69434f67828bd4813c6d86109b7c993ee43d2b5c548  dirA3/results/audit_validation/parts/0-25.json
+fc9fe38e32178ee07ebd861cc6f9e792b466c02bb2e4bc85ceb29fd95b9404ec  dirA3/results/audit_validation/parts/100-125.json
+b5d27d2d20f2985a8dcd6681da8fffcf8fb18ed0f4c6fde411c0bf09c8a32264  dirA3/results/audit_validation/parts/125-150.json
+b25bfa60be502081324de9e8d9f18ad9d92493e22d2440873252cd6f686ff746  dirA3/results/audit_validation/parts/150-175.json
+1bf29e50b302f66b90770db749788b01214a43aaaadd84c2a873033990f4fd99  dirA3/results/audit_validation/parts/175-200.json
+d4c4eb79afa7c4a4ead886c82c04e787c33c88756280dc9fc4bf1fde7f36cdfd  dirA3/results/audit_validation/parts/25-50.json
+089cf41d3d800b79ca4b97d8866a848ad1986b1449667d596079a0dfc5bdbdcd  dirA3/results/audit_validation/parts/50-75.json
+98a0a33188f6a149336884c4dde1f9046d43c32f781bbcef8123509403fcc9cd  dirA3/results/audit_validation/parts/75-100.json
+e2a2b9f179a9f4522e1b6db72c71783e6cd814a1e2771f672e7274f477522159  dirA3/results/audit_validation/result.json
+# 2026-09-23 03:31:48 inter-judge re-audit (8 new Opus judges, reversed order) of the llama3p2_3b_own_a3_s3_r2 200-sample: agreement 78.0% kappa 0.638; ill-posed-vs-solvable 90.0% kappa 0.743
+290646ed4e617a40466febd40bd171028462967fd287216b79eff06c6f37f677  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/0-25.json
+609771bf66a705ed4c08cb2875166ce2c8126e8da746b3e5016e5f18367ae545  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/100-125.json
+bc51bf72a8cf6a356e68d086a10707186ad7b638052e69cb52a8b016f71003a1  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/125-150.json
+6cf0897f34cc65207f12e6d2eaafbbf458aadd2a414f9a3fd59d4e158d574576  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/150-175.json
+62887501a5384e042a9fb346788910c7f14964ce5f645c4fb7e806cebc68ffc3  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/175-200.json
+2374db1f32b1de3fce0989ba2c9db4ddb86e5df8b08e0ba6c029bba2a60040ae  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/25-50.json
+60b3e424856c4e36e8d2b4717604bf685000082cb9c7c47d122276f3939f5db7  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/50-75.json
+ca82d5d301f9bbd8574932f2550700677b8ec16cafbae5ad1cc4fef0743e75c9  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/parts/75-100.json
+1bb826ce9a74cc5fe6c3d86b617ab99df6c2779d70b2baa5ee7bdafaf06d5cb1  dirA3/results/audit_rejudge/llama3p2_3b_own_a3_s3_r2/result.json
+# 2026-09-23 03:31:53 inter-judge re-audit (8 new Opus judges, reversed order) of the qwen3_4b_Base_own_a3_s0_r3 200-sample
+8142d82a56453700ceb067d3519899e6e87b6bdae3ebe82220344acce3c632c4  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/0-25.json
+a977cc3e301a84da6cef7ca13bdbc0af32eeb501def0919027b967991139d5b5  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/100-125.json
+7c91f69d7496fb8b346713704153173edeb5d3d025b5a21669c7f08d5850e9aa  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/125-150.json
+9ebec2a93f1ae048913c4b2905229c00aee1ce1d9526f91b7722ec592c584895  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/150-175.json
+22fccf7801881f0d42aa8c1df848330b592824319019691475d02dc8443e0c53  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/175-200.json
+be74b6b200e36a18622a9d8874088b52ac58983cd5480745e6bd77fc56c04471  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/25-50.json
+914202069427bb00064d6fd434e39020a70f494550fd160d0232a84483428881  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/50-75.json
+8f61ae538894f47b1359cef8d996d47d0549cf4a9d6dac65a2b40ed104274d8a  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/parts/75-100.json
+e074b1a1c7dff057cd8961574bc287d208dcbb7a35f47a779ce6d7ae162a39d5  dirA3/results/audit_rejudge/qwen3_4b_Base_own_a3_s0_r3/result.json
+# 2026-09-23 03:32:48 dirB/runs/qwen3_8b_Base_own_a3_s2_r4: 200-sample Opus audit (8 judges) assembled
+1acbf8ef62ea83c1f8684f97a2246638e8739ca088b2904b3357db42e132f79c  dirB/runs/qwen3_8b_Base_own_a3_s2_r4/audit_admitted.json
+# 2026-09-23 03:48:44 dirB/runs/qwen3_4b_Base_own_azr_a3_s1_r3: 200-sample Opus audit (8 judges) assembled
+a0322e5333f2d003aabb5f6f132451e3f8a76980e600148c3d26ed72bb274eef  dirB/runs/qwen3_4b_Base_own_azr_a3_s1_r3/audit_admitted.json
+# 2026-09-23 04:09:01 dirB/runs/qwen3_4b_Base_own_a3_s2_r4: 200-sample Opus audit (8 judges) assembled
+137051ea4e263b20b057be91919578c065cbb7feccd9fa487825e174a2e06fe3  dirB/runs/qwen3_4b_Base_own_a3_s2_r4/audit_admitted.json
+# 2026-09-23 04:09:01 dirB/runs/qwen3_4b_Base_own_a3_s4_r3: 200-sample Opus audit (8 judges) assembled
+41cdf4464d96f208c57ad66b5f6b6801cb0197c2d88a22b812ddb306045d00a1  dirB/runs/qwen3_4b_Base_own_a3_s4_r3/audit_admitted.json
+# 2026-09-23 04:24:00 dirB/runs/qwen3_8b_Base_own_a3_s1_r4: 200-sample Opus audit (8 judges) assembled
+8d00c7e8c692cc08d4f82f825de899abee454893193cc3677322ebe316795efe  dirB/runs/qwen3_8b_Base_own_a3_s1_r4/audit_admitted.json
+# 2026-09-23 04:44:38 dirB/runs/qwen3_4b_Base_own_sub_a3_s0_r3: 200-sample Opus audit (8 judges) assembled
+7db676ef9cecf71914675ec7226c71bbcc6392af126f0fe1d1223eb4b00a4ad8  dirB/runs/qwen3_4b_Base_own_sub_a3_s0_r3/audit_admitted.json
+# 2026-09-23 05:00:06 dirB/runs/qwen3_4b_Base_own_sub_a3_s1_r3: 200-sample Opus audit (8 judges) assembled
+7d1da562e2dbb88541ddfe2f09611c1934c6c9199c97b19f2bb981252d7d48c5  dirB/runs/qwen3_4b_Base_own_sub_a3_s1_r3/audit_admitted.json
+# 2026-09-23 05:37:30 dirB/runs/llama3p2_3b_own_clean_a3_s0_r3: full Opus audit (810 admitted, 33 judges) merged + 200-sample assembled
+a1308027ae62d8dcd6d43363bbafecd881b6f72a5559a45fd341f4937c65d9bd  dirB/runs/llama3p2_3b_own_clean_a3_s0_r3/audit_full.json
+c84e5cf81b39e57b4fe4ae8a7361dd529831c98390bf26144dfd2988da579e8a  dirB/runs/llama3p2_3b_own_clean_a3_s0_r3/audit_admitted.json
+# 2026-09-23 05:41:26 pool audit: all 1,158 own s0 round-1 proposer candidates judged by 47 Opus judges (639 SOLVABLE / 339 UNSOLVABLE / 180 AMBIGUOUS)
+6efaa0441ac06c2b24c36e6e9b75e1b8c3f610ae3b53c688fb1a95b2c48c8cb1  dirA3/results/pool_audit/qwen_s0_r1/parts (sha256 of the sorted part hashes)
+# 2026-09-23 05:50:58 dirB/runs/qwen3_4b_Base_own_sub_a3_s2_r3: 200-sample Opus audit (8 judges) assembled
+f9f77a4c3095f89213f1258873d58a486fa0c44e8d49f040aec9617af8666338  dirB/runs/qwen3_4b_Base_own_sub_a3_s2_r3/audit_admitted.json
+# 2026-09-23 06:12:57 fixed-pool guard diagnostic (own s0 r1 pool, base + r1..r5 solvers, R-Zero band): results
+d7271ee75aa62713519f53f9344aa5a715c5f56fb08d64a45dc47dde99f781cb  dirA3/results/guard_diag/qwen_s0/base/guard_records.jsonl
+b9aa0601ec2755f943afd57e12558143d10735cb66a85b065eff23adc3cc78ac  dirA3/results/guard_diag/qwen_s0/r1/guard_records.jsonl
+5da61cd028448aa6195be14b9755a5f9335f05647ae7ea28535ce6004d17cd03  dirA3/results/guard_diag/qwen_s0/r2/guard_records.jsonl
+9ccddc3394df8074d90739e66c21b40dd0161684accddf319bf8c579c4269443  dirA3/results/guard_diag/qwen_s0/r3/guard_records.jsonl
+ca5dc3d652a5fa559d25fb87dfa29ec28b4545cf8a99711f295e2182f0842228  dirA3/results/guard_diag/qwen_s0/r4/guard_records.jsonl
+6677ec70cfeb37680d39cfeffcf57fe9d47f611f0b8d74523644b929e60ce4bb  dirA3/results/guard_diag/qwen_s0/r5/guard_records.jsonl
+d6f2e347f8c13083870904ecc40d6002e18ceaafbe25eb0d8afdcb028ce99560  dirA3/results/guard_diag/qwen_s0/base/guard_stats.json
+76858ad8a504798ddf3cbffae564b76577d182d63f90d6a0dcdfa8bfdb4e3757  dirA3/results/guard_diag/qwen_s0/r1/guard_stats.json
+79352140ce2aa99945c8cc554014e31fe18bd89b23dd69033b2d8ee804d01527  dirA3/results/guard_diag/qwen_s0/r2/guard_stats.json
+97f72976da661e008caf120d3b47130009c1bf8c9ef83d2a0c95376fd7ba126d  dirA3/results/guard_diag/qwen_s0/r3/guard_stats.json
+5ecd04e8c57e1e7ee7808a01ca2d6e70d6f0677b115f6554ec29debb565adf58  dirA3/results/guard_diag/qwen_s0/r4/guard_stats.json
+855b81df787c4d41d7aa9573f597b4f72efd5edb18bc9d2bbabc2e8bc267b243  dirA3/results/guard_diag/qwen_s0/r5/guard_stats.json
+a250ce8824a7fcaa86871d77b773d05a85996335de71546ea5648d48dd36c7ad  dirA3/results/guard_diag/qwen_s0/result.json
+# 2026-09-23 06:26:06 dirB/runs/qwen3_4b_Base_own_a3_s1_r6: 200-sample Opus audit (8 judges) assembled
+49facae51fd1feb67cfc2f96ed193be483b2c28095ff6e0c917b95c0db21c402  dirB/runs/qwen3_4b_Base_own_a3_s1_r6/audit_admitted.json
+# 2026-09-23 06:26:14 dirB/runs/qwen3_4b_Base_own_clean_a3_s0_r3: full Opus audit (400 admitted, 16 judges) merged + 200-sample assembled
+bd5aa331640c73aa0cb6f47b8120cbd2e8c8bfc261b00a241f6bcf8d3483941b  dirB/runs/qwen3_4b_Base_own_clean_a3_s0_r3/audit_full.json
+986d68c63a08fbe4650aa4cc42794d20947f0d4eb582a7fab17d40f05cb4e25b  dirB/runs/qwen3_4b_Base_own_clean_a3_s0_r3/audit_admitted.json
+# 2026-09-23 06:38:04 dirB/runs/qwen3_4b_Base_own_clean_a3_s1_r3: full Opus audit (444 admitted, 18 judges) merged + 200-sample assembled
+8ed769d5ac039d3355140e9968caa47431be3e770295d53505d1cd1aeb22d096  dirB/runs/qwen3_4b_Base_own_clean_a3_s1_r3/audit_full.json
+c782c4abf0ba056889acb807b5f14966ad9d4bd5dd292f9c6622db1821504f89  dirB/runs/qwen3_4b_Base_own_clean_a3_s1_r3/audit_admitted.json
+# 2026-09-23 06:38:04 dirB/runs/qwen3_4b_Base_own_a3_s0_r6: 200-sample Opus audit (8 judges) assembled
+50892436bcf51bee0e600b391868633ef92441ab868bcb5674008a6d10d995f1  dirB/runs/qwen3_4b_Base_own_a3_s0_r6/audit_admitted.json
+# 2026-09-23 06:41:26 A3 final readouts + verdict
+c089f097f3b45a4119ce1479f312e551db0a4244dc838938017d75c3b6cf8363  dirA3/results/a3_kc_readout_2026-09-23_0641.txt
+4b0070dd5ffa8ba0f4f7928efcedbaec2c49481d571ce22170df92da10c25c96  dirA3/results/a3_analyze_readout_2026-09-23_0641.txt
+5a4928ab9334cb957cebdfc35e3c41b207da32ed3fc9897c80797891151d73bd  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 07:46:31 A3 verdict updated (Llama clean s0 r3 = 39.7; a3_kc KC1 line quoted with counter-evidence)
+752ce5f0ecbc728bd6e268701614682d56b694f2190dfac8ad1badfd9c28cba8  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 07:47:20 dirB/runs/qwen3_4b_Base_own_a3_s2_r5: 200-sample Opus audit (8 judges) assembled
+95c4211553346eb9e7f6c7af51f01cf9d7e910c094587d7b0d84cf6e7fa40471  dirB/runs/qwen3_4b_Base_own_a3_s2_r5/audit_admitted.json
+# 2026-09-23 08:04:53 A3 final readouts + verdict
+1830a4f64949daba78cf047faf420091ffbe9d963b78e870c00904d635a809f3  dirA3/results/a3_kc_readout_2026-09-23_0804.txt
+439a3d9bc4946201da19b895ec2c2d7e58fc17cad599807e4f8a9c48bbcbaf3c  dirA3/results/a3_analyze_readout_2026-09-23_0804.txt
+4f5eaf62b7d52b54dd6c1e3c7faf713547f6146a0127ada5cea097b30aeda703  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 08:17:35 dirB/runs/qwen3_8b_Base_own_a3_s2_r5: 200-sample Opus audit (8 judges) assembled
+5f7834bc1466a7fe62da0f9d9983100ae8c232d34040815e70b0ae7abf027580  dirB/runs/qwen3_8b_Base_own_a3_s2_r5/audit_admitted.json
+# 2026-09-23 09:18:13 dirB/runs/qwen3_8b_Base_own_a3_s1_r5: 200-sample Opus audit (8 judges) assembled
+1620b9498700cc314f87da97e2191dc24739e4263b9f1c687087efeddab3cfb6  dirB/runs/qwen3_8b_Base_own_a3_s1_r5/audit_admitted.json
+# 2026-09-23 10:01:19 A3 final readouts + verdict
+334ad2a1e58900536c3ebf9688827e6ca8b680e6bfb24af911e5741de3c60f16  dirA3/results/a3_kc_readout_2026-09-23_1001.txt
+67fc8076dc72eb4869572fa5038734ed575a41faea91bb61404525d5cf1e6f9a  dirA3/results/a3_analyze_readout_2026-09-23_1001.txt
+567c7828a6265b6c988d451bed036fd078fa8054edb62eade9247a571cd31799  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 11:23:52 dirB/runs/qwen3_4b_Base_own_a3_s2_r6: 200-sample Opus audit (8 judges) assembled
+bddde6b37c9a9099dea802114a00c5aa88f926cf28d0cefa76d8b41c01636e09  dirB/runs/qwen3_4b_Base_own_a3_s2_r6/audit_admitted.json
+# 2026-09-23 12:02:14 A3 final readouts + verdict
+5529b79ea2d05e2c1db62ffc61d5894ea7ebd973be55fb0677852d5b05de0043  dirA3/results/a3_kc_readout_2026-09-23_1202.txt
+931aea3215e4386e522e51e1dcf0674953e6a91e75503d35f00a242e26d07475  dirA3/results/a3_analyze_readout_2026-09-23_1202.txt
+3c992bc2f29a58ee54647c2523110db46a54611f9ef12a78c6280857a1e00630  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 12:59:36 dirB/runs/qwen3_8b_Base_own_a3_s2_r6: 200-sample Opus audit (8 judges) assembled
+c8f1e29da12ab5647467cb00812f758a68951f6f99602838698f3ec6d651af2b  dirB/runs/qwen3_8b_Base_own_a3_s2_r6/audit_admitted.json
+# 2026-09-23 14:03:04 A3 final readouts + verdict
+69a66adac2e7641c69be00ca692181f03c5255c44d104c05768ee61b4873e308  dirA3/results/a3_kc_readout_2026-09-23_1403.txt
+21088dca2256a6662ce98a174b7f7c080de89184b53814b0a6770a1c669b08f9  dirA3/results/a3_analyze_readout_2026-09-23_1403.txt
+7796ead549bba555cc4835e976a2af9faef7d79b64715ca2dab60e205df56112  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 14:10:05 dirB/runs/qwen3_8b_Base_own_a3_s1_r6: 200-sample Opus audit (8 judges) assembled (last scheduled audit of the A3 program)
+c80986c465e3e1efc784bfed8c3c7275caf5537cf745a9d5a936ffee6467d763  dirB/runs/qwen3_8b_Base_own_a3_s1_r6/audit_admitted.json
+# 2026-09-23 14:10:20 A3 verdict: 8B s1 r6 audit added; audit census 82 runs / 10 full
+7eb62000b5b8b17e70101224273edd552dc4263cc962c19d7a3ce533f00da66b  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 15:02:31 A3 final readouts + verdict
+69a66adac2e7641c69be00ca692181f03c5255c44d104c05768ee61b4873e308  dirA3/results/a3_kc_readout_2026-09-23_1502.txt
+b1b890012a8c9dc89e6605ab62c0b383f0625184c320c2a3fb37b61e6ea8bd4d  dirA3/results/a3_analyze_readout_2026-09-23_1502.txt
+57a1602220f72faa925829593d135580051bc0c3d46fb22ec98cfbde5747f058  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 18:26:07 A4 REGISTRATION (before any A4 data): abstention guard, co-evolving proposer, Phi-4-mini family
+538711a78a2b346c1e37c96b6ece600e9cc1408cb4e5fe2380f2ce5b96cc72e7  dirA4/docs/A4_registration_2026-09-23.md
+3e9662bc64e304bfc568be06cd28f48fd59db3649de7bc69c3b49553308082e9  dirA3/code/a3_guard.py
+fc04fc792bd16476273577c4e1258bf1b98acde57f325dae9c299c6286b66405  dirA3/code/a4_round1.sh
+9dccf7ee56dd5a025c21d47190bdf2b8334a8c5cfe1222ffedc56d97e235c069  dirA3/code/a4_runner1.sh
+64c5552995294174eb59ce6aaeeda35b097c3ac7dafb000849d3b991d423b397  dirA3/code/a4_proposer_sft.py
+54ce17a0bdeb7c986f47bdbd25f21aed0cbb36aedd4c371f8f7824482653b134  dirA3/queue_a4_single.txt
+71aad08cd7103817edc16302af77620fc3f260b1432d46f3fd52c960a81fce0e  /root/guard_diag_ag.sh
+a0e915b79da0537f041d1ef35bb9377d6d84c9e6589cd8e3e10299575d61ef43  /root/a4_watchdog.sh
+# 2026-09-23 18:26:25 A4: a3_guard.py abstention-guard patch applied (the installer had skipped it); corrected hash, still before any A4 data
+feb766a3d5ccbe3a5cf77ab50f4dba3b355cd68a1ff0c7c462642c95e4a9ccc8  dirA3/code/a3_guard.py
+# 2026-09-23 18:28:15 A4 pair variant (8B own_ag) + queue_a4_8b.txt
+8e075b261dcc2fc8daa61f19127dd54e67b1886f218e448e11cfd5c002fb6d6f  dirA3/code/a4_round.sh
+ac3011d0f33e0e5999ac1c5b15acbabea3b64170d918a8d3fb2d1c4cdd033ff3  dirA3/code/a4_runner.sh
+b16d116971f4886b906aad396d3e9d8be89b4a9640ef4800216cf7e64c8ec835  dirA3/queue_a4_8b.txt
+# 2026-09-23 18:43:56 A3 final readouts + verdict
+2a6527f2f51843282b9ae9fe9613658e9bf618d912efd953a45aeee0d643eb55  dirA3/results/a3_kc_readout_2026-09-23_1843.txt
+76b055a00a47a9c0ea7fc6375f2c50070f95ec25bfe5b926fef9361147855236  dirA3/results/a3_analyze_readout_2026-09-23_1843.txt
+c7e6cb4e9e074786d1dd0011d9b5824728827ceda436608532407d544a5a54e1  dirA3/docs/A3_verdict_2026-09-23.md
+# 2026-09-23 18:44:51 A4 readout scripts
+5cf7ad50b87a76a5a691ab45f046fd8ebd3f30fed1c0d67e3e00ad020c4cf3fb  dirA3/code/a4_reads.py
+b98e37f9fab81391e6372597f44261b18859cc38fe3443c663ea9727616a25a4  dirA3/code/a4_analyze.py
+# 2026-09-23 19:08:21 A4 PILOT (PF1) result: abstention guard on the fixed pool, base..r5: admitted ill-posed 49.0/64.3/69.6/73.0/73.6/74.6% (plain 52.9..81.2), tracer ratio 0.28-0.47 -> PF1 FAILS
+265e766b5bc43019eab704be428f56f04fe1f0647232fd8c023ae5330e7695c1  dirA3/results/guard_diag/qwen_s0_ag/base/guard_records.jsonl
+0753f70bad58df5bfe8600ee4f8c6e2ca09897930ac3ef9d2c07214db2d80123  dirA3/results/guard_diag/qwen_s0_ag/r1/guard_records.jsonl
+cfc9b6d1bf5cb1b376b61b3ff4db1516c6a9d4d1bee950622ef40c76ccc3b07c  dirA3/results/guard_diag/qwen_s0_ag/r2/guard_records.jsonl
+66094b608e6fe2da3b2aaf03f434da333e196bb1723c730fa9c53d8c57e6c598  dirA3/results/guard_diag/qwen_s0_ag/r3/guard_records.jsonl
+14cad12bd8f4df631e904da1d918f58ea32a2b1f231fde61ad17b931a48bf4c3  dirA3/results/guard_diag/qwen_s0_ag/r4/guard_records.jsonl
+21c5ba58529cdb4fdc3cab76fc0e2ba8c83d25d253a2f74bd087849b4dbd4e6c  dirA3/results/guard_diag/qwen_s0_ag/r5/guard_records.jsonl
+c19a8062bb8c8d9fe0ee1a5bb9579adb63836dec198b3c851cbcfb3e6df3c47f  dirA3/results/guard_diag/qwen_s0_ag/result.json
+# 2026-09-23 19:15:13 A4a AMENDMENT (before its data): held-out no-go test, scale test 14B/32B, coev s2-s3, guard --tp/--no_think
+c98a2aa60830a04887dd4ead0f9ceb743a666e1af4e5bab6fae284e80aee4f07  dirA4/docs/A4_registration_2026-09-23.md
+687e0deaba2cc583a1e664628b5548046801f33b1aaa2d115d7bd1892b20a249  dirA3/code/a3_guard.py
+6631bd9940af7b08df5abd4b7a90f8e1c69e5b276a50c47a09abebfb5a8b601e  dirA3/queue_a4_single.txt
+12519e98b0b894a91eb520d9bce29052b87badf899ef60b99031ec118572374f  /root/guard_diag_s1.sh
+a1e87bf58e5d899b77ad114d2b339772303aa5275df1137442c302343a1206b4  dirA3/code/a4_signal_search.py
+# 2026-09-23 19:19:54 A4a.1 held-out pool audit: all 1,136 own s1 round-1 candidates, 46 Opus judges (607 S / 351 U / 178 A)
+1c5d99d4e8723df8743de27d7f7fefb6d640e24c364bf40e91f988599d1e4f1e  dirA3/results/pool_audit/qwen_s1_r1/parts (sha256 of part hashes)
+# 2026-09-23 19:21:12 A4b AMENDMENT (before its data): frontier-supply test with stronger frozen proposers
+17599eee0421ea434c86b0c375f2dbe8cafe6b092e15c64bee094332b0ecefb3  dirA4/docs/A4_registration_2026-09-23.md
+fab0caaace543485432122286bed192c9d5fffc4ba800dcd47664cece3faa1a6  dirA3/code/a3_propose.py
+aa3c539887d70c7dca53a3f09856476fff3f3180da4f179a89025aa4953a5840  dirA3/code/a3_guard_diag_score.py
+5ce7f6384400d5537268a36fe81be8096316464d3e34641056f654ef5f2603f0  dirA3/code/a4_frontier.sh
+# 2026-09-23 19:28:28 A4a.1 NG read script (before the s1 passes complete)
+f2d78c8d098a1f7232e4adba3c197f9f42472dd1329332097749ab2e0c401620  dirA3/code/a4_ng_read.py
+306ee5cb9726f2567bb59775950a9c70142103ca255b7f4bc6a7873ebb2263cd  dirA3/code/a4_noisy_tv_fit.py
+# 2026-09-23 19:30:58 A4c AMENDMENT (before the new seeds run): confirmatory round-3 harm test, own_clean s2/s3 + own_sub s3
+85125b92942b71a009a7e8d9bfe248f1acce36d2e6b2663c6ca61e7b1fe29c8a  dirA4/docs/A4_registration_2026-09-23.md
+9c0b9db830aaac2e486dca5766138ca9259280aba30e0c2801588b60249381be  dirA3/code/a4_q1u_attrib.py
+f68aadb852d1c08791af63da096460ede9a5385fc1c3184ac6ac5381040b5794  dirA3/queue_a4c.txt
+# 2026-09-23 19:32:17 A4 round-1 200-sample audits (11 runs, 88 Opus judges) assembled
+de4850443ff5c23683aa987febe85f36186606930290c87fcf380f4a94954454  dirB/runs/phi4mini_own_a4_s0_r1/audit_admitted.json
+9ef60f3ad5c591fd77ea3778b14cb3f823644d1f2d8fe0fa894ec7b9f3d1e871  dirB/runs/phi4mini_own_a4_s1_r1/audit_admitted.json
+312a573bb8048bb7228acf7b45a9e3c226284a7c3432bfea5693cf4790cc6f82  dirB/runs/phi4mini_own_ag_a4_s0_r1/audit_admitted.json
+f3ce9e08d02db84374ff503af5ded853e45fd8116ef24894c237e8268e982c87  dirB/runs/phi4mini_own_ag_a4_s1_r1/audit_admitted.json
+b509a73ba07d35e6f21a00ccd71fe376a0b4b2ccf759bf97a07b4eb2a56d3400  dirB/runs/qwen3_4b_Base_coev_a4_s0_r1/audit_admitted.json
+a4dfe610b0c55b1fa3a62137d8b9700dee44f58be8e1471ad180cce1cc33c24d  dirB/runs/qwen3_4b_Base_coev_a4_s1_r1/audit_admitted.json
+a96ebdef33e1938a91c3156b41091c2af2ba02ecbca49552499ef473a05cc8ba  dirB/runs/qwen3_4b_Base_coev_a4_s2_r1/audit_admitted.json
+b10baa52d610744424cf0980cd142cfe20f70b1b3da2741a54ec1425df83f6d4  dirB/runs/qwen3_4b_Base_coev_a4_s3_r1/audit_admitted.json
+636fac3029ec3635563b0a62ad9f44555d65ec9eb68f42c9dba2364ab7fb6bc7  dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r1/audit_admitted.json
+7b86bdf21e770b3b9feaffec1ea7709c51fa7a47981f8a77c072a236f1a9e131  dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r1/audit_admitted.json
+b9d43da608000f236cacde0ce88e6e5796620b25e3d273ddc01e8ac60c9a8ed6  dirB/runs/qwen3_4b_Base_own_ag_a4_s0_r1/audit_admitted.json
+3e195a102564c8b058396c6dcb552a0699d3fef31e72a61fbc57d47f13b41fd5  dirB/runs/qwen3_4b_Base_own_ag_a4_s1_r1/audit_admitted.json
+e6d500e2bc6ea8df1a90fb06cbfd7129adad0f53be116958e92b6002c22a369f  dirB/runs/qwen3_4b_Base_own_ag_a4_s2_r1/audit_admitted.json
+a773acf45d10882d09a1f7803bc425f8ed2cc530cc559ab6aebde5144693e064  dirB/runs/qwen3_8b_Base_own_ag_a4_s1_r1/audit_admitted.json
+d722bd56213e0f95872d7655697b3c459a371b0dec67357f41e2868a5ddda766  dirB/runs/qwen3_8b_Base_own_ag_a4_s2_r1/audit_admitted.json
+# 2026-09-23 19:32:37 A4b pool audit: all 1,199 Qwen2.5-7B-Instruct proposals, 48 Opus judges (779 S / 269 U / 151 A)
+3f7c88f1ef49993725ae7516ea016c2395fe8c037d0cefd91d7b15c9a19cd6cb  dirA3/results/pool_audit/front_q25_7b/parts (sha256 of part hashes)
+655fe351f20cf7748e3208076b04ef9b7a94373e754a32efac2ca4f3ab705869  dirA3/results/frontier/q25_7b/proposed.jsonl
+# 2026-09-23 19:34:20 dirB/runs/qwen3_4b_Base_own_a3_s2_r1: full Opus audit merged (200-sample + items 200..N) for A4c own_clean s2
+88c37c0169fb881b265450efa86573b20057c210780e95f172341bf9f9a2fd86  dirB/runs/qwen3_4b_Base_own_a3_s2_r1/audit_full.json
+# 2026-09-23 19:34:20 dirB/runs/qwen3_4b_Base_own_a3_s3_r1: full Opus audit merged (200-sample + items 200..N) for A4c own_clean s3
+8774a124ad91a3311cc3bba50ce4ee68811f7326ccd414a73a30a184a855d3f5  dirB/runs/qwen3_4b_Base_own_a3_s3_r1/audit_full.json
+# 2026-09-23 19:36:31 A4a.2 scale diag script
+f47ef1a2ee4db81657506339a36ed91f9adb823affcd93ffa3eed9f62e70a9dc  dirA3/code/a4_scale_diag.sh
+# 2026-09-23 19:40:33 A4 exploratory analyses (program closure pilot, best-classifier frontier, learning progress, sharpening fits)
+45c5c89e3e5884a78c5f33ba1a1d80089ff2ec2e64b94545542047e2d9c03e82  dirA4/results/exploratory_log_2026-09-23.md
+0f837819f661335546d8d0ec6d47316c168632f6eb2b9683773f844baa1a76a3  dirA3/results/program_closure/qwen_s0_pool_base.jsonl
+bff873c402360c00e7a6338c8f1b0b492a60e82c9b7ec79a302832993eaa449d  dirA4/results/nt_analyses_qwen_s0.json
+eb404582194e8d2e5f8f24cc42d381c0714a375e80378d562be925e92d78aaae  dirA3/code/a4_program_closure.py
+a1e3ffea5408a965778e05566259522be97b022cce5a9089ab60c8021cb21506  dirA3/code/a4_pc_eval.py
+36f7d7ec0015ace43f2099d1da6c3318adbc6b1c8ee56ca167ca26b784e231b5  dirA3/code/a4_nt_analyses.py
+# 2026-09-23 19:41:05 sharpening-law script (fit on s0, prediction for held-out s1 written BEFORE the s1 plain passes finish)
+28b59350b010b47cd3abb3f796cfe95700f445b1ca19315f31d150e3b5caf142  dirA3/code/a4_sharpening_law.py
+# 2026-09-23 20:01:40 A4a.1 REGISTERED READS on the held-out s1 pool: NG1 True, NG2 False (R6 +12.0 pts; solvable gradient-bearing 364->90), NG3 True; sharpening law s0->s1 held-out MAE 3.0; decay model held-out MAE 1.6
+5dd2f2fee399ef8b46bf8b8430b3f822d7b884176ef178ae947d913724d7581b  dirA3/results/guard_diag/qwen_s1/base/guard_records.jsonl
+0a6da6a6b671c0d36c2f85d8195c1d3b3c1c71194bfa46a71b3313d482f55eeb  dirA3/results/guard_diag/qwen_s1/r1/guard_records.jsonl
+a26195e5b8c501f28366be54867447feeb2d7ff223e03919a2b0d8bcf7d777e5  dirA3/results/guard_diag/qwen_s1/r2/guard_records.jsonl
+189ee2420bbe208feae30fb60185fd6d4739e368350266ccfa97e492850af9ec  dirA3/results/guard_diag/qwen_s1/r3/guard_records.jsonl
+1263a75a972bd341cfe38186120f7917c19680c703d2472c09884c3fc981c5a2  dirA3/results/guard_diag/qwen_s1/r4/guard_records.jsonl
+c288a1f7884ba6eee3990646cff540123881493617ae80547dbfffa43139c466  dirA3/results/guard_diag/qwen_s1/r5/guard_records.jsonl
+034a83ef6194fab15a3ba21a4bdc8eaba2795d2f113ad6dbcc06b71918a8432c  dirA3/results/guard_diag/qwen_s1_ag/base/guard_records.jsonl
+9fadb6dcf322ca490199ed35c3610e918e42c7f797c49123e26f7a36dc28cd46  dirA3/results/guard_diag/qwen_s1_ag/r1/guard_records.jsonl
+377e9008bf124c118af25c77ebf108b191e6213e8111298f6919b9f40dd24452  dirA3/results/guard_diag/qwen_s1_ag/r2/guard_records.jsonl
+f951c5e850b76ad5771e79a80be8991bfa394e575943f4967455539be318d047  dirA3/results/guard_diag/qwen_s1_ag/r3/guard_records.jsonl
+9e34739194037a6644b5a15857c45c6aff476b0bb6a33f2edec94a7614fd6d6f  dirA3/results/guard_diag/qwen_s1_ag/r4/guard_records.jsonl
+69ccf8d8a6f7d564d3fc7b5dd3c120861c8424f7b626731ae1abb68f9a32bbde  dirA3/results/guard_diag/qwen_s1_ag/r5/guard_records.jsonl
+0858453e0bd4f1b28833ffba7a2a0dbee23e6ec5a92c6de0616646b881db1bc9  dirA4/results/ng_read_qwen_s1.json
+e13af2c2b521a90f495a716ad6bb30db41aacb0bef9a7fccfe0fcd431d7897f0  dirA4/results/sharpening_law_qwen_s0_to_qwen_s1.json
+4469101495965e3d50afd08669f11cf7867f1d2a26175fc3590457f4d2f073bd  dirA4/results/noisy_tv_fit_0.25_0.75.json
+# 2026-09-23 21:00:58 A4a.2 NS1 (14B): base 64.1% -> post-trained 74.9% ill-posed (+10.8), solvable in-band 33->14%, ratio 1.24->2.03 -> HOLDS; A4b NE1 holds (35.0 vs 44.8), NE2 FAILS (46.9->73.7, in-band solvable r5 = 18% of base)
+b9ef0147bdd7d919d9ce7bc1ed313c2d044cc7ff1de442e8805893cc9fd768fa  dirA3/results/guard_diag/scale_qwen3_14b/base/guard_records.jsonl
+61fbd5aebfe3ddb9b04a2a21524c205294cd4a2cd99a252be09f4b1d4af2a512  dirA3/results/guard_diag/scale_qwen3_14b/r1/guard_records.jsonl
+632df3511f1a087f2b15acb08a4cb12ab1cd7f138a9ce5c1b5baeb15ddc6d2b9  dirA3/results/guard_diag/front_q25_7b/base/guard_records.jsonl
+45418697f370cdb00a7e03226c18798a32213ab33d3fbfb04a2fe56943c0fd1a  dirA3/results/guard_diag/front_q25_7b/r1/guard_records.jsonl
+8f38368552a7a92360a54861a7bc59877a4f1d71663446000d43226a6aa921b4  dirA3/results/guard_diag/front_q25_7b/r2/guard_records.jsonl
+e51c9a37073e5d7df0d5bdb42e4fadd0aba706ff3585cecb1c9a8e028262c745  dirA3/results/guard_diag/front_q25_7b/r3/guard_records.jsonl
+76bc6822dc584e706789de2ec30e2d08bb0a30e83a017525cb350f62e6a50ef8  dirA3/results/guard_diag/front_q25_7b/r4/guard_records.jsonl
+d9f13aac4209bce03e894fefbb5977f3dbf0ce10c037884432a556a9e7ba6b51  dirA3/results/guard_diag/front_q25_7b/r5/guard_records.jsonl
+# 2026-09-23 21:02:27 A4 mechanism note (draft) + dose-response
+ce4907f4eb922ab3c293ff5bd14e98c5bb6f07b1904855ef4ad8b885b1370348  dirA4/docs/mechanism_note_2026-09-23.md
+d3e09ecacf8202bce04942ad0608aa48e5f263395cc0774efd6dbab8ad4c65ce  dirA4/results/dose_response.json
+41d7eda2b8deff0c59a8409693ec091dd301ab84fefe82d6ec561c8fb0fc1314  dirA3/code/a4_dose_response.py
+# 2026-09-23 22:09:51 dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r2: raw-proposal 200-item audit assembled (PC1)
+39d033f78402ee2c4f864a61cabe8aa89c9329c536601771a9ad2d09a84469a8  dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r2/audit_raw.json
+# 2026-09-23 22:10:06 dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r2: 200-sample Opus audit assembled
+907989c8eb6a6fe88450c29de115da7461a95a66b4e80b8ea60f24480280320a  dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r2/audit_admitted.json
+# 2026-09-23 22:15:23 dirB/runs/qwen3_4b_Base_coev_a4_s0_r2: raw-proposal 200-item audit assembled (PC1)
+3f036cbaabd6bc9bc3cf664945c85d3468e29955d8cf1446434fbad19b0369a0  dirB/runs/qwen3_4b_Base_coev_a4_s0_r2/audit_raw.json
+# 2026-09-23 22:15:23 dirB/runs/qwen3_4b_Base_coev_a4_s1_r2: raw-proposal 200-item audit assembled (PC1)
+3243be119166986baa2d7722ff4bbcae180d81bb6504ce24ccd36d33311a2e72  dirB/runs/qwen3_4b_Base_coev_a4_s1_r2/audit_raw.json
+# 2026-09-23 22:17:00 A4 round-2 audits: coev s0/s1, own_ag s0
+affb39ac8602bcd168514a7236abcded19e46f36ae5e6b78bbeaff684984f754  dirB/runs/qwen3_4b_Base_coev_a4_s0_r2/audit_admitted.json
+e488495eb95a5b6cd126394853531063faa57859b231a68301d4bfce0d9a6a83  dirB/runs/qwen3_4b_Base_coev_a4_s1_r2/audit_admitted.json
+73a69ef04c890aa894b68000296372f286c9349432c40bf55f1a95f0b6096f65  dirB/runs/qwen3_4b_Base_own_ag_a4_s0_r2/audit_admitted.json
+# 2026-09-23 22:21:05 dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r2: raw audit assembled
+bdeb9ff0ea99763e5ac335ca8a041ee5d4a22b8ce3890854ecb7508d49cd6b9a  dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r2/audit_raw.json
+# 2026-09-23 22:22:48 A4 round-2 audits batch 2
+a7c2cb68183924ed38e89becd8302879634dc94a35df0db282c3b96880138452  dirB/runs/phi4mini_own_a4_s1_r2/audit_admitted.json
+b8170273de5e700a296c63734b54c8f6a7533c8d351701a4fbc8082e5de54342  dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r2/audit_admitted.json
+1ae3eca400b0ea092f12c1f83f7d2b44c4157e96ca9225523336a7c3df4cae52  dirB/runs/qwen3_4b_Base_own_ag_a4_s2_r2/audit_admitted.json
+# 2026-09-23 22:26:47 dirB/runs/qwen3_4b_Base_own_ag_a4_s1_r2 audit
+385fc676d5a54fe7a7ab218d20aeadc52643c929786a305db64e973bfc6f8642  dirB/runs/qwen3_4b_Base_own_ag_a4_s1_r2/audit_admitted.json
+# 2026-09-23 22:26:56 A4a.2 NS1 (32B pair Qwen2.5-32B base vs Instruct) guard records
+8437c265f4f43eef4f6a76089fa0cf39d42f5854574082b765934adeee1762c3  dirA3/results/guard_diag/scale_qwen25_32b/base/guard_records.jsonl
+3b1b15e13fd5e9bfef50fee00a34d01aed506ff5aed14a58da28cbe244be4405  dirA3/results/guard_diag/scale_qwen25_32b/r1/guard_records.jsonl
+# 2026-09-23 22:27:43 A4d AMENDMENT (before its data): 14B loop
+0a6d4e49a42917026f608445a701f4e7ad7de40db960421d717498d278d8ea01  dirA4/docs/A4_registration_2026-09-23.md
+b6bc11b1741e9c68178db07360156c29848a627b238ccdeafc4893784b5c1988  dirA3/code/a4_round14.sh
+# 2026-09-23 22:32:24 dirB/runs/phi4mini_own_ag_a4_s0_r2 audit
+17516fa47801fe230c4730f57aead0a1e264185ef5afd4c257919f7fef274eab  dirB/runs/phi4mini_own_ag_a4_s0_r2/audit_admitted.json
+# 2026-09-23 22:42:44 Phi round-2 audits
+f90d7ebb1fa2bb8fdc992d556bcff83c169a2f4d86048611c42ea033add813f7  dirB/runs/phi4mini_own_a4_s0_r2/audit_admitted.json
+7332578269ba2ea0c564441347a80227d59e2bd34383f7c75fc843dd514fc09a  dirB/runs/phi4mini_own_ag_a4_s1_r2/audit_admitted.json
+# 2026-09-23 22:44:26 A4e AMENDMENT (before its data): frontier refill by evolving mastered questions
+943db5ef1ba037748d6d1218cde5b17d6932b2d0be5d0495312e08aa8998fe4c  dirA4/docs/A4_registration_2026-09-23.md
+9e8ed13858ab45f07ccf2b3dd2e8735510fec6879c49facf83bd59a7d5f7507d  dirA3/code/a4_evolve.py
+11a27207ca55b5a4285a6d6caf339eedc847e0b10401f9a15cbddaeb52d535ab  dirA3/code/a4_evo_test.sh
+# 2026-09-23 22:48:57 A4e evolved-pool audit: 1,106 candidates, 45 Opus judges (643 S / 270 U / 193 A)
+b10589ef0677d634d7069968ecbfaf1266d133a1ababbcb07ba0698ae7d83386  dirA3/results/pool_audit/evo_r3/parts
+93a9a7f1d6ea28055e44fd9287074f28543059204e01e7df3c8d7e696e142456  dirA3/results/frontier/evo_r3/proposed.jsonl
+# 2026-09-23 22:58:38 dirB/runs/qwen3_4b_Base_coev_a4_s3_r2 raw audit; A4e NF1 FAILS (evolved pool at r3: band 73.6% ill-posed vs fresh 77.9; solvable 76/1000 vs 73/1000; in-band S mass .131 vs .133)
+389098245fa9dad679b8a1f55822a732ca987d2173973aaa7afe0c3570322456  dirB/runs/qwen3_4b_Base_coev_a4_s3_r2/audit_raw.json
+373324cac7c911a29cda55a0d13457908680a477bfb848af0ba5ce70bb344655  dirA3/results/guard_diag/evo_r3/r3/guard_records.jsonl
+# 2026-09-23 22:58:56 A4d fix: b_train.py --grad_in_param (default off) + a4_round14.sh uses it for 14B; 14B r1 audit and coev s3 r2 audit assembled
+553325df0deac4f199b3b3fc6909b2091a7efed25bc1dd434804487bff6f78cd  dirB/code/b_train.py
+0abac09d3c7f542f6bf7bffefda1aee17d112cfd9e9bcdf067db30a136d0d4d4  dirA3/code/a4_round14.sh
+93c2b04363fc93e01001943c46b700f6170010f92158bc14211502988257357d  dirB/runs/qwen3_14b_Base_own_a4_s0_r1/audit_admitted.json
+a3251b215c243104590157bfcf686a672be489e23de2439c7854e7a737dd8770  dirB/runs/qwen3_4b_Base_coev_a4_s3_r2/audit_admitted.json
+# 2026-09-23 23:03:18 dirB/runs/qwen3_4b_Base_coev_a4_s2_r2 raw audit
+a7a027be419f2a24ef045775be299e85c435383a6cb81b101f294cc39f99444d  dirB/runs/qwen3_4b_Base_coev_a4_s2_r2/audit_raw.json
+# 2026-09-23 23:03:39 dirB/runs/qwen3_4b_Base_coev_a4_s2_r2 audit
+19e9e4bac03256940a7f048a9ee0874276cb738f03c74bb45af8d062a9d2eba6  dirB/runs/qwen3_4b_Base_coev_a4_s2_r2/audit_admitted.json
+# 2026-09-23 23:34:20 dirB/runs/qwen3_8b_Base_own_ag_a4_s2_r2 audit
+f55d675c4db0e56d4fe9256c1e1051fac8a663a77ac13ca57391292deaa5e453  dirB/runs/qwen3_8b_Base_own_ag_a4_s2_r2/audit_admitted.json
+# 2026-09-23 23:40:47 dirB/runs/qwen3_4b_Base_own_clean_a3_s2_r2 full audit (500, 20 judges) merged
+9dad5294073e51ccb68301d9e71d5b426d2fb78071a55722cc293a9281d83780  dirB/runs/qwen3_4b_Base_own_clean_a3_s2_r2/audit_full.json
+57964c9940126ee02f8324d68da2f1291247f262b8e5c74d24b0975ae4c924ad  dirB/runs/qwen3_4b_Base_own_clean_a3_s2_r2/audit_admitted.json
+# 2026-09-23 23:46:01 dirB/runs/qwen3_4b_Base_own_clean_a3_s3_r2 full audit (480, 20 judges) merged
+a6623cd490ff0a6f8472148a7a5113238a675c883f340269155046d79ea429b2  dirB/runs/qwen3_4b_Base_own_clean_a3_s3_r2/audit_full.json
+ae9870aacbf5b6744a943b56cf6a6f28f7e3dd563fd7f56604e82339fb5c1240  dirB/runs/qwen3_4b_Base_own_clean_a3_s3_r2/audit_admitted.json
+# 2026-09-24 00:00:45 sub s3 r2 + 8B own_ag s1 r2 audits
+35b212fd83a293ececed57a632f4211ada5f7f6d06af6ba12be6dff2f19309e3  dirB/runs/qwen3_4b_Base_own_sub_a3_s3_r2/audit_admitted.json
+2accde6a22e54bf715939b2e04a3a1e71cb684b2eec3747df9792e1b5788afa1  dirB/runs/qwen3_8b_Base_own_ag_a4_s1_r2/audit_admitted.json
+# 2026-09-24 01:36:06 dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r3 raw audit
+bcf9d245eda092c8c32d37a35df2ebe468ae4a9450f795eeb49afe444342cc19  dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r3/audit_raw.json
+# 2026-09-24 01:36:23 r3 audits batch 1
+a9be28040537467382252179071f036b5535a6d410136756e2102bb824f6f3c4  dirB/runs/qwen3_4b_Base_coev_ag_a4_s0_r3/audit_admitted.json
+41410de7d33b8392f58ddd61b6ee49cf5306a51daac9de3de6065ba6c9780a1c  dirB/runs/qwen3_4b_Base_own_ag_a4_s0_r3/audit_admitted.json
+# 2026-09-24 01:52:28 A4f AMENDMENT (before its data): abstention-aware reward rescue at round 3
+665d24da9aae0684fde626736c236771bb2df878889086ba80eb625baf38e69f  dirA4/docs/A4_registration_2026-09-23.md
+2653ed1c07c7da5e9da699de02001ef4045d74be1629b76843ce67b4f9ec43a3  dirA3/code/a4_rescue.sh
+# 2026-09-24 01:52:28 dirB/runs/qwen3_4b_Base_own_ag_a4_s2_r3 audit
+9b8fe8f2c5ed3f18542bba2f1892eec30098ef735c7ce8899a00f09cfa8b88ee  dirB/runs/qwen3_4b_Base_own_ag_a4_s2_r3/audit_admitted.json
+# 2026-09-24 01:57:08 dirB/runs/qwen3_4b_Base_coev_a4_s1_r3 raw audit
+46d31ce4ec09d20165be22d7f77c78d05a2bd41abcbc277bad95781a875161cc  dirB/runs/qwen3_4b_Base_coev_a4_s1_r3/audit_raw.json
+# 2026-09-24 01:57:20 r3 audits batch 3
+1230bd82c66de1306a466e0bf67f71c7a696703cd51fd243e5a07e3c6a8a7cd4  dirB/runs/phi4mini_own_a4_s1_r3/audit_admitted.json
+1903b9580da10ea6118012ceb8f95031d1f1911ff79de18683700bfef9cd3f6b  dirB/runs/qwen3_4b_Base_coev_a4_s1_r3/audit_admitted.json
+# 2026-09-24 02:02:22 dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r3 raw audit
+3192338ee14c4e255436d568a1922d5ec124d69b3737cf20557ce3b00d0f1180  dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r3/audit_raw.json
+# 2026-09-24 02:02:41 dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r3 audit
+42abef7371d5b07f0bc6c529026e0154ce33385d819b085d97d38b2b1f783d03  dirB/runs/qwen3_4b_Base_coev_ag_a4_s1_r3/audit_admitted.json
+# 2026-09-24 02:13:04 dirB/runs/qwen3_4b_Base_coev_a4_s0_r3 raw audit
+ade861173f72a5e64185c8ea6784cb52cf055227c40ef7dd0aadd4d151236658  dirB/runs/qwen3_4b_Base_coev_a4_s0_r3/audit_raw.json
+# 2026-09-24 02:14:24 r3 audits batch 5
+23d5bcfd6be30e08356f7d5d68b90abc34c096e659c0302a96377afe9c1d0c58  dirB/runs/phi4mini_own_ag_a4_s0_r3/audit_admitted.json
+789cf1a58ce82d6d3b1267ccaf8d9eb50e2f57f2fe304432aec8526300589fcb  dirB/runs/phi4mini_own_ag_a4_s1_r3/audit_admitted.json
+6754da42b87baa408b3e3954571373537da49c11d42b5163151e695e5e5ffcb2  dirB/runs/qwen3_4b_Base_coev_a4_s0_r3/audit_admitted.json
+# 2026-09-24 02:23:57 r3 audits batch 6
+a133e0ae1dc0288aab60a47d79ef9330ee4e6f83213ed4dc0788d64b988d6d0c  dirB/runs/phi4mini_own_a4_s0_r3/audit_admitted.json
+96ae4db6f33ecdbdd6c5848c94a9d97eddc90b206bc56e9fb4a4d7160efbd4e2  dirB/runs/qwen3_4b_Base_own_ag_a4_s1_r3/audit_admitted.json
+# 2026-09-24 02:39:22 A4d NL1 read: 14B r1 -> r2 tracer ratio 1.17 -> 2.25, audited unsolvable 37.5 -> 43.5 (+6, bar 10: FAILS), ill-posed 57 -> 72
+05984aef078aa6707b14f384cbaccc09685b4518fe446d04a027dd29597c0fa7  dirB/runs/qwen3_14b_Base_own_a4_s0_r2/audit_admitted.json
+342306319bc3a341d5e1e3c1b1531f7fee9cfc53bb49ed9b72fb985dfd5063ad  dirB/runs/qwen3_14b_Base_own_a4_s0_r2/guard_records.jsonl
+# 2026-09-24 02:44:26 dirB/runs/qwen3_4b_Base_coev_a4_s2_r3 raw audit
+1f93f1ac72a0316a4fe308440c7ebc37b41bcbceda23ac5e7125838291c1e83d  dirB/runs/qwen3_4b_Base_coev_a4_s2_r3/audit_raw.json
+# 2026-09-24 02:44:26 dirB/runs/qwen3_4b_Base_coev_a4_s3_r3 raw audit
+41cced8403cf3ea2ec0f1c3d51e29792d8af928973647a8e7476f74773fbfd1b  dirB/runs/qwen3_4b_Base_coev_a4_s3_r3/audit_raw.json
+# 2026-09-24 02:44:43 coev s2/s3 r3 audits
+a5c3159162a6dfcd3877e62e5cad82c9d0cbdd36999e9a15858551e788faa214  dirB/runs/qwen3_4b_Base_coev_a4_s2_r3/audit_admitted.json
+45349c38dde47ba8ee0dd0466884d4c0f4d23a2e6c3343f813242959ca177b12  dirB/runs/qwen3_4b_Base_coev_a4_s3_r3/audit_admitted.json
+# 2026-09-24 03:30:53 dirB/runs/qwen3_4b_Base_own_clean_a3_s2_r3 full audit (416, 17 judges) merged
+ff7b22c8849397b05736becf96cea31a6cdf0a3f8a41d811bc63fdde74b7d7d1  dirB/runs/qwen3_4b_Base_own_clean_a3_s2_r3/audit_full.json
+86ebd75ee4a3cb7b3cabb3016c60e9210308c48b3130af6bebdcbd5f10559e21  dirB/runs/qwen3_4b_Base_own_clean_a3_s2_r3/audit_admitted.json
+# 2026-09-24 03:40:49 dirB/runs/qwen3_4b_Base_own_sub_a3_s3_r3 audit
+ac3442aedf1e74b7426349f214fa8f5a4982fb49a24880fb1cd9809339c6d59b  dirB/runs/qwen3_4b_Base_own_sub_a3_s3_r3/audit_admitted.json
+# 2026-09-24 03:41:23 dirB/runs/qwen3_4b_Base_own_clean_a3_s3_r3 full audit (419, 17 judges) merged
+314b01cc15366b1b395a36a7fa8349ba01f3d4a8728d32a7c93ea426dab71c14  dirB/runs/qwen3_4b_Base_own_clean_a3_s3_r3/audit_full.json
+ad840207df13017cef7719ab8543f999f8a5505e9813a2bf2b10c1431bf4c66e  dirB/runs/qwen3_4b_Base_own_clean_a3_s3_r3/audit_admitted.json
+# 2026-09-24 03:42:10 A4f read script (before rescue data) + a4_q1u_attrib hpq fallback + /root/fast_probe_a4c.sh
+5accf467b1bb7a94130f6f75134c05ef210b1ab244648bccc727730d309631d8  dirA3/code/a4_rescue_read.py
+ecaccebfe1bacbc25faa13e6ba1a2c1f75e53f4c041c00ed942232b6d1240407  dirA3/code/a4_q1u_attrib.py
+feef0863a65c58ff31e063afc902ad8973d249e08f9d806abbd242d1f3951824  /root/fast_probe_a4c.sh
+# 2026-09-24 04:26:36 a4_rescue_read.py: complete-file checks (1,086 rows)
+667ef1249e3363878aeb24c5c70548843821886448b528eec43f86bd3e2c66c7  dirA3/code/a4_rescue_read.py
+# 2026-09-24 04:27:15 a4_reads.py / a4_q1u_attrib.py: complete-file checks
+5cf7ad50b87a76a5a691ab45f046fd8ebd3f30fed1c0d67e3e00ad020c4cf3fb  dirA3/code/a4_reads.py
+349b5e351582ce8b28c036745a62885f78460a512b1b07c35be68af7eaa0492b  dirA3/code/a4_q1u_attrib.py
+# 2026-09-24 04:27:29 a4_reads.py complete-file check
+853cca5a6e4879706571a2bad03a26b3cac22a30a929efb6359dbe398a71b565  dirA3/code/a4_reads.py
+# 2026-09-24 04:29:59 dirB/runs/qwen3_8b_Base_own_ag_a4_s2_r3 audit
+c8c087c9c8baccfc4fd5f04081386cb88806f34371604aed38c360c43f375cff  dirB/runs/qwen3_8b_Base_own_ag_a4_s2_r3/audit_admitted.json
+2026-09-24 04:45:59 [internal note removed] 0d71af697a184e49b5ecab8b62c625e9242822afd80e9b0180bc952daae07404  [internal file]
+2026-09-24 04:49:59 A4g amendment (before data)
+28d0cb38662f2e675f07ec9f22b5da79735468591c9c17d81c731ae1ec5a4c00  dirA4/docs/A4_registration_2026-09-23.md
+8b383bae61fc02f8847f25932e99dbfdfcc857edb595643408da01484d5e6d03  dirB/code/b_train.py
+ec608d2c0e67fed71f429afd4ac212466e55f06bb186671d9f8342ee9313df2c  dirA3/code/a4_rescue_uv.sh
+469b92780da4fd8cd3c2a1c97a934d82c5f5ef0510bf58babd1c19f0e878092b  dirA3/code/a4_pool_abs.sh
+2026-09-24 04:50:13 A4g amendment timestamps corrected (still before data)
+9497e9ba39ac61bc5828d16a01c7b388f5940f9b8d2bf4b00ba13f6375eda51f  dirA4/docs/A4_registration_2026-09-23.md
+2026-09-24 04:57:41 human-validation packet (key fixed before any human label)
+d2238a8a7902d0a1f79b90d0bd9a49b2487524d0456a93ef665e375fd5f3f594  dirA3/code/a4_human_packet.py
+47540ee751267ccedaa9b0cd04721700233357196f73add2c170c40fd44495e1  dirA4/human_validation/key.json
+c22b2af438e7c5d6b9a07b9214588dbb198146d2c72d14b31fbd41aebb52e4c2  dirA4/human_validation/packet.md
+2026-09-24 04:59:26 A4g addendum seed 4 (before data)
+069c3f67892223b48ce034cb2e4f65820c693584e3f4a9b9a25b91b2f8b41bb2  dirA4/docs/A4_registration_2026-09-23.md
+2026-09-24 05:33:58 A4h amendment UMWP (before data)
+a5a2271cf63409af270544859c210677882f277f22f9d194e7c1b361e9b7ae35  dirA4/docs/A4_registration_2026-09-23.md
+32de59f95a296fa0c026b44cf8a6110172898b87b258179ab3a54da00ee1e56d  dirA3/code/umwp_probe.py
+36a9f1239e11156cda2f38f06c755614e3171dd91f140fbf068a283d05a2b51a  dirA3/code/umwp_read.py
+31e9cf476d28475e4b3b935278796e29dd8d4e9378b3613e34f0f8c43339cdd2  dirA3/code/umwp_launch.sh
+e8840e8383357238a08e9c5028e4758ceceb369e1db31c64678b0f851c9c9e73  data_ext/UMWP/data/StandardDataset.jsonl
+2026-09-24 05:34:18 A4h time stamp corrected (still before data)
+093a9c138de7014e27a024ba501cdbbd7df12de5ac2b1ee2dee915fee98d4dbb  dirA4/docs/A4_registration_2026-09-23.md
+2026-09-24 05:52:31 A4h addendum b (before data)
+6c11ffbbf582374b19e5f71f3735160a830d42b745b028b339a72d0297285e59  dirA4/docs/A4_registration_2026-09-23.md
+c1d0d58788a06caefdd5b04406bea98dcb0359524598911dd2ce7daead219eaa  dirA3/code/umwp_launch_b.sh
+b7d3d1ad27dd4e4237525264cf8bf3ba1aca352d677cc3438b98a032ab3c49fd  dirA3/code/umwp_read_b.py
+2026-09-24 05:52:42 A4h addendum b time stamp corrected
+fb8efe8ad50a1fb64f06f13f6fa0875f0a5c35ef15e874d677a959e3d57b6189  dirA4/docs/A4_registration_2026-09-23.md
+# 2026-09-24 05:52:48 A4 final-window readouts
+a32781ffe0c6118f6509f81d9427957d1ce2e10d5ef7df971e3dd070923e8171  dirA4/results/a4_reads_2026-09-24_0552.txt
+dd820da5abb409f3c3caa50e63ce6a6fa7d8d281b91f87a4ebf04127c8c6973b  dirA4/results/a4_q1u_attrib_2026-09-24_0552.txt
+71e15ab9aea7fe5ab549168e10b58a918b4a4bee9fed11b4437a1c41b2781231  dirA4/results/a4_rescue_read_2026-09-24_0552.txt
+2026-09-24 05:55:38 A4f final read (all 6 rescue probe files complete)
+c3da10f2766f60abe34324749579baef5ae439ea41c7df8755d904fd10ea24b7  dirA4/results/a4_rescue_read_final_2026-09-24.txt
+2e3cab9440a6c78a6741c3fc0966693b4f412208610b38ac67ba5672639b45f3  dirA4/results/rescue_read.json
+2026-09-24 06:04:53 A4i amendment (before data)
+ea9c596058583324aa70cee6476512a388ce45f5bb9ffa4ea9142e5804900875  dirA4/docs/A4_registration_2026-09-23.md
+68f635bfd560a3ae03e31a89692f214673127296316695120b831cb9824c8f32  dirA3/code/a4_loop_uv.sh
+722b229a28acd3011ae98548b8f069719b45ee92e987b5b80d3d9cd4e9a72b6a  dirA3/code/a3_guard.py
+2026-09-24 06:25:43 A4c HC1-HC3 final read (all probe files complete: HC1 4/4, HC2 3/4, HC3 4/4 hold)
+ebda7aa77dca18406e12295c3ba74925d2d241ce077af2a4700e5271d710023e  dirA4/results/a4_q1u_attrib_final_2026-09-24.txt
+d320cad36eb9b069097e06f17cbdce46639f32bf1d5beacaa8be02c76b37f71c  dirA4/results/q1u_attrib.json
+2026-09-24 06:27:00 A4i HL1 read + audits
+a9279eb1e21add3617421df5ea21993acd4da86c82a2dce68c5413c5e89c7169  dirB/runs/qwen3_4b_Base_loop_uv_a4_s0_r4/audit_admitted.json
+916aa0eed28517b968c1893b9933c701ff8d5499b7c95ee14fd3158413990b73  dirB/runs/qwen3_4b_Base_loop_uv_a4_s2_r4/audit_admitted.json
+0bb37e3188a19e10895b385eed72050af68031fa02737cf2647c09d8d04b1d18  dirA3/code/a4i_hl1.py
+b2d64758353f31cdcd48289a59af396f8469daeae69dfe07053f76d6f4f753c2  dirA4/results/a4i_hl1.json
+2026-09-24 06:27:37 A4i addendum seed 1 (before data)
+c67ea37fbe85bb9ab2b02472b9c2d9861c7334eccf5bad74eac04a522d7313b5  dirA4/docs/A4_registration_2026-09-23.md
+2026-09-24 06:27:50 A4i addendum time stamp corrected
+a0fca571384038528dc440e7667267e9424dfac0c180ef0c0423ca565896af64  dirA4/docs/A4_registration_2026-09-23.md
+2026-09-24 06:28:42 A4j amendment (before data)
+9ab67585249e3ae7be73b7c6c1ce0779f1f6c17bc887206abfe908232c609917  dirA4/docs/A4_registration_2026-09-23.md
+90f8f0341c1fb212eaece7ef305b8b3acb837812b2b1921a3a35a323647012aa  dirA3/code/a4_loop_uv_r.sh
+2026-09-24 06:30:40 A4k amendment (before data)
+73b93166a374747451bdd1714bcfeff798673018750e4d16172d35db20245c17  dirA4/docs/A4_registration_2026-09-23.md
+b539b92a5c712f9c5c3fcd178b75acea8da5a8d6a4e3650484b5fb52af614107  dirA3/code/a4_rescue_uv_phi.sh
+b6bf9c64ce5b92a3d4587d3584772faec357885df940c639b3ebdc16793986b1  dirA3/code/a4_uv_read_phi.py
+2026-09-24 06:36:53 A4l amendment (before data)
+6281ed172c50d1f003dd8e6652b5aa7a405d30c837b082713381575974762d62  dirA4/docs/A4_registration_2026-09-23.md
+fb9156b0ef6a685029c14c2ca52c4f17b6f0302a97c657c43cffeec1945d97d7  dirB/code/b_train.py
+73bcad83753b4ce7951d006c8f6db9decfb5ce066000858d2a4cb52252b0b323  dirA3/code/a4_rescue_uvw.sh
+0c29852eacc25dc081d6a612024336e20a16733d5eb853a9f4a47833f8152d3f  dirA3/code/a4_uvw_read.py
+c2b5eb2511399b88889d3a998359b9b2a622349b825e0767a69df933dce26d5c  dirA3/code/a4l_w_choice.py
+2026-09-24 06:39:35 A4h addendum c (before data)
+45ce756df50152039ac97d481517e4f158894e4d0cc3dd169b679640d5f0d4d4  dirA4/docs/A4_registration_2026-09-23.md
+4240ae0fffb92c1e2e97ab9d4d3e617df4110128e90be55afc7cbd34d315b70c  dirA3/code/umwp_read_c.py
+2026-09-24 06:39:57 A4h addendum c disclosure appended (still before Qwen own_ag UMWP data)
+981d37905aa18c71c5c66f7f93b7c91c9e360ef51cdab8dda41e8cad1964101f  dirA4/docs/A4_registration_2026-09-23.md
+2026-09-24 06:44:31 A4i HL1 read with seed 1 + seed-1 audit
+a7746da405077e0a1a5a06228210e3dbfe221e034cc899be2845fd948bc9f4a1  dirB/runs/qwen3_4b_Base_loop_uv_a4_s1_r4/audit_admitted.json
+a96d6c67386cabe4eb5528df33cbc492bc2ef01e92bdd078a55ef6637298dab6  dirA3/code/a4i_hl1.py
+2a2d88b55acd735d9255c4bf6808f0a422933f6f216d5996751e933a2e40537f  dirA4/results/a4i_hl1.json
+2026-09-24 06:45:33 A4i/A4j read script (before HL2-HL4 and HM data)
+4916ee3ef11d0ad6dac9fac4f2fa83e7ab585199cd0f9c0799cda47eb76f9fdb  dirA3/code/a4ij_read.py
+2026-09-24 07:29:04 UMWP reads snapshot (HX1 4/4, HX2 5/5, HX2b-8B 3/3, HX3 1/4, HX4 3/4, HX5 3/3, HX6 partial)
+155f9d662179fbb9fdd67a3f4eb3b0227d32bfb5d1c4b2d544038498c51d0658  dirA4/results/umwp_readc_0729.txt
+9b5cbf5b0a9b17351583cf532bab9768a7f1e0e496ba0e238dd9a37f3fa09f2d  dirA4/results/umwp_readb_0729.txt
+7e6674314fcee7a2408b7e672affb087b1d88593110cc6299e763fdcc783487b  dirA4/results/umwp_reada_0729.txt
+06ad9e5ea3849d91da316cd4d745e3857a385f2507eba4b19b03dc969f6abe4c  dirA4/results/umwp_read.json
+e1e62c4094a85d41d7f9001088a422003093f0e0d63c9b3284f2c476a0aa73aa  dirA4/results/umwp_read_b.json
+cd157fbb14bd4c6af64bfbaed0776fb32f7f15feec7ae16bd1292b504f5d0b6d  dirA4/results/umwp_read_c.json
+2026-09-24 07:30:47 A4l seed-0 read (collapse)
+48908dede999a5284875bf21f4066d00604da039afda585f39dc8fac9729468b  dirA4/results/a4l_uvw_read_s0_0730.txt
+e7313334bd3f8e24648a35e87ab2cd533435ca17e96f73a023e8ae4a613bff50  dirA4/results/uvw_read.json
+2026-09-24 07:31:15 A4h addendum d (before data)
+4f3f6a180c5e6e15caf08b96460af4583cc09411571ea359d05f6cf97dfccd51  dirA4/docs/A4_registration_2026-09-23.md
+2026-09-24 07:40:37 [internal note removed]
+e62e42865e5072111d3875c771cf26627bba389955a65d6274d31ca69ad84181  [internal file]
+2026-09-24 07:47:06 A4j round-5 audits s0/s2 + read
+c0913eb64d39d63f07bc5f3b04042be4dd7061e95f79c50c17b69f5af454c93d  dirB/runs/qwen3_4b_Base_loop_uv_a4_s0_r5/audit_admitted.json
+ab061a4f83681d059ca68ff767191c73ffc6ea10428b877e74888a3618864a7b  dirB/runs/qwen3_4b_Base_loop_uv_a4_s2_r5/audit_admitted.json
+01788fc144ce4da721f9f62b705125c8be9b1e352b41e47ecbf936a85044b6ad  dirA4/results/a4ij_read.json
+2026-09-24 07:47:34 [internal note removed]
+f6eaecfe1eccd6ee2ba4aa420c700384d8bb2a631d60b58f34e0b07c0bec4fa8  [internal file]
+2026-09-24 07:57:38 A4j round-5 audit s1 + read
+8617f89600d58f7f776e67a21706c2f396bf8d09ecde76a5c9617a45b77421b4  dirB/runs/qwen3_4b_Base_loop_uv_a4_s1_r5/audit_admitted.json
+620b502174f8ed3eaa4f6fe5099b1dc793a7f7b4c81edf34f00e3e00690eec8f  dirA4/results/a4ij_read.json
+2026-09-24 08:04:11 A5 registration (post-08:30 program; before any of its data/statistics)
+60d872b1dd4549a3665d0e27d89433b4e5d6e935d5aeec688a740eea3bdb55d8  dirA5/docs/A5_registration_2026-09-24.md
+2026-09-24 08:05:09 A5 TG implementation (before data)
+d3a4fdd6ce7b73eaac24fb46d12b45d042f26c5215a72a4642c4263ce74c57c8  dirA5/code/a5_trigate.py
+11f0f9cc91704bb34b7ec22d294339d15419d80c71597506244c2dee9bab5ec6  dirA5/code/a5_tg.sh
+2026-09-24 08:06:13 A5 HZN implementation (before data)
+0abe10d67ba573b0711167518587b1289ac21bd9dea5da94cc9ba6a59293c69d  dirA5/code/a5_hzn.sh
+2026-09-24 08:10:39 A5 J1 judge-free read script (before running it)
+f304a4ea5531c812d276bacec9845b8939a839887eab30ce94c321fa0ea6106d  dirA5/code/a5_j1_judge_free.py
+2026-09-24 08:11:01 A5 J-P1 UMWP-400 sample (before audit)
+e4021591de1c6f718fa59e35edf52b38a731c46f5843b2d2758de2ee9862f3ca  dirA5/code/a5_j1_umwp400.py
+6961737071564c786820f09e57a60c1dde09760b564f3f86500ff93d71ea5683  dirB/runs/umwp400_j1/admitted.jsonl
+9f6d39949834e660b2756983e819a4ec24fbc62624b2d8261dc41c4653f1c214  dirA5/results/j1_umwp400_key.json
+2026-09-24 08:12:04 A5 J1 judge-free script: base-file path fix (8B base shard0of1; Phi base = dirA full probe, the dirB copy has 256/1086 rows)
+f7ba161bfbc5b4932fb657aca4707002b1488ce2befa31b92d6a1300c499f18b  dirA5/code/a5_j1_judge_free.py
+2026-09-24 08:13:05 A5 J-P1 read script (before running)
+ddc58b4a87f6029d6a2e0ab84930e074841a7c9dd997c85ec5cb7a923f1c6a26  dirA5/code/a5_j1_p1_read.py
+2026-09-24 08:13:05 A5 J-P1 result
+eaeaa0305246d00a8a06205f19a62d6a99cc6f6bd9f477cc4bbd8cd66daa0be5  dirA5/results/j1_p1_read.json
+2026-09-24 08:13:25 A5 J-P2 (10/10 hold) and J-P3 (8/10 hold) results
+829de30cf9db4322fb53dad4b54a4812971b563e7de8e69eb359e10ca55d5040  dirA5/results/j1_judge_free.json
+cb11e2cd6dddfc1005ebd74d008f557373248f707526a1fdf3476f0d2f5ac4c4  dirA5/results/j1_judge_free.txt
+2026-09-24 08:16:21 A5 CTRL-L implementation (before data; postfilter unit-tested on own_a3_s0_r1)
+e0ef78a3987cda829cb7b946d143fb6ead277e3ae6e5cded1a885442907f398a  dirA5/code/a5_postfilter.py
+eb40f94ea491efbb720c884897d0584c75ad62c5f4dc15026b978ed286bba7d0  dirA5/code/a5_ctrl.sh
+2026-09-24 08:18:15 A5 SWAP audit sets (before audit)
+446de915cb102af9e1b1130508e43081e0bf1d2455741115a166a93056e2705c  dirA5/code/a5_swap_prep.py
+24949190c442b06f5967d722a025de6add15d93ab717fe41bd0520c64a1a4a25  dirB/runs/swap_audit_a5_s0/admitted.jsonl
+299767468dfeb4f3907f6c71a8b665c964ae02d72ceb1c5507d1a279a5eec56a  dirB/runs/swap_audit_a5_s1/admitted.jsonl
+a101c773488232974880bd292adc89af959382efe2fd109bd0959e7375aefe80  dirB/runs/swap_audit_a5_s2/admitted.jsonl
+5a326878f12bb0dcd9f644e84db872901577a6c99a8a3907f38dc002a199ea32  dirB/runs/swap_audit_a5_s3/admitted.jsonl
+112123d281fb756969228cb9a8a5c4a8cfb7606a1ff696acbffac2e56ad13c35  dirB/runs/swap_audit_a5_s4/admitted.jsonl
+2026-09-24 08:19:28 A5 SWAP implementation (before data)
+c22461f8e336a46bc168fc4864ca2a2d5a62cf626a821eecad86847130f15154  dirA5/code/a5_swap.sh
+e5ea95f36881aad15cb61f63a54e3ad1f60779a1cfcde2586036f62e458a2f19  dirA5/code/a5_swap_build.py
+2026-09-24 08:22:31 A5 SWAP full-audit parts (1090 items)
+95795904b8ed7bc2086a448e3d6808a06c5787a06d3ad3dc6c06cdf8a5901036  -
+2026-09-24 08:27:10 A5 frontier script v2 after 3-reviewer adversarial check (v1 never run)
+afdcafac2e7f45e9c12e30a435ecf7f5bd3798e455f3c6931bf19a9d4497762a  dirA5/code/a5_frontier.py
+2026-09-24 08:31:29 A4g/A4k/A4l final reads (A4g HU1 2/4 F, HU2 4/4, HU3 2/4 F, HU4 0/2 F; A4k HK1 0/2 F, HK2 2/2, HK3 2/2; A4l collapse 2/2)
+51ff09e243bd44618d9fda7056be1af8eba9b1d5a408222afe22445ed71d1f98  dirA4/results/a4g_uv_read_final_0831.txt
+f84ca43861dfcbae6d1cb8d244940dfcb5afa2f3c5dbe5037df043cdf94e11bc  dirA4/results/a4k_phi_read_final_0831.txt
+ea61606d0d927ab8a6ebca2803e63e29cbfe3127438486431b0bab3f1e067bea  dirA4/results/a4l_uvw_read_final_0831.txt
+da1b0b8bc20b14bef72b2fbe862359200554b4527e5bdd868b9c57c21bceacf9  dirA4/results/uv_read.json
+198ab40e254ddc9567770fb1b65b74fbdbbd9f926323e1f8f596a605934eeda6  dirA4/results/uv_read_phi.json
+0a6cb9582ef5fd125eb0ca5685d3dc05e010eb34ffdc6322472809ffcd5addcc  dirA4/results/uvw_read.json
+2026-09-24 08:31:37 A5 frontier read (F-P1 F, F-P2 T, F-P3 F, F-P4 F)
+5f9533657b719a997608269d9783087e5bc69056380a5f6dba4ede3333d55683  dirA5/results/frontier_read.json
+170cfeb5316669763b792bcf819fea7cbbbaac9706a351ffb6de5038cb194fd2  dirA5/results/frontier_read.txt
+2026-09-24 08:33:05 A5b addendum + script (before any trained-arm frontier)
+4827e5863b7beaad51a83ea42ec144b3708af0d7fd499f90738f1c838045b662  dirA5/docs/A5_registration_2026-09-24.md
+fba8ff2be089c93f7863e900f9b3ff01d0d7d7535a3c2cbbb2b479f78d9048da  dirA5/code/a5_frontier_b.py
+2026-09-24 08:34:41 A4 verdict (revision 1, pending cells marked)
+6a787dd381d062d3127fb541cdd5ec87a3964ceaf1f74afa3508f2fe7566ffce  dirA4/docs/A4_verdict_2026-09-24.md
+2026-09-24 08:35:15 mechanism note v2
+c9a5651b0e1950e2a2f776bd0166fa5e6b5870980c70de3d48740813a95dfac3  dirA4/docs/mechanism_note_2026-09-24.md
+2026-09-24 08:35:41 A5b frontier read
+49d671ac4bac858c3243ff56856a705158ed45ef530613f1f3719a746066cac3  dirA5/results/frontier_b_read.json
+3808d4416d225cb4d259a61bf710c88d716303998e7860c08cc727339b69bb97  dirA5/results/frontier_b_read.txt
+2026-09-24 09:17:05 A5 audits: HZN r4 s0-2, CTRL-L r1 (5 lineages)
+ab02b5291a3943635c6a2d031064e000196b0f054002e86e1b19e9a33fc5a65d  runs/qwen3_4b_Base_own_ag_a4_s0_r4/audit_admitted.json
+bd6bab92835f2412ef23ab314e0918264b8458a5dca7588995e6faf70997803a  runs/qwen3_4b_Base_own_ag_a4_s1_r4/audit_admitted.json
+1e836f092d086ff47c2c514578137a99a42802857c2bcb2f897e70fee604712d  runs/qwen3_4b_Base_own_ag_a4_s2_r4/audit_admitted.json
+e2e40defcd53603d595ad57fd9b0f01c1fb4a62a50760fdcbffc5161d9a59843  runs/qwen3_4b_Base_ctrl_lowp_a5_s0_r1/audit_admitted.json
+a0011462b1ac8806d76e92af9939e3f072485b738a8b0e29f9f68631bf22827a  runs/qwen3_4b_Base_ctrl_lowp_a5_s2_r1/audit_admitted.json
+5487a8b6cf33574a4971623ea7f6dc1d26fd18bbfb8cdcb7aa44f026d2b6d88c  runs/qwen3_4b_Base_ctrl_rnd_a5_s0_r1/audit_admitted.json
+22fd7f38da5211c9a657ed4662b89df96229f2f2a3382e81ec973296613e7956  runs/qwen3_4b_Base_ctrl_rnd_a5_s1_r1/audit_admitted.json
+59f488bf3913fc625a51348f938cb792221b6ba71b19f448f4725654639e259a  runs/qwen3_4b_Base_ctrl_rnd_a5_s2_r1/audit_admitted.json
+2026-09-24 09:31:04 [internal note removed]
+e6afdfe3122a53ec8e8f45fb3a37bffce9b3ce12dfb6f6c6c9f8231c3c9f2d9c  [internal file]
+2026-09-24 09:32:28 A6 registration (before any of its data)
+d1d250c9c6832698d94f7a89e5bbb825236690fed5da8ae694ac03b609f38920  dirA5/docs/A6_registration_2026-09-24.md
+2026-09-24 09:34:14 A6 X implementation (before data)
+706b914e748a44abfc65cb1d0d680d6cf58a1c25494328e2dd9c2d82cfbcc195  dirA5/code/a6_cln_build.py
+e64ecd53840542f8ee5468d79332d3045b84f88cf7622436e02eaa1ac087d882  dirA5/code/a6_cln.sh
+2026-09-24 09:39:42 A6 E sweep: data + probe + launcher + read (before data)
+eb78c0c5e4409119ea4a8b3b832dbb49e15414f7095957d1aa6535584fad951b  data_ext/a6/sweep.jsonl
+596da035ef5107b608b236d6d69eec5ec4229e4af5bac80270ffa4bec7861185  dirA5/code/a6_stage.py
+af94764de247aa2c762b8b7bad67fe835a89fab4e814e3547f4e9b60741ec9f9  dirA5/code/a6_probe.py
+2d2fd50ed1906e953db0078932e448cd1b8229c2b4d6906c10b9ae86532f8d6f  dirA5/code/a6_sweep_launch.sh
+c1ab4803037545e299275a537ac19a34b3cccdf4a0da6dcb9f7181ac5321c4ee  dirA5/code/a6_e_read.py
+2026-09-24 09:40:32 A6 X read script (before data)
+f57ca31599031ef1bd8f7908c3f84418fc1ae760d0e1d07cd0ade917e863196c  dirA5/code/a6_x_read.py
+2026-09-24 09:40:44 A6 X2 Phi audit sets (before audit)
+69f95264243bee47aad1d0de789eff623c93e14ba0cfbe25e0c57aee53d23c0a  dirB/runs/phi_audit_a6_s0/admitted.jsonl
+7c4c9c85c92c32cf777ad09db6a5c6b96c99f6be7c67b7bd5a4c8c6fdcc1ccfc  dirB/runs/phi_audit_a6_s1/admitted.jsonl
+2026-09-24 09:43:49 A6 X2 Phi build/run scripts + Phi audit parts
+cfce891ded28129e39d8d2e75b6805d8937bdb6aba0d7c5609b95fdf5674c70c  dirA5/code/a6_cln_build_phi.py
+026b56fc88eb601173e5e076ef71af1261793cca9ead6f25c410552706e3f532  dirA5/code/a6_cln_phi.sh
+bd286a2cd9ddf9e899cd8e5e58393c1951d333efbcff20491ce31d22c77b3c23  -
+2026-09-24 09:44:18 A6 X2 read script (before data)
+ba4de2197dbc717e5681e30ac7e2c4ed9bc523d2c045b8f12b224b5cae26b665  dirA5/code/a6_x2_read.py
+2026-09-24 09:52:33 A6 D script v2 after 2-reviewer check (v1 never run)
+63d930bc5d72e85bf918259189827295caee676652530c9dbcedf62785313b65  dirA5/code/a6_matched.py
+2026-09-24 09:53:53 A6 D1-D4 read
+d71aa2325cdaa188d809f13f71b2cf7fd8e2055d7378043ca1a23e7ad26361ef  dirA5/results/a6_matched.json
+1828e485d97a9760308921c1fdb80264da3fa45a875d0891b13b912cf629cd03  dirA5/results/a6_matched.txt
+2026-09-24 15:07:08 [internal note removed]
+531b92288d9503056c76a7c0f5324860874d49a46a3605f97270c87c75b294aa  [internal file]
+2026-09-24 15:10:38 A7 registration (before any of its data)
+50ea531b380083dcd2b639ca155bda37f6524b3c2d0cbb8f2d388257da8ae206  dirA5/docs/A7_registration_2026-09-24.md
+2026-09-24 15:31:03 A5 reads v2 (TG/HZN/SWAP/CTRL-L) after two-reviewer check, before its first run
+7bc194287ab23f3307fb816fe3bcedf07409edd4b2ba2371d3a7bf3ecea67530  dirA5/code/a5_reads2.py
+2026-09-24 15:53:54 A7 item 4/2 read v2 after two-reviewer check, before its first run (UMWP category map verified)
+be8f86a5c528e5987c8d2f987098302fdaab18881d2fd6df2128f47ce52d3929  dirA5/code/a7_exit.py
+1ce23227dad4cceda2e22ed72a8a28bb27c9ffc1e4ddd61c7dc27a48f92bc5b9  dirA5/results/umwp_category_map.json
+2026-09-24 17:12:00 A7b addendum (blind re-audit) registered before any of its data
+a9f8e25c4a90e55a1b7e89d0510e572f563c56b2fe4e932119b82aba8c931671  dirA5/docs/A7b_addendum_2026-09-24.md
+2026-09-24 17:19:55 A7b read v2 after two-reviewer check, before its first run (blind verdicts file sha256 67957b08...0815 uploaded 17:1x, not read)
+1262b110debe2dbe0299eae1a91b8c13edf1c3729e42b9ba7dfdf493572b3042  dirA5/code/a7b_read.py
+67957b08064db94482612c4534629874489f99eae2fa99276847f74373210815  dirA5/results/a7b_blind/blind_verdicts.json
+2026-09-24 19:23:40 A7-5 addendum (R-Zero replication in the official code, exact commands) with its 16 companion files, after the adversarial critique and the verification review, before any R-Zero data (patched tree 69ae7291...7ea2)
+966da88d0564dacc6506adce226c1eb2a5e6cc2b830e75ab04cf8155d52056b1  ext/rzero_design/A7_5_addendum_draft.md
+7b8c11c0a83cf16b0cad013df567d62c41ff7c2736aa958f91e6ab07c541e188  ext/rzero_design/rzero_A7_5.patch
+e0924be2a0449550bb032b1772292b9c6ea47e48df804bfe30e5514f0e8fce33  ext/rzero_design/rz_setup.sh
+9c3312bfa4f15767dbc2e1d795db4919951650e41ea2899d6f0cb26b8e14b092  ext/rzero_design/rz_env.sh
+a6a34b9d2654758e31ae1c0e3b441dd3662cd89c9d741276e74daad02a6d02eb  ext/rzero_design/rz_common.sh
+653b4e9da13ede2579c9c33b0ca27086fd57f6d660e6f03e50f783c6f8d54d28  ext/rzero_design/rz_wait_and_run.sh
+fe92ea4127f89bc4f9fe2a7d68351d231f29883ce831229301fec10af60bb90e  ext/rzero_design/rz_smoke.sh
+561d1b8ebf79f6a13f86a65b41b8dbfda643174c2aace9e8d5a66c898adc466b  ext/rzero_design/rz_run.sh
+0410d01600c28b719284e1c0cdf61df23c9cdf611ab866ab2b6e8de9399997b6  ext/rzero_design/rz_stop.sh
+a29a51f1d6863196c6c56c3f81bc00ae440a4be021872d93e0d61226493a841c  ext/rzero_design/rz_clock.py
+1e64b05425b2e2eac52498af293d94926aa5224086df9d1f9eca40a426cd9d4b  ext/rzero_design/rz_extract.py
+b4d89f1d2f977e628ff2ae71788bf9a7420d93c05ab7b5f3001c80a6d28baafc  ext/rzero_design/rz_audit200_wf.js
+22126f180c6a4e1b73d858a104f022e0151639f8386a0032dba092980fb4fc8b  ext/rzero_design/rz_umwp.sh
+1fbb53505a2af6c6fc68b4226dc9c68ccc8c0d8568bc1d7e9d7728a3c47065a1  ext/rzero_design/rz_read.py
+a227888a39ef295f40774031867dc5fe06c933315b6bcdd76a8eefda8e5e9af9  ext/rzero_design/dev/mkpatch.py
+8fafcbb090b36e3476d5a4bf93cead63ec6b06cde44da283e677cf80e7c37429  ext/rzero_design/dev/patchtest.sh
+57b92a3e92c3c0553d33da81e9d57e5bc0f1c9132cb062cd1570a325257f4a95  ext/rzero_design/dev/designtest.sh
+2026-09-24 23:08:19 A7-5a amendment (run-control fix: vLLM engines recognised by cwd/ancestor; kill_tag stops them) before any R-Zero data
+15853fd905fe81e891acf69f1b875bb050be22aca0be4a0598063a66c1b9fe9f  dirA5/docs/A7_5a_amendment_2026-09-24.md
+364d129086eb81cf033c1593e28f85486ecbfe2f7369da886193e1e63d85af47  ext/rzero_design/rz_common.sh
+2026-09-24 23:16:50 A8 registration (interpretive multiplicity) before any of its data
+d64ade7e09039ae78ff20a38e014f4ece4489e62ad85ba5b8c83e161d348de50  dirA5/docs/A8_registration_2026-09-24.md
+2026-09-24 23:30:28 A8a clarification + A8 unit builder, labelling prompt and read script after the two-reviewer check, before any unit is built or labelled
+2b05b45895568ad7fb6f13231a8346c07961f6c16e85914ec6fd4373b030b83c  dirA5/docs/A8a_clarification_2026-09-24.md
+ef1258a744607a85408f18748c7f8eaead1f1de1ce1cb464fc27554428c4c349  dirA5/code/a8_units.py
+db6e272d8f6e7d12aa1b193cbd9983aed224f2c6af4d0be3adf76b0c0329ddbc  dirA5/code/a8_label_prompt.txt
+f9670378f735ed16bc58af4131ac5fb694ad332d9567a157367dfd089f319cbf  dirA5/code/a8_read.py
+2026-09-24 23:58:06 A8 labels uploaded (blindness verified: every labeller ran only its assigned sed; not yet read)
+5c1ba047f48c7e59cc913edc4d131d91c559ce90589a3d3a2e4f7617fcb4a914  dirA5/results/a8/labels_main.json
+a062d8ae6a4866a00b1c5150284e9315a4e751e8e38d1318d9d58c0725198af5  dirA5/results/a8/labels_second.json
+591b59318a0121c200aa6360f48537ca0f2fa4f6eca0b293386ddd2da148923a  dirA5/results/a8/labels_r3.json
+2026-09-25 00:00:42 A9 registration (per-class law in Qwen3-8B and Phi-4-mini) before any of its data
+157ab46d98845d5f21c9605c1a75bd1a1333605703b80eff7f3d1a438db84869  dirA5/docs/A9_registration_2026-09-25.md
+2026-09-25 00:22:53 A9 read script after the two-reviewer check, before its first run
+7db9b0b0145bf4ae1ee79073c4466db97dc4d54884086c25268a336d44533ce9  dirA5/code/a9_read.py
+2026-09-25 01:13:08 A10 registration (open-weight judge on the A7b blind items) before any of its data
+565a248d2903e909649552614902d54962d2b75bc0ce95941e13b1975699b43f  dirA5/docs/A10_registration_2026-09-25.md
+2026-09-25 01:13:30 A10 judge script before its run
+68b7b3154d42d808521c1bf08cdd359ac14ddd2e0d961c3c2f5a59d9aba92664  dirA5/code/a10_judge.py
+2026-09-25 01:20:14 A10 read v2 after two-reviewer check, before its first run
+860f6c1c5fb8dd7899359b68e7922c8a69470dda4dc8a6ed1ff87af925231da5  dirA5/code/a10_read.py
+574b222f5dbd160bbe9e0d91cc88cb84b75b20b2f553f95e6a782904fde68915  dirA5/results/a10/verdicts.jsonl
+2026-09-25 02:00:23 A7-5b amendment (API-compatibility edits F1-F3 for the declared D1 stack; new patch and A75_TREE eb840921...0a1b) after the dev run, its review and the verification review, before any R-Zero data
+a74a3f0b883a60f28626547acd9a0aa04fa47da0cacd5d2dee698d227e4df632  dirA5/docs/A7_5b_amendment_2026-09-25.md
+a74a3f0b883a60f28626547acd9a0aa04fa47da0cacd5d2dee698d227e4df632  ext/rzero_design/A7_5b_amendment_draft.md
+de85bc30b75cf75dc081741488a383f5ef108cad7ee6216dcd30e50d72d61b06  ext/rzero_design/rzero_A7_5.patch
+9c6abf834a91ed5d271fbc5d3c44a7c35fb404f8d1aa68b4c09ea2599380538c  ext/rzero_design/rz_common.sh
+12531cae9fcf209294b19f1e7b79248f33184f51f3a086d69e5829ebb7b01ffc  ext/rzero_design/dev/mkpatch.py
+efe26e3b6756e831b8f3534b30ad0ad496259a1f77f7963ac9409ea4409d84ee  ext/rzero_design/dev/patchtest.sh
+2026-09-25 02:37:35 A4 verdict revision 2 (pending cells filled from hashed reads; HX6 re-read with umwp_read_c.py)
+a2ae525086f9fa05c371b0e5c8bc4e8d7de29a5c3e7c4480aa87fe5f432b4f7d  dirA4/docs/A4_verdict_2026-09-24.md
+6a1c5b6d17967f94d72d0909067253124a9346e572d17464e827658dc47d2219  dirA4/results/umwp_read_c.json
+2026-09-25 03:04:14 human-validation packet 2 (drift, 240 blinded items) prepared, not annotated
+fe667ec21c5542d900a977dec09df69daeb80c7620a8c7aa5f912e0fab4b6f95  dirA5/human_validation_drift/packet.md
+91d86caaf4978fc0e3740bb34b5ac7681efa94b87cc30cc1286ee74259e2af5f  dirA5/human_validation_drift/_key_do_not_open/key.json
+31bbb8330e578db272b706941c43689856ee4014799b35195d1d9de136edaa4c  dirA5/code/hv_drift_packet.py
+2026-09-25 07:37:22 A7-5c note: corrected D1 statement after an independent review (documentation only)
+c075b7c7b8046d2c309d1883ea18d05de41bf5cc00a4d1172e6ecd2ce9234242  dirA5/docs/A7_5c_D1_correction_2026-09-25.md
+2026-09-25 12:39:08 pre-registration ledger, positioning table and verdict errata (documents)
+6b11e01016a2aba955ccdaa806b046556770d2722c5dc22670f9cffafc32a9ca  dirA5/docs/prereg_ledger_2026-09-25.md
+c413a0d9e89f5420f9fc2c25c78504edd56db2a60163a9f8f206b99481f2e0cf  dirA5/docs/positioning_table_2026-09-25.md
+71af78f3b1b90bfa7f5c1b2ce1b7bd16ca2f6e4717960487571871b0bc66c8b9  dirA5/docs/verdict_errata_2026-09-25.md
+2026-09-25 12:40:38 official read dirA3/code/a4ij_read.py run (ledger open item)
+d857ec71dc311982598b3ff8aa02535fa9414520c09179ce148e0bafb2ccbdd1  dirA4/results/a4ij_read.json
+2026-09-25 12:41:00 official read dirA3/code/a4_reads.py run (ledger open item)
+5dd2cbfa0c905abc757fe981368371b85571b6e48583b6b63a22eaaaba443f02  dirA4/results/a4_reads_2026-09-25_1240.txt
+2026-09-25 12:41:35 official read dirA3/code/a3_guard_diag_score.py run (ledger open item) 2736163692875b3fd15d146902464ec30b501e8be17fa6d9ad2e4d5a77fcea25  dirA3/results/guard_diag/evo_r3/result.json
+2026-09-25 12:41:35 official read dirA3/code/umwp_read_b.py run (ledger open item) 284f3d664f5e47cbe7bfa12318d98bf023e53a5181807e436b54a4156f4cfbaf  dirA4/results/umwp_read_b.json
+2026-09-25 12:45:52 official read dirA5/code/a5_frontier_b.py run (ledger open item)
+b2c991c3ded05695cb663f8f1871eed86173716cc024b3f1cd8dd57b8640aae1  dirA5/results/frontier_b_read.json
+2026-09-25 12:57:59 ledger section 14 appended (official reads of open items)
+e0d80fd5bb85a0c4136a0810acddebd2fe470f215cafb05278a71c37cc4659b6  dirA5/docs/prereg_ledger_2026-09-25.md
+2026-09-26 06:51:15 R-Zero official reads (RZ-P1/RZ-P2 HOLD 2/2), ledger section 15, results doc, post-hoc paired descriptive script + outputs, re-read scheduler
+87c77b69b331c644fce0608b2776c105888da59e87b8d916af9a74c1d1675f4a  dirA5/docs/prereg_ledger_2026-09-25.md
+44009714e4e980a2ff8295358385b27eeff9df7d25acdd67cd5cbffeb6937346  dirA5/docs/A5_A6_A7_results_2026-09-24.md
+d1c313845aadbfaa1c438d84fe02c6f5ad75d6e1c08e99b5343f8586fcea6166  dirA5/code/rz_paired_desc.py
+8741e111d0f82390860eeca29bf9bf3a2e961d257fd46f493cfe8dbe33b12370  ext/rzero_design/rz_reread.sh
+6d534b13953a94d9030ecfa070ac3d7020c061042f928c32fdf74a32a754dfb8  ext/rzero_runs/rz_read_final_2026-09-26.json
+4133219c5e57805fe3c4050225f68fad792d76583cbec880801326dcb233175d  ext/rzero_runs/rz_paired_desc_2026-09-26.json
+2026-09-26 07:04:23 rz_paired_desc.py v2 (adds response rates; paired results unchanged) + output
+235cbdfc9cb50510a8057dd5cbe01228be1ab6715f574a5f1880fe5755ce53ff  dirA5/code/rz_paired_desc.py
+ae92112f64d266f41aa983f956c6dbd742b2c35287a06a8afadb723c652db128  ext/rzero_runs/rz_paired_desc_2026-09-26.json
+2026-09-26 07:08:24 ledger s15 + results doc revised after verifiers wf_2a0657d5-cb9 (early-run labels, timing deviation, non-blind disclosure, abstention/comparator wording)
+ec43dcc87e1e362291f1742d4a9790221fa716756e194e569be5c26f339fc45b  dirA5/docs/prereg_ledger_2026-09-25.md
+981605284ec96cd614e67fa6bf0b31e1e24edf700de644c452d669659b293066  dirA5/docs/A5_A6_A7_results_2026-09-24.md
+2026-09-26 08:22:54 A7-5d blind re-audit of the R-Zero audit samples REGISTERED (addendum + sample/workflow/check/read scripts + the six input audits), before any of its data; 4 review rounds ext/a75d_reviews/, 2-judge pilot on a dummy file (wf_019fe069-9fa) passed
+332535c3121164e16c07f81548469a1cd25df8676668b8f066db4b909d32ef41  dirA5/docs/A7_5d_addendum_2026-09-26.md
+8e8162a73ee08010b79052ce148894de2b7441f931f90d201f3960d48ec2d244  dirA5/code/a75d_sample.py
+711d4f0cfd5cc97c84e34cab0b6df87c41f7a93c2ecc10b794b0a02f85408080  dirA5/code/a75d_blind_wf.js
+e42e8905c4d833283aa3bed6cd8224f74fcaa769229c3716b86b13a365babd2b  dirA5/code/a75d_blind_check.py
+b80a2d2bdd807949eda13fe86485ef7b7b77848498f1cbf4db6edb21959b9c74  dirA5/code/a75d_read.py
+81ad37b312184dcb348ea99b2d2a070e62be129d47a9cbf9a22a3835975cbb68  dirB/runs/rzero_qwen3_4b_Base_s0_it1/audit_admitted.json
+4cdc864798717369d741361c95135cd56dfd619d05f89bf784a7357eb6f7a29a  dirB/runs/rzero_qwen3_4b_Base_s0_it2/audit_admitted.json
+957f294e40d0a3b9df3d44c5669a9ebe94c3a5c134551006d9275af02060962d  dirB/runs/rzero_qwen3_4b_Base_s0_it3/audit_admitted.json
+301597a2607f4d5eab128529e8100084f3aaff19c16a28d05611e9dcc2c108b0  dirB/runs/rzero_qwen3_4b_Base_s1_it1/audit_admitted.json
+685a9a1b54a4f798f7fd6385734adf164f3925e5d547bd31bc5b1d5f493d5669  dirB/runs/rzero_qwen3_4b_Base_s1_it2/audit_admitted.json
+6700e71f2a9ca8f42e0b76438e80b719aad1e9768982860cd4d010f94a7d5a32  dirB/runs/rzero_qwen3_4b_Base_s1_it3/audit_admitted.json
+2026-09-26 08:23:05 A7-5d sample built (before any judging)
+2f334ea38fdfd1d927b1f0cb779f7194a07989fb19e42d99fe510ae71e72dfde  dirA5/results/a75d_blind/items.jsonl
+d5482dfca76f84d2d6493b9889afa4bb41d2564bf21f81e193ea390967499c2c  dirA5/results/a75d_key/key_full.jsonl
+2026-09-26 08:24:00 A7-5d pre-launch scan (Temp + cwd): files with rz ids: 0; files with >=25 distinct z-keys: 0 (pilot output archived to ext/a75d_reviews and deleted first); MEMORY.md sha 69a702ce2cf0c92d675a5c103ac75b42f8360c1ba1987c6a1418d29a0d0015f6 (no R-Zero drift numbers)
+2026-09-26 08:33:23 A7-5d pass 1: workflow run wf_c8ae8bd7-99d (48/48 agents), verdicts saved unedited, blindness check run
+7851e841b8f180cce963795f809857c3895adc2815041a9d9cbf93883deedc09  blind_verdicts.json
+0c9480a9db8bb22dc47f99efebad642af3c02e412f677ddabf653ba098d7c790  blindness_check.json
+2026-09-26 08:40:47 A7-5d pass 2: workflow run wf_3f5bfa74-1da (1/1 agent, ranges [[626,650]]), verdicts saved unedited, blindness check run
+a1437ee712dd226f9cbb97daa2c61de651e73105a8116364f59dc90425e7e3ee  blind_verdicts_rejudge.json
+bcf10dddfcf98c67659a797984c2d8ffddd104803e81fdfccf727139c8c4a3b4  blindness_check_rejudge.json
+2026-09-26 08:41:07 A7-5d READ (a75d_read.py sha b80a2d2b, 2 passes, complete): RB-P1 HOLDS 2/2 (blind +22/+26), RB-P2 HOLDS (D_blind 24.0 vs D_orig 25.0), RB-P3 HOLDS (kappa 0.943)
+7c9bd8bd17d285c7b810450f2561d0c5566ceeb74e95d1e8bd7413e5deb87d7b  dirA5/results/a75d_blind/a75d_read.json
+4a0f6f5f636164b9e349cbe184d0b0a3f2a08cd576d6315807379a397285fd66  dirA5/results/a75d_blind/a75d_read_pass1.json
+2026-09-26 08:41:58 ledger s.16 (A7-5d) + results doc updated with the blind re-audit
+e852199f538f3c26a72f6817e916f6f967d235767ad9efa496ac62ca32946829  dirA5/docs/prereg_ledger_2026-09-25.md
+26341268133ed5254e104a20f07b04e9738b157ad8c20ccac44d216b076a1404  dirA5/docs/A5_A6_A7_results_2026-09-24.md
+2026-09-26 08:45:07 [internal note removed]
+da962a55200ad7b712086d57468e6fc14ed5de444ec8c88aa2975e4dc9c8305e  [internal file]
+2026-09-26 17:33:38 A11 corrected abstention-prompt re-run REGISTERED (registration + 2 probes + launcher + read), before any absfix data
+d452806e05994eca94f2e17f4fd85cdadf022807eaae31f16281f0d752980c6a  ext/a11_draft/A11_registration_2026-09-26.md
+11f796c2af5c56afe72c802cf34e444e391c1b53f10561e5c115bb0b7f6cfa68  ext/a11_draft/umwp_probe_absfix.py
+9576635bf12570f48918785572bbea01b8a7933a6e1a428b31fa90598f6f532e  ext/a11_draft/a6_probe_absfix.py
+f30026dbfdf047577a28e635852fa25776e7cb3b80d68cbdecbe981b081f7799  ext/a11_draft/a11_launch.sh
+3d208d62b2cba96a3394267884aba37e5f2de11c0c1983cc9cc8b90c893147d5  ext/a11_draft/a11_read.py
+2026-09-26 18:21:33 A11 confirmatory read output (a11_read.py, T0 + 0.64 h)
+46ca45fc057217be35dde63c110eb3791543ef30bd22bf87dd74ced98fd1cb85  ext/a11_runs/a11_read.json
+2026-09-26 20:08:52 A12 REGISTERED (registration + section-6 files + 3 inputs), before any A12 data; pilot: workflow run wf_ff365eca-174 at 2026-09-26 19:21, a12_blind_check.py pilot PASSED, passed [[1,25],[26,50]], dropped [], absent [], pilot check sha256 be6a6c073a1ed853d50bbff5db91771cb2d8590379da41af30af050bd89cff9e; pilot items (dirA5/results/a12_pilot/), pilot check file and workflow output deleted 2026-09-26 19:22
+df7ef52ebe0761b2f7f15326e36830642ee33d464783b7e4bbe9f83d35796059  ext/a12_draft/A12_registration_2026-09-26.md
+c925ab8ec1ad5444f1e15ee1efbbaa1263ae9c2fc3d525b58e0a499124faf250  ext/a12_draft/a12_p1_sample.py
+3716a92ae9b116536eaa13f41e0c7f5e50c624d48e156bcc201a731749d9f9dd  ext/a12_draft/a12_p1_blind_wf.js
+9f0b1eb06aa3e693f6736b91ac3b2b2c126895d183bf21d3e7cf39e72145be29  ext/a12_draft/a12_blind_check.py
+73c4ef19936d3c7d9d78f4e2b07de5f2d709a4578e390ab323ec34ff42d0ff87  ext/a12_draft/a12_p1_read.py
+567cc4562ec6c60086a01c6373a9028b9270e25b946c09b16d08c5d7e5198786  ext/a12_draft/a12_p1_pilot_build.py
+50f5a8ba6897f1aaff6715344467e5eba9ed5904228e5b974d348f0ffd249fca  ext/a12_draft/a12_rzchat_eval.py
+2d12997ce39e7309e62cf0ece7181e9584e4d50b712dc5c17ecd0a924566ab6e  ext/a12_draft/a12_plain_eval.py
+ba144a9341abf16f9549d3e24e0bdc58916efe411f537745f770cd5daf110f1c  ext/a12_draft/a12_open_judge.py
+e69557e7a7393e417bb714224a808650442845db58d06a6e821cacf889c5449f  ext/a12_draft/a12_launch.sh
+a696b813a82d584b3aa8f8a7aa818a96843fbd7f1878483471cde741829b05ea  ext/a12_draft/a12_p2_read.py
+c4c1a31f78126b341d10e65051b309c53f45a1d2dab2034d6a65c61b98866383  ext/a12_draft/a12_p3_read.py
+2260fc7fb36978ff03120e5161791c311a4837f786e05a17e545c406f4f62920  ext/a12_draft/dev/dev_mk_check.py
+89c52c9fd3098aa0d4a028f7d26f9a21586469225f4a47eeb155b53d36b51b33  ext/a12_draft/dev/dev_mk_judge.py
+949aaa011a2621fa13dde7b8233fd8fcffd3a4685ee509d157593d791966297c  ext/a12_draft/dev/dev_a12_selftest.py
+9854d4e79042224357e362660377c70902d9811fcf572f28c555a584ba8f6787  ext/a12_draft/dev/dev_a12_launch_test.sh
+6755bdfe907fcc3b664169c157f0531453491b8679fd976308a36256c8bf6165  ext/a12_draft/dev/wf_stub_test.mjs
+901558113e95d58225ebe13abb44f37cbb58af9e97935a1145c30f9393f5ed11  code/loto_common.py
+a97bf54ebae71447ae5d686222083745202f8516f090068d4386d8176b15acb9  dirB/runs/qwen3_4b_Base_own_a3_s0_r1/proposed.jsonl
+975e7e9770ebcfc6c7d2835fdae8002e221bc9d8ff50caa55f2e28313612e178  dirB/results/evals/qwen3_4b_base_step0.summary.json
+2026-09-26 20:10:55 A12 part 1 stage + build outputs (before any judging)
+74ca02f532db808dbba605c4e87a48cd7551d9303ed6477cde3f0ba3fee3c5ce  dirA5/results/a12_key/stage_s0.jsonl
+3c2e4a753dd10eb5ae956b8b34e2bcb88477a4517056e06359026179fc595bda  dirA5/results/a12_key/stage_s0_meta.json
+f83fd75b757e04d66acd22d2ccd11556d23ceaa2198d64e67e0068f6b4c4a2ad  dirA5/results/a12_key/stage_s1.jsonl
+fcdebc58d03a07ea52c764ee7878efe71242d0309f4fea587b88089627f16dd7  dirA5/results/a12_key/stage_s1_meta.json
+cd32d8ec37a88febf6468755aee25a984278f5c058f487a721b47676de5bef3d  dirA5/results/a12_blind/items.jsonl
+389f2d4a8f0e23f0032b0b23cd815ed38869685b069ab420bce75a79b24f9ca9  dirA5/results/a12_key/key_full.jsonl
+2026-09-26 20:12:25 A12 part 1 pre-launch scan (launching machine): (1) grep -rlaE id pattern over the local Temp tree: exit 2, no match, 1 unreadable path listed (AppData/Local/Temp/nseAEC3.tmp: Permission denied); over the working directory Desktop/RSI: exit 1, no match; (2) files with >= 25 distinct y-keys in both trees: none; (3) judges scratchpad path vs checker BAD_ANY: no match (TEMP match true); no local copy of R-Zero item-level data; MEMORY.md sha256 b51b7bde975a448a4b3f58b8e725e182aab3c05693b2e4ba6047e4f89c2e8658; .claude tree skipped (banned for judges)
+2026-09-26 20:26:44 A12 parts 2-3 read outputs (a12_p2_read.py, a12_p3_read.py; both launchers done 20:23 / 20:24) and part-3 verifier verdicts
+d5d39a74e8cdca16fab1561b40c2a8df0ea3d337b864ebb7712acdeb46d414aa  ext/a12_runs/a12_p2_read.json
+4c466bc4e59088cd45aebe23f573e683ead90c4d508aa6baadb09c0ddc418479  dirA5/results/a12_open/a12_p3_read.json
+2ec1448c605ea5ceb8ee5133110aeecedfd3530b2a6ec3abdaa3a0ce072e0bef  dirA5/results/a12_open/verdicts.jsonl
+2026-09-26 20:42:23 A12 part 1 pass 1 (workflow run wf_8eba3d04-117, 48 judges, port <PORT>): verdicts saved unedited from the workflow return and blindness check (a12_blind_check.py all): passed 34, dropped 14, absent 0
+f1d0e6d8e82305076c8df23b230078412bcec336aa47ea71cbcf5b8fbfb1fbc3  dirA5/results/a12_blind/blind_verdicts.json
+a80c4409711293aeca6728805449718b1e8ebb58ffa8e9181673030ef1d2850e  dirA5/results/a12_blind/blindness_check.json
+2026-09-26 20:43:42 A12 AMENDMENT 1 (before pass 2; passes 2-3 checked with a12_blind_check_am1.py; pass 1 keeps its registered check)
+49240ad41f94671dfaa627987711f3bf05e0517d7253769364e50cca30abbebd  ext/a12_draft/A12_amendment1_2026-09-26.md
+f12113b969804d886185520626f7b21b8fdf0b68376c4d1bf06166397c74cdd9  ext/a12_draft/a12_blind_check_am1.py
+2e7fd4b7f3ef1a1acab31478922965f0158202fbfc2f52888a059e001f73ec46  ext/a12_draft/make_am1.py
+2026-09-26 20:45:10 A12 AMENDMENT 1, corrected (supersedes the 20:43:42 entry: that checker crashed on a name collision, and the note gave 11 instead of 8); before any pass-2 transcript
+369f9b7c7d01a4ee1c04babd1b10d37c0c0ac4408eb90768f65f10f19dcdbdea  ext/a12_draft/A12_amendment1_2026-09-26.md
+8621965a2e6efc397e93c815c59caf8cf1afd83733d48968a42094eeadb13381  ext/a12_draft/a12_blind_check_am1.py
+03dce1ed3cde03008c240fc4f92f6d2ae5e5de053f4ec365ffe5e95dfe9ad38e  ext/a12_draft/make_am1.py
+2026-09-26 20:50:42 A12 part 1 pass 2 (workflow run wf_dc3db97e-23a, 14 judges, port <PORT>): verdicts saved unedited, check with a12_blind_check_am1.py (amendment 1): passed 12, dropped 2 ([26,50],[876,900]), absent 0
+6432dcb556b170ccd3a362f06c63fda9523c9b65be07b3772c1fbe698ed61521  dirA5/results/a12_blind/blind_verdicts_rejudge.json
+6a1881f38a04f3769618371faf80b6a43b775a801d49bc8de36c862b75b68e72  dirA5/results/a12_blind/blindness_check_rejudge.json
+2026-09-26 20:53:18 A12 AMENDMENT 2 (before pass 3; pass 3 checked with a12_blind_check_am2.py; passes 1-2 keep their checks)
+d06038a93514564fa383195c453ca7bdc01e40d078d85a670c5f68e2a4210213  ext/a12_draft/A12_amendment2_2026-09-26.md
+4c6b4a5035193740478a9fb9f0620a5869fa25de29e01801a5715e31a88d145d  ext/a12_draft/a12_blind_check_am2.py
+d890777aa15a162ff165de094c264b3a733fa388e52fea3f0ff8a814238078fb  ext/a12_draft/make_am2.py
+2026-09-26 20:59:06 A12 part 1 pass 3 (workflow run wf_d6d3253b-7a0, 2 judges, port <PORT>): verdicts saved unedited, check with a12_blind_check_am2.py (amendments 1+2)
+a08535a30fbcc3017b26d7560b4957b7ec52ce9f398cef00f52763d3c8fbf994  dirA5/results/a12_blind/blind_verdicts_rejudge2.json
+b5bf80d45ee7eb5fae6037bca57d2362fb0e1071d904941ee4ed1606b3469d47  dirA5/results/a12_blind/blindness_check_rejudge2.json
+2026-09-26 20:59:17 A12 part 1 read output (a12_p1_read.py after pass 3)
+b128fc97d7192fab1f3488659af9ca3fb483c03e4cdefda984b453446102476b  dirA5/results/a12_blind/a12_p1_read.json
+2026-09-26 22:37:34 human-validation packet 2: annotator label files RECEIVED from the lead author (2 annotators + adjudication of disagreements); stored unopened; NOT yet joined with the key; analysis plan and read script to be hashed before any join (plan written after annotation, before unblinding)
+0d6b3e2b24ba0a25d87f777df18733608823cea2460c46a84c06201da2a925ae  dirA5/human_validation_drift/labels_ann1.csv
+b98bf4160fc70bf93bd3f51f2a7cd9aa22a36f091e499eec1b9d740f43b48674  dirA5/human_validation_drift/labels_ann2.csv
+cd4e9003cb671f17cc618578c95553bdf958d78840a5ef0af0a282912ce75dc9  dirA5/human_validation_drift/labels_adjudicated.csv
+a87702b199f543ce1cb9f3e7b3b6045f5a3fc09195b4da4b95e76640794b72d4  dirA5/human_validation_drift/adjudication_rationale.csv
+2026-09-26 22:43:04 human-validation packet 2: annotator metadata supplied by the lead author (before any join with the key)
+88ea940b83ce3864f05fe34ab34dc7b39a8eca9e37e2c9794c7b74f2c0d45798  dirA5/human_validation_drift/annotators.md
+2026-09-26 22:46:50 human-validation packet 2: annotators.md updated with consent and ethics-review answers (before any join with the key)
+eaf5468cb14bf71ea61fb232c695756887cd153b8966ee2911731e109404088b  dirA5/human_validation_drift/annotators.md
+2026-09-27 00:05:30 H1 human read of the drift: registration, read script and dev test hashed before the read (revised after two independent reviews of the 23:08 version; labels not joined with the key; human_read.json does not exist; dev test on synthetic files: 254 checks, 0 failures). Qualifies the 22:37:34 entry ('stored unopened'): at 22:35, before the upload, each label file's header line and wc -l line count were displayed; key.json was opened once at 22:14 to print only its type, length, field names and round/seed counts. The binding version is the last entry before human_read.json is created
+9f03b907ce4e02b178faf618519e80c3bc0d22a79ef8c96d1cc2f668c7209e4d  dirA5/human_validation_drift/H1_registration_2026-09-26.md
+2c8ab779429efbbbb7669114c8e13f45112e8eb3e8681ff436a1e62f09de9411  dirA5/human_validation_drift/human_read.py
+155af60a46dbe5926f861e235436cf06dadf480b859b3554e872dfcc64c52870  dirA5/human_validation_drift/dev_human_read_test.py
+2026-09-27 00:09:21 H1 human read output (human_read.py, run once)
+45fe40b3d93867e9b61060bd055bf79f45d8ff14bc05cef3b48e843d1eb33c17  dirA5/human_validation_drift/human_read.json
+2026-09-27 00:18:28 H1 procedure addendum (documentation only, after the read): adjudicator blind to round/seed/judge; annotators had only packet.md + template, no server access; labels_ann2.csv viewed in Excel, not modified
+8b720e517f3e5ba0e1a3b6a5d19d453ce5f0ec997a7d578eb2d0e7fe6c599787  dirA5/human_validation_drift/H1_procedure_addendum.md
+2026-09-27 03:26:42 A13 planted-free contrast REGISTERED (registration + build + launcher + read + dev tests), before any A13 data; priority mode per the lead author (A13 never yields; foreign processes on A13 GPUs are logged and killed)
+bc6b62fb0180ac33d7e0f17b2c0414cffe4634563e2faab6c106219d3c5ec837  ext/a13_draft/A13_registration_2026-09-27.md
+ab6ef460d74b81df036d83b3d9fba9c857f597077eac17348d8b7726de33c4ae  ext/a13_draft/a13_build.py
+76307f01f48aae070a499f6e7d1e002dadec8c45b46fb9bf76dbb64e6714bdb8  ext/a13_draft/a13_launch.sh
+59304a6389fe8040d679d7d81dfaa380096a87a43d259a0dc44bcf2d452f5f80  ext/a13_draft/a13_read.py
+8c46999a5ee80c6a47bc7be1f73ac372075852f61ced10913c5faad2974741e7  ext/a13_draft/dev/a13_dev_test.sh
+ff2ced4803c3d86a3d307219bc964fa841198892469f6883787a8e0e80e84db8  ext/a13_draft/dev/a13_dev_tree.py
+2026-09-27 05:31:29 A13 read output (a13_read.py, run once after both launchers done)
+462861bde39bc5509fa599a8a2302927879d23e3049a4c9cb5a05b30e613f6b7  ext/a13_runs/a13_read.json
+2026-09-28 10:27:25 R-Zero scheduled reads (RZ-P2 at T0+72h, RZ-P1 at T0+84h) by rz_wait_and_run: both byte-identical to the early read rz_read_final_2026-09-26.json
+6d534b13953a94d9030ecfa070ac3d7020c061042f928c32fdf74a32a754dfb8  ext/rzero_runs/rz_read_T72h.json
+6d534b13953a94d9030ecfa070ac3d7020c061042f928c32fdf74a32a754dfb8  ext/rzero_runs/rz_read_T84h.json
+47edeb5e94c1e41d312574e43aaa397ed6a818b978d979c4cfab1d6131f335c4  ext/rzero_runs/rz_reread.log
+# 2026-09-28 12:16:46 CST LOTO bookkeeping before official reads (docs/seed_level_provenance_2026-09-28.md): registered seed_level restored from the authoring record; 21 Sep version kept; p-floor fix; transfer_test.py registered for the first time (unchanged since 2026-09-21 06:49 CST)
+f0af1b3c09a21b544b4cad62e55ecfd7c90fb43fd5e8d1b4c9e34c603c610da2  code/_versions/seed_level_f0af1b_registered.py
+3d1aa0383775c77091324ac6f3bd36b6150878fb923af6c24ac56150896c94ee  code/_versions/seed_level_3d1aa0.py
+e98fae2336b7fc2f84c9f61296156cd491d94c8a9b6def9360e79b001eb24b01  code/seed_level.py
+9795012aef6494f963a78a662b71ed11038659bc478b6ffee9d3fcef55bb1bc1  code/transfer_test.py
+503ec1aea9771cccb2d57b4d885c598321867d1f0b84d3f54325872791bf0f78  docs/seed_level_provenance_2026-09-28.md
+ca8b9f87ca197264d333096714459c93623587975579f2b557de82b659b15640  code/official_reads_2026-09-28.py
+# 2026-09-28 12:16:46 CST evaluation-only re-scoring launched 2026-09-28 12:10 CST on <HOST>+<HOST> (reader budget 4096 with finish reasons, stronger frozen readers); evaluator copy + launcher:
+ba618c1e28d040470c830a4e884b61a25ed377e107e275c16e0bc79db0818164  code/posthoc_eval_fr.py
+b7d5b7c46ec63d966eca2ac0ba21f753d198952567f62d4b425c57e5bab29141  code/fr_launcher.py
+# 2026-09-28 12:17:29 CST official reads output (C13a, C13b, C14, C15, C16)
+f053564c779b551d0a05cf1edc72b57d29d1d13f95437cd959b2d0bf4bb886a8  results_notes/official_reads_2026-09-28.md
+7582670f297a957d9e1b5846406c459cc1f23897bf8dca31fc64eb7f72c39b52  results_notes/official_reads_2026-09-28.json
+# 2026-09-28 12:33:06 CST addendum driver (C14/C15 intervals with the registered seed_level tool; alternative readings raised by two verifiers)
+461f8372d62a6f0ea45252b4e1d5d52a33760ad562eda973e48f5bdbf355763a  code/official_reads_2026-09-28_addendum.py
+# 2026-09-28 12:33:28 CST addendum output
+f8f9c1ef6df8854ddb33ec2342ff3b5898a0977285844b7be08b22cee6cd12a7  results_notes/official_reads_2026-09-28_addendum.md
+1a632fc3a92400b831af245dd197f650a46e3f8acb57973656d9a829eae003dc  results_notes/official_reads_2026-09-28_addendum.json
+5c2f4e89052e0f7fc3f4e78e5367ec56564e9852d873e626d95e7f205bab2549  fr_launcher_w.py
+# 2026-09-28 13:02:54 CST writer-only long-budget re-scoring launcher (evaluation only), above
+# 2026-09-28 13:03:07 CST erratum to the addendum (C16 mixed-budget sentence)
+b8905864bc483fd327ad9ed08d42d6d677182497f29005e045c4883dcafe0ce0  results_notes/official_reads_2026-09-28_addendum_erratum.md
+# 2026-09-28 14:33:09 CST LOTO paper numbers (final for paper_loto_iclr2027), figures script
+f7891555c02d83e4c818870e5b0a975eb6d4128e222610cecd881462e80371cf  paper_loto/analysis/paper_numbers.py
+928ddf5203993adf04f8bcb972409165986b27c0419878c9f869b05ef349d037  paper_loto/analysis/paper_numbers.txt
+1ff02fd4c1d00d02c8527a4f6bb5b1b5e24506977c9c8d646657fa787097c144  paper_loto/analysis/paper_numbers.json
+25e0749f50adacb42208f38d9de58a6ff9417d3cca5f747448bb37dbf8ab686e  paper_loto/figures/make_figures.py
+2026-10-04 19:59:39 EXPLORATORY robustness analyses for review round 4 (not registrations): exact multinomial modal-count refit of the sharpening model and stricter self-consistency thresholds
+31e03453256d8e9e92f95c2ba1a697a245aa4c48535f747d117fc3b010fbdf6c  paper_arr/analyses/rev3/law_exact_modal.py
+1c3b1f24d2a324b810bf9c090ead21228760bb00ec058a824e6d844cf3e06d35  paper_arr/analyses/rev3/law_exact_modal_2026-10-04.json
+80a9e6eb6c08250b87e3c50ecf1e93fff49a62f003025b857f174de3c80f634c  paper_arr/analyses/rev3/ca_thresholds.py
+4977911d431628dd13ae6d425ac8fe2a2392d546b946a615d94474e7304af308  paper_arr/analyses/rev3/ca_thresholds_2026-10-04.json
+2026-10-04 21:45:36 REGISTRATION H2 (human check of the A8 mechanism labels: readings contrast, gap/assumption flag; written before any human label exists; dev test on simulated labels only)
+5132781f1d3f1bd69a76e0aac6797b08be43e722b59ce3dfaf6da8a95d2109d1  dirA5/human_validation_mech/H2_registration_2026-10-04.md
+4cd839addfffd01f64a29059f161ea3415772a843a0816dd14e0e68112f662be  dirA5/human_validation_mech/h2_packet.py
+d06b36ad7307990dc5526b8511f070453b1cf7bb279845aa74d8346c31060c64  dirA5/human_validation_mech/h2_read.py
+e9ca6abeb8f2d6596063f530d4bc58b0ea08e0d1507bb6249844e2d489350881  dirA5/human_validation_mech/h2_dev_test.py
+5c9bbf3fb908b99993e4eb3ac33e8fffd5377898be043d9e29b14075f6bbaefd  dirA5/human_validation_mech/README_annotators.md
+919fc44022ed87332c150063c6bde9f8b343a9a3dfa07d5b05ce8f196725edd8  dirA5/human_validation_mech/packet_A.html
+bd6eade160f199cd2d34600e9d957920f25490c58170939611b9b89870d1fd1a  dirA5/human_validation_mech/packet_B.html
+915c54881a3026998a6a5181c95ba055c13f740411777472a86f6bed27c74adb  dirA5/human_validation_mech/labels_A_template.csv
+f7bf6da4cb617c046ccf30688a3b1fbb88f41c115a05937f26d9feb9804aa26e  dirA5/human_validation_mech/labels_B_template.csv
+c76747240898e8aaeeb3a89ecb916a111b40aacf07c317edc5f10d5dbf01b64b  dirA5/human_validation_mech/_key_do_not_open/key.json
+2026-10-04 21:46:02 H2 annotator package (zip of the registered README, packets and templates; no key)
+e21ce63d5bb778eeb0775ea1c72d37d968e2ecbf646c14e682aab0be08f2af16  dirA5/human_validation_mech/to_annotators.zip
+2026-10-05 07:10:13 REGISTRATION H2 amendment 1 (re-annotation on new items, two versions; written before any v2 label exists; dev test on simulated labels only). The 12 label files received for the first H2 packet were set aside without analysis; their SHA-256 values are listed in the amendment.
+0c80b09b0669967e67b9f6a7392430ab718da2f1994b98858eaa624dadd7fa11  dirA5/human_validation_mech/H2_amendment1_2026-10-05.md
+20e91ece295683187526fffb2d17c5b16c2aaf0cd6f54c94ac97fafa23e79d33  dirA5/human_validation_mech/h21_packet.py
+0e9f101afd8a5e51c486f65caa9949c861e544f2b8aed3a33e701bdc6844667d  dirA5/human_validation_mech/h21_read.py
+1f96f9d49dbe79cba3c133b581c3ad67973bf60e1ae0ad1451f4c061c5b4ebca  dirA5/human_validation_mech/h21_dev_test.py
+d3acf895ba059600a7b17d916851bffdd04e4e170a27cea67ce8045f048124da  dirA5/human_validation_mech/_key_do_not_open/key_v2.json
+70a64fadb3f108a4117b830754e901b6f39a9065e926e0f5a74f9861124fadc1  dirA5/human_validation_mech/v2/README_ann1.md
+370e66ebbb74714d8095a8058db120bad49d845c601c4e9eb8b90e8a652668ed  dirA5/human_validation_mech/v2/packet_B_ann1.html
+4cbc89393b58917c285cfa442b708032b531356fba009e487f0622e2857fdccf  dirA5/human_validation_mech/v2/packet_A_ann1.html
+1bc25c202f2cd43b60fd04d15c2163ccc1232c135e99fef2e859f0e85adef9d6  dirA5/human_validation_mech/v2/labels_B_ann1_template.csv
+c2b6c3d403db42d0cc9d447e818132466462eefd983d0d1f6cb55aa22a1168c9  dirA5/human_validation_mech/v2/labels_A_ann1_template.csv
+f0a59c810b1c865de5e696d965391cd9b329ccbc29dcb8d187d64e6db9dab1fd  dirA5/human_validation_mech/v2/README_ann2.md
+3b53286ff631e8720cbe2e8e12b28e3b2b74df50858d96021ec49dd3d57c151b  dirA5/human_validation_mech/v2/packet_B_ann2.html
+53c5740d12136d6a5e3f6337b1619dcc5c4cbaa762536b577c52d466bede2b10  dirA5/human_validation_mech/v2/packet_A_ann2.html
+abafd3060f64eab277508a5c3f62e4ee58de912a739a034221eed2150a8c0b3e  dirA5/human_validation_mech/v2/labels_B_ann2_template.csv
+70720a8d3571988ab950ca91e6c0c0613ba35279c1a41c81e044b9175a64059a  dirA5/human_validation_mech/v2/labels_A_ann2_template.csv
+2026-10-05 07:10:23 H2 amendment 1 annotator packages (zips of the registered v2 files of one version each; no key)
+08b39757bcfa41f496164e29a1cb5ff35e3c2995df8381beb779e793c7e5eff9  dirA5/human_validation_mech/v2/to_annotator1.zip
+d3246a182b5c6cdb8677b2298779aa80b38e0da0987c105cb78fb9a2a9c59665  dirA5/human_validation_mech/v2/to_annotator2.zip
+2026-10-06 20:49:43 H2 amendment 1: label files of annotator 1 RECEIVED (as sent; B received 2026-10-06 20:16, A 20:47 CST; not yet analysed; annotator 2 pending)
+f2e8d513cb0d3c425aebb62141baa335c2dbfd992a5dae605de41a669433558e  dirA5/human_validation_mech/v2/labels_B_ann1.csv
+b2beef83f7d1e4ef6b3e054439ceab7e8bb16b0b36769e2e9c3676db4ecc2f82  dirA5/human_validation_mech/v2/labels_A_ann1.csv
+2026-10-06 21:13:46 H2 amendment 1: label files of annotator 2 RECEIVED (as sent; both 2026-10-06 21:09 CST). Next: the registered read h21_read.py
+df504e04a0c8e4bf3553659281f46b9007155ea7ecdb4ac35778c3bdd9bb806c  dirA5/human_validation_mech/v2/labels_B_ann2.csv
+6b6fee83e9fa4b5b9c51e6f744c4bd069c4adef4b5454a65656d7d3fa957d533  dirA5/human_validation_mech/v2/labels_A_ann2.csv
+2026-10-06 21:20:26 H2 amendment 1 READ output (registered script h21_read.py) + EXPLORATORY strict-parser check prompted by it (not a registration)
+070d842d02c6d8bd013424227c4a61ac57b95a90b3921f949140333bc329e90e  paper_arr/analyses/rev5/strict_parse.py
+0a7b46fa7485953139acc9edc50b710b1a1925524866b4c92fec24b3b8477513  paper_arr/analyses/rev5/strict_parse_2026-10-06.json
+652711a59b58faad16b175a2c2dd0bc2f2225a8b669a400c2c5924a6f2abf8df  dirA5/human_validation_mech/v2/h21_read.json
+2026-10-06 22:46:22 rev6 re-measurement plan (texts saved; both parsers; written before any rev6 output exists)
+61d9bb2fb1162312ce90deeb9810bd85a3a319776ee4b78332f283d43c7693d7  paper_arr/rev6/rev6_plan_2026-10-06.md
+a175340dd7f4ed3d5779e52ba86a3d1a92ddbd6ca0c8d52899b68b1e5d22f9f2  paper_arr/rev6/umwp_probe_text_absfix.py
+fa3ba05b404da0a02c9dcc073071ef9dc1a81689dc7181febb0216cfdf766ced  paper_arr/rev6/rev6_launch.sh
+1ab7b7ce3607d6f73eb42bd4688e83d635622af6a8c37b4181f91767797bcac6  paper_arr/rev6/jobs_hostA.txt
+4f875230eda28b9a56c72ef72108cb3a915b3df29dced0b8b646122c365f8f51  paper_arr/rev6/jobs_hostB.txt
+8b7f789459f50568ce161f76cce1f10d10dcd1731871db6ce6e6f3099f29cd70  paper_arr/rev6/ids_all.json
+09625cb52dc56bac6a2c3620ff4f4e29125e8eb14582db28a5334080609e44ec  dirA3/code/umwp_probe_text.py
+070d842d02c6d8bd013424227c4a61ac57b95a90b3921f949140333bc329e90e  paper_arr/analyses/rev5/strict_parse.py
+2026-10-06 23:25:09 rev6 log entries written between 22:54 and 23:24 to PREREG_LOG.md instead of this log (copied here verbatim, in order), then the current hashes of the rev6 files they name:
+  [PREREG_LOG.md] 2026-10-06 22:54:13 rev6 ops: host B launcher stopped (GPUs held by co-tenant); host-B checkpoints copied to host A (rev6_xfer.sh), run there by rev6_launch_xfer.sh (cap 8, waits for each copy); sha256 073d44d20e39969a 1d012a4e36ef11ee
+  [PREREG_LOG.md] 2026-10-06 22:55:58 rev6 ops: rev6_xfer.sh fixed (tar h, symlinked checkpoints), re-run; sha256 74717ba58e2b1e50
+  [PREREG_LOG.md] 2026-10-06 23:04:06 rev6 read script paper_arr/rev6/rev6_read.py frozen before any aggregate of a rev6 output was computed (reproduces the paper on the original dumps: rev6_read_check.json): sha256 249eaac6a13184f2ececa422cb335db9908b57cdd95e4f675053e1c342c30a1a
+  [PREREG_LOG.md] 2026-10-06 23:06:47 rev6 ops: all rev6 processes on host A ended at 22:56:54 (no OOM entry; cause unknown); stale claims removed, partial outputs kept (the probe resumes by id), one launcher (rev6_launch_xfer.sh jobs_all.txt 8, setsid)
+  [PREREG_LOG.md] 2026-10-06 23:11:43 rev6 addition (not in the plan; added before any rev6 output was read): the R-Zero final solvers (seeds 0, 1) under the plain prompt and in their chat format, and the base model in the chat format (as ext/rzero_design/rz_umwp.sh), with texts saved: jobs_rz.txt sha256 7d975d24b65095ae
+  [PREREG_LOG.md] 2026-10-06 23:13:51 rev6 exploratory reruns script paper_arr/rev6/rev6_reruns.py (pseudo-dumps under both parsers; registered and exploratory UMWP scripts re-executed from copies with only the input directory and output paths changed), written before any rev6 output was read: sha256 62c0cb2c870996cab608820f11dbdb6eb5104efd921d124d8067c17b3e549560
+  [PREREG_LOG.md] 2026-10-06 23:20:35 rev6 AMENDMENT before any aggregate of a rev6 output was computed: STRICT keeps strict()'s validated status but takes the probe's number (strict() read the first number of the last Answer line, which on the A8 texts differs from the probe's number in 6.7% of base and 0.8-3.0% of trained numeric samples). rev6_read.py sha256 673d6833b71d91682cabf73046092a6a25f66c0d704de958f332d526785dbf02; rev6_reruns.py sha256 691b84314e56f1f50c6bdc219287ecafeb387428f49e78b94ff2ae712ec73f1c; a8_strict_v2.py (exploratory) sha256 0685b88eb0e01cca
+  [PREREG_LOG.md] 2026-10-06 23:22:38 rev6 addition (not in the plan; before any rev6 output was read): the external sets (SUM, MiP-GSM8K, MiP-MATH) under the plain prompt with texts saved, for the base model and the full-curriculum and solvable-only round-3 solvers (seeds 0-3), the inputs of a6_e_read.py E1: a6_probe_text.py sha256 0e9fd133b377837b, rev6_launch_a6.sh cb535395d2008d57, jobs_a6.txt e5b5806edc471221
+  [PREREG_LOG.md] 2026-10-06 23:24:20 rev6 exploratory rerun script for the external sets paper_arr/rev6/rev6_reruns_a6.py, before any rev6 output was read: sha256 b3da775bc9da9f1dab51e2f1a140c6817ddf5119e88ad7fec1af79d814690eb4
+74717ba58e2b1e5099f78cb569c730f0f7eb4d9cbe5fad42ac0da4a1641934a6  paper_arr/rev6/rev6_xfer.sh
+1d012a4e36ef11ee545cea95f1635e123c9aacd7eecdeacc46dcdb0838427946  paper_arr/rev6/rev6_launch_xfer.sh
+adc4e1933ec231b42ed48764b83429a1992db6b1aa76f65b570b6c177e177f57  paper_arr/rev6/jobs_all.txt
+7d975d24b65095ae8d94e2605517b96c292f3f403b8a7410267ac0f40eaa2357  paper_arr/rev6/jobs_rz.txt
+673d6833b71d91682cabf73046092a6a25f66c0d704de958f332d526785dbf02  paper_arr/rev6/rev6_read.py
+448a3aa5a680232e57a8c938c272f43aa712aa07a57e9397711eee174ab69068  paper_arr/rev6/rev6_read_check.json
+691b84314e56f1f50c6bdc219287ecafeb387428f49e78b94ff2ae712ec73f1c  paper_arr/rev6/rev6_reruns.py
+b3da775bc9da9f1dab51e2f1a140c6817ddf5119e88ad7fec1af79d814690eb4  paper_arr/rev6/rev6_reruns_a6.py
+0a303c8cc1e3b8504088a42218f8e75209b03a71aae0e838ba9ee29ded9a770e  paper_arr/rev6/make_a6_text.py
+0e9fd133b377837bdb717e09b7898d06d82212f8124f3ca6568cf935197f260a  paper_arr/rev6/a6_probe_text.py
+cb535395d2008d57545fed388addca2ff3ad43187294076bafe95da1ecf800e5  paper_arr/rev6/rev6_launch_a6.sh
+e5b5806edc471221d8118bdc7450c822e07479d8ca2663f8ce0971c654bec5d6  paper_arr/rev6/jobs_a6.txt
+da2ba76ce48ba202dc6ecd3879f67e4928b864e7047754c09d592664a5d57f50  paper_arr/rev6/fig4_categories.py
+84624eb3cc476cf9ba1e63dc393ffea2461ff7be619528aa7053369bdc59bdc5  paper_arr/rev6/fig4_categories.json
+0685b88eb0e01ccaf586a0a6355d7a282e31ebf5ee24bdb744dd99835f402a93  paper_arr/rev6/a8_strict_v2.py
+c6ce977a01e202b65f9cdbc2abaa34f9b294d1201090ccd647fd1220f8437095  paper_arr/rev6/a8_strict_v2.json
+a3660056a143952dd6a23c3128ade6be944bad4c0ebe1d2b1bb8cd3c9a69074b  paper_arr/rev6/rev6_numbers.py
+  (the first, pre-amendment rev6_read.py had sha256 249eaac6a13184f2ececa422cb335db9908b57cdd95e4f675053e1c342c30a1a; it was never run on rev6 outputs)
+2026-10-06 23:28:45 rev6 exploratory reruns of the remaining registered UMWP reads (umwp_read, umwp_read_c, a5_frontier_b) on the rev6 pseudo-dumps, written before any rev6 aggregate except the interim look below:
+6644862bbee6b9ebf006d61e00e0398edeb54268bf53466d56ed9aa9137da268  paper_arr/rev6/rev6_reruns_extra.py
+4f349d0f55dba51ed82012aa40b3764f7c9df6251386696e76bcaa411e6bbfc3  paper_arr/rev6/rev6_interim.py
+  (rev6_interim.py: an interim, descriptive look at the completed plain dumps with the frozen rev6_read.py code at 23:26; the registered read supersedes it)
+2026-10-06 23:33:02 rev6 addition (not in the plan; before any rev6 aggregate except the interim look): the abstention-prompt (absfix) runs of the remedy checkpoints in the A11 frontier comparison (a11_read.py TIER2_UMWP: rescue_uv, rescue_abs, loop_uv, coev_ag, tg_abs4, tg_t4), so that the frontier claims of section 6 can be re-read under both parsers; six host-B checkpoints copied to host A /run/ti/rev6_ckpt:
+25919a944826860ef054a5df1c312eaf3754d77f315f79ca09c6cab600f3dc32  paper_arr/rev6/jobs_tier2.txt
+2026-10-06 23:33:37 rev6 addition: loop_uv seed 1 round 4 (absfix), the third seed of the registered FB2 comparison:
+646177556cfb5042b4ecd39e4959e2717d4302d07d2a59b226661ed196fee93b  paper_arr/rev6/jobs_tier2b.txt
+f834a9d7da81407e6ef603102f6d4120a899d6e232a36f96bf7bfba557e8180b  paper_arr/rev6/a8_exact.py
+0570d9ced5b368219004290cb7285aecdc2d8c1c1ee15858a4d6075c87e66ba5  paper_arr/rev6/reruns_original/a6_e_read.json
+e08ea5d53f6e035bd56987c489463f361619fbbf50884daa50a2afbb61a28c64  paper_arr/rev6/reruns_strict/a6_e_read.json
+2026-10-06 23:45:02 rev6 ops: the old launchers were stopped to start a faster one (rev6_launch_fast.sh: one memory check per claim, 5 s between starts, skips running jobs); a wrong process selection in that step also stopped the 8 running probes at 23:44:26 (logged FAILED; outputs kept, no partial lines; the probe resumes by id). Relaunched on jobs_rest.txt = jobs_all + jobs_tier2 + jobs_tier2b:
+fbd0b3ada3863849210f981cbeda9b45d26d766b33a8902b6b1ec7e020360d9c  paper_arr/rev6/rev6_launch_fast.sh
+4355cdde5e2184ebeaf6cebd377229c429614a2b1db2a07ee57965f593fa37f4  paper_arr/rev6/jobs_rest.txt
+8a25eb4c988321fe572bf7d9fec208f8e4a41f0d9c0a1ad14b09b6d52760f937  rev6_after_all.sh
+  (correction: the previous line is paper_arr/rev6/rev6_after_all.sh)
+8a25eb4c988321fe572bf7d9fec208f8e4a41f0d9c0a1ad14b09b6d52760f937  paper_arr/rev6/rev6_after_all.sh
+2026-10-06 23:49:54 rev6 ops: an orphaned vLLM engine of a probe stopped at 23:44:26 held GPU 5 (pid 4013616); terminated
+2026-10-07 00:06:18 rev6 AMENDMENT 2, before the registered read was run (no rev6_read.json exists), after the interim looks of 6 Oct 23:26 and 23:59 at completed dumps (rev6_interim.py): the base models continue many solutions with new model-written "Question: ... Answer: ..." blocks (Qwen3-8B-Base 53% of samples, Qwen3-4B-Base 12%), and strict() read the last Answer line of those blocks (Qwen3-8B-Base accuracy on the answerable originals 74% -> 50%). STRICT now cuts each solution at its first line starting with Question: and reads the cut text (strict_v3.py; agreement with the annotators 94.6% against 92.4%, strict_v3_check.py). The --check reproduction is unchanged. Files:
+820e2a1671c3422cff6498dd498eec55b3793d4b357c365f65b2715c87f521e8  paper_arr/rev6/strict_v3.py
+09cd0517ec9a6f6dd78468acf9b89af9e2dd46c6582c12257c5424d832dbd762  paper_arr/rev6/strict_v3_check.py
+8e1309ab8c291c092e5f4795b7b13fb8217456dbff45483b693e7baa331d5dd9  paper_arr/rev6/rev6_read.py
+ce24894a193de60ba1ed91d26467526ab82bc3de41f03f574000bb29f6e08e14  paper_arr/rev6/rev6_reruns.py
+559e38f477a9f90932483b620e0110f428fcb3188885f88bee3d9dc8dfe0324a  paper_arr/rev6/rev6_reruns_a6.py
+f67f3229277d329135fd7ecdd29cc4548ddd7defcdf1c47e3859e0a944f0446b  paper_arr/rev6/fig4_categories.py
+651c07a03545553cda15327e4f14710ca4daac1c6f3890280b6d1b04afdf4a92  paper_arr/rev6/a8_strict_v2.py
+1ec108e027df20d1f31e913f5d0996326343c2fb5617100493d086eed5f096f8  paper_arr/rev6/a8_exact.py
+b3bfe7614d4b097aecb7619b47b19bdab9e0159a66dbe98c840ef675bff5e241  paper_arr/rev6/inspect_8b.py
+bcd27df5f18a2aea76f67b9971a685f1189b9a272d22227d0e802edb8e773651  paper_arr/rev6/fig4_categories.json
+7311bab501b1b69fbc9ccf59b6321f0b1c4bb708cf87918aeaab22e8314eb679  paper_arr/rev6/a8_strict_v2.json
+2026-10-07 00:10:26 rev6 registered read (rev6_read.py, sha256 8e1309ab8c291c092e5f4795b7b13fb8217456dbff45483b693e7baa331d5dd9) run once after all jobs_all outputs were complete; exit 0:
+02d9fe2e1b71e0229c05393aa0d79e6798b843fad1043b86d943a5bb906b6c69  paper_arr/rev6/rev6_read.json
+2026-10-07 00:26:29 rev6 exploratory reruns run (rev6_reruns.py, rev6_reruns_extra.py, rev6_reruns_a6.py); outputs:
+0570d9ced5b368219004290cb7285aecdc2d8c1c1ee15858a4d6075c87e66ba5  paper_arr/rev6/reruns_original/a6_e_read.json
+195df96afe1844da966da3ace8ba6fafa307acd2541567e5ab3f5089eb07f388  paper_arr/rev6/reruns_original/a6_matched.json
+70dc050001a1fe94c6b8aea50d0c17d5e06796dc42635c731bc825f156fea8db  paper_arr/rev6/reruns_original/a7_exit_categories.json
+2c550fcaf0946e73f53e37c24d5ff396aaedec63c2a668817c153546757bd827  paper_arr/rev6/reruns_original/ca_thresholds.json
+f8afb54ddcacba5cbdaa6462ca2de872bd9063f00aa970db99ae714214c42b29  paper_arr/rev6/reruns_original/check_convergence.json
+7ba181aab537b85804d47fec0a068fd1c148d886662f06cc69c00c20ba4bf252  paper_arr/rev6/reruns_original/convergence.json
+b2c991c3ded05695cb663f8f1871eed86173716cc024b3f1cd8dd57b8640aae1  paper_arr/rev6/reruns_original/frontier_b_read.json
+a99ea407d907b1472f82ab127302b36a66c370365e03225de83ed0eb170eb888  paper_arr/rev6/reruns_original/frontier_read.json
+b2e2e69e65e4d8bad1f290f0a27dea2cfafb5a4a67fa09f4b5394ec493c2c7da  paper_arr/rev6/reruns_original/hardtraj.json
+ed4315b55a2483078ca7ca9c205881cb65ca0c99b32e63eef125b9ed55c60759  paper_arr/rev6/reruns_original/j1_judge_free.json
+c5e809c7749c0faf522d0e2dd67f4a9a8dcf8f6789e23a47e1ff7f924089ef7b  paper_arr/rev6/reruns_original/umwp_read_c.json
+50e936bdad3b2cbb2adfdf62e25d759c419fc9d98f8ce299f20361b69786605a  paper_arr/rev6/reruns_original/umwp_read.json
+2a0a1e7e42657d84a702bd985dbdb592fd4bfce641a06473a6c9e215ac0aea64  paper_arr/rev6/reruns_strict/a6_e_read.json
+8a794be0be86e4d8e0a88f78db78a5d948b2ee2fe4117250cda7733648c8a989  paper_arr/rev6/reruns_strict/a6_matched.json
+1a1f167f65133a75f6755ec397cb0c241f7b24c268582d99190b0d82c18a7726  paper_arr/rev6/reruns_strict/a7_exit_categories.json
+3ed8c23facc43268c603f930139371d7567367843441afa2fcf56b5014fb8dbf  paper_arr/rev6/reruns_strict/ca_thresholds.json
+25cfff49abc31383a26f74d6a44d7f987317d9155c672a6d6aaaf381f0b52fca  paper_arr/rev6/reruns_strict/check_convergence.json
+c23831a676d5bf9d9574fc7b27cee03aaaf39889b3f2b129af76ea7363c66506  paper_arr/rev6/reruns_strict/convergence.json
+b2c991c3ded05695cb663f8f1871eed86173716cc024b3f1cd8dd57b8640aae1  paper_arr/rev6/reruns_strict/frontier_b_read.json
+ae022bc96ffbb9aefe37accd3d13c7874a68c94aa2a54032bf20a3e7e058b8a3  paper_arr/rev6/reruns_strict/frontier_read.json
+370b3271f818d682c50d24e07ae2be7ecf1d3528898cb6c11fe5fe94ee77534a  paper_arr/rev6/reruns_strict/hardtraj.json
+dbe625943acae48f965cfbaf876cbede4deb4f3a0c234a6887cc2a7be69a875e  paper_arr/rev6/reruns_strict/j1_judge_free.json
+e61e621a38805f0ba930a09f65e64087382390a644fcf15b8566cf94eeeca9fd  paper_arr/rev6/reruns_strict/umwp_read_c.json
+6ce74dd7bab2a714a6da0309a84ed05c37f3ccec44c3dcdb2a990abcac737fca  paper_arr/rev6/reruns_strict/umwp_read.json
+2026-10-07 00:42:56 H2 annotator metadata (payment, hours, consent) as reported by the authors:
+5d6bf9b8c62589585f18b201d18bc0920cf27d6f773df13dd13945eb34a17e3f  dirA5/human_validation_mech/annotators.md
+2026-10-07 00:53:55 rev6 stop-sequence check (exploratory, after the registered read): UMWP probe with stop at a new Question: line, 6 checkpoints; strict() on stopped texts vs strict_v3.read on the rev6 texts:
+1fef6f51f5ab638c1a484a90bc344c9d5c0b8cbfd354ad186ff9b33c727dba1b  paper_arr/rev6/make_stop.py
+d6a09e7cb48b2538c1c33147691b6eaac633fcf8ba702e89ccaa8fa56f13983a  paper_arr/rev6/umwp_probe_text_stop.py
+e9c0b50d3887ef65b79a614881e578f5435e33a9af6237506736fe943dd5ded8  paper_arr/rev6/rev6_launch_stop.sh
+7c799cb68e62bac034a0af598cee6922c591dd8d06a718610d22af58671ae9a9  paper_arr/rev6/jobs_stop.txt
+e85428aa886660dfb66201809f06d5593b145b71890c648b746a749efd5f938f  paper_arr/rev6/jobs_stop2.txt
+6930fce2e57458c778d93294ab393f5396c4f5f0ae3942927de3442967ffc2ee  paper_arr/rev6/stop_compare.py
+2026-10-07 01:06:15 rev6 stop check: the Phi-4-mini base run was stopped at 384 of 1,200 rows at 01:05 to free the GPUs (not needed: Phi does not continue with new questions); GPUs released
+46d4a1b387541c1a539972a1ff89bee737a6f5e6787b5dea5406a22061dd2ef8  paper_arr/rev6/stop_compare.txt

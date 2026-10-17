@@ -1,0 +1,707 @@
+\begin{thebibliography}{80}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Abouelenin et~al.(2025)Abouelenin, Ashfaq, Atkinson, Awadalla, Bach,
+  Bao, Benhaim, Cai, Chaudhary, Chen et~al.}]{abouelenin2025phi4mini}
+Abdelrahman Abouelenin, Atabak Ashfaq, Adam Atkinson, Hany Awadalla, Nguyen
+  Bach, Jianmin Bao, Alon Benhaim, Martin Cai, Vishrav Chaudhary, Congcong
+  Chen, et~al. 2025.
+\newblock \href {https://arxiv.org/abs/2503.01743} {{Phi-4-Mini} technical
+  report: Compact yet powerful multimodal language models via
+  mixture-of-{LoRAs}}.
+\newblock \emph{Preprint}, arXiv:2503.01743.
+
+\bibitem[{Agarwal et~al.(2025)Agarwal, Zhang, Yuan, Han, and
+  Peng}]{agarwal2025entropy}
+Shivam Agarwal, Zimin Zhang, Lifan Yuan, Jiawei Han, and Hao Peng. 2025.
+\newblock \href {https://doi.org/10.52202/085713-3573} {The unreasonable
+  effectiveness of entropy minimization in {LLM} reasoning}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, pages 107150--107180. Curran Associates, Inc.
+
+\bibitem[{Bailey et~al.(2026)Bailey, Wen, Dong, Hashimoto, and
+  Ma}]{bailey2026sgs}
+Luke Bailey, Kaiyue Wen, Kefan Dong, Tatsunori Hashimoto, and Tengyu Ma. 2026.
+\newblock \href {https://arxiv.org/abs/2604.20209} {Scaling self-play with
+  self-guidance}.
+\newblock In \emph{Third Conference on Language Modeling}.
+
+\bibitem[{Belnap and Steel(1976)}]{belnap1976questions}
+Nuel~D. Belnap, Jr. and Thomas~B. Steel, Jr. 1976.
+\newblock \emph{The Logic of Questions and Answers}.
+\newblock Yale University Press, New Haven, CT.
+
+\bibitem[{Bengio et~al.(2009)Bengio, Louradour, Collobert, and
+  Weston}]{bengio2009curriculum}
+Yoshua Bengio, J{\'e}r{\^o}me Louradour, Ronan Collobert, and Jason Weston.
+  2009.
+\newblock \href {https://doi.org/10.1145/1553374.1553380} {Curriculum
+  learning}.
+\newblock In \emph{Proceedings of the 26th Annual International Conference on
+  Machine Learning}, pages 41--48. ACM.
+
+\bibitem[{Burda et~al.(2019)Burda, Edwards, Pathak, Storkey, Darrell, and
+  Efros}]{burda2019curiosity}
+Yuri Burda, Harri Edwards, Deepak Pathak, Amos Storkey, Trevor Darrell, and
+  Alexei~A. Efros. 2019.
+\newblock \href {https://openreview.net/forum?id=rJNwDjAqYX} {Large-scale study
+  of curiosity-driven learning}.
+\newblock In \emph{The Seventh International Conference on Learning
+  Representations}.
+
+\bibitem[{Che et~al.(2026)Che, Yuan, Zhao, and Yu}]{che2026abstention}
+Xujun Che, Yuchen Yuan, Weida Zhao, and Chenyang Yu. 2026.
+\newblock \href {https://arxiv.org/abs/2608.00301} {Abstention as an action can
+  kill both the reward gradient and the {KL} anchor: Collapse law and repair
+  for error-penalized reinforcement learning}.
+\newblock \emph{Preprint}, arXiv:2608.00301.
+
+\bibitem[{Chen et~al.(2025)Chen, Prabhudesai, Fragkiadaki, Liu, and
+  Pathak}]{chen2025sqlm}
+Lili Chen, Mihir Prabhudesai, Katerina Fragkiadaki, Hao Liu, and Deepak Pathak.
+  2025.
+\newblock \href {https://arxiv.org/abs/2508.03682} {Self-questioning language
+  models}.
+\newblock \emph{Preprint}, arXiv:2508.03682.
+
+\bibitem[{Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman}]{cobbe2021gsm8k}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  Christopher Hesse, and John Schulman. 2021.
+\newblock \href {https://arxiv.org/abs/2110.14168} {Training verifiers to solve
+  math word problems}.
+\newblock \emph{Preprint}, arXiv:2110.14168.
+
+\bibitem[{Cole et~al.(2023)Cole, Zhang, Gillick, Eisenschlos, Dhingra, and
+  Eisenstein}]{cole2023selectively}
+Jeremy Cole, Michael Zhang, Daniel Gillick, Julian Eisenschlos, Bhuwan Dhingra,
+  and Jacob Eisenstein. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.35} {Selectively
+  answering ambiguous questions}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 530--543, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Cowsik et~al.(2026)Cowsik, Dolev, Li, De~Luca, Cohen, Goodman, and
+  Levine}]{cowsik2026selfplay}
+Aditya Cowsik, Kfir Dolev, Michael~Y. Li, G.~Bruno De~Luca, Nourya Cohen,
+  Noah~D. Goodman, and Yoav Levine. 2026.
+\newblock \href {https://arxiv.org/abs/2609.30063} {Self-play pretraining with
+  zero data}.
+\newblock \emph{Preprint}, arXiv:2609.30063.
+
+\bibitem[{Dennis et~al.(2020)Dennis, Jaques, Vinitsky, Bayen, Russell, Critch,
+  and Levine}]{dennis2020paired}
+Michael Dennis, Natasha Jaques, Eugene Vinitsky, Alexandre Bayen, Stuart
+  Russell, Andrew Critch, and Sergey Levine. 2020.
+\newblock \href
+  {https://proceedings.neurips.cc/paper_files/paper/2020/hash/985e9a46e10005356bbaf194249f6856-Abstract.html}
+  {Emergent complexity and zero-shot transfer via unsupervised environment
+  design}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33, pages 13049--13061. Curran Associates, Inc.
+
+\bibitem[{Dineen et~al.(2026)Dineen, RRV, Xu, and Zhou}]{dineen2026vocabulary}
+Jacob Dineen, Aswin RRV, Zhikun Xu, and Ben Zhou. 2026.
+\newblock \href {https://arxiv.org/abs/2604.03472} {Vocabulary dropout for
+  curriculum diversity in {LLM} co-evolution}.
+\newblock In \emph{Third Conference on Language Modeling}.
+
+\bibitem[{Fan et~al.(2025)Fan, Li, Sun, and Zhou}]{fan2025mip}
+Chenrui Fan, Ming Li, Lichao Sun, and Tianyi Zhou. 2025.
+\newblock \href {https://openreview.net/forum?id=ufozo2Wc9e} {Missing premise
+  exacerbates overthinking: Are reasoning models losing critical thinking
+  skill?}
+\newblock In \emph{Second Conference on Language Modeling}.
+
+\bibitem[{Fang et~al.(2025)Fang, Liu, Zhou, Zhang, Zheng, Chen, Song, and
+  Tao}]{fang2025serl}
+Wenkai Fang, Shunyu Liu, Yang Zhou, Kongcheng Zhang, Tongya Zheng, Kaixuan
+  Chen, Mingli Song, and Dacheng Tao. 2025.
+\newblock \href {https://doi.org/10.52202/085713-3464} {{SeRL}: Self-play
+  reinforcement learning for large language models with limited data}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, pages 103706--103738. Curran Associates, Inc.
+
+\bibitem[{Farquhar et~al.(2024)Farquhar, Kossen, Kuhn, and
+  Gal}]{farquhar2024semantic}
+Sebastian Farquhar, Jannik Kossen, Lorenz Kuhn, and Yarin Gal. 2024.
+\newblock \href {https://doi.org/10.1038/s41586-024-07421-0} {Detecting
+  hallucinations in large language models using semantic entropy}.
+\newblock \emph{Nature}, 630(8017):625--630.
+
+\bibitem[{Grattafiori et~al.(2024)Grattafiori, Dubey, Jauhri, Pandey, Kadian,
+  Al-Dahle, Letman, Mathur, Schelten, Vaughan et~al.}]{grattafiori2024llama3}
+Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek
+  Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Alex
+  Vaughan, et~al. 2024.
+\newblock \href {https://arxiv.org/abs/2407.21783} {The {Llama} 3 herd of
+  models}.
+\newblock \emph{Preprint}, arXiv:2407.21783.
+
+\bibitem[{Gu et~al.(2026)Gu, Li, Wang, Yue, Xiao, Chen, Wang, Guo, Wei, Gu, and
+  Cao}]{gu2026detection}
+Renjie Gu, Jiaxu Li, Yihao Wang, Yun Yue, Hansong Xiao, Yefei Chen, Yuan Wang,
+  Chunxiao Guo, Pei Wei, Jinjie Gu, and Yixin Cao. 2026.
+\newblock \href {https://arxiv.org/abs/2605.28070} {Bridging the
+  detection-to-abstention gap in reasoning models under insufficient
+  information}.
+\newblock \emph{Preprint}, arXiv:2605.28070.
+
+\bibitem[{He et~al.(2026)He, Zuo, Liu, Zhao, Fu, Yang, Qian, Zhang, Fan, Cui,
+  Chen, Sun, Lv, Zhu, Sheng, Li, Gao, Zhang, Yuan, Zhou, Liu, and
+  Ding}]{he2026howfar}
+Bingxiang He, Yuxin Zuo, Zeyuan Liu, Shangziqi Zhao, Zixuan Fu, Junlin Yang,
+  Cheng Qian, Kaiyan Zhang, Yuchen Fan, Ganqu Cui, Xiusi Chen, Youbang Sun,
+  Xingtai Lv, Xuekai Zhu, Li~Sheng, Ran Li, Huan-ang Gao, Yuchen Zhang, Lifan
+  Yuan, and 3 others. 2026.
+\newblock \href
+  {https://proceedings.iclr.cc/paper_files/paper/2026/hash/18929f3253e4d4e28086a89ab88d1276-Abstract-Conference.html}
+  {How far can unsupervised {RLVR} scale {LLM} training?}
+\newblock In \emph{The Fourteenth International Conference on Learning
+  Representations}.
+
+\bibitem[{Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart,
+  Tang, Song, and Steinhardt}]{hendrycks2021math}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+  Tang, Dawn Song, and Jacob Steinhardt. 2021.
+\newblock \href
+  {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html}
+  {Measuring mathematical problem solving with the {MATH} dataset}.
+\newblock In \emph{Proceedings of the Neural Information Processing Systems
+  Track on Datasets and Benchmarks}, volume~1.
+
+\bibitem[{Hou et~al.(2024)Hou, Liu, Qian, Andreas, Chang, and
+  Zhang}]{hou2024decomposing}
+Bairu Hou, Yujian Liu, Kaizhi Qian, Jacob Andreas, Shiyu Chang, and Yang Zhang.
+  2024.
+\newblock \href {https://proceedings.mlr.press/v235/hou24b.html} {Decomposing
+  uncertainty for large language models through input clarification
+  ensembling}.
+\newblock In \emph{Proceedings of the 41st International Conference on Machine
+  Learning}, volume 235 of \emph{Proceedings of Machine Learning Research},
+  pages 19023--19042. PMLR.
+
+\bibitem[{Houlsby et~al.(2011)Houlsby, Husz{\'a}r, Ghahramani, and
+  Lengyel}]{houlsby2011bald}
+Neil Houlsby, Ferenc Husz{\'a}r, Zoubin Ghahramani, and M{\'a}t{\'e} Lengyel.
+  2011.
+\newblock \href {https://arxiv.org/abs/1112.5745} {{Bayesian} active learning
+  for classification and preference learning}.
+\newblock \emph{Preprint}, arXiv:1112.5745.
+
+\bibitem[{Hu et~al.(2023)Hu, Luo, Wang, Cheng, Liu, and
+  Sun}]{hu2023falsepremise}
+Shengding Hu, Yifan Luo, Huadong Wang, Xingyi Cheng, Zhiyuan Liu, and Maosong
+  Sun. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.309} {Won{'}t get
+  fooled again: Answering questions with false premises}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 5626--5643,
+  Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Huang et~al.(2025)Huang, Block, Foster, Rohatgi, Zhang, Simchowitz,
+  Ash, and Krishnamurthy}]{huang2025sharpening}
+Audrey Huang, Adam Block, Dylan~J. Foster, Dhruv Rohatgi, Cyril Zhang, Max
+  Simchowitz, Jordan~T. Ash, and Akshay Krishnamurthy. 2025.
+\newblock \href
+  {https://proceedings.iclr.cc/paper_files/paper/2025/hash/bee8c2bc757f6bbc3efd7cf1b979f0c9-Abstract-Conference.html}
+  {Self-improvement in language models: The sharpening mechanism}.
+\newblock In \emph{The Thirteenth International Conference on Learning
+  Representations}.
+
+\bibitem[{Huang et~al.(2026{\natexlab{a}})Huang, Liu, Zheng, Dai, Huang, Li,
+  Li, Wei, Meng, and Huang}]{huang2026gzero}
+Chengsong Huang, Haolin Liu, Tong Zheng, Runpeng Dai, Langlin Huang, Jinyuan
+  Li, Zongxia Li, Zhepei Wei, Yu~Meng, and Jiaxin Huang. 2026{\natexlab{a}}.
+\newblock \href {https://arxiv.org/abs/2605.09959} {{G-Zero}: Self-play for
+  open-ended generation from zero data}.
+\newblock In \emph{Advances in Neural Information Processing Systems}.
+\newblock To appear; arXiv:2605.09959.
+
+\bibitem[{Huang et~al.(2026{\natexlab{b}})Huang, Yu, Wang, Zhang, Li, Li,
+  Huang, Mi, and Yu}]{huang2026rzero}
+Chengsong Huang, Wenhao Yu, Xiaoyang Wang, Hongming Zhang, Zongxia Li, Ruosen
+  Li, Jiaxin Huang, Haitao Mi, and Dong Yu. 2026{\natexlab{b}}.
+\newblock \href
+  {https://proceedings.iclr.cc/paper_files/paper/2026/hash/d49b9aacebda61051166335af6fd3061-Abstract-Conference.html}
+  {{R-Zero}: Self-evolving reasoning {LLM} from zero data}.
+\newblock In \emph{The Fourteenth International Conference on Learning
+  Representations}.
+
+\bibitem[{Huang et~al.(2023)Huang, Gu, Hou, Wu, Wang, Yu, and
+  Han}]{huang2023lmsi}
+Jiaxin Huang, Shixiang Gu, Le~Hou, Yuexin Wu, Xuezhi Wang, Hongkun Yu, and
+  Jiawei Han. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.67} {Large
+  language models can self-improve}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1051--1068, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{H{\"u}llermeier and Waegeman(2021)}]{hullermeier2021aleatoric}
+Eyke H{\"u}llermeier and Willem Waegeman. 2021.
+\newblock \href {https://doi.org/10.1007/s10994-021-05946-3} {Aleatoric and
+  epistemic uncertainty in machine learning: An introduction to concepts and
+  methods}.
+\newblock \emph{Machine Learning}, 110(3):457--506.
+
+\bibitem[{Jiang et~al.(2021)Jiang, Grefenstette, and
+  Rockt{\"a}schel}]{jiang2021plr}
+Minqi Jiang, Edward Grefenstette, and Tim Rockt{\"a}schel. 2021.
+\newblock \href {https://proceedings.mlr.press/v139/jiang21b.html} {Prioritized
+  level replay}.
+\newblock In \emph{Proceedings of the 38th International Conference on Machine
+  Learning}, volume 139 of \emph{Proceedings of Machine Learning Research},
+  pages 4940--4950. PMLR.
+
+\bibitem[{Kadavath et~al.(2022)Kadavath, Conerly, Askell, Henighan, Drain,
+  Perez, Schiefer, Hatfield-Dodds, DasSarma, Tran-Johnson, Johnston, El-Showk,
+  Jones, Elhage, Hume, Chen, Bai, Bowman, Fort, Ganguli, Hernandez, Jacobson,
+  Kernion, Kravec, Lovitt, Ndousse, Olsson, Ringer, Amodei, Brown, Clark,
+  Joseph, Mann, McCandlish, Olah, and Kaplan}]{kadavath2022know}
+Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan
+  Perez, Nicholas Schiefer, Zac Hatfield-Dodds, Nova DasSarma, Eli
+  Tran-Johnson, Scott Johnston, Sheer El-Showk, Andy Jones, Nelson Elhage,
+  Tristan Hume, Anna Chen, Yuntao Bai, Sam Bowman, Stanislav Fort, and 17
+  others. 2022.
+\newblock \href {https://arxiv.org/abs/2207.05221} {Language models (mostly)
+  know what they know}.
+\newblock \emph{Preprint}, arXiv:2207.05221.
+
+\bibitem[{Kamath et~al.(2020)Kamath, Jia, and Liang}]{kamath2020selective}
+Amita Kamath, Robin Jia, and Percy Liang. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.503} {Selective
+  question answering under domain shift}.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 5684--5696, Online. Association for
+  Computational Linguistics.
+
+\bibitem[{Karamcheti et~al.(2021)Karamcheti, Krishna, Fei-Fei, and
+  Manning}]{karamcheti2021outliers}
+Siddharth Karamcheti, Ranjay Krishna, Li~Fei-Fei, and Christopher Manning.
+  2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.564} {Mind your
+  outliers! {I}nvestigating the negative impact of outliers on active learning
+  for visual question answering}.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 7265--7281,
+  Online. Association for Computational Linguistics.
+
+\bibitem[{Karttunen(1974)}]{karttunen1974presupposition}
+Lauri Karttunen. 1974.
+\newblock \href {https://doi.org/10.1515/thli.1974.1.1-3.181} {Presupposition
+  and linguistic context}.
+\newblock \emph{Theoretical Linguistics}, 1(1--3):181--194.
+
+\bibitem[{Karttunen(1977)}]{karttunen1977questions}
+Lauri Karttunen. 1977.
+\newblock \href {https://doi.org/10.1007/BF00351935} {Syntax and semantics of
+  questions}.
+\newblock \emph{Linguistics and Philosophy}, 1(1):3--44.
+
+\bibitem[{Kendall and Gal(2017)}]{kendall2017uncertainties}
+Alex Kendall and Yarin Gal. 2017.
+\newblock \href
+  {https://proceedings.neurips.cc/paper_files/paper/2017/hash/2650d6089a6d640c5e85b2b88265dc2b-Abstract.html}
+  {What uncertainties do we need in {Bayesian} deep learning for computer
+  vision?}
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30. Curran Associates, Inc.
+
+\bibitem[{Kim et~al.(2023)Kim, Htut, Bowman, and Petty}]{kim2023qa2}
+Najoung Kim, Phu~Mon Htut, Samuel~R. Bowman, and Jackson Petty. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.472} {({QA})$^2$:
+  Question answering with questionable assumptions}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 8466--8487,
+  Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Kim et~al.(2021)Kim, Pavlick, Karagol~Ayan, and
+  Ramachandran}]{kim2021linguist}
+Najoung Kim, Ellie Pavlick, Burcu Karagol~Ayan, and Deepak Ramachandran. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.304} {Which linguist
+  invented the lightbulb? presupposition verification for question-answering}.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 3932--3945,
+  Online. Association for Computational Linguistics.
+
+\bibitem[{Kirichenko et~al.(2025)Kirichenko, Ibrahim, Chaudhuri, and
+  Bell}]{kirichenko2025abstentionbench}
+Polina Kirichenko, Mark Ibrahim, Kamalika Chaudhuri, and Samuel~J. Bell. 2025.
+\newblock \href {https://doi.org/10.52202/085713-5729} {{AbstentionBench}:
+  Reasoning {LLMs} fail on unanswerable questions}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38. Curran Associates, Inc.
+\newblock Datasets and Benchmarks Track.
+
+\bibitem[{Kuhn et~al.(2023)Kuhn, Gal, and Farquhar}]{kuhn2023semantic}
+Lorenz Kuhn, Yarin Gal, and Sebastian Farquhar. 2023.
+\newblock \href {https://openreview.net/forum?id=VD-AYtP0dve} {Semantic
+  uncertainty: Linguistic invariances for uncertainty estimation in natural
+  language generation}.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations}.
+
+\bibitem[{Kwan et~al.(2025)Kwan, Leang, Vougiouklis, Pan, Valentino, and
+  Minervini}]{kwan2025opensir}
+Wai-Chung Kwan, Joshua Ong~Jun Leang, Pavlos Vougiouklis, Jeff~Z. Pan, Marco
+  Valentino, and Pasquale Minervini. 2025.
+\newblock \href {https://arxiv.org/abs/2511.00602} {{OpenSIR}: Open-ended
+  self-improving reasoner}.
+\newblock \emph{Preprint}, arXiv:2511.00602.
+
+\bibitem[{Kwon et~al.(2023)Kwon, Li, Zhuang, Sheng, Zheng, Yu, Gonzalez, Zhang,
+  and Stoica}]{kwon2023vllm}
+Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody~Hao Yu,
+  Joseph~E. Gonzalez, Hao Zhang, and Ion Stoica. 2023.
+\newblock \href {https://doi.org/10.1145/3600006.3613165} {Efficient memory
+  management for large language model serving with {PagedAttention}}.
+\newblock In \emph{Proceedings of the 29th Symposium on Operating Systems
+  Principles (SOSP '23)}, pages 611--626. ACM.
+
+\bibitem[{Lewis(1979)}]{lewis1979scorekeeping}
+David Lewis. 1979.
+\newblock \href {https://doi.org/10.1007/BF00258436} {Scorekeeping in a
+  language game}.
+\newblock \emph{Journal of Philosophical Logic}, 8(1):339--359.
+
+\bibitem[{Lewis(1969)}]{lewis1969convention}
+David~K. Lewis. 1969.
+\newblock \emph{Convention: A Philosophical Study}.
+\newblock Harvard University Press, Cambridge, MA.
+
+\bibitem[{Li et~al.(2025)Li, Kim, and Wang}]{li2025questbench}
+Belinda~Z. Li, Been Kim, and Zi~Wang. 2025.
+\newblock \href {https://doi.org/10.52202/085713-4503} {{QuestBench}: Can
+  {LLMs} ask the right question to acquire information in reasoning tasks?}
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38. Curran Associates, Inc.
+\newblock Datasets and Benchmarks Track.
+
+\bibitem[{Lightman et~al.(2024)Lightman, Kosaraju, Burda, Edwards, Baker, Lee,
+  Leike, Schulman, Sutskever, and Cobbe}]{lightman2024verify}
+Hunter Lightman, Vineet Kosaraju, Yuri Burda, Harrison Edwards, Bowen Baker,
+  Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, and Karl Cobbe. 2024.
+\newblock \href {https://openreview.net/forum?id=v8L0pN6EOi} {Let's verify step
+  by step}.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Liu et~al.(2023)Liu, Wu, Michael, Suhr, West, Koller, Swayamdipta,
+  Smith, and Choi}]{liu2023ambient}
+Alisa Liu, Zhaofeng Wu, Julian Michael, Alane Suhr, Peter West, Alexander
+  Koller, Swabha Swayamdipta, Noah Smith, and Yejin Choi. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.51} {We{'}re
+  afraid language models aren{'}t modeling ambiguity}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 790--807, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Min et~al.(2020)Min, Michael, Hajishirzi, and
+  Zettlemoyer}]{min2020ambigqa}
+Sewon Min, Julian Michael, Hannaneh Hajishirzi, and Luke Zettlemoyer. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.emnlp-main.466} {{A}mbig{QA}:
+  Answering ambiguous open-domain questions}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 5783--5797, Online. Association
+  for Computational Linguistics.
+
+\bibitem[{Mindermann et~al.(2022)Mindermann, Brauner, Razzak, Sharma, Kirsch,
+  Xu, H{\"o}ltgen, Gomez, Morisot, Farquhar, and Gal}]{mindermann2022rholoss}
+S{\"o}ren Mindermann, Jan~M. Brauner, Muhammed~T. Razzak, Mrinank Sharma,
+  Andreas Kirsch, Winnie Xu, Benedikt H{\"o}ltgen, Aidan~N. Gomez, Adrien
+  Morisot, Sebastian Farquhar, and Yarin Gal. 2022.
+\newblock \href {https://proceedings.mlr.press/v162/mindermann22a.html}
+  {Prioritized training on points that are learnable, worth learning, and not
+  yet learnt}.
+\newblock In \emph{Proceedings of the 39th International Conference on Machine
+  Learning}, volume 162 of \emph{Proceedings of Machine Learning Research},
+  pages 15630--15649. PMLR.
+
+\bibitem[{Mirzadeh et~al.(2025)Mirzadeh, Alizadeh-Vahid, Shahrokhi, Tuzel,
+  Bengio, and Farajtabar}]{mirzadeh2025gsmsymbolic}
+Iman Mirzadeh, Keivan Alizadeh-Vahid, Hooman Shahrokhi, Oncel Tuzel, Samy
+  Bengio, and Mehrdad Farajtabar. 2025.
+\newblock \href
+  {https://proceedings.iclr.cc/paper_files/paper/2025/hash/ec2e7a896f8250986b3907f57621ce94-Abstract-Conference.html}
+  {{GSM-Symbolic}: Understanding the limitations of mathematical reasoning in
+  large language models}.
+\newblock In \emph{The Thirteenth International Conference on Learning
+  Representations}.
+
+\bibitem[{Prabhudesai et~al.(2025)Prabhudesai, Chen, Ippoliti, Fragkiadaki,
+  Liu, and Pathak}]{prabhudesai2025rent}
+Mihir Prabhudesai, Lili Chen, Alex Ippoliti, Katerina Fragkiadaki, Hao Liu, and
+  Deepak Pathak. 2025.
+\newblock \href {https://arxiv.org/abs/2505.22660} {Maximizing confidence alone
+  improves reasoning}.
+\newblock \emph{Preprint}, arXiv:2505.22660.
+
+\bibitem[{Prasad et~al.(2025)Prasad, Yuan, Pang, Xu, Fazel-Zarandi, Bansal,
+  Sukhbaatar, Weston, and Yu}]{prasad2025scpo}
+Archiki Prasad, Weizhe Yuan, Richard~Yuanzhe Pang, Jing Xu, Maryam
+  Fazel-Zarandi, Mohit Bansal, Sainbayar Sukhbaatar, Jason~E. Weston, and Jane
+  Yu. 2025.
+\newblock \href {https://proceedings.mlr.press/v267/prasad25a.html}
+  {Self-consistency preference optimization}.
+\newblock In \emph{Proceedings of the 42nd International Conference on Machine
+  Learning}, volume 267 of \emph{Proceedings of Machine Learning Research},
+  pages 49737--49751. PMLR.
+
+\bibitem[{Pu et~al.(2026)Pu, Weng, Liu, Srinivasa, Liu, Wang, and
+  Wang}]{pu2026survive}
+Sophia~Xiao Pu, Zhaotian Weng, Chengzhi Liu, Jayanth Srinivasa, Gaowen Liu,
+  William~Yang Wang, and Xin~Eric Wang. 2026.
+\newblock \href {https://arxiv.org/abs/2605.22217} {Survive or collapse: The
+  asymmetric roles of data gating and reward grounding in self-play {RL}}.
+\newblock In \emph{Advances in Neural Information Processing Systems}.
+\newblock To appear; arXiv:2605.22217.
+
+\bibitem[{{Qwen Team}(2024)}]{qwen2025qwen25}
+{Qwen Team}. 2024.
+\newblock \href {https://arxiv.org/abs/2412.15115} {Qwen2.5 technical report}.
+\newblock \emph{Preprint}, arXiv:2412.15115.
+
+\bibitem[{Rajpurkar et~al.(2018)Rajpurkar, Jia, and
+  Liang}]{rajpurkar2018squad2}
+Pranav Rajpurkar, Robin Jia, and Percy Liang. 2018.
+\newblock \href {https://doi.org/10.18653/v1/P18-2124} {Know what you don{'}t
+  know: Unanswerable questions for {SQ}u{AD}}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}, pages 784--789,
+  Melbourne, Australia. Association for Computational Linguistics.
+
+\bibitem[{R{\"o}pke et~al.(2026)R{\"o}pke, Coward, Lupu, Foster,
+  Rockt{\"a}schel, and Foerster}]{ropke2026dejaq}
+Willem R{\"o}pke, Samuel Coward, Andrei Lupu, Thomas Foster, Tim
+  Rockt{\"a}schel, and Jakob Foerster. 2026.
+\newblock \href {https://arxiv.org/abs/2601.01931} {{D{\'e}j{\`a}Q}: Open-ended
+  evolution of diverse, learnable and verifiable problems}.
+\newblock \emph{Preprint}, arXiv:2601.01931.
+
+\bibitem[{Schelling(1960)}]{schelling1960strategy}
+Thomas~C. Schelling. 1960.
+\newblock \emph{The Strategy of Conflict}.
+\newblock Harvard University Press, Cambridge, MA.
+
+\bibitem[{Shafayat et~al.(2025)Shafayat, Tajwar, Salakhutdinov, Schneider, and
+  Zanette}]{shafayat2025srt}
+Sheikh Shafayat, Fahim Tajwar, Ruslan Salakhutdinov, Jeff Schneider, and Andrea
+  Zanette. 2025.
+\newblock \href {https://arxiv.org/abs/2505.21444} {Can large reasoning models
+  self-train?}
+\newblock \emph{Preprint}, arXiv:2505.21444.
+
+\bibitem[{Shao et~al.(2026)Shao, Li, Xin, Geng, Wang, Oh, Du, Lambert, Min,
+  Krishna, Tsvetkov, Hajishirzi, Koh, and Zettlemoyer}]{shao2026spurious}
+Rulin Shao, Shuyue~Stella Li, Rui Xin, Scott Geng, Yiping Wang, Sewoong Oh,
+  Simon~Shaolei Du, Nathan Lambert, Sewon Min, Ranjay Krishna, Yulia Tsvetkov,
+  Hannaneh Hajishirzi, Pang~Wei Koh, and Luke Zettlemoyer. 2026.
+\newblock \href {https://icml.cc/virtual/2026/poster/61082} {Spurious rewards:
+  Rethinking training signals in {RLVR}}.
+\newblock In \emph{Proceedings of the 43rd International Conference on Machine
+  Learning}.
+
+\bibitem[{Shao et~al.(2024)Shao, Wang, Zhu, Xu, Song, Bi, Zhang, Zhang, Li, Wu,
+  and Guo}]{shao2024deepseekmath}
+Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei
+  Zhang, Mingchuan Zhang, Y.~K. Li, Y.~Wu, and Daya Guo. 2024.
+\newblock \href {https://arxiv.org/abs/2402.03300} {{DeepSeekMath}: Pushing the
+  limits of mathematical reasoning in open language models}.
+\newblock \emph{Preprint}, arXiv:2402.03300.
+
+\bibitem[{Song et~al.(2025)Song, Shi, and Zhao}]{song2025hallucination}
+Linxin Song, Taiwei Shi, and Jieyu Zhao. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-emnlp.112} {The
+  hallucination tax of reinforcement finetuning}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pages 2105--2120, Suzhou, China. Association for Computational
+  Linguistics.
+
+\bibitem[{Sun et~al.(2024)Sun, Yin, Guo, Wu, Qiu, and Zhao}]{sun2024umwp}
+YuHong Sun, Zhangyue Yin, Qipeng Guo, Jiawen Wu, Xipeng Qiu, and Hui Zhao.
+  2024.
+\newblock \href {https://aclanthology.org/2024.lrec-main.196/} {Benchmarking
+  hallucination in large language models based on unanswerable math word
+  problem}.
+\newblock In \emph{Proceedings of the 2024 Joint International Conference on
+  Computational Linguistics, Language Resources and Evaluation (LREC-COLING
+  2024)}, pages 2178--2188, Torino, Italia. ELRA and ICCL.
+
+\bibitem[{Sundaram et~al.(2026)Sundaram, Quan, Kwiatkowski, Ahuja, Ollivier,
+  and Kempe}]{sundaram2026soar}
+Shobhita Sundaram, John Quan, Ariel Kwiatkowski, Kartik Ahuja, Yann Ollivier,
+  and Julia Kempe. 2026.
+\newblock \href {https://icml.cc/virtual/2026/poster/65098} {Teaching models to
+  teach themselves: Reasoning at the edge of learnability}.
+\newblock In \emph{Proceedings of the 43rd International Conference on Machine
+  Learning}.
+
+\bibitem[{Swayamdipta et~al.(2020)Swayamdipta, Schwartz, Lourie, Wang,
+  Hajishirzi, Smith, and Choi}]{swayamdipta2020cartography}
+Swabha Swayamdipta, Roy Schwartz, Nicholas Lourie, Yizhong Wang, Hannaneh
+  Hajishirzi, Noah~A. Smith, and Yejin Choi. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.emnlp-main.746} {Dataset
+  cartography: Mapping and diagnosing datasets with training dynamics}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 9275--9293, Online. Association
+  for Computational Linguistics.
+
+\bibitem[{Tong et~al.(2026)Tong, Zhang, Liu, Fu, Song, Zhang, Zhang, Zhu, Yang,
+  Zhang, and Li}]{tong2026aca}
+Yongqi Tong, Zhenyu Zhang, Zimi Liu, Kewei Fu, Mingli Song, Haofei Zhang,
+  Junshao Zhang, Hong Zhu, Jiang-Ming Yang, Xin Zhang, and Jianshe Li. 2026.
+\newblock \href {https://arxiv.org/abs/2608.16554} {Ask, condition or abstain:
+  Reinforcement learning for missing-premise reasoning}.
+\newblock In \emph{Proceedings of the 2026 Conference on Empirical Methods in
+  Natural Language Processing}.
+\newblock To appear; arXiv:2608.16554.
+
+\bibitem[{van Miltenburg et~al.(2021)van Miltenburg, van~der Lee, and
+  Krahmer}]{vanmiltenburg2021preregistering}
+Emiel van Miltenburg, Chris van~der Lee, and Emiel Krahmer. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.naacl-main.51}
+  {Preregistering {NLP} research}.
+\newblock In \emph{Proceedings of the 2021 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 613--623, Online. Association for Computational
+  Linguistics.
+
+\bibitem[{Wang et~al.(2023)Wang, Wei, Schuurmans, Le, Chi, Narang, Chowdhery,
+  and Zhou}]{wang2023selfconsistency}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc~V. Le, Ed~H. Chi, Sharan Narang,
+  Aakanksha Chowdhery, and Denny Zhou. 2023.
+\newblock \href {https://openreview.net/forum?id=1PL1NIMMrw} {Self-consistency
+  improves chain of thought reasoning in language models}.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations}.
+
+\bibitem[{Wen et~al.(2025)Wen, Yao, Feng, Xu, Tsvetkov, Howe, and
+  Wang}]{wen2025abstention}
+Bingbing Wen, Jihan Yao, Shangbin Feng, Chenjun Xu, Yulia Tsvetkov, Bill Howe,
+  and Lucy~Lu Wang. 2025.
+\newblock \href {https://doi.org/10.1162/tacl_a_00754} {Know your limits: A
+  survey of abstention in large language models}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  13:529--556.
+
+\bibitem[{Yang et~al.(2025)Yang, Li, Yang, Zhang, Hui, Zheng, Yu, Gao, Huang,
+  Lv et~al.}]{yang2025qwen3}
+An~Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo~Zheng, Bowen
+  Yu, Chang Gao, Chengen Huang, Chenxu Lv, et~al. 2025.
+\newblock \href {https://arxiv.org/abs/2505.09388} {Qwen3 technical report}.
+\newblock \emph{Preprint}, arXiv:2505.09388.
+
+\bibitem[{Yang et~al.(2026)Yang, Shen, Li, Chen, Wan, Yan, Quan, and
+  Huang}]{yang2026spell}
+Ziyi Yang, Weizhou Shen, Chenliang Li, Ruijun Chen, Fanqi Wan, Ming Yan,
+  Xiaojun Quan, and Fei Huang. 2026.
+\newblock \href
+  {https://proceedings.iclr.cc/paper_files/paper/2026/hash/61af4e55bbc1e29b4f8e2669a829a683-Abstract-Conference.html}
+  {{SPELL}: Self-play reinforcement learning for evolving long-context language
+  models}.
+\newblock In \emph{The Fourteenth International Conference on Learning
+  Representations}.
+
+\bibitem[{Yin et~al.(2023)Yin, Sun, Guo, Wu, Qiu, and Huang}]{yin2023selfaware}
+Zhangyue Yin, Qiushi Sun, Qipeng Guo, Jiawen Wu, Xipeng Qiu, and Xuanjing
+  Huang. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.findings-acl.551} {Do large
+  language models know what they don{'}t know?}
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2023}, pages 8653--8665, Toronto, Canada. Association for Computational
+  Linguistics.
+
+\bibitem[{Yu et~al.(2026)Yu, Chen, and Tan}]{yu2026chase}
+Jing Yu, Shengchao Chen, and Yiyun Tan. 2026.
+\newblock \href {https://arxiv.org/abs/2608.21871} {The chase is the
+  curriculum, the capture anchors the credit: Pursuit-evasion self-play for
+  zero-data {LLM} reasoning}.
+\newblock \emph{Preprint}, arXiv:2608.21871.
+
+\bibitem[{Yu et~al.(2025{\natexlab{a}})Yu, Zhang, Zhu, Yuan, Zuo, Yue, Dai,
+  Fan, Liu, Liu, Liu, Liu, Lin, Lin, Ma, Sheng, Tong, Zhang, Zhang, Zhang,
+  Zhang, Zhu, Zhu, Chen, Chen, Wang, Yu, Song, Wei, Zhou, Liu, Ma, Zhang, Yan,
+  Wu, and Wang}]{yu2025dapo}
+Qiying Yu, Zheng Zhang, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Yu~Yue, Weinan
+  Dai, Tiantian Fan, Gaohong Liu, Juncai Liu, Lingjun Liu, Xin Liu, Haibin Lin,
+  Zhiqi Lin, Bole Ma, Guangming Sheng, Yuxuan Tong, Chi Zhang, Mofan Zhang, and
+  17 others. 2025{\natexlab{a}}.
+\newblock \href {https://doi.org/10.52202/085713-3775} {{DAPO}: An open-source
+  {LLM} reinforcement learning system at scale}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, pages 113222--113244. Curran Associates, Inc.
+
+\bibitem[{Yu et~al.(2025{\natexlab{b}})Yu, Liang, Huang, Panaganti, Fang, Mi,
+  and Yu}]{yu2025rfew}
+Wenhao Yu, Zhenwen Liang, Chengsong Huang, Kishan Panaganti, Tianqing Fang,
+  Haitao Mi, and Dong Yu. 2025{\natexlab{b}}.
+\newblock \href {https://arxiv.org/abs/2512.02472} {Guided self-evolving {LLMs}
+  with minimal human supervision}.
+\newblock \emph{Preprint}, arXiv:2512.02472.
+
+\bibitem[{Yu et~al.(2023)Yu, Min, Zettlemoyer, and Hajishirzi}]{yu2023crepe}
+Xinyan Yu, Sewon Min, Luke Zettlemoyer, and Hannaneh Hajishirzi. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.583} {{CREPE}:
+  Open-domain question answering with false presuppositions}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 10457--10480,
+  Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2024)Zhang, Diao, Lin, Fung, Lian, Wang, Chen, Ji, and
+  Zhang}]{zhang2024rtuning}
+Hanning Zhang, Shizhe Diao, Yong Lin, Yi~Fung, Qing Lian, Xingyao Wang, Yangyi
+  Chen, Heng Ji, and Tong Zhang. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.naacl-long.394} {{R-Tuning}:
+  Instructing large language models to say `{I} don{'}t know'}.
+\newblock In \emph{Proceedings of the 2024 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (Volume 1: Long Papers)}, pages 7113--7139, Mexico City, Mexico.
+  Association for Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2025)Zhang, Wu, Zhang, Zhao, and Bian}]{zhang2025empo}
+Qingyang Zhang, Haitao Wu, Changqing Zhang, Peilin Zhao, and Yatao Bian. 2025.
+\newblock \href {https://doi.org/10.52202/085713-2259} {Right question is
+  already half the answer: Fully unsupervised {LLM} reasoning incentivization}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, pages 67345--67372. Curran Associates, Inc.
+
+\bibitem[{Zhao et~al.(2025)Zhao, Wu, Wu, Xu, Yue, Lin, Wang, Wu, Zheng, and
+  Huang}]{zhao2025absolute}
+Andrew Zhao, Yiran Wu, Tong Wu, Quentin Xu, Yang Yue, Matthieu Lin, Shenzhi
+  Wang, Qingyun Wu, Zilong Zheng, and Gao Huang. 2025.
+\newblock \href {https://doi.org/10.52202/085713-3534} {{Absolute Zero}:
+  Reinforced self-play reasoning with zero data}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, pages 105816--105879. Curran Associates, Inc.
+
+\bibitem[{Zhao et~al.(2026)Zhao, Kang, Feng, Levine, and
+  Song}]{zhao2026intuitor}
+Xuandong Zhao, Zhewei Kang, Aosong Feng, Sergey Levine, and Dawn Song. 2026.
+\newblock \href
+  {https://proceedings.iclr.cc/paper_files/paper/2026/hash/052e2404709e8df9dc38fbc7bfec5b80-Abstract-Conference.html}
+  {Learning to reason without external rewards}.
+\newblock In \emph{The Fourteenth International Conference on Learning
+  Representations}.
+
+\bibitem[{Zhou(2026)}]{zhou2026convincing}
+Chenyu Zhou. 2026.
+\newblock \href {https://arxiv.org/abs/2607.05904} {More convincing, not more
+  correct: Self-play reward hacking of reference-free {LLM} judges}.
+\newblock \emph{Preprint}, arXiv:2607.05904.
+
+\bibitem[{Zuo et~al.(2025)Zuo, Zhang, Sheng, Qu, Cui, Zhu, Li, Zhang, Long,
+  Hua, Qi, Sun, Ma, Yuan, Ding, and Zhou}]{zuo2025ttrl}
+Yuxin Zuo, Kaiyan Zhang, Li~Sheng, Shang Qu, Ganqu Cui, Xuekai Zhu, Haozhan Li,
+  Yuchen Zhang, Xinwei Long, Ermo Hua, Biqing Qi, Youbang Sun, Zhiyuan Ma,
+  Lifan Yuan, Ning Ding, and Bowen Zhou. 2025.
+\newblock \href {https://doi.org/10.52202/085713-4376} {{TTRL}: Test-time
+  reinforcement learning}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, pages 131459--131483. Curran Associates, Inc.
+
+\end{thebibliography}

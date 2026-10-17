@@ -1,0 +1,6 @@
+stopq qwen3_4b_base /root/models/Qwen3-4B-Base
+stopq base_Qwen3-8B-Base /root/models/Qwen3-8B-Base
+stopq base_Phi-4-mini-instruct /root/models/Phi-4-mini-instruct
+stopq qwen3_8b_Base_own_a3_s0_r3 /dev/shm/ckpt_b/qwen3_8b_Base_own_a3_s0_r3/final
+stopq qwen3_4b_Base_own_a3_s0_r3 /dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r3/final
+stopq qwen3_4b_Base_own_a3_s1_r3 /dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s1_r3/final

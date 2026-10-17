@@ -1,0 +1,362 @@
+{
+ "families": {
+  "fam_qwen3_8b_s0": {
+   "n": {
+    "SOLVABLE": 639,
+    "AMBIGUOUS": 180,
+    "UNSOLVABLE": 339
+   },
+   "beta": {
+    "SOLVABLE": 2.55,
+    "AMBIGUOUS": 1.5,
+    "UNSOLVABLE": 1.45
+   },
+   "beta_ci95": {
+    "SOLVABLE": [
+     2.25,
+     3.45
+    ],
+    "AMBIGUOUS": [
+     1.3,
+     1.9
+    ],
+    "UNSOLVABLE": [
+     1.15,
+     1.8
+    ]
+   },
+   "boot_share_S_gt_U": 1.0,
+   "boot_share_S_gt_A_gt_U": 0.59,
+   "boot_share_S_gt_max_A_U": 1.0,
+   "boot_at_grid_bounds": {
+    "SOLVABLE": {
+     "1.00": 0.0,
+     "8.00": 0.0
+    },
+    "AMBIGUOUS": {
+     "1.00": 0.0,
+     "8.00": 0.0
+    },
+    "UNSOLVABLE": {
+     "1.00": 0.004,
+     "8.00": 0.0
+    }
+   },
+   "class_descriptives": {
+    "SOLVABLE": {
+     "base_k_hist": {
+      "0": 0,
+      "1": 6,
+      "2": 27,
+      "3": 29,
+      "4": 32,
+      "5": 46,
+      "6": 75,
+      "7": 141,
+      "8": 283
+     },
+     "frozen_share": 0.0594679186228482,
+     "model_floor_inband": 0.050281690140845076,
+     "no_valid_answer_share": {
+      "base": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "r3": 0.0
+     }
+    },
+    "AMBIGUOUS": {
+     "base_k_hist": {
+      "0": 0,
+      "1": 12,
+      "2": 13,
+      "3": 19,
+      "4": 36,
+      "5": 26,
+      "6": 24,
+      "7": 28,
+      "8": 22
+     },
+     "frozen_share": 0.26666666666666666,
+     "model_floor_inband": 0.21233333333333337,
+     "no_valid_answer_share": {
+      "base": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "r3": 0.0
+     }
+    },
+    "UNSOLVABLE": {
+     "base_k_hist": {
+      "0": 0,
+      "1": 41,
+      "2": 71,
+      "3": 65,
+      "4": 51,
+      "5": 45,
+      "6": 22,
+      "7": 27,
+      "8": 17
+     },
+     "frozen_share": 0.2713864306784661,
+     "model_floor_inband": 0.18768436578171094,
+     "no_valid_answer_share": {
+      "base": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "r3": 0.0
+     }
+    }
+   },
+   "model_free_matched_retention": {
+    "r1": {
+     "SOLVABLE": 0.5895902502598219,
+     "UNSOLVABLE": 0.7874015748031497,
+     "n_U_matched": 254
+    },
+    "r2": {
+     "SOLVABLE": 0.4717561814565158,
+     "UNSOLVABLE": 0.6732283464566928,
+     "n_U_matched": 254
+    },
+    "r3": {
+     "SOLVABLE": 0.33379057217891495,
+     "UNSOLVABLE": 0.6456692913385826,
+     "n_U_matched": 254
+    }
+   },
+   "L-P1": true,
+   "L-P2": true,
+   "in_band_obs": {
+    "SOLVABLE": [
+     0.327,
+     0.16,
+     0.125,
+     0.091
+    ],
+    "AMBIGUOUS": [
+     0.656,
+     0.528,
+     0.5,
+     0.444
+    ],
+    "UNSOLVABLE": [
+     0.749,
+     0.69,
+     0.634,
+     0.596
+    ]
+   },
+   "illposed_share_obs": [
+    64.0,
+    76.3,
+    79.2,
+    82.9
+   ],
+   "own_law": [
+    59.1,
+    73.3,
+    79.0,
+    85.6
+   ],
+   "mae_own_r1_r3": 1.99,
+   "mae_own_all": 2.73,
+   "qwen4b_law_transfer": [
+    59.1,
+    76.6,
+    84.8,
+    89.8
+   ],
+   "mae_transfer_r1_r3": 4.25,
+   "mae_transfer_all": 4.42,
+   "single_rate": [
+    59.1,
+    71.3,
+    75.2,
+    75.9
+   ],
+   "mae_single_r1_r3": 5.39,
+   "mae_single_all": 5.28
+  },
+  "fam_phi4mini_s0": {
+   "n": {
+    "SOLVABLE": 639,
+    "AMBIGUOUS": 180,
+    "UNSOLVABLE": 339
+   },
+   "beta": {
+    "SOLVABLE": 2.5,
+    "AMBIGUOUS": 1.1,
+    "UNSOLVABLE": 1.0
+   },
+   "beta_ci95": {
+    "SOLVABLE": [
+     2.15,
+     8.0
+    ],
+    "AMBIGUOUS": [
+     1.0,
+     1.5
+    ],
+    "UNSOLVABLE": [
+     1.0,
+     1.0
+    ]
+   },
+   "boot_share_S_gt_U": 1.0,
+   "boot_share_S_gt_A_gt_U": 0.752,
+   "boot_share_S_gt_max_A_U": 1.0,
+   "boot_at_grid_bounds": {
+    "SOLVABLE": {
+     "1.00": 0.0,
+     "8.00": 0.044
+    },
+    "AMBIGUOUS": {
+     "1.00": 0.248,
+     "8.00": 0.0
+    },
+    "UNSOLVABLE": {
+     "1.00": 1.0,
+     "8.00": 0.0
+    }
+   },
+   "class_descriptives": {
+    "SOLVABLE": {
+     "base_k_hist": {
+      "0": 31,
+      "1": 30,
+      "2": 32,
+      "3": 31,
+      "4": 42,
+      "5": 47,
+      "6": 51,
+      "7": 65,
+      "8": 310
+     },
+     "frozen_share": 0.16118935837245696,
+     "model_floor_inband": 0.083018779342723,
+     "no_valid_answer_share": {
+      "base": 0.048513302034428794,
+      "r1": 0.0,
+      "r2": 0.0,
+      "r3": 0.0
+     }
+    },
+    "AMBIGUOUS": {
+     "base_k_hist": {
+      "0": 14,
+      "1": 24,
+      "2": 31,
+      "3": 18,
+      "4": 22,
+      "5": 21,
+      "6": 11,
+      "7": 16,
+      "8": 23
+     },
+     "frozen_share": 0.3333333333333333,
+     "model_floor_inband": 0.1717,
+     "no_valid_answer_share": {
+      "base": 0.07777777777777778,
+      "r1": 0.0,
+      "r2": 0.0,
+      "r3": 0.0
+     }
+    },
+    "UNSOLVABLE": {
+     "base_k_hist": {
+      "0": 75,
+      "1": 133,
+      "2": 42,
+      "3": 26,
+      "4": 18,
+      "5": 21,
+      "6": 8,
+      "7": 7,
+      "8": 9
+     },
+     "frozen_share": 0.6666666666666666,
+     "model_floor_inband": 0.2196165191740413,
+     "no_valid_answer_share": {
+      "base": 0.22123893805309736,
+      "r1": 0.0,
+      "r2": 0.0,
+      "r3": 0.0
+     }
+    }
+   },
+   "model_free_matched_retention": {
+    "r1": {
+     "SOLVABLE": 0.4622949187135091,
+     "UNSOLVABLE": 0.7130434782608696,
+     "n_U_matched": 115
+    },
+    "r2": {
+     "SOLVABLE": 0.3780167557757489,
+     "UNSOLVABLE": 0.6782608695652174,
+     "n_U_matched": 115
+    },
+    "r3": {
+     "SOLVABLE": 0.39060292151237264,
+     "UNSOLVABLE": 0.6608695652173914,
+     "n_U_matched": 115
+    }
+   },
+   "L-P1": true,
+   "L-P2": true,
+   "in_band_obs": {
+    "SOLVABLE": [
+     0.318,
+     0.166,
+     0.158,
+     0.147
+    ],
+    "AMBIGUOUS": [
+     0.572,
+     0.544,
+     0.578,
+     0.511
+    ],
+    "UNSOLVABLE": [
+     0.339,
+     0.693,
+     0.678,
+     0.702
+    ]
+   },
+   "illposed_share_obs": [
+    51.8,
+    75.9,
+    76.8,
+    77.8
+   ],
+   "own_law": [
+    53.1,
+    63.9,
+    69.8,
+    77.1
+   ],
+   "mae_own_r1_r3": 6.56,
+   "mae_own_all": 5.25,
+   "qwen4b_law_transfer": [
+    53.1,
+    65.9,
+    74.9,
+    80.9
+   ],
+   "mae_transfer_r1_r3": 5.0,
+   "mae_transfer_all": 4.08,
+   "single_rate": [
+    53.1,
+    61.8,
+    65.6,
+    67.3
+   ],
+   "mae_single_r1_r3": 11.92,
+   "mae_single_all": 9.27
+  }
+ },
+ "verdicts": {
+  "L-P1": true,
+  "L-P2": true
+ }
+}

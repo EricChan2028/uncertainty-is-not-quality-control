@@ -1,0 +1,900 @@
+{"key": "b0000", "verdict": "SOLVABLE", "raw_tail": "Note: Question specifies total distance and speed, enabling calculation of time. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0001", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial cars are 810, exceeding capacity; question assumes impossible scenario.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0002", "verdict": "SOLVABLE", "raw_tail": "Note: Assumes constant filling rate; calculates 18 hours for 6 bins.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0003", "verdict": "SOLVABLE", "raw_tail": "Note: Solves for x=23 given total capacity and open spaces.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0004", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question incorrectly assumes Mr. Smith spent money; students brought items.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0005", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with 23 incorrect answers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0006", "verdict": "SOLVABLE", "raw_tail": "Note: Question is clear, provides all necessary data, and asks for a unique numeric answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0007", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing cost details for included minutes vs. extra minutes.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0008", "verdict": "SOLVABLE", "raw_tail": "Note: Total holes are 60 + 4*6 = 84; 84 holes * 7 minutes/hole = 588 minutes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0009", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question confuses deliveries with subscriptions; insufficient info on subscription payments.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0010", "verdict": "SOLVABLE", "raw_tail": "Note: Total after second day is 12+12 (rock) + 8 (classical) + 4+4 (jazz) = 40.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0011", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial adult count unclear; family size unspecified.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0012", "verdict": "SOLVABLE", "raw_tail": "Note: The question is solvable as it provides all necessary costs and relationships. The total is $550.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0013", "verdict": "SOLVABLE", "raw_tail": "Note: 60 students receive stickers, forming 5 groups. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0014", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes in-store and out-of-store comics confusingly, lacks clear total weekly stock.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0015", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes even distribution; calculates 23.5 people per room, non-integer solution.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0016", "verdict": "SOLVABLE", "raw_tail": "Note: Question mixes unrelated details; original question is solvable but note the irrelevant text. VERDICT: SOLVABLE\n\nClarification on the note: Despite irrelevant text, the core question about attendance difference is solvable. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0017", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question specifies even gears but median calculation requires odd count; unsolvable as stated.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0018", "verdict": "SOLVABLE", "raw_tail": "Note: Initial volume given, total volume calculable from dimensions, difference computable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0019", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; total is $2.25.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0020", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question implies overcapacity, making it physically unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0021", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on spending for trips 4-7; total spending cannot be uniquely determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0022", "verdict": "UNSOLVABLE", "raw_tail": "Note: Problem lacks initial coin count, making total ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0023", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; focus on Pete and Samantha's lemonade sales ratio. No total cups sold given, making total cups Pete sold unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0024", "verdict": "SOLVABLE", "raw_tail": "Note: Total items calculable from loads and items per load.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0025", "verdict": "SOLVABLE", "raw_tail": "Note: Prices determined uniquely; first $500, second $400, third $200; total $1100.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0026", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in water addition method; initial 48 quarts vs. 6 quarts per fish.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0027", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; profit calculation requires revenue from sales minus costs (ingredients + production).\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0028", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's Sunday distance definition is circular and unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0029", "verdict": "SOLVABLE", "raw_tail": "Note: Volume to fill is 30*10*3.5 cubic feet; time is 1050 minutes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0030", "verdict": "SOLVABLE", "raw_tail": "Note: Calculate time for each segment, add stop time, convert to minutes. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0031", "verdict": "AMBIGUOUS", "raw_tail": "Note: Missing initial pace direction (increase/decrease), ambiguous pace change interpretation.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0032", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on how seats are distributed among screens.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0033", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes task types; numeric answer for hydrogen usage but ends with subjective rating. ||| VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0034", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 25 green bikes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0035", "verdict": "SOLVABLE", "raw_tail": "Note: Initial total crayons calculated, then loss of green crayons from each table accounted for.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0036", "verdict": "AMBIGUOUS", "raw_tail": "Note: Initial condition and growth rate defined, but total exceeds tank capacity, making physical constraint ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0037", "verdict": "SOLVABLE", "raw_tail": "Note: Question specifies all additions and multiplications clearly, leading to a unique total.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0038", "verdict": "UNSOLVABLE", "raw_tail": "Conversion factors and volume calculation missing precise steps. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0039", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks information on initial eggs or incubation impact on stock.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0040", "verdict": "SOLVABLE", "raw_tail": "Note: Initial cars not aligned with spaces per level; process described solvable with given numbers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0041", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks information on refill duration or target volume.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0042", "verdict": "SOLVABLE", "raw_tail": "Note: Totals are directly calculable from given numbers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0043", "verdict": "AMBIGUOUS", "raw_tail": "Note: Revenue calculation is clear but total series post-deal is ambiguous due to deal specifics.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0044", "verdict": "AMBIGUOUS", "raw_tail": "Note: Problem lacks specification on weekend days, making calculation of weekly earnings ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0045", "verdict": "UNSOLVABLE", "raw_tail": "Note: Information given does not specify total ratings distribution or average ratings count directly.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0046", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 50 spaces, net gain 8 cars per hour, 2 hours, total 66 cars.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0047", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes unrelated parts; seat calculation solvable but ruler division irrelevant and confusing.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0048", "verdict": "SOLVABLE", "raw_tail": "Note: Task asks for difference in height between third and first plant; clear data provided.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0049", "verdict": "AMBIGUOUS", "raw_tail": "Note: Weekly usage depends on the week's starting day; varies between 10.8 kg and 14.4 kg.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0050", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 10, -1, +5, -1, -2, then half left. Final count is 5.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0051", "verdict": "SOLVABLE", "raw_tail": "Note: Total revenue is $12*8 + $14*6 + $10*4 + $3*3 = $235.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0052", "verdict": "SOLVABLE", "raw_tail": "Note: Question contains irrelevant text, focuses on hotel occupancy. VERDICT: SOLVABLE\n\nNote: 6 rooms * 3 people + 0.75 * 5 rooms * 4 people = 18 + 15 = 33 guests.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0053", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial count and loss percentage given, but dime loss is unclear.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0054", "verdict": "SOLVABLE", "raw_tail": "Note: Total coins = 45 + 2*45 - 30 = 105. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0055", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question shifts topic mid-text, mixing flower watering with undefined \"shans\" and \"so,\" making it incoherent.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0056", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total cost is $5*3 + $8*2 + $6*4 = $59; insufficient info on payment.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0057", "verdict": "SOLVABLE", "raw_tail": "Note: Question assumes continuous feeding without breaks; math leads to 4 days.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0058", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question shifts focus mid-text from car wash earnings to a farmer's profit and then to trains, making it unsolvable for any specific query.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0059", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 240 books, 30% checked out, 20% of remaining returned; math yields 168 books left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0060", "verdict": "AMBIGUOUS", "raw_tail": "Note: Includes bulk sales but does not specify if individual sales are included, making calculation ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0061", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing ratio of red to blue paint in the final mixture.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0062", "verdict": "UNSOLVABLE", "raw_tail": "Note: Half a book is impractical; thus, the problem setup is flawed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0063", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question misstates pizza distribution; unclear if 2,5 is a typo for 25 or decimal.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0064", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes shelf count with books per shelf irrelevantly; shelf space not related to book count.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0065", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total weight and number of books given, but books may not weigh equally.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0066", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify if any more racers drop out after the last given point.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0067", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; calculates profit from 60 cupcakes sold and 5 given free.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0068", "verdict": "UNSOLVABLE", "raw_tail": "Initial 45 cars triple to 135, then 75% of 90 new cars leave (22.5 cars, non-integer, unrealistic).  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0069", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes half-time score with ambiguous second half query; unclear if 3 points added to which team.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0070", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks home location details post airport, making cab cost post-rental car pickup ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0071", "verdict": "SOLVABLE", "raw_tail": "Note: Question about painter's earnings is solvable with given data; other sentences are unrelated.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0072", "verdict": "SOLVABLE", "raw_tail": "Note: Question and solution provided are consistent and lead to a unique answer of $31.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0073", "verdict": "AMBIGUOUS", "raw_tail": "Note: Insufficient information on whether additions exceed remaining space; ambiguous if tank overflows or not.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0074", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in bird count; total birds cannot be both 75 and 305.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0075", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total subscribers split; time calculation varies based on unknown distribution.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0076", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question includes humans but lacks their daily water consumption rate for the zoo context, making it UNSOLVABLE.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0077", "verdict": "SOLVABLE", "raw_tail": "Note: Daily production is 4800 toys; 10,000 toys require 2.083 days, round up to 3 days.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0078", "verdict": "SOLVABLE", "raw_tail": "Note: Rates and times given allow calculation of total souffl\u00e9s.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0079", "verdict": "UNSOLVABLE", "raw_tail": "Note: Calculation error; cannot deliver to negative houses. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0080", "verdict": "SOLVABLE", "raw_tail": "on the instruction provided, the correct format for the verdict should be either SOLVABLE, UNSOLVABLE, or AMBIGUOUS. Given the question's context and the instruction's criteria, the correct response should be:\n\nNote: Provides all necessary information for a unique fare calculation.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0081", "verdict": "SOLVABLE", "raw_tail": "Note: Task specifies exact numbers of sacks and oranges per sack, leading to a unique total.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0082", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; calculates safety catches after accounting for touchdowns and field goals.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0083", "verdict": "SOLVABLE", "raw_tail": "Note: Home team's score calculation is redundant; away team's score directly calculable from given difference.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0084", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for yearly cost but ends with unrelated instruction. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0085", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes Stefan's sister's distance with Jane's travel details, making Stefan's travel time unknown.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0086", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with algebra; unique solution for number of quarters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0087", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial counts and donations given but final adjustment unspecified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0088", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes bird count logic with an unrelated task; bird count solvable but task inclusion makes it unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0089", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks total eggs needed; assumes continuous collection.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0090", "verdict": "UNSOLVABLE", "raw_tail": "Note: Original cookie amount unknown; scaling factor cannot be determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0091", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes personal acquisition with shop inventory; shop's stock unclear post-transaction.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0092", "verdict": "SOLVABLE", "raw_tail": "Note: Initial volume reduced by 25%, then 100 ml, increased by 200 ml. Final volume calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0093", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial velocity, air resistance, and thrust duration; physics details insufficient.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0094", "verdict": "SOLVABLE", "raw_tail": "Note: Total plan cost $720, $80 less than phone cost. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0095", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on legs per bird/snake; assumes 2 legs each.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0096", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question presents two distinct problems; lacks clarity on solving one or both.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0097", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question repeats and cuts off; full ingredient list needed for all items.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0098", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated scenarios; book count solvable (120 books), chocolate bar pricing unsolvable due to missing cost price.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0099", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing task completion rate or time worked each day.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0100", "verdict": "SOLVABLE", "raw_tail": "Note: Savings calculation requires determining cost without promotion vs. with promotion. Promotion saves 3 wheels out of every 12, at $18 each post-discount. \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0101", "verdict": "SOLVABLE", "raw_tail": "Note: Question assumes constant rate; solvable with given data. 300 cars * 5 minutes/car = 1500 minutes = 25 hours.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0102", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in numbers; 120 - 15 \u2260 50.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0103", "verdict": "SOLVABLE", "raw_tail": "Note: Distances for Sam, Ben, and Lucy are defined; Tom's is the remainder, uniquely solvable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0104", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total number of books or specific count of non-fiction books.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0105", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial mystery books are 240; after Tuesday, 168 remain; Wednesday leaves 84; adding 100 on Thursday gives 184 mystery books. Total books not specified beyond mystery.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0106", "verdict": "SOLVABLE", "raw_tail": "Note: Total savings = (7 adults * $4) + (13 children * $2) = $28 + $26 = $54.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0107", "verdict": "SOLVABLE", "raw_tail": "Note: Total cost is 8 dollars; requires 32 quarters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0108", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine unique quantities of each coin type.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0109", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with 11 cars and 7 bicycles fitting the wheel count.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0110", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient cost details; total cost per cup needed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0111", "verdict": "UNSOLVABLE", "raw_tail": "Note: Width and length details insufficient for space count; cars per space irrelevant.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0112", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes multiple queries; lacks clarity on cumulative production. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0113", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; brother has 135 books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0114", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on overlap between groups makes probability indeterminable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0115", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 360 cents from 18 dimes, 6 nickels, 30 pennies.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0116", "verdict": "SOLVABLE", "raw_tail": "Note: Each of the 30 friends trades 4 comics, totaling 120 trades.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0117", "verdict": "SOLVABLE", "raw_tail": "Note: Determines unique answers: 5 loads, $2.50 total cost.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0118", "verdict": "UNSOLVABLE", "raw_tail": "Note: Kim has 4.5 oranges left, but since oranges can't be halved in context, assume whole numbers. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0119", "verdict": "UNSOLVABLE", "raw_tail": "Note: Decrease by factor is unclear; increase by factor contradicts decrease.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0120", "verdict": "SOLVABLE", "raw_tail": "Note: Question diverges into complex requirements beyond initial query; initial query SOLVABLE: Margaret had 42 quarters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0121", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 100 servings made, 50 liters of milk and 50 liters of cream left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0122", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is mixed with unrelated text, making it unsolvable as presented.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0123", "verdict": "SOLVABLE", "raw_tail": "Note: The question's solution process is provided within the question text itself, leading to a unique answer of 25 nickels.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0124", "verdict": "UNSOLVABLE", "raw_tail": "Note: Minimization requires specific constraints not provided; multiple solutions exist.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0125", "verdict": "SOLVABLE", "raw_tail": "Note: Requires summing materials for 3 tables and 2 chairs; clear quantities given.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0126", "verdict": "SOLVABLE", "raw_tail": "Note: Total earnings calculated as (14 * $15) + (50 * $25) + $10 = $1460.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0127", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing quantity of lemonade made and number of lemons used.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0128", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's occupancy condition contradicts bed capacities; VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0129", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question about \"bubble speak\" is irrelevant; original problem lacks start balance, making final amount unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0130", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; total cost 5200 rubles, change 4800 rubles.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0131", "verdict": "SOLVABLE", "raw_tail": "Note: Question provides all necessary information to calculate cost for 120 strawberries.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0132", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on the time to paint the second room with help.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0133", "verdict": "SOLVABLE", "raw_tail": "Note: Question states total cakes and rate per hour for both, leading to a solvable scenario.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0134", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is solvable with given numbers; student response unrelated to question.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0135", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on the limit of additional temporary workers.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0136", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing quantities of cupcakes and cookies; infinite solutions possible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0137", "verdict": "SOLVABLE", "raw_tail": "Note: Volume of tank is 192 cm\u00b3; each particle occupies 0.008 cm\u00b3; 192/0.008 = 24000 particles.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0138", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question about cookies is solvable with a unique numeric answer of 16.\nVERDICT: SOLVABLE\n\nNote: The dialogue provided does not form a coherent or complete conversation relevant to the bake sale question.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0139", "verdict": "SOLVABLE", "raw_tail": "Note: Total minutes are 35 daily + 30 evening = 245 weekly; 245 minutes = 4.0833 hours.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0140", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing rate of score increase per lesson; assumptions needed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0141", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial count and additions known, but not specified which fish were given away. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0142", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on selection method over days; unique answer cannot be determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0143", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question does not specify which sides to increase or if all sides must be increased equally.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0144", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes hotel beds and truck materials; no unique answer for mixed query.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0145", "verdict": "SOLVABLE", "raw_tail": "Note: Germination count increases daily by one, starting from one. Total by 5th day is 15.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0146", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question lacks clarity on extra shift duration and application, making calculation of total weekly production ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0147", "verdict": "SOLVABLE", "raw_tail": "Note: They need to bake 23 more cakes to reach a total of 50.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0148", "verdict": "SOLVABLE", "raw_tail": "Note: Only quarters qualify; 8 quarters max without exceeding $2.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0149", "verdict": "SOLVABLE", "raw_tail": "Note: Old job hours known, new job hours calculable, rate given, payment determinable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0150", "verdict": "SOLVABLE", "raw_tail": "Note: Discounts apply to price, not stated; assumes discounts apply to $1. \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0151", "verdict": "SOLVABLE", "raw_tail": "Note: Question specifies total wood and wood required per table, leaving 6 feet leftover.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0152", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes 13 bars per measure, contradicting 5/8 time.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0153", "verdict": "UNSOLVABLE", "raw_tail": "Note: Problem mixes conditions for two separate screenings without clarifying total seats for the first movie beyond given 80.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0154", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on parking space width and arrangement.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0155", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing number of students or total packs. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0156", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mismatch; responses pertain to learning theory, not widget production.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0157", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's total slices (54) contradicts given distribution. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0158", "verdict": "SOLVABLE", "raw_tail": "Note: Volume is 5*10*6*0.6=180 cubic feet.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0159", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question assumes a square perimeter but does not specify corner placement rules.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0160", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with clear geometric progression and occupancy rates provided.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0161", "verdict": "SOLVABLE", "raw_tail": "Note: Initial count 12 apples, 36 oranges, 72 pears; after giving away, 7 apples, 36 oranges, 65 pears left; total 108 fruits.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0162", "verdict": "AMBIGUOUS", "raw_tail": "Note: Original question solvable but modified question introduces ambiguity on order cost.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0163", "verdict": "SOLVABLE", "raw_tail": "Note: Question asks for unit fare, which is given as $1.50 per mile.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0164", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes book price calculation with unrelated program prompt. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0165", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on carrots per noodle pack.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0166", "verdict": "SOLVABLE", "raw_tail": "Note: 72 people represent 60% of seats, implying 120 seats total.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0167", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in numbers; half of 25 cannot be an integer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0168", "verdict": "AMBIGUOUS", "raw_tail": "Note: Total 6 tickets needed, pays for 4.5 tickets due to offer. Exact cost $22.50, but typically priced in whole dollars, so $22 or $23.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0169", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; sold 30 cupcakes, made $50.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0170", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine individual counts; relation between totals unclear.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0171", "verdict": "SOLVABLE", "raw_tail": "Note: Total cost is $12 + 25 * $0.10 = $14.50.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0172", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks total coin count, making specific pile size unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0173", "verdict": "SOLVABLE", "raw_tail": "Note: Total cars = 130; divided by 3, each gets 43 cars, 1 car remains. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0174", "verdict": "AMBIGUOUS", "raw_tail": "Note: Ambiguity in the number of tickets per city and discount application.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0175", "verdict": "SOLVABLE", "raw_tail": "Note: Starts with 10 fish, doubles monthly, 3 months = 80 fish.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0176", "verdict": "SOLVABLE", "raw_tail": "Note: Volume is 8000 cubic feet; cleaning time is 80000 minutes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0177", "verdict": "SOLVABLE", "raw_tail": "Note: Question mixes unrelated topics; focus on oranges. Total: 25 + 45 + 95 = 165 oranges.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0178", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes solution method with grade level assessment, lacks clear numeric goal.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0179", "verdict": "SOLVABLE", "raw_tail": "Note: Total students convinced = 25 + 50 + 40 + 45 = 160.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0180", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; calculates weekly sales then annual sales based on given data.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0181", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; system of equations yields unique solution: 5 dimes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0182", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question assumes machines' speeds are inversely proportional to given times; lacks clarity on combined machine efficiency.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0183", "verdict": "SOLVABLE", "raw_tail": "Note: Initial amount and growth rate defined; solvable with arithmetic progression.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0184", "verdict": "SOLVABLE", "raw_tail": "Note: Calculation error in step 3; price for two boxes plus half-priced third box is $75, not $45. Correct calculation shows 8 sets, thus 24 boxes.  \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0185", "verdict": "UNSOLVABLE", "raw_tail": "Note: 22.5 quarters, 22.5 dimes; fractional coins impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0186", "verdict": "SOLVABLE", "raw_tail": "Note: Question repeats itself; calculate spending based on given prices and quantities.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0187", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes constant acceleration but gives speed at an unspecified time; acceleration details alone insufficient.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0188", "verdict": "SOLVABLE", "raw_tail": "Note: Grady enters at 1:05 PM, swims for 1 hour 55 minutes, exits at 3:00 PM.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0189", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question incorrectly states total consumption post-race; information contradictory.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0190", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is about total cost but includes unrelated instructions and questions, making it confusing and off-topic.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0191", "verdict": "SOLVABLE", "raw_tail": "Note: Question's condition about train capacity and city fraction is redundant; calculation based on given numbers. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0192", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; calculates apples in first 50 rows (250) and next 50 rows (95), total 345.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0193", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question changes context mid-text from train tickets to tolls, creating inconsistency.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0194", "verdict": "AMBIGUOUS", "raw_tail": "Note: Groups quantity solvable (8 groups), concepts per week ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0195", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total spent exceeds money brought; question asks about spending relative to one comic and one figure, not savings. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0196", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing original price per book before discount; cannot determine original price of packs.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0197", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on usage for the $45 plan makes savings calculation impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0198", "verdict": "SOLVABLE", "raw_tail": "Note: Both speeds are calculable; difference in minutes per kilometer is unique.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0199", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for total hours but does not specify if the 2 hours are per student or per instrument per day.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0200", "verdict": "SOLVABLE", "raw_tail": "Note: The question provides a direct calculation method leading to a unique answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0201", "verdict": "SOLVABLE", "raw_tail": "Note: Question specifies outcomes and points system; solvable with given data.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0202", "verdict": "UNSOLVABLE", "raw_tail": "Note: Time spent at each exhibit is halved, leading to undefined stop times without break durations.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0203", "verdict": "SOLVABLE", "raw_tail": "Initial volume 187500 liters; final target 200000 liters; net change -850 liters; need 19850 liters more.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0204", "verdict": "AMBIGUOUS", "raw_tail": "Note: Initial solvable with 60 children; adding 3 doesn't change water level, irrelevant to percentage calculation.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0205", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes unrelated parts; cost calculation solvable but rest is ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0206", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing number of friends; cost per person cannot be determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0207", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on mixed boxes; total weight doesn't match given cake weights and box quantities.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0208", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on number of machines; trips cannot be determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0209", "verdict": "UNSOLVABLE", "raw_tail": "Note: Costs given are per unit, but only one unit quantity (half-ounce) provided.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0210", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify Cindy's running distance or time; lacks necessary information.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0211", "verdict": "SOLVABLE", "raw_tail": "Note: Total is $3*4 + $20 = $32. Dolls' price irrelevant.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0212", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with unique solution: 105 local, 35 intercity.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0213", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on the number of stops or boarding rate makes the problem unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0214", "verdict": "SOLVABLE", "raw_tail": "Note: Initial quantities and used quantities are clear; subtraction yields unique answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0215", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes direct travel between each station once, ignoring return trips. Total trips unspecified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0216", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on shelf thickness and spacing requirements.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0217", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 20 students plus 3 more makes 23 students total.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0218", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes flower beds with sections ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0219", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on lemon juice usage per cup; unsolvable without it.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0220", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; apple scenario solvable separately (17 left), but mixed context makes it unsolvable as a whole.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0221", "verdict": "SOLVABLE", "raw_tail": "Note: Requires half of 3 tsp and 4 tbsp, rounded down; 1 tsp vanilla, 2 tbsp sugar.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0222", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on which book is at full price or half-price.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0223", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question shifts focus mid-text; initial space calculation solvable but planter query lacks clarity.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0224", "verdict": "SOLVABLE", "raw_tail": "Note: Question contains steps beyond the initial query, but core is solvable. Pool empties in 6 hours.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0225", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; requires calculating total water consumption for 80 chickens over 7 days.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0226", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine the exact number of damaged oranges.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0227", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; Sam has 10 rubber bands left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0228", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question requires calculating wall areas for both rooms but lacks formula for pentagon wall area.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0229", "verdict": "UNSOLVABLE", "raw_tail": "Note: Volume conversion missing; tank capacity in gallons inconsistent with dimensions.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0230", "verdict": "SOLVABLE", "raw_tail": "Note: Costs are given, but total gallons not needed for total cost calculation.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0231", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 2 slices left after family eats.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0232", "verdict": "UNSOLVABLE", "raw_tail": "Note: Number of girls = 22.5, not possible; VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0233", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on lemon usage on days 2 and 3.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0234", "verdict": "UNSOLVABLE", "raw_tail": "Note: Given passenger percentages contradict stated numbers, making the problem self-contradictory.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0235", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes capacity and daily throughput without clarifying Wednesday's metric.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0236", "verdict": "UNSOLVABLE", "raw_tail": "Note: Heights averaged; total plants 24; insufficient info for individual heights.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0237", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing ticket price; cannot calculate total money earned.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0238", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question repeats itself; lacks clarity on total funds or additional money needed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0239", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for average pencils per student, not pencils each student has now. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0240", "verdict": "SOLVABLE", "raw_tail": "Note: Initial cars = 25 rows * 16 spaces/row - 25 rows * 10 cars/row = 125 cars.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0241", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes dives and swim lengths ambiguously; unclear if all dives equal swimming lengths.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0242", "verdict": "SOLVABLE", "raw_tail": "Note: Both rates are clear; large washes 28 lbs, small washes 30 lbs in 60 mins, question asks difference.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0243", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total tank volume; cannot determine water volume or additional fish capacity.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0244", "verdict": "UNSOLVABLE", "raw_tail": "Note: Price of regular comics not specified, making number bought indeterminate.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0245", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question asks about 3 machines for 8 hours but mentions 6 shifts ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0246", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 250 tickets, +30 sold, -45 returned; math clear, solvable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0247", "verdict": "SOLVABLE", "raw_tail": "Note: Question asks for hours worked per employee per week, which is given as 10 days times shift hours. Shift hours vary but weekly hours don't depend on profit or rate.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0248", "verdict": "AMBIGUOUS", "raw_tail": "Note: The problem statement is unclear about whether the traded instruments are added to the total or replace the traded ones.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0249", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; volume calculation possible with given dimensions and conversion factor.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0250", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing water distribution per square foot; cannot calculate weeks needed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0251", "verdict": "UNSOLVABLE", "raw_tail": "Note: Distances covered are 17.75 miles and 17.875 miles; total exceeds marathon length.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0252", "verdict": "SOLVABLE", "raw_tail": "Note: Pattern fits plot exactly; no leftovers. Roses: 30, Tulips: 24, Sunflowers: 18.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0253", "verdict": "SOLVABLE", "raw_tail": "Note: All necessary quantities are provided; unique answer is 170 gallons.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0254", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on which books are on sale.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0255", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 1200 more silver badge recipients than gold badge recipients.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0256", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks total pizza slices, making it impossible to determine slices left.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0257", "verdict": "SOLVABLE", "raw_tail": "Note: Initial oranges halved, minus samples, plus deliveries. Final count is 623.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0258", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total number of bottles, making it impossible to determine quantities.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0259", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated PHP code; focus on tank capacity. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0260", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on the number of brownies per egg/flour ratio for scaling.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0261", "verdict": "SOLVABLE", "raw_tail": "Note: Question solvable with given numbers; 17.5 students left, but context implies rounding down to 17.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0262", "verdict": "SOLVABLE", "raw_tail": "Note: Travel time explicitly stated as 10 minutes; preparation time irrelevant.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0263", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes unrelated parts; fruit/vegetable part lacks clarity on initial tomato count.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0264", "verdict": "SOLVABLE", "raw_tail": "Note: Problem provides all necessary quantities and leads to a unique answer of 30 cookies left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0265", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question implies 4 cars do not meet the offer criteria; pricing for less than 5 cars undefined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0266", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on the total number of coins post-removal to determine unique answer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0267", "verdict": "SOLVABLE", "raw_tail": "ber of teams.\nVERDICT: SOLVABLE\n\n# Calculation:\n# Group A: 40 participants / 5 = 8 teams\n# Group B: 35 participants / 5 = 7 teams\n# Group C: 25 participants / 5 = 5 teams\n# Total teams: 8 + 7 + 5 = 20 teams\n\n# Key:\ndef check_answer(student_answer):\n    return student_answer == '20'\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0268", "verdict": "SOLVABLE", "raw_tail": "Note: Initial non-glasses wearers: 16. After changes: 14. Changes do not affect glasses ratio.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0269", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes different groups and their eating rates without clear relation to pigs.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0270", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question confuses cupcakes with monetary loan repayment. No numeric answer for cupcakes returned to parents.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0271", "verdict": "SOLVABLE", "raw_tail": "Note: Samuel initially buys 30 books, exchanges 1 for 4, ending with 33 books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0272", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes multiple unrelated scenarios; focus on marathon math. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0273", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction between given answer and calculated sum. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0274", "verdict": "SOLVABLE", "raw_tail": "Note: Solves for specific quantities of doughnuts (18) and cookies (12) sold.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0275", "verdict": "SOLVABLE", "raw_tail": "Note: Specific numbers for machines and hours allow calculation of total production.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0276", "verdict": "SOLVABLE", "raw_tail": "Note: Question mixes unrelated elements; core problem solvable but extraneous details confuse. Core: 50 liters is 1/4 capacity, so full capacity is 200 liters. 2/5 of capacity is 80 liters. Adding on top of 50 liters means adding 30 liters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0277", "verdict": "SOLVABLE", "raw_tail": "Note: Dimensions and conversion factor given; volume calculation straightforward.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0278", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify total daily hours at camp, making total weekly hours unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0279", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question shifts topic mid-text; pie chart instruction unrelated to book calculation.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0280", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question states 50 total, 7 delivered M-F, implies 43 left, contradicts Saturday's 40.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0281", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with clear numbers for pies and leftovers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0282", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with given rate and time; pool capacity is 800 liters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0283", "verdict": "SOLVABLE", "raw_tail": "Note: Total planned vs actual collected; one group's carrot shortfall affects total. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0284", "verdict": "UNSOLVABLE", "raw_tail": "Note: Problem statement is about a movie theater's income, not the chicken question. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0285", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes ticket cost with popcorn kernels ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0286", "verdict": "SOLVABLE", "raw_tail": "Note: Number of students and total books given; each student gets 2 books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0287", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's premise is flawed; frequency of laundry does not logically relate to other activities.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0288", "verdict": "SOLVABLE", "raw_tail": "Note: Calculates savings from 5 comics at 3.5% off, each regularly $7. Unique answer exists.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0289", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's numerical answer does not match described actions; calculation shows second child ends up with 2 slices.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0290", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes initial payment and ride cost; ambiguous expenses.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0291", "verdict": "SOLVABLE", "raw_tail": "Note: Use inclusion-exclusion principle: 20 + 18 - 8 = 30 students.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0292", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; total cost = $2 (booking) + $10 (initial) + $10 (5 km @ $2/km).\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0293", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question states insufficient information about total bikes sold weekly beyond green and red.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0294", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with clear steps: 150 - (150 * 0.4) - (150 * 0.3) = 45 loaves left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0295", "verdict": "SOLVABLE", "raw_tail": "Note: Assumes each machine handles 1 load/hour if fully utilized, solvable with given hint.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0296", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question's premise is inconsistent; 200 - 108 should not equal 16.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0297", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is a jumble of unrelated parts; lacks coherent structure or unique answer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0298", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify which wheelbarrow size is used; thus, trips number is indeterminate.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0299", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on late students; cannot determine stickers or meals.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0300", "verdict": "SOLVABLE", "raw_tail": "Note: Question asks for additional payment needed post-discount; calculation possible.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0301", "verdict": "UNSOLVABLE", "raw_tail": "Note: Requires total distance and time for average speed; missing break in motion calculation.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0302", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes all 15 friends ate their oranges, contradicting initial 6 friends.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0303", "verdict": "UNSOLVABLE", "raw_tail": "Note: Ben's final count depends on interpreting \"donates one-third of his initial amount\" strictly. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0304", "verdict": "SOLVABLE", "raw_tail": "Note: Daily evaporation rate and duration given; solvable for remaining water.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0305", "verdict": "SOLVABLE", "raw_tail": "Note: Total earnings calculated from given rates and hours.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0306", "verdict": "SOLVABLE", "raw_tail": "Note: 8 red, 16 green, 11 blue; total 35 fish.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0307", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question's stated answer (160) does not match the calculation (60 chocolate chip + 40 oatmeal raisin = 100 total). \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0308", "verdict": "SOLVABLE", "raw_tail": "Note: Question mixes unrelated problems; focus on cupcakes: 104 - 24 - 35 = 45 cupcakes left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0309", "verdict": "SOLVABLE", "raw_tail": "Note: The problem states a unique sequence of events leading to a unique numeric answer of 4 coins given to the first friend.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0310", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks total log length, making piece lengths indeterminable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0311", "verdict": "UNSOLVABLE", "raw_tail": "Note: Pattern unclear; missing initial letter count per mat.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0312", "verdict": "UNSOLVABLE", "raw_tail": "Note: Area calculation and strokes needed are clear, but rate in minutes lacks conversion from hours.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0313", "verdict": "SOLVABLE", "raw_tail": "Note: Solves for total passengers after accounting for extra charges. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0314", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; distance calculation is solvable but irrelevant to lemonade sales. \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0315", "verdict": "UNSOLVABLE", "raw_tail": "Note: Brass: 8 groups, String: 7.5 groups (not possible), Percussion: 8 groups. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0316", "verdict": "SOLVABLE", "raw_tail": "Note: Initial coins spent and found, final trade to dollar clearly stated; solvable with $1.40 final amount.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0317", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is about campers but ends with unrelated instructions. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0318", "verdict": "SOLVABLE", "raw_tail": "Note: Remaining capacity is calculated for 5 shelves, each with 10 slots. 50 books can still be added.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0319", "verdict": "SOLVABLE", "raw_tail": "Note: Irrelevant math question at the end; main question solvable with 380 guests.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0320", "verdict": "SOLVABLE", "raw_tail": "Note: Question assumes all machines operate simultaneously without capacity limits, calculates total loads based on running times. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0321", "verdict": "UNSOLVABLE", "raw_tail": "Note: Remaining 50 campers evenly distributed among 7 cabins, 50/7 not an integer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0322", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks about books but provides data about employees; irrelevant data makes the question unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0323", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks confirmation if the fuel calculation is one-way or round trip. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0324", "verdict": "SOLVABLE", "raw_tail": "Note: Question requires multiple steps but all needed quantities are provided; solvable with clear steps.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0325", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks about money spent but mentions cost only for tickets, not exhibits. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0326", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes camping supplies distribution with an unrelated picnic scenario, causing ambiguity.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0327", "verdict": "SOLVABLE", "raw_tail": "Note: Question contains irrelevant text; mathematically solvable but irrelevant content distracts. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0328", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total price ($66) contradicts average price ($5) for 12 comics; mathematically inconsistent.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0329", "verdict": "UNSOLVABLE", "raw_tail": "Note: 18 road bikes divided into 5 equal groups is not possible without remainder.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0330", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on distribution split; cannot determine exact numbers.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0331", "verdict": "SOLVABLE", "raw_tail": "Note: Total original price is $400; 40% discount means paying 60%, so $240.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0332", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's condition is contradictory; fare logic and condition mismatch.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0333", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question states final amount relation but lacks initial total, making calculation impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0334", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify platform dimensions, making beam usage ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0335", "verdict": "SOLVABLE", "raw_tail": "Note: Since 22 bags exceed the 4-bag threshold, use $3.50 per bag. Revenue = 22 * $3.50 = $77.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0336", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing cost per minute or total new cost; additional minutes' cost undefined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0337", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks specification on month lengths, making concert frequency ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0338", "verdict": "SOLVABLE", "raw_tail": "Note: Garden area is 150 sq m; 37 full 2x2 plots fit; 111 flowers total. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0339", "verdict": "SOLVABLE", "raw_tail": "Note: Initial counts determined, changes specified; solvable with unique answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0340", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks about sufficiency and potential shortfall but lacks total chemical requirement calculation.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0341", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with given ratios and total; algebraically unique solution exists.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0342", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in bead count; initial 12 beads vs. 18 green beads mentioned.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0343", "verdict": "SOLVABLE", "raw_tail": "Note: Initial art books = 25; after changes, art books = 33.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0344", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial positions or distances; speed alone insufficient.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0345", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is UNSOLVABLE due to missing number of rooms on the second floor.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0346", "verdict": "SOLVABLE", "raw_tail": "Note: Total towels minus the shortfall gives 8*8*8 - 4 = 508 towels.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0347", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for best plan choice, not a numeric answer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0348", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question about savings is solvable, but classification request is irrelevant and confusing.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0349", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question assumes simultaneous washing and drying; unclear if drying starts post-washing.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0350", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial count and exit rate given, but station stops' impact on passenger count unclear over time.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0351", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's logic on spending and saving is inconsistent; parts cost and saving goal unclear.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0352", "verdict": "SOLVABLE", "raw_tail": "Note: Perimeter is 44 meters; 44 posts needed; $132 total cost. Assumes posts at each corner only once.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0353", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes individual book discount with set deal discount ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0354", "verdict": "SOLVABLE", "raw_tail": "Note: Total time given matches sum of individual times.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0355", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total boys/girls; participation split ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0356", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on processing amounts for Monday to Thursday.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0357", "verdict": "UNSOLVABLE", "raw_tail": "Note: Time per installation known, but total time depends on group sequencing; unspecified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0358", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on recharge time or capacity refill rate; unsolvable as is.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0359", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for additional swims but lacks clarity on initial conditions. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0360", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes galleries and halls without clarifying if halls include galleries.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0361", "verdict": "SOLVABLE", "raw_tail": "Note: Question is solvable with a unique answer of 4.5 cups of water.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0362", "verdict": "SOLVABLE", "raw_tail": "Note: Question provides all necessary values to compute unique numeric answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0363", "verdict": "SOLVABLE", "raw_tail": "Note: Time calculation requires adding total minutes spent to start time. Unique answer: 11:00 AM.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0364", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with clear steps: 25 cars * $15 per car = $375.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0365", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; requires calculating deficits for each part type.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0366", "verdict": "SOLVABLE", "raw_tail": "Note: System of equations solvable for unique values. \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0367", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total cups made or sold without toppings.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0368", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; concert ticket calculation is solvable but pen and crayon distribution are extraneous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0369", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes workshop and factory context; time spent unclear.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0370", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total number of campers or total desired snacks makes exact number unattainable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0371", "verdict": "SOLVABLE", "raw_tail": "Note: Greatest common divisor of 12 and 18 is 6 meters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0372", "verdict": "UNSOLVABLE", "raw_tail": "Note: Screen 2 and 3 customer counts exceed total; math inconsistent.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0373", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in distribution method; total does not match described division.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0374", "verdict": "SOLVABLE", "raw_tail": "Note: Total 10 quarters available, each 25 cents. No conversion needed.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0375", "verdict": "SOLVABLE", "raw_tail": "Note: The original question's bus capacity is irrelevant; 11 students are missing. \nVERDICT: SOLVABLE\n\nThere are 56 students on a bus. Every hour, 12 more students board the bus, and 6 get off. After 3 hours, how many students are on the bus?", "retry": false}
+{"key": "b0376", "verdict": "UNSOLVABLE", "raw_tail": "Note: Lacks distribution of visits between the first and second hour, making total visits ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0377", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question implies cutting first, then adjusting, but does not specify if adjustments affect count.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0378", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial number of necklaces made; work scaling ambiguous without base numbers.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0379", "verdict": "SOLVABLE", "raw_tail": "Note: Total earnings are $155; half saved is $77.50.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0380", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes unrelated parts; book and flower sections are disjoint; flower petal count is given and redundant.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0381", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks the specific quantity per loaf, making scaling to 12 loaves impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0382", "verdict": "SOLVABLE", "raw_tail": "Note: Volume is 100 m\u00b3, thus 100,000 liters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0383", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine unique numbers of each animal.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0384", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify if all 15 machines are used or if they are used sequentially.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0385", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on ticket prices or if discounts apply across multiple days.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0386", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 2 losses, 4 wins, 4 draws fit the criteria and total 10 games.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0387", "verdict": "SOLVABLE", "raw_tail": "Note: Last cycle finishes 20 minutes after 1:00 PM, i.e., at 1:20 PM.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0388", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question diverges into unrelated triangle angle problem, original query unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0389", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in the number of coins bought; unsolvable due to logical inconsistency.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0390", "verdict": "UNSOLVABLE", "raw_tail": "Note: 200 cars; 50 red, 66.67 white (round to 67), 83 blue. Rounding affects uniqueness.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0391", "verdict": "UNSOLVABLE", "raw_tail": "Note: Original dimensions contradict given height-width relation; paint usage per area unclear.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0392", "verdict": "SOLVABLE", "raw_tail": "Note: Blue team's average score is three times red's, i.e., 54 points per game.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0393", "verdict": "SOLVABLE", "raw_tail": "Note: Total bookings = 2*(14-2) + 4*2 = 36 nights.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0394", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing washing time per load or blue clothes.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0395", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; subtract remaining money from total, divide by candy cost.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0396", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks clarity on orange transfers and initial neighbor's count.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0397", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing price for refills; cannot determine revenue from refills alone.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0398", "verdict": "SOLVABLE", "raw_tail": "Note: Each day's operation is clearly defined, leading to a unique final count.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0399", "verdict": "SOLVABLE", "raw_tail": "Note: Initial counts are 200 history, 100 science, 120 art; after restocking, 250 history, 100 science, 130 art.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0400", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with given numbers; 120 total items, 5 red, blue holds 3x red's content.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0401", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question shifts topic mid-text; initial pie sales calculation is solvable but irrelevant to profit distribution query.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0402", "verdict": "UNSOLVABLE", "raw_tail": "Note: Problem lacks final calculation step for remaining money in cents.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0403", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial distance for even houses, setup and return specifics.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0404", "verdict": "AMBIGUOUS", "raw_tail": "Note: Initial groups: 8; with 2 students away, 7 groups. Requires assumption on group reformation.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0405", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question asks for a yes/no and a quantity if not, but only a yes/no is uniquely answerable.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0406", "verdict": "SOLVABLE", "raw_tail": "Note: Distances match speeds and times; departure time difference calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0407", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing daily baseline before Wednesday; extra and replacement details don't clarify Wednesday's count.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0408", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes all books except 15% of new ones are kept; math is clear but assumption on book retention is not explicitly stated.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0409", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question deviates from initial task, lacks numeric answer focus.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0410", "verdict": "UNSOLVABLE", "raw_tail": "Note: Effort comparison irrelevant; distance conversion unclear for first marathon.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0411", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question states discounts inconsistently for teachers; unclear if net price can be negative.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0412", "verdict": "SOLVABLE", "raw_tail": "Note: Break time does not affect distance traveled; distance is 300 kilometers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0413", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes average production with shift hours ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0414", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify if the penthouse suite is counted in regular room count.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0415", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on initial cost; earnings do not determine purchase price.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0416", "verdict": "SOLVABLE", "raw_tail": "Note: Calculates weekly income from eggs. Assumes all eggs are sold.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0417", "verdict": "UNSOLVABLE", "raw_tail": "Note: Sales on the second day are 32; third day sales are 12.8, not an integer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0418", "verdict": "SOLVABLE", "raw_tail": "Note: Requires total count per treat type, solvable with given ratios and class size.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0419", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on how much money Simon and Timmy have.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0420", "verdict": "SOLVABLE", "raw_tail": "Note: Breaks and activities' durations are clearly defined, leading to a unique total time.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0421", "verdict": "UNSOLVABLE", "raw_tail": "Note: Extraneous text confuses core question; unclear if 2 predators are initial or weekly.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0422", "verdict": "SOLVABLE", "raw_tail": "Note: Question implies fractional oranges, solvable with given numbers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0423", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes a story problem with unrelated multiplication exercises, lacking a unique numeric answer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0424", "verdict": "SOLVABLE", "raw_tail": "Note: Olivia runs 40/24 of the distance between Emma and Lucas.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0425", "verdict": "SOLVABLE", "raw_tail": "Note: Initial board length and cuts specified; final length calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0426", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on combined washer and dryer cost per load.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0427", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question provides conflicting fuel efficiency figures, making it unsolvable without additional information on the split between city and highway driving.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0428", "verdict": "UNSOLVABLE", "raw_tail": "Note: Assumes all rainy games were wet games; no info on non-rainy wet games.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0429", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; quadratic equation yields unique positive dimensions 8 ft by 12 ft.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0430", "verdict": "AMBIGUOUS", "raw_tail": "Note: Insufficient information on refueling strategy; ambiguous refueling needs.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0431", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes feather count with length; length info irrelevant to final query.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0432", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes bookstore and zoo scenarios; lacks coherence.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0433", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for Friday's tickets but only gives total and counts until Thursday. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0434", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 12 teams minus 6 relegated plus 10 promoted equals 16 teams.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0435", "verdict": "SOLVABLE", "raw_tail": "Note: Question contains irrelevant arithmetic expression; focus on fish count. Initial 20, -2, +4, +1, -1 yields 22.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0436", "verdict": "SOLVABLE", "raw_tail": "Note: Total books calculated from given levels and quantities.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0437", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 4 lions, 24 monkeys, total 28 animals.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0438", "verdict": "SOLVABLE", "raw_tail": "Note: Requires total cars washed to reach 450 first; current total is 450, making Jan's additional cars 0.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0439", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total composition; relation between ochre and white not directly useful for percentage calculation.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0440", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial conditions contradict the stated consumption. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0441", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks about total votes, not posters; expected answer contradicts given data; votes total 18, Susan got more than half.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0442", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 7 + 5 join - 3 leave frisbee for basketball = 9 more in basketball, total 16.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0443", "verdict": "SOLVABLE", "raw_tail": "Note: Chandler sold 40 pitchers, so Vanessa sold 20; Vanessa's earnings are $60.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0444", "verdict": "SOLVABLE", "raw_tail": "Note: The question about train tickets is solvable with clear steps and a unique numeric answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0445", "verdict": "SOLVABLE", "raw_tail": "Note: Doubling 1/3 and 1/4 cups then summing gives a unique answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0446", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question and task mismatch; calculation question mixed with government type inquiry. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0447", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks information on museum visit days. \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0448", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question unclear on whether 20% rule applies to section A or B post-admittance.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0449", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine the unique number of cows.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0450", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's premise of \"each guest can fit in only two rooms\" is illogical and makes the question unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0451", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question changed mid-text; initial setup about Sarah's bookstore is abandoned. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0452", "verdict": "SOLVABLE", "raw_tail": "Mia ends with 118 nickels after trading. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0453", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not provide enough information to determine number of roosters.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0454", "verdict": "SOLVABLE", "raw_tail": "Note: Given sales and gross margin, percentage directly calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0455", "verdict": "SOLVABLE", "raw_tail": "Note: Total bikes sold is 35, each at $250 with 5% tax; solvable for unique revenue.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0456", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial deposit unclear;\u6bcf\u5e74\u5b58\u6b3e\u91d1\u989d\u7ffb\u500d\u7684\u524d\u63d0\u662f\u9996\u6b21\u5b58\u6b3e\u91d1\u989d\u5fc5\u987b\u660e\u786e\u3002\u6ca1\u6709\u7ed9\u51fa\u9996\u6b21\u5b58\u6b3e\u540e\u6bcf\u5e74\u5177\u4f53\u5b58\u5165\u7684\u91d1\u989d\uff0c\u53ea\u6709\u521d\u59cb\u7684$10\u548c\u6bcf\u5e74\u5b58\u6b3e\u91d1\u989d\u7ffb\u500d\u7684\u89c4\u5219\uff0c\u4f46\u4e0d\u6e05\u695a\u8fd9$10\u662f\u5426\u8ba1\u5165\u6bcf\u5e74\u7ffb\u500d\u7684\u57fa\u7840\u3002\u56e0\u6b64\uff0c\u95ee\u9898\u4e2d\u7f3a\u5c11\u5fc5\u8981\u7684\u4fe1\u606f\u6765\u786e\u5b9a\u6bcf\u5e74\u5b9e\u9645\u5b58\u5165\u7684\u91d1\u989d\uff0c\u5bfc\u81f4\u65e0\u6cd5\u8ba1\u7b975\u5e74\u540e\u7684\u786e\u5207\u91d1\u989d\u3002\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0457", "verdict": "SOLVABLE", "raw_tail": "Note: Determines unique answer based on given quantities.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0458", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; total wall area minus doorway area yields unique answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0459", "verdict": "UNSOLVABLE", "raw_tail": "Note: Surface area calculation needed for each room, then total cost. No unique numeric answer without calculating.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0460", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; lacks clear connection between meat purchase and hamburger count.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0461", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial total balloons known, but exact number of popped balloons isn't specified, making final count unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0462", "verdict": "UNSOLVABLE", "raw_tail": "Note: Used 10 feet for two sides, leaving 2 feet; insufficient for two sides.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0463", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on usage for days 3-7.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0464", "verdict": "SOLVABLE", "raw_tail": "Note: Question contains irrelevant information; calculates total cost as $540. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0465", "verdict": "SOLVABLE", "raw_tail": "Note: Fare pattern established; total cost to Station E is $7.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0466", "verdict": "AMBIGUOUS", "raw_tail": "Note: Time calculation varies by route; stop time constant but total time differs.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0467", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question unclear on path length and stones' coverage area. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0468", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 20 loaves are left unsold.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0469", "verdict": "SOLVABLE", "raw_tail": "Note: Total weekly earnings can be calculated by dividing total earnings by weeks.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0470", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question contradicts itself; states 8 seats per row initially but calculates differently.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0471", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question conflates goldfish eating habits with their weight; unsolvable due to logical inconsistency.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0472", "verdict": "SOLVABLE", "raw_tail": "Note: Total distance and time allow calculation of average speed.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0473", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing individual distances for each taxi ride; cannot calculate average fare per mile.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0474", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total time or distance for the trip makes average speed irrelevant.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0475", "verdict": "SOLVABLE", "raw_tail": "Note: Plants' heights equalize on day 4.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0476", "verdict": "SOLVABLE", "raw_tail": "Note: Distances are clearly defined; sum is 225 + 112.5 + 75 = 412.5 feet.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0477", "verdict": "UNSOLVABLE", "raw_tail": "Note: Information about shop capacity or viewing limit is missing.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0478", "verdict": "SOLVABLE", "raw_tail": "Note: Saves $20 per large ticket; $100 total savings for five tickets.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0479", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes all money must be spent exactly, which may not be possible given the constraints.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0480", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total revenue calculation needed; cost to make vs. selling price ambiguity.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0481", "verdict": "SOLVABLE", "raw_tail": "Note: Calculation provided leads to a unique answer of 9600 square feet.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0482", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question does not specify if the last row can have fewer than 5 students, making the number of rows ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0483", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total time spent washing cars vs. trucks.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0484", "verdict": "SOLVABLE", "raw_tail": "Note: Original area 96 m\u00b2; new area 144 m\u00b2; new dimensions maintain aspect ratio; new length 12\u221a1.5 m \u2248 14.6969 m.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0485", "verdict": "UNSOLVABLE", "raw_tail": "Note: Reserves 5 seats (10% of 50), 12 can board, not 30 as claimed. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0486", "verdict": "UNSOLVABLE", "raw_tail": "Note: Lisa's piano details are insufficient; unclear if 47 keys cover 7 octaves fully.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0487", "verdict": "SOLVABLE", "raw_tail": "Note: Total slices 48, 95% consumed means 45.6 slices eaten, thus 2.4 slices remained. Rounds to 2 slices.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0488", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing regular price per cake makes savings calculation impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0489", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question's target profit is unclear; $40 total or $40 each? Plus, initial collection is irrelevant.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0490", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes numeric problem with unrelated request; numeric part solvable but incomplete.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0491", "verdict": "SOLVABLE", "raw_tail": "Note: Total students (33) divided by group size (5) yields 6 full groups, remainder ignored.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0492", "verdict": "SOLVABLE", "raw_tail": "Note: Initial $20, $3 base fare, $17 left, $2/mile, 8.5 miles.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0493", "verdict": "SOLVABLE", "raw_tail": "Note: Question assumes continuous operation without breaks, calculates total time as 800 minutes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0494", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks table width; assumes only length matters, ignoring width.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0495", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial count contradicts additions; impossible scenario.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0496", "verdict": "SOLVABLE", "raw_tail": "Note: Requires conversion and scaling; all needed information present.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0497", "verdict": "SOLVABLE", "raw_tail": "Note: Calculate total cost with discount applied to all books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0498", "verdict": "SOLVABLE", "raw_tail": "Note: Weekly count irrelevant; monthly count 1750, 3 months = 5250.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0499", "verdict": "SOLVABLE", "raw_tail": "Note: Each pair of teams plays 2 games, 3 pairs total, 6 games overall.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0500", "verdict": "UNSOLVABLE", "raw_tail": "Note: Alan's plot area is 96 sq m, Bob's plot area is approximately 78.54 sq m; thus, Alan can plant more.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0501", "verdict": "AMBIGUOUS", "raw_tail": "Note: 14 washing machines and 18.67 dryers (round to 19) in use; fractional dryers ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0502", "verdict": "SOLVABLE", "raw_tail": "Note: System of equations solvable for unique values of student and adult tickets.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0503", "verdict": "AMBIGUOUS", "raw_tail": "Note: The problem statement and solution provided are inconsistent; the solution assumes an additional weekly deposit beyond the initial 15 days without clear instruction.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0504", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial water level in the first tank relative to target level.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0505", "verdict": "SOLVABLE", "raw_tail": "Note: Total items calculable; 25% allocation clear. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0506", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes apple slices and apple juice; cost calculation ambiguous without clarifying usage.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0507", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question lacks clarity on how discount applies to total; ambiguous if per batch or cumulative.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0508", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question shifts topics mid-text, asking about poles then about triangle area. No unique answer exists due to topic shift.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0509", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes City A and City B details; unclear which to use for calculation.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0510", "verdict": "UNSOLVABLE", "raw_tail": "Note: Worker reduction impacts output, but by how much isn't specified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0511", "verdict": "SOLVABLE", "raw_tail": "Note: Solves to 85 spaces available for other vehicles after accounting for reserved and motorcycle spots.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0512", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing Leena's speed or exact time, making total time unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0513", "verdict": "SOLVABLE", "raw_tail": "Note: Calculates total revenue from tickets and concessions with given numbers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0514", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes total mix with specific ingredient. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0515", "verdict": "SOLVABLE", "raw_tail": "Note: Question is clear, solvable with division, yields 10 oranges each, none left over.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0516", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is a jumble of unrelated sentences; lacks coherent structure or numeric answer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0517", "verdict": "SOLVABLE", "raw_tail": "Note: Initial oranges minus given away oranges equals 12.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0518", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question confuses bike types with age appropriateness; \"bicycles\" term redundant and misleading.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0519", "verdict": "SOLVABLE", "raw_tail": "Note: Total cost and revenue calculable; question asks for two separate values.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0520", "verdict": "SOLVABLE", "raw_tail": "Note: Problem contains extraneous instruction at the end; core question is solvable with given data.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0521", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question deviates to request problem creation, not solving given problem. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0522", "verdict": "UNSOLVABLE", "raw_tail": "Note: Irrelevant text and multiple unrelated questions make the original question unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0523", "verdict": "SOLVABLE", "raw_tail": "Note: The problem provides all necessary quantities and relations to calculate the total number of books sold.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0524", "verdict": "SOLVABLE", "raw_tail": "Note: All necessary information provided; calculates total then applies discount.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0525", "verdict": "SOLVABLE", "raw_tail": "Note: Quarters total $10, dimes total $3; difference is $7.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0526", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing volume of standard-size bowl; conversion factor cannot be uniquely determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0527", "verdict": "SOLVABLE", "raw_tail": "Note: Initial total 432 cookies minus 85 sold leaves 347. \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0528", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing ratio or direct conversion between cookie pan and cake pan sizes.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0529", "verdict": "SOLVABLE", "raw_tail": "Note: Initial state known, all changes accounted for, final count calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0530", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question does not specify if discounts stack or are mutually exclusive.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0531", "verdict": "SOLVABLE", "raw_tail": "Note: The question specifies the original ratios and doubling, leading to a unique solution.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0532", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes number of routes with earnings logic, unclear if 5 papers per route impacts earnings.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0533", "verdict": "UNSOLVABLE", "raw_tail": "Note: Efficiency and waste details conflict; unclear if 2 gallons/sq ft is pre- or post-waste.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0534", "verdict": "AMBIGUOUS", "raw_tail": "Note: Ambiguity in \"as many large pizzas as possible\" within budget and limit; could mean 4 or fewer.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0535", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total available hours for practice makes exact hours per instrument unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0536", "verdict": "SOLVABLE", "raw_tail": "Note: Initial quantity solvable per person, total sold calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0537", "verdict": "SOLVABLE", "raw_tail": "Note: Question mixes unrelated topics; focus on student transportation. 24 students, 8 per bus, requires 3 buses.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0538", "verdict": "SOLVABLE", "raw_tail": "Note: Initial counts given, yearly increase clear, future count calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0539", "verdict": "AMBIGUOUS", "raw_tail": "Note: Houses labeled incorrectly; A is second, B third, C fourth, D fifth. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0540", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial distance; cannot determine waiting time uniquely.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0541", "verdict": "SOLVABLE", "raw_tail": "Note: Total capacity 810 cars; 121.5 cars can still be parked. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0542", "verdict": "UNSOLVABLE", "raw_tail": "Note: Emily eats 2 slices; Joe eats 1 slice. Joe eats 1 less slice than Emily, not more.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0543", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total number of customers; revenue cannot be uniquely determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0544", "verdict": "SOLVABLE", "raw_tail": "Note: Question focuses on practice time, not game time; total practice minutes calculable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0545", "verdict": "SOLVABLE", "raw_tail": "Note: Total sales calculated, donation rate clear, leftover bottles irrelevant. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0546", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; calculates revenue from 90% of 6000 oranges at $0.25 each.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0547", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine unique quantities of each coin type.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0548", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial 63 coins increased by 150% yields 157.5 coins; fractional coins imply unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0549", "verdict": "SOLVABLE", "raw_tail": "Note: Each runner's time is incrementally defined; fifth runner's time is 2 hours 25 minutes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0550", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify if the fish are returned, making the final count ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0551", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing price for large comics makes total cost indeterminable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0552", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes unrelated parts; coin problem solvable but irrelevant to table construction. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0553", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; cupcake and banana scenarios are disjoint. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0554", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; lacks clear numeric target for calculation.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0555", "verdict": "SOLVABLE", "raw_tail": "Note: Total cost is $5.50 + 3 * $6.50 = $25. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0556", "verdict": "SOLVABLE", "raw_tail": "Note: Total fare before tip is $4.25, total with tip is $4.68.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0557", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes dimes and dollars, not quarters. No quarters mentioned or implied.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0558", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on overlap between fruit preferences.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0559", "verdict": "SOLVABLE", "raw_tail": "Note: Initial total 156 goods (96 cupcakes, 60 cookies); after sales, 132 left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0560", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing quantity of oranges given to Sarah makes the problem unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0561", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes bookshelf arrangement with an unrelated task; unsolvable due to irrelevant instructions.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0562", "verdict": "SOLVABLE", "raw_tail": "Note: Question implies selling all 50 cookies at the same rate, earns $100.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0563", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with 5 monkeys and 15 pigeons satisfying the head and foot counts.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0564", "verdict": "SOLVABLE", "raw_tail": "Note: Calculates distance for each segment and sums them. No ambiguities or missing info.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0565", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 48 books, remove 12, add 24, total 60 books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0566", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question contradicts itself by stating Lucy starts with $50 and asks how much she had at first.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0567", "verdict": "SOLVABLE", "raw_tail": "Note: Counts daily, sums to 938 including Monday.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0568", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 5 hours/week + 7 extra hours/week for 2 weeks per student; total 30 students.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0569", "verdict": "SOLVABLE", "raw_tail": "Note: Question assumes all slices from 3 pizzas are considered; 24 total slices minus 7 eaten leaves 17. \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0570", "verdict": "SOLVABLE", "raw_tail": "Note: Iron Age visitors minus combined Stone and Bronze Age visitors equals 536 - (289 + 260) = -13.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0571", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing price information for both types of bicycles.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0572", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes expired discounts with usage, making actual usage unclear.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0573", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on overlap between categories; VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0574", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing individual weights for regular penguins and polar bears.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0575", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 200 books, +500 purchased, -300 sold, +100 returned; math clear, no ambiguities.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0576", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing afternoon start time makes end time unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0577", "verdict": "SOLVABLE", "raw_tail": "Note: Wall area 64 sq ft, painted 48 sq ft, subtract 8 sq ft rectangle, 8 sq ft left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0578", "verdict": "SOLVABLE", "raw_tail": "Note: Requires total cups for 50 guests, multiplied by 3 for batches; solvable with given data.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0579", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes shelves' width includes bookshelf's width, making it unsolvable without clarification.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0580", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total sessions or remaining students' groupings.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0581", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is cut off and lacks necessary information for a unique answer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0582", "verdict": "AMBIGUOUS", "raw_tail": "Note: Ambiguous; unclear if each camper gets a unique outfit or if outfits can repeat.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0583", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; uses given fractions and added water to find total volume.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0584", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on how many magazines were sold. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0585", "verdict": "SOLVABLE", "raw_tail": "Note: Initial comics count is 35; 30% sold leaves 70% or 24.5, round to 24.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0586", "verdict": "SOLVABLE", "raw_tail": "Note: Requires 9 more cups of flour, 6 more cups of sugar, and 4 more cups of butter.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0587", "verdict": "SOLVABLE", "raw_tail": "Note: Assumes constant work rates, no efficiency changes together. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0588", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes miles and kilometers, making it unsolvable due to unit inconsistency.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0589", "verdict": "SOLVABLE", "raw_tail": "Note: Question asks for total race time, not individual finish times. Assumes all runners complete both stages.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0590", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify number of people per group; thus, total number of people cannot be determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0591", "verdict": "SOLVABLE", "raw_tail": "Note: Divisible with remainder; clear instructions and solvable with basic division.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0592", "verdict": "AMBIGUOUS", "raw_tail": "Note: Initial beats not clearly defined post increase; ambiguous reduction application.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0593", "verdict": "SOLVABLE", "raw_tail": "Note: Initial available books: 12*4=48, returned books: 12*3/2=18, borrowed: 5. Final: 48+18-5=61.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0594", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total marathon distance; assumes 40km but marathons are 42.195km.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0595", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total spaces calculated as 30 + 60 + 120 + 240 = 450; 75% of 450 is 337.5, which is not a whole number, making it unsolvable in context.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0596", "verdict": "SOLVABLE", "raw_tail": "Note: All necessary quantities provided; calculates total sales over three days.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0597", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated content; comic stock calculation impossible with given info.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0598", "verdict": "SOLVABLE", "raw_tail": "Note: Question repeats itself; focus on student-books relation. 20 students bring 1 book each.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0599", "verdict": "SOLVABLE", "raw_tail": "Note: Initial count is 44 cars; 5 leave, 7 arrive; final count is 46 cars.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0600", "verdict": "SOLVABLE", "raw_tail": "Note: Question confuses total count with value calculation; faulty balance irrelevant to correct value. Correct value: $7.70.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0601", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total cookies; extra cookies in one box doesn't specify initial equal share.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0602", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine unique number of tables; variable chairs affect outcome.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0603", "verdict": "SOLVABLE", "raw_tail": "Note: Total sold (24) minus first (5) and second (15) hour sales leaves 0 for third hour baking.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0604", "verdict": "SOLVABLE", "raw_tail": "Note: Total songs = 20, total time = 62 minutes and 20 seconds.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0605", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial 34 quarters minus 8.5 (1/4 of 34) traded, plus 8.5 half dollars; fractional coins unrealistic.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0606", "verdict": "SOLVABLE", "raw_tail": "Note: Initial prediction 156, doubled to 312, then halved to 156 due to rope limitation.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0607", "verdict": "SOLVABLE", "raw_tail": "Note: System of equations solvable for unique values of sunflowers and tulips.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0608", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks total purchase grouping for discount application.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0609", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on whether non-dinosaur exhibits were skipped entirely or still took time.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0610", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total time or break duration; cannot determine speed for first leg.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0611", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; car parking and marbles probability are solvable separately, but mixed make it unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0612", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question asks for two calculations but only one is solvable with given data. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0613", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total passengers; event limit doesn't specify carriage usage.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0614", "verdict": "SOLVABLE", "raw_tail": "Note: Jane runs 30 miles, brother runs 80 miles, total 110 miles; Jane runs 27.3%.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0615", "verdict": "UNSOLVABLE", "raw_tail": "Note: Time to pick up students is not specified, affecting total travel time.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0616", "verdict": "SOLVABLE", "raw_tail": "Note: Question implies sharing equally among booked rooms, not all rooms; 8 people need 3 rooms, leaving 9 empty.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0617", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 45 adults, 22.5 teenagers not possible, implies 45 adults, 22 or 23 teenagers, but contextually 45 adults, 22.5 rounded to 22 or 23\u4e0d\u5408\u9002\uff0c\u5e94\u4e3a\u6574\u6570\uff0c\u6545\u6b64\u5904\u5e94\u76f4\u63a5\u8ba1\u7b97\u603b\u6570\u3002\u603b\u6570\u4e3a45\u6210\u4eba\u548c22.5\u7684\u4e24\u500d\u537345+45=90\u3002\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0618", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; calculates total eggs (140) then revenue ($35).\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0619", "verdict": "SOLVABLE", "raw_tail": "Note: Ben runs out of oranges in 14 days, Anna in 20 days; Ben runs out first in 2 weeks.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0620", "verdict": "SOLVABLE", "raw_tail": "Note: Total tickets 750, total cost $2100 assuming equal split of ticket types per group.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0621", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial books per section 70; after donation, 67.5, but books can't be halved.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0622", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes two unrelated problems; second part is unsolvable due to typo and irrelevance.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0623", "verdict": "SOLVABLE", "raw_tail": "Note: Total letters minus misplaced letters equals 65.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0624", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with clear numbers given; 20 - (4 * 8) = -12, but contextually, she has 0 left as a minimum.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0625", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question and rubric provided do not pertain to the initial hotel occupancy question. Relevance issue.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0626", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes a 6-hour shift but describes a 9-hour shift with lunch, making it unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0627", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial numbers and yearly additions are clear, but initial non-fiction count contradicts total. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0628", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify if Alice pays for everyone or just herself.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0629", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing original room rates; additional discount applicability unclear.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0630", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify plank usage efficiency or waste, making exact plank count unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0631", "verdict": "SOLVABLE", "raw_tail": "Note: Total stars calculated as 4 + 48 + 576 + 6,912 + 82,944 = 90,484.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0632", "verdict": "SOLVABLE", "raw_tail": "Note: Remaining dough is 60 meters; can make 24 more biscuits.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0633", "verdict": "SOLVABLE", "raw_tail": "Note: Problem specifies all necessary quantities and steps to find a unique answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0634", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question does not provide enough information to determine the time in minutes.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0635", "verdict": "SOLVABLE", "raw_tail": "Note: Distances double sequentially; B is 20 km from start.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0636", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question unclear on water distribution among pot types; ceramic pots' water needs unspecified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0637", "verdict": "SOLVABLE", "raw_tail": "Note: Discounts apply; final payment calculation needed. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0638", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine the number of exercise bikes uniquely.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0639", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial total 195 vehicles; 40 cars and 37.5 trucks leave; 117.5 vehicles remain, but trucks/cars can't be fractional.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0640", "verdict": "UNSOLVABLE", "raw_tail": "Note: Radius 0.5m, volume \u03c0(0.5)^2h cubic meters, fish count depends on height h, unspecified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0641", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes car wash timing with unrelated magical creatures; only car wash part is solvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0642", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question unrelated to provided answer; original question solvable but response diverges.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0643", "verdict": "SOLVABLE", "raw_tail": "Note: Missing 5 days means 5 days of 80 minutes, 2 days of 60 minutes, totaling 520 minutes or 8.67 hours.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0644", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total guests or partial service criteria.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0645", "verdict": "SOLVABLE", "raw_tail": "Note: Problem statement is repetitive and overly explanatory but solvable. Total: $30.50, 10% discount = $27.45.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0646", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine the exact number of each type of coin, thus total count is indeterminate.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0647", "verdict": "SOLVABLE", "raw_tail": "Note: Volume formula applies; height calculated as 2000 / (15 * 8) = 16.67 inches.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0648", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on painting rate per story for Bob's house.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0649", "verdict": "SOLVABLE", "raw_tail": "Note: Both plans' costs are calculable; savings depend on usage. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0650", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on number of wins/losses makes goal calculation impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0651", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question mixes unrelated information and lacks necessary discount application details for the notebook.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0652", "verdict": "SOLVABLE", "raw_tail": "Note: Total seats 1000, occupied 120, unoccupied 880.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0653", "verdict": "SOLVABLE", "raw_tail": "Note: Initial total 420 coins; each gives 10%, Laura receives 42, total remains 420.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0654", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; quadratic equation yields unique positive width.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0655", "verdict": "SOLVABLE", "raw_tail": "Note: Total miles driven by Hanna: 1,000 + (5,000 - 2,400) = 3,600. Calculation in question is incorrect.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0656", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on distribution of piano and violin players across groups.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0657", "verdict": "SOLVABLE", "raw_tail": "Note: Stops and speed changes detailed; total distance calculable from given times and speeds.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0658", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total rooms 200, 30% booked for business, 140 rooms booked for tourists, no rooms available for unbooked leisure travelers.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0659", "verdict": "SOLVABLE", "raw_tail": "Note: Total hours = 5 days * (8 hours * 3 employees + 6 hours * 2 employees) = 180 hours.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0660", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial 15 + 15 acquired - 2 returned = 28 total; shelf holds 25; 3 over capacity.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0661", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question is ambiguous due to two distinct scenarios presented.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0662", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in flour usage; 5 batches require 10 cups, not 5.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0663", "verdict": "UNSOLVABLE", "raw_tail": "Note: Contradiction in male chickens laying eggs. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0664", "verdict": "SOLVABLE", "raw_tail": "Note: Calculates savings from 20% discount on $20 purchase. SOLVABLE\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0665", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated content; time per problem calculation is extraneous. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0666", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 40 minutes to fill the entire pool.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0667", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question is ambiguous due to unrelated and confusing additional statement.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0668", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks initial amount; expenditures detailed but starting funds unknown.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0669", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient info on total servings made; earnings cannot be uniquely determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0670", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; calculates income from tables minus wood costs over 3 months.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0671", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question repeats and lacks total cost comparison, making savings calculation incomplete.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0672", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; pool-filling time calculable but fruit question irrelevant. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0673", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify number of seats per row for all buses except one.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0674", "verdict": "SOLVABLE", "raw_tail": "Note: System of congruences with unique solution modulo 12.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0675", "verdict": "SOLVABLE", "raw_tail": "Note: Final counts provided directly in question make it solvable without ambiguity.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0676", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 80 + weekly 12 - regular 15 - extra 15 sales = 62 books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0677", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total worker-hours = (8+10+12) * 45 = 1350, but only three shifts accounted for.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0678", "verdict": "SOLVABLE", "raw_tail": "Note: Volume calculation solvable with given dimensions and conversion rate.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0679", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks the amount of water needed for yeast activation.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0680", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total seats per row; cannot determine total seats.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0681", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing tax rate; cannot determine final price.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0682", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes people with appliance usage ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0683", "verdict": "SOLVABLE", "raw_tail": "Note: Solves for sold lemonades: 96 regular, 60 strawberry.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0684", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question diverges into a different scenario mid-text; initial setup irrelevant. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0685", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial 40% of 200 is 80 spaces. After adding more spaces and converting 40% of remaining, specifics on added spaces missing.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0686", "verdict": "SOLVABLE", "raw_tail": "Note: Initial pennies = 37.5, increase by 20% total, maintain percentages, need 7.5 more pennies. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0687", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question states new batch should have equal frosting types but specifies otherwise initially, making initial conditions contradictory to instruction.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0688", "verdict": "SOLVABLE", "raw_tail": "Note: Price of yellow paint not directly given; requires calculation. Question solvable with given info.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0689", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on passenger distribution and drop-off rates.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0690", "verdict": "UNSOLVABLE", "raw_tail": "Note: Lucy starts later, affecting finish times; meeting at finish line not guaranteed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0691", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; clear percentages and relationship between science and history books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0692", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes train tickets with ice cream sales; lacks clear relation for sales increase.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0693", "verdict": "UNSOLVABLE", "raw_tail": "Note: The question about the car wash is solvable; the candy bar question is unrelated and confusing.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0694", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes initial state unknown, making final gallons needed indeterminable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0695", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated tasks and lacks clear math problem focus.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0696", "verdict": "SOLVABLE", "raw_tail": "Note: Requires iterative calculation; unique solution exists but not trivially stated.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0697", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question 10 has insufficient information on total spaces vs. reserved.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0698", "verdict": "SOLVABLE", "raw_tail": "Note: Total slices (42) and price per slice ($1.80) determine cost ($75.60).\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0699", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks original profit margin or selling price information.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0700", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for difference in sales of sugar vs. chocolate chip cookies in 6 hours; no sugar cookie sales given for that period.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0701", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total admission price and ticket sales distribution among seat levels.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0702", "verdict": "AMBIGUOUS", "raw_tail": "Note: Time to wash and dry varies based on machine availability; sequence impacts total time.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0703", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on bib numbers of finishers makes sum calculation impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0704", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify initial number of passengers picked up at the first stop.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0705", "verdict": "SOLVABLE", "raw_tail": "Note: Area of pizza is \u03c0r\u00b2 = \u03c0(18)\u00b2 = 1017.88 in\u00b2; total cost $101.79; each pays $20.36.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0706", "verdict": "AMBIGUOUS", "raw_tail": "Note: Break schedule impacts total days; exact impact not quantified, making timeline ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0707", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with equations; unique solution exists for cupcakes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0708", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; clear numbers and ratio provided, straightforward subtraction.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0709", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes creation and reception of graphic novels; unclear on total pages required.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0710", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks total rooms count, making cost calculation impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0711", "verdict": "SOLVABLE", "raw_tail": "Note: Jules baked 18 chocolate and 6 vanilla cupcakes. Sam baked 12 vanilla and 20 chocolate cupcakes. Lisa baked 55 cupcakes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0712", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial stock count; purchase numbers given insufficient for total.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0713", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated topics; parking lot and invoice late fees are disjoint.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0714", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question breaks down before reaching a solvable state; unclear on covered lessons.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0715", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question's logic flawed; does not lead to 50 as solution; missing total participants.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0716", "verdict": "SOLVABLE", "raw_tail": "Note: Current capacity 300 books, adding 10 shelves increases capacity by 200 books, fully stocked = 500 books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0717", "verdict": "SOLVABLE", "raw_tail": "Note: Total coins initially 105; gave away 21; 84 left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0718", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; volume of smaller sphere is 450 cm\u00b3, solve for r using given formula.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0719", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with system of equations; unique solution exists.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0720", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 95 kg left, $225 earned.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0721", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable with 75 goats given leg count and ratio constraints.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0722", "verdict": "SOLVABLE", "raw_tail": "Note: Problem specifies relationships and total, allowing unique solution for nickels.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0723", "verdict": "SOLVABLE", "raw_tail": "Note: Total books are 10 + 3 + 8 + 5 + 20 = 46.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0724", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 400 books plus 150 new books equals 550 books.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0725", "verdict": "SOLVABLE", "raw_tail": "Note: The question contains an unrelated instruction at the end, but the math problem is solvable. New books added: 35, books remaining: 155.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0726", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial 500 marbles plus a decreasing sequence sum from 50 to -980, which is nonsensical.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0727", "verdict": "SOLVABLE", "raw_tail": "Note: Total rooms rented = 24 floors * (18 + 3 + 36) rooms = 1224 rooms.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0728", "verdict": "SOLVABLE", "raw_tail": "Note: Total original distance 1,800,000 meters; scaled down by 10 gives 180,000 meters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0729", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify how many boxes were affected by the failed oven.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0730", "verdict": "SOLVABLE", "raw_tail": "Note: Adjusted question leads to a single numeric solution of $30.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0731", "verdict": "SOLVABLE", "raw_tail": "Note: Question states all 86 paperbacks are paperbacks; \"two-sevenths\" is irrelevant.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0732", "verdict": "SOLVABLE", "raw_tail": "Note: Question about garden area is solvable; finance information is irrelevant.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0733", "verdict": "UNSOLVABLE", "raw_tail": "Note: Assumes all 45 cars get deluxe wash; price per wash needed. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0734", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing production rate for Friday's extra hours; production line capacity impact is unclear.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0735", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; table dimensions problem is solvable but irrelevant; library problem lacks clear solution path.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0736", "verdict": "SOLVABLE", "raw_tail": "Note: Initial quantities plus purchases minus sales yield final counts for each type.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0737", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes load counts with spin cycle capacity ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0738", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes washing and drying without specifying Sarah's drying rate, making it unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0739", "verdict": "SOLVABLE", "raw_tail": "Note: Dividing 24 planets and 8 moons into groups of 4 planets and 1 moon yields 6 kits.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0740", "verdict": "SOLVABLE", "raw_tail": "Note: Total earnings calculated from given batch and price details.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0741", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes three halves, which is unusual; total attendance math doesn't match given numbers.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0742", "verdict": "SOLVABLE", "raw_tail": "Note: Calculation error in rationale; correct total is 180 vegetables, not 246. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0743", "verdict": "AMBIGUOUS", "raw_tail": "Note: Tomato plants' water requirement is unclearly defined; weekly multiplier ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0744", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient balloons for equal distribution among 25 classmates.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0745", "verdict": "SOLVABLE", "raw_tail": "Note: Requires 160 double beds, clear calculation from given numbers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0746", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question does not specify if groups overlap; assumes exclusive groups.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0747", "verdict": "SOLVABLE", "raw_tail": "Note: Question specifies promotions and quantities clearly, enabling unique calculation.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0748", "verdict": "SOLVABLE", "raw_tail": "Note: Question implies 40 houses total; 40 * 2 = 80 newspapers needed weekly, not 256.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0749", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on total participants and sandwiches consumed makes the final count unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0750", "verdict": "SOLVABLE", "raw_tail": "Note: Irrelevant information about parents and brother; focus on Sami's marathon progress. After 15 weeks, she needs 21.76 miles. \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0751", "verdict": "SOLVABLE", "raw_tail": "Note: Irrelevant text distracts; focus on animal trade. Initial: 20 animals, trades 6 giraffes for 30 rabbits, total now 44.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0752", "verdict": "SOLVABLE", "raw_tail": "Note: Question's solution process is unnecessary; directly states 5 guests each need one room, thus 5 rooms need to be rented. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0753", "verdict": "SOLVABLE", "raw_tail": "Note: Total visitors calculable from given numbers for each day.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0754", "verdict": "AMBIGUOUS", "raw_tail": "Note: First 4 rows fully occupied by 40 cars, not 10 each; ambiguous car count per fully filled row.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0755", "verdict": "SOLVABLE", "raw_tail": "Note: Total cost calculation requires summing ticket fees and book cost; all values provided.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0756", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question shifts topic mid-text; initial fish water calculation is solvable but irrelevant due to topic shift.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0757", "verdict": "UNSOLVABLE", "raw_tail": "Note: Audra's age last year was 8, making Brandt 23 and Deirdre 17 this year; age in 2019 requires knowing the current year.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0758", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial number of comic books; profit cannot be determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0759", "verdict": "SOLVABLE", "raw_tail": "Note: The question mixes unrelated problems; the ticket sales problem is solvable but irrelevant to the pebble problem, which is solvable on its own.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0760", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total seats 40, people 45, contradiction in numbers.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0761", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on how many journals are taken out.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0762", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total cycles used by each individually.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0763", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total games played by Alex; cannot determine unique values for each teammate.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0764", "verdict": "SOLVABLE", "raw_tail": "Note: Initial animal count and changes are clear; final count is 27.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0765", "verdict": "UNSOLVABLE", "raw_tail": "Note: Number of buses known, ratio of cars to motorcycles given, but total vehicles or motorcycles not specified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0766", "verdict": "AMBIGUOUS", "raw_tail": "Note: Total revenue from first section calculable, but adult tickets sold in second section ambiguous without total sold or revenue.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0767", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question asks for specific quantities but mixes fruits with vegetables without clarifying if carrots count as fruit, leading to ambiguity.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0768", "verdict": "UNSOLVABLE", "raw_tail": "Note: Solves for total occupied but not distribution of occupied types.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0769", "verdict": "AMBIGUOUS", "raw_tail": "Note: Total cost and individual prices given, but total number of CDs ambiguous beyond first two.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0770", "verdict": "SOLVABLE", "raw_tail": "Note: Total units calculable from given hours and rates per shift.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0771", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes two distinct problems without clear separation, causing ambiguity.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0772", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; A=307.2KB, B=368.64KB, C=348.16KB.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0773", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing frequency of band rehearsal; cannot calculate total weekly practice time.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0774", "verdict": "SOLVABLE", "raw_tail": "Note: Each animal's distance is speed times time; solvable with given speeds and time.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0775", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated content; growth difference calculation is solvable but irrelevant to NASA part.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0776", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; clear parameters for sales and restocking over 12 weeks.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0777", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total production cost or if revenue is before or after maintenance.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0778", "verdict": "UNSOLVABLE", "raw_tail": "Note: Solvable; 25 buses take 525 spaces, exceeding available spaces.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0779", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total students attending: 25 + 7 + 9 = 41. Missing info on remaining students' friends.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0780", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on whether the extra charge applies to the entire talk time or just the excess.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0781", "verdict": "AMBIGUOUS", "raw_tail": "Note: Duration unclear; 1.5 hours not explicitly stated.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0782", "verdict": "SOLVABLE", "raw_tail": "Note: Question contains extraneous user input unrelated to the math problem. Core problem is solvable with given data.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0783", "verdict": "UNSOLVABLE", "raw_tail": "Note: Problem requires combinatorial analysis of packaging options; exact count not straightforward without enumeration.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0784", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; phone cost calculation is solvable but incomplete due to missing total period. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0785", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total coin count or value distribution.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0786", "verdict": "SOLVABLE", "raw_tail": "Note: Given ratio and number of grade 2 students determine unique number of grade 3 students.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0787", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial total unclear; borrowing and usage details insufficient for a unique answer.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0788", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 5 cups strawberries, 0.125 cups strawberry powder.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0789", "verdict": "SOLVABLE", "raw_tail": "Note: Jenny delivers 10 papers, siblings deliver 5 each, total 20 papers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0790", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial division creates 9 groups; needing 2 more implies 8 groups total initially, contradiction.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0791", "verdict": "SOLVABLE", "raw_tail": "Note: Mia sees 5 in the first room, 10 in the next, totaling 15 dinosaurs.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0792", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated problems; ticket cost and animal count problems are solvable within their contexts, but the question as a whole is incoherent.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0793", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 150 rooms, 75% vs 90%, difference is 150 * (0.9 - 0.75) = 15 rooms.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0794", "verdict": "AMBIGUOUS", "raw_tail": "Note: Initial question solvable (16 balloons total), probability part ambiguous without replacement rules.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0795", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing duration of each wash cycle; cannot calculate total earnings.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0796", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question mixes loan repayment with car wash earnings ambiguously.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0797", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks individual soda box costs and ticket prices, making it impossible to determine additional soda boxes needed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0798", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing depth of the pool; cannot calculate volume or cost.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0799", "verdict": "SOLVABLE", "raw_tail": "Note: Question about coin collections is solvable; textbook study details are irrelevant. Riley has 90 coins, Hanna has 15, total 105 coins.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0800", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; Anna spends 75 minutes, Beth 200 minutes, total 275 minutes or 4.583 hours.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0801", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 26 liters + tap water = 105 liters (70% of 150). Tap added 79 liters.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0802", "verdict": "UNSOLVABLE", "raw_tail": "Note: Each shelf holds 7.5 books when half full; total 22.5 books, but books must be whole numbers.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0803", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks information on how many papers are delivered per house visit.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0804", "verdict": "SOLVABLE", "raw_tail": "Note: Question asks for percentage Rafa ate; includes distractors. Correct answer: 28.75%.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0805", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question shifts topic mid-text; initial music lesson problem unsolved, new grocery problem solved incorrectly. \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0806", "verdict": "SOLVABLE", "raw_tail": "Note: Assumes constant timing without stops; calculates 11 intervals post-first trip. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0807", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; total area minus fountain area gives unique answer.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0808", "verdict": "UNSOLVABLE", "raw_tail": "Note: Problem lacks total weekly production before storage deduction, making calculation of sold cartons impossible.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0809", "verdict": "SOLVABLE", "raw_tail": "Note: All necessary information provided to calculate unique numeric answers for goals scored by each team in both halves.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0810", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total books; exact count cannot be determined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0811", "verdict": "SOLVABLE", "raw_tail": "Note: Problem restates and solves itself; unique answer exists.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0812", "verdict": "SOLVABLE", "raw_tail": "Note: Question assumes all larger cookies still count as one; math checks out for 48 needed, 48 available.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0813", "verdict": "UNSOLVABLE", "raw_tail": "Note: Wins are 9.6 (80% of 12), but wins must be whole numbers; draws undefined.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0814", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; 6.5 kids cannot play, rounds to 7 playing drums, 3 guitars.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0815", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on the duration of the second year. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0816", "verdict": "SOLVABLE", "raw_tail": "Note: Age relationship and sum provided, solvable with algebra.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0817", "verdict": "SOLVABLE", "raw_tail": "Note: Requires scaling ingredients by 5, directly solvable from given ratios.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0818", "verdict": "SOLVABLE", "raw_tail": "Note: Mr. Thompson bought 2 books, Mrs. Thompson initially bought 6, leaving 13 after Monday.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0819", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question diverges into unrelated content; initial math problem is solvable but ignored.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0820", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; Remaining distance after Maria = 2 miles; Tom runs 0.8 miles; Total remaining = 1.2 miles.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0821", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes total students and those at a stop; lacks clarity on overlap.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0822", "verdict": "UNSOLVABLE", "raw_tail": "Note: Includes intermission timing error; total time calculation flawed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0823", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on which pumps are used during each phase.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0824", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; follows a clear sequence of fractions sold, leaving 5640 * (1/2) * (3/4) * (1/2) = 870 oranges.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0825", "verdict": "UNSOLVABLE", "raw_tail": "Note: Flour is measured in volume, not length; thus, \"inches of flour\" is nonsensical.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0826", "verdict": "SOLVABLE", "raw_tail": "Note: Question assumes all 15 dimes exchanged for quarters; 75 cents each.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0827", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information to determine unique numbers of giraffes and elephants.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0828", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing specific value for X miles.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0829", "verdict": "UNSOLVABLE", "raw_tail": "Note: Effective working days and production rates are unclear; rest day logic is confusing.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0830", "verdict": "SOLVABLE", "raw_tail": "Note: Question solvable with basic arithmetic; answer is $55.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0831", "verdict": "UNSOLVABLE", "raw_tail": "Note: Touchdowns' point values unspecified; default assumption needed.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0832", "verdict": "SOLVABLE", "raw_tail": "Note: Initial $30 + $20 saved = $50; 25% used = $12.50 spent; $37.50 left.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0833", "verdict": "SOLVABLE", "raw_tail": "Note: Initial elevation 237m, final 67m; difference is -170m.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0834", "verdict": "SOLVABLE", "raw_tail": "Note: The question implies 30 total spaces, 8 occupied, 5 arriving; thus, 17 spaces remain. \nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0835", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on total comics per shelf setup. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0836", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is redundant; amount already in decimal form.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0837", "verdict": "AMBIGUOUS", "raw_tail": "Note: Heights and widths change volumes ambiguously between shapes.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0838", "verdict": "SOLVABLE", "raw_tail": "Note: The question specifies all needed quantities and allows for a unique calculation of earnings.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0839", "verdict": "SOLVABLE", "raw_tail": "Note: Calculation assumes fractional employees, which is unrealistic but mathematically solvable.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0840", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on Sam's coin types; Kyle has $0.35.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0841", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question assumes special sale applies to all purchases without clear eligibility, making discount application ambiguous.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0842", "verdict": "SOLVABLE", "raw_tail": "Note: Question mixes two unrelated problems; focus on the driving scenario. Distance: 40 + 2*60 = 160 miles. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0843", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes admission pricing with an unrelated teacher prompt.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0844", "verdict": "SOLVABLE", "raw_tail": "Note: Question mixes unrelated parts; focus on Anise's party rule. Guests per row: 16 (smallest square > 10 and multiple of 4). Rows: 3. Total guests: 48.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0845", "verdict": "AMBIGUOUS", "raw_tail": "Note: Problem changes mid-text; initial conditions and question do not match the new problem statement.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0846", "verdict": "SOLVABLE", "raw_tail": "Note: Question about pizza is solvable; wildfire info is irrelevant. Rita and friends need 11 slices total, requiring 1 pizza.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0847", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question does not specify exact price of most expensive ticket, making minimum coin count variable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0848", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question misinterprets capacity; theater's actual capacity is 176, not 200. Current attendance exceeds by 47.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0849", "verdict": "UNSOLVABLE", "raw_tail": "Note: Seat numbers exceed given range; no day fits criteria.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0850", "verdict": "UNSOLVABLE", "raw_tail": "Note: Daily increase in evaporation is not constant; problem setup is contradictory.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0851", "verdict": "SOLVABLE", "raw_tail": "Note: Assumes constant schedule; solvable with given info. 8 items/day * 2 days/week * 4 weeks = 64 items.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0852", "verdict": "UNSOLVABLE", "raw_tail": "Ot\u00e1zka neur\u010duje, jak dlouho pokra\u010dovalo p\u0159id\u00e1v\u00e1n\u00ed banky, a nezodpov\u00edd\u00e1, kolik banky bylo \"celkem\".  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0853", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question is about colored pencils per student, not matching a city in an article. VERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0854", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes existence of quarters not supported by given information.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0855", "verdict": "SOLVABLE", "raw_tail": "Note: Problem provides all necessary dimensions and prices to calculate total cost uniquely.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0856", "verdict": "SOLVABLE", "raw_tail": "Note: Question implies using all found eggs for extra batches, 6 eggs make 3 extra batches.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0857", "verdict": "SOLVABLE", "raw_tail": "Note: Converts gallons to cups, divides by 12. Unique answer: 0.4333 cups per bottle.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0858", "verdict": "SOLVABLE", "raw_tail": "Note: Break duration is 11.25 minutes; total time is 121.25 minutes.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0859", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total number of loads of clothes.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0860", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing initial quantity of squash and grapes; cannot determine total.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0861", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question does not specify if Monday's deal applies the same as Sunday's; deal application ambiguous for single purchase.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0862", "verdict": "SOLVABLE", "raw_tail": "Note: Problem restates original with no new info; solvable with given numbers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0863", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total cost is $2*12*25 + 3*30 = $690, more than $200, thus unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0864", "verdict": "SOLVABLE", "raw_tail": "Note: Sandy finishes in 60 minutes; Mark in 75, Tony in 85. Tony finishes last, 25 minutes after Sandy.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0865", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; first day distance is half of 240 miles, i.e., 120 miles.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0866", "verdict": "SOLVABLE", "raw_tail": "Note: Question provides all necessary sales and price data to compute the difference in revenue between large and small cupcakes over the weekend.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0867", "verdict": "AMBIGUOUS", "raw_tail": "Note: Each act uses 12 or 13 monkeys, ambiguity in rounding.  \nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0868", "verdict": "SOLVABLE", "raw_tail": "Note: Given dimensions allow calculation of total and planted areas; subtraction yields unique unplanted area.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0869", "verdict": "SOLVABLE", "raw_tail": "Note: Question asks for distance driven, which is 2 * 3.4 km = 6.8 km, regardless of time or speed.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0870", "verdict": "SOLVABLE", "raw_tail": "Note: Initial 420 books, net change -30 for regular shelves, +30 for new sections. VERDICT: SOLVABLE", "retry": false}
+{"key": "b0871", "verdict": "SOLVABLE", "raw_tail": "Note: Total value known; number of pennies calculable from given values and quantities.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0872", "verdict": "UNSOLVABLE", "raw_tail": "Note: Insufficient information on girls bringing lunch.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0873", "verdict": "SOLVABLE", "raw_tail": "Note: Solvable; initial fare, per mile rates, and final fare given; calculates to 11 miles.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0874", "verdict": "SOLVABLE", "raw_tail": "Note: Question is a concatenation of unrelated problems; focus on Sarah's scenario. After 4 months, Sarah will have approximately $73.21.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0875", "verdict": "SOLVABLE", "raw_tail": "Note: Yearly cost is solvable with given rates and overage.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0876", "verdict": "SOLVABLE", "raw_tail": "Note: Question provides all necessary data for a unique solution.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0877", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial conditions and transactions are unclear; cost of lemonade not specified.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0878", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question assumes no other walls, making total wall area ambiguous.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0879", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial roosters are 132, not 57; question contradicts itself.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0880", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks information on refund policy or agreement on cost sharing post-exit.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0881", "verdict": "AMBIGUOUS", "raw_tail": "Note: Initial amount and monthly additions are clear, but withdrawal calculation is ambiguous without knowing if it's based on pre- or post-addition total.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0882", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial count cannot be determined due to unclear timing and overlap of visitors.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0883", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question assumes removal of \"occupied seats\" ambiguously; unclear if seats or students removed.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0884", "verdict": "SOLVABLE", "raw_tail": "NOTE: The question about Ms. Harris's chickens is solvable with given percentages and numbers.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0885", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on starting point and route order.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0886", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes unrelated problems; lacks coherent structure for solving.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0887", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing total students or direct count for creative arts camp.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0888", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question lacks specification on equal division method; multiple interpretations possible.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0889", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question asks for total cars but mentions only red initially; solves for total correctly despite. VERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0890", "verdict": "UNSOLVABLE", "raw_tail": "Note: Passenger distribution assumption is unspecified, making the problem unsolvable.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0891", "verdict": "UNSOLVABLE", "raw_tail": "Note: Total students and rows known, but not how students are split into groups within rows.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0892", "verdict": "UNSOLVABLE", "raw_tail": "Note: Missing information on exact times for positions 11-24.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0893", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question asks for a count comparison but requests an unrelated action at the end.  \nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0894", "verdict": "AMBIGUOUS", "raw_tail": "Note: Question implies two different fill amounts based on tank placement, lacks clarity on total needed beyond stated actions.\nVERDICT: AMBIGUOUS", "retry": false}
+{"key": "b0895", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question lacks information on total cage capacity or backyard space limits.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0896", "verdict": "UNSOLVABLE", "raw_tail": "Note: Irrelevant question about France's capital; original question unsolvable due to missing initial coop count.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0897", "verdict": "SOLVABLE", "raw_tail": "Note: Total weekly production is 120 items/day * 6 days = 720 items.\nVERDICT: SOLVABLE", "retry": false}
+{"key": "b0898", "verdict": "UNSOLVABLE", "raw_tail": "Note: Initial condition lacks information on initial quarters; unsolvable without it.\nVERDICT: UNSOLVABLE", "retry": false}
+{"key": "b0899", "verdict": "UNSOLVABLE", "raw_tail": "Note: Question mixes chickens with ducklings without specifying ducklings' count. VERDICT: UNSOLVABLE", "retry": false}

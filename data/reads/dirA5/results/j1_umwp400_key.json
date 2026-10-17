@@ -1,0 +1,2002 @@
+{
+"umwp:4324": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:41": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:2809": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:4707": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:722": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:801": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4683": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3621": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4918": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1445": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:440": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4635": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:5046": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:2749": {
+"answerable": false,
+"category": 1,
+"source": "SVAMP"
+},
+"umwp:4036": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4842": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1293": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1290": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4876": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3391": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1624": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2262": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3242": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:4476": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:906": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3746": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2501": {
+"answerable": false,
+"category": 4,
+"source": "SVAMP"
+},
+"umwp:2108": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4475": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3733": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4622": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:477": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4051": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4860": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:958": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2946": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:2181": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1862": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3730": {
+"answerable": false,
+"category": 5,
+"source": "GSM8K"
+},
+"umwp:3229": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:1639": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1802": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1692": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2414": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:778": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:3818": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3040": {
+"answerable": false,
+"category": 1,
+"source": "MultiArith"
+},
+"umwp:368": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:462": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:1121": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2170": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3786": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3056": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:188": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:3358": {
+"answerable": false,
+"category": 5,
+"source": "GSM8K"
+},
+"umwp:2874": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:2845": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:4034": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1622": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3568": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1547": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:367": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:654": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:4988": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2949": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:4343": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1264": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1771": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2860": {
+"answerable": false,
+"category": 4,
+"source": "SVAMP"
+},
+"umwp:1391": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3529": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1765": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:170": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4572": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4982": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2418": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3996": {
+"answerable": false,
+"category": 5,
+"source": "GSM8K"
+},
+"umwp:4587": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3666": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:445": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4829": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3198": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:1630": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5158": {
+"answerable": false,
+"category": 4,
+"source": "ASDiv"
+},
+"umwp:2497": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:508": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:4187": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:2800": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:1402": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:209": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:1248": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3957": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:5154": {
+"answerable": false,
+"category": 2,
+"source": "ASDiv"
+},
+"umwp:2801": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:2615": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:1981": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3855": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1590": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2101": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:356": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:2048": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4178": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4071": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:1139": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:237": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:3705": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:2462": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:922": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3138": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:2627": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:4899": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4571": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3847": {
+"answerable": false,
+"category": 5,
+"source": "GSM8K"
+},
+"umwp:4027": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3082": {
+"answerable": false,
+"category": 1,
+"source": "MultiArith"
+},
+"umwp:3822": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:2226": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5029": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:844": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:765": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:4423": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:455": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4261": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2091": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:466": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:60": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:5186": {
+"answerable": false,
+"category": 3,
+"source": "ASDiv"
+},
+"umwp:1572": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2303": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4257": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2866": {
+"answerable": false,
+"category": 1,
+"source": "SVAMP"
+},
+"umwp:4805": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4262": {
+"answerable": false,
+"category": 5,
+"source": "GSM8K"
+},
+"umwp:2787": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:3124": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:2126": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2562": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:3230": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:4890": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4801": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3347": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4643": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:3301": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1118": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3195": {
+"answerable": false,
+"category": 1,
+"source": "MultiArith"
+},
+"umwp:438": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:1784": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3451": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4663": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1389": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3256": {
+"answerable": false,
+"category": 3,
+"source": "MultiArith"
+},
+"umwp:769": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:99": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:347": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:1838": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5047": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:1830": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1346": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:476": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:3340": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3821": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2302": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:411": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4276": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:977": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5045": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:1172": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4188": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2673": {
+"answerable": false,
+"category": 1,
+"source": "SVAMP"
+},
+"umwp:735": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:5008": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:4677": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:3678": {
+"answerable": false,
+"category": 4,
+"source": "GSM8K"
+},
+"umwp:2773": {
+"answerable": false,
+"category": 1,
+"source": "SVAMP"
+},
+"umwp:1393": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2700": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:109": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:3899": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:2150": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1942": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2652": {
+"answerable": false,
+"category": 5,
+"source": "SVAMP"
+},
+"umwp:271": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4798": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1187": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:588": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:4068": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1728": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2485": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3275": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:1106": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3355": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2757": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:1539": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5100": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:1038": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1677": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1493": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3264": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:2078": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3795": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2817": {
+"answerable": false,
+"category": 1,
+"source": "SVAMP"
+},
+"umwp:1589": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1834": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4249": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3469": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4357": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1105": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2460": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4962": {
+"answerable": false,
+"category": 5,
+"source": "GSM8K"
+},
+"umwp:540": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:1278": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4418": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4297": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1484": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4192": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:52": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:2753": {
+"answerable": false,
+"category": 1,
+"source": "SVAMP"
+},
+"umwp:2929": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:2894": {
+"answerable": false,
+"category": 3,
+"source": "SVAMP"
+},
+"umwp:3744": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1390": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1999": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1464": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:825": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3009": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:4060": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3440": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2541": {
+"answerable": false,
+"category": 3,
+"source": "SVAMP"
+},
+"umwp:1726": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:164": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:719": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:523": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:1231": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1552": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5139": {
+"answerable": false,
+"category": 2,
+"source": "ASDiv"
+},
+"umwp:1205": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2590": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:4246": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4774": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3206": {
+"answerable": false,
+"category": 1,
+"source": "MultiArith"
+},
+"umwp:123": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:3538": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4090": {
+"answerable": false,
+"category": 4,
+"source": "GSM8K"
+},
+"umwp:2356": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4880": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3079": {
+"answerable": false,
+"category": 3,
+"source": "MultiArith"
+},
+"umwp:3448": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1417": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3343": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:930": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3196": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:1377": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:512": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:4594": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1710": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5132": {
+"answerable": false,
+"category": 1,
+"source": "ASDiv"
+},
+"umwp:3095": {
+"answerable": false,
+"category": 3,
+"source": "MultiArith"
+},
+"umwp:2872": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:4557": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4762": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1845": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:828": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:661": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:2300": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3588": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:805": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3997": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3905": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3383": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:954": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1814": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:173": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:495": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:1790": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4519": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2650": {
+"answerable": false,
+"category": 3,
+"source": "SVAMP"
+},
+"umwp:4877": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:215": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:3348": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3117": {
+"answerable": false,
+"category": 5,
+"source": "MultiArith"
+},
+"umwp:2767": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:2792": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:3017": {
+"answerable": false,
+"category": 4,
+"source": "MultiArith"
+},
+"umwp:5152": {
+"answerable": false,
+"category": 2,
+"source": "ASDiv"
+},
+"umwp:5017": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:4704": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2231": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:795": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:2448": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2165": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1670": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4561": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1207": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:342": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:905": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2488": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3614": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4906": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:324": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4517": {
+"answerable": false,
+"category": 4,
+"source": "GSM8K"
+},
+"umwp:4927": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:734": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:567": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:4873": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:2849": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:4160": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4497": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:952": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4092": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3210": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:675": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:2333": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1329": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2235": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5191": {
+"answerable": false,
+"category": 2,
+"source": "ASDiv"
+},
+"umwp:5194": {
+"answerable": false,
+"category": 2,
+"source": "ASDiv"
+},
+"umwp:2276": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:253": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4231": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:2222": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1063": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3547": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:1561": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:585": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:583": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:2084": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:300": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:4765": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2699": {
+"answerable": false,
+"category": 3,
+"source": "SVAMP"
+},
+"umwp:2855": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:884": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1137": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3938": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4815": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:699": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:3565": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3560": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:2121": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1796": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3510": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:274": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:2797": {
+"answerable": false,
+"category": 3,
+"source": "SVAMP"
+},
+"umwp:4773": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1162": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3698": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:1261": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2916": {
+"answerable": false,
+"category": 2,
+"source": "SVAMP"
+},
+"umwp:807": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:950": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3690": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3580": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:2450": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5106": {
+"answerable": false,
+"category": 1,
+"source": "ASDiv"
+},
+"umwp:2208": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:276": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:1514": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4589": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:3380": {
+"answerable": false,
+"category": 3,
+"source": "GSM8K"
+},
+"umwp:4941": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:426": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:832": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2607": {
+"answerable": false,
+"category": 5,
+"source": "SVAMP"
+},
+"umwp:4529": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:1195": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1324": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1458": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3073": {
+"answerable": false,
+"category": 1,
+"source": "MultiArith"
+},
+"umwp:756": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:1161": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2094": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2532": {
+"answerable": false,
+"category": 1,
+"source": "SVAMP"
+},
+"umwp:1724": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:986": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4024": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:115": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:553": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+},
+"umwp:1817": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:392": {
+"answerable": true,
+"category": null,
+"source": "SVAMP"
+},
+"umwp:2161": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1147": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:892": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:1437": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:3087": {
+"answerable": false,
+"category": 2,
+"source": "MultiArith"
+},
+"umwp:1446": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:2999": {
+"answerable": false,
+"category": 4,
+"source": "SVAMP"
+},
+"umwp:3083": {
+"answerable": false,
+"category": 1,
+"source": "MultiArith"
+},
+"umwp:4538": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:4096": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4219": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:2042": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:5133": {
+"answerable": false,
+"category": 5,
+"source": "ASDiv"
+},
+"umwp:2770": {
+"answerable": false,
+"category": 4,
+"source": "SVAMP"
+},
+"umwp:5088": {
+"answerable": true,
+"category": null,
+"source": "ASDiv"
+},
+"umwp:3522": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:3918": {
+"answerable": false,
+"category": 5,
+"source": "GSM8K"
+},
+"umwp:862": {
+"answerable": true,
+"category": null,
+"source": "GSM8K"
+},
+"umwp:4111": {
+"answerable": false,
+"category": 1,
+"source": "GSM8K"
+},
+"umwp:4658": {
+"answerable": false,
+"category": 2,
+"source": "GSM8K"
+},
+"umwp:750": {
+"answerable": true,
+"category": null,
+"source": "MultiArith"
+}
+}

@@ -1,0 +1,1178 @@
+{
+ "analysis": "H1 human read of the self-play drift (registration H1_registration_2026-09-26.md)",
+ "synthetic": false,
+ "script_sha256": "2c8ab779429efbbbb7669114c8e13f45112e8eb3e8681ff436a1e62f09de9411",
+ "inputs": {
+  "ann1": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/human_validation_drift/labels_ann1.csv",
+   "sha256": "0d6b3e2b24ba0a25d87f777df18733608823cea2460c46a84c06201da2a925ae"
+  },
+  "ann2": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/human_validation_drift/labels_ann2.csv",
+   "sha256": "b98bf4160fc70bf93bd3f51f2a7cd9aa22a36f091e499eec1b9d740f43b48674"
+  },
+  "adjudicated": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/human_validation_drift/labels_adjudicated.csv",
+   "sha256": "cd4e9003cb671f17cc618578c95553bdf958d78840a5ef0af0a282912ce75dc9"
+  },
+  "rationale": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/human_validation_drift/adjudication_rationale.csv",
+   "sha256": "a87702b199f543ce1cb9f3e7b3b6045f5a3fc09195b4da4b95e76640794b72d4"
+  },
+  "key": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/human_validation_drift/_key_do_not_open/key.json",
+   "sha256": "91d86caaf4978fc0e3740bb34b5ac7681efa94b87cc30cc1286ee74259e2af5f"
+  },
+  "packet": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/human_validation_drift/packet.md",
+   "sha256": "fe667ec21c5542d900a977dec09df69daeb80c7620a8c7aa5f912e0fab4b6f95"
+  },
+  "a7b_key_full": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/results/a7b_blind/key_full.jsonl",
+   "sha256": "c4f16b0b9488f55c60c2e2b11e5065dd2e3035e7a2f558f23efc1014ae774bff"
+  },
+  "a7b_blind": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/results/a7b_blind/blind_verdicts.json",
+   "sha256": "67957b08064db94482612c4534629874489f99eae2fa99276847f74373210815"
+  },
+  "open_judge": {
+   "path": "/home/tione/notebook/rsi_rl/dirA5/results/a10/verdicts.jsonl",
+   "sha256": "574b222f5dbd160bbe9e0d91cc88cb84b75b20b2f553f95e6a782904fde68915"
+  }
+ },
+ "registered_sha256_check": "passed",
+ "conventions": {
+  "illposed": "U or A",
+  "units": "shares and differences in percentage points; kappa and agreement as fractions",
+  "labels": "strip().upper(); SOLVABLE/UNSOLVABLE/AMBIGUOUS -> S/U/A (annotator, adjudicated and judge labels)",
+  "bootstrap_seed": 20260947,
+  "bootstrap_replicates": 4000,
+  "wilson_z": 1.959963984540054,
+  "percentile_positions": "int(0.025 nv), int(0.975 nv) - 1 of the sorted finite replicates"
+ },
+ "quality": {
+  "ann1": {
+   "header": "hid,label,note",
+   "header_as_registered": true,
+   "n_data_rows": 240,
+   "n_blank_rows_ignored": 0,
+   "undecodable_bytes_replaced": false,
+   "n_labels_normalised": 0,
+   "n_labels_given_as_words": 0,
+   "n_invalid_or_empty_labels": 0,
+   "n_hids_without_row": 0,
+   "label_counts": {
+    "S": 70,
+    "U": 146,
+    "A": 24
+   }
+  },
+  "ann2": {
+   "header": "hid,label,note",
+   "header_as_registered": true,
+   "n_data_rows": 240,
+   "n_blank_rows_ignored": 0,
+   "undecodable_bytes_replaced": false,
+   "n_labels_normalised": 0,
+   "n_labels_given_as_words": 0,
+   "n_invalid_or_empty_labels": 0,
+   "n_hids_without_row": 0,
+   "label_counts": {
+    "S": 73,
+    "U": 146,
+    "A": 21
+   }
+  },
+  "agreement": {
+   "three_class": {
+    "n": 240,
+    "raw_agreement": 0.9291666666666667,
+    "raw_agreement_ci95": [
+     0.8958333333333334,
+     0.9583333333333334
+    ],
+    "kappa": 0.8669709814150636,
+    "kappa_ci95": [
+     0.8059382883757036,
+     0.9238122112094812
+    ],
+    "boot_valid_replicates": 4000
+   },
+   "binary_illposed_vs_solvable": {
+    "n": 240,
+    "raw_agreement": 0.9625,
+    "raw_agreement_ci95": [
+     0.9375,
+     0.9833333333333333
+    ],
+    "kappa": 0.9103734439834026,
+    "kappa_ci95": [
+     0.8493948901837741,
+     0.9612246546570804
+    ],
+    "boot_valid_replicates": 4000
+   },
+   "confusion_ann1_rows_ann2_cols": {
+    "S": {
+     "S": 67,
+     "U": 1,
+     "A": 2
+    },
+    "U": {
+     "S": 3,
+     "U": 140,
+     "A": 3
+    },
+    "A": {
+     "S": 3,
+     "U": 5,
+     "A": 16
+    }
+   },
+   "n_disagree_three_class": 17,
+   "n_disagree_binary": 9,
+   "bootstrap": "item (240 items with replacement), random.Random(20260947), 4000 replicates, percentile"
+  },
+  "adjudication": {
+   "header": "hid,label",
+   "header_as_registered": true,
+   "n_data_rows": 17,
+   "n_blank_rows_ignored": 0,
+   "n_duplicate_rows_same_label": 0,
+   "n_labels_given_as_words": 0,
+   "n_disagreements": 17,
+   "n_used": 17,
+   "n_u_vs_a_disagreements_without_adjudication": 0,
+   "n_extra_rows_on_agreed_items": 0,
+   "n_extra_rows_conflicting_with_common_label": 0,
+   "adjudicated_label_counts": {
+    "S": 4,
+    "U": 8,
+    "A": 5
+   },
+   "adjudicated_equals": {
+    "ann1": 6,
+    "ann2": 10,
+    "neither": 1
+   }
+  },
+  "rationale_consistency": {
+   "header_as_registered": true,
+   "n_data_rows": 17,
+   "checked": true,
+   "hid_set_equals_disagreements": true,
+   "n_disagreements_without_row": 0,
+   "n_rows_not_a_disagreement": 0,
+   "n_duplicate_hids": 0,
+   "column_mismatches_vs_label_files": {
+    "ann1": 0,
+    "ann2": 0,
+    "adjudicated": 0,
+    "unknown_hid": 0
+   }
+  }
+ },
+ "final_label": {
+  "rule": "common label where the annotators agree (three-class), else the adjudicated label; a U-vs-A disagreement without an adjudicated label is ill-posed (binary) with no three-class label",
+  "n": 240,
+  "n_agreed": 223,
+  "n_from_adjudication": 17,
+  "n_u_vs_a_without_adjudication_binary_illposed": 0,
+  "three_class_final_label_available": true,
+  "label_counts_binary": {
+   "S": 71,
+   "U_or_A": 169
+  },
+  "label_counts": {
+   "S": 71,
+   "U": 148,
+   "A": 21
+  }
+ },
+ "primary": {
+  "definition": "human ill-posed share (final label U or A) by round, pooled over seeds; D_h = share(r5) - share(r1)",
+  "illposed_share_by_round": {
+   "r1": {
+    "k": 45,
+    "n": 80,
+    "share_pct": 56.25,
+    "wilson95_pct": [
+     45.34113429694972,
+     66.58613908385618
+    ]
+   },
+   "r3": {
+    "k": 63,
+    "n": 80,
+    "share_pct": 78.75,
+    "wilson95_pct": [
+     68.57784426940333,
+     86.28761328230384
+    ]
+   },
+   "r5": {
+    "k": 61,
+    "n": 80,
+    "share_pct": 76.25,
+    "wilson95_pct": [
+     65.85922106615945,
+     84.23532713322537
+    ]
+   }
+  },
+  "D_h_r5_minus_r1": {
+   "d_pts": 20.0,
+   "ci95_pts": [
+    6.25,
+    33.75
+   ],
+   "n_hi": 80,
+   "n_lo": 80,
+   "boot_valid_replicates": 4000,
+   "reading": "RISES"
+  },
+  "bootstrap": "stratified (items resampled within seed x round), random.Random(20260947), 4000 replicates, percentile",
+  "ci_scope": "the three seeds are fixed strata: the CI covers item-sampling uncertainty within these three runs, not seed-to-seed variability (see the per-seed D_h)",
+  "reading_rule": "RISES if the CI lower bound > 0; FALLS if the upper bound < 0; FLAT if the CI lies within [-10, +10] and contains 0; INCONCLUSIVE otherwise",
+  "reading_note": "with 80 items per round the replicate shares lie on a 1.25-point lattice, so a lower bound of exactly 0 is possible; it is not above 0"
+ },
+ "secondary_human_trend": {
+  "D_h_r3_minus_r1": {
+   "d_pts": 22.5,
+   "ci95_pts": [
+    8.75,
+    36.25
+   ],
+   "n_hi": 80,
+   "n_lo": 80,
+   "boot_valid_replicates": 4000
+  },
+  "D_h_r5_minus_r1_per_seed": {
+   "seed0": {
+    "d_pts": 14.81481481481481,
+    "ci95_pts": [
+     -11.111111111111107,
+     37.037037037037045
+    ],
+    "n_hi": 27,
+    "n_lo": 27,
+    "boot_valid_replicates": 4000
+   },
+   "seed1": {
+    "d_pts": 22.22222222222222,
+    "ci95_pts": [
+     -3.7037037037037024,
+     48.14814814814814
+    ],
+    "n_hi": 27,
+    "n_lo": 27,
+    "boot_valid_replicates": 4000
+   },
+   "seed2": {
+    "d_pts": 23.07692307692308,
+    "ci95_pts": [
+     0.0,
+     46.15384615384615
+    ],
+    "n_hi": 26,
+    "n_lo": 26,
+    "boot_valid_replicates": 4000
+   }
+  },
+  "logistic_trend_over_round": {
+   "n": 240,
+   "model": "logit P(ill-posed) = b0 + b1 * round, round in {1, 3, 5}, item level, Newton-Raphson ML, Wald 95% CI",
+   "status": "estimated",
+   "b0": 0.16310289045583995,
+   "b1_per_round": 0.24561534626155437,
+   "se_b1": 0.08966265336806649,
+   "wald_ci95_b1": [
+    0.06987977490184508,
+    0.42135091762126364
+   ],
+   "wald_z": 2.739327211891665,
+   "wald_p_two_sided": 0.006156506649883829,
+   "odds_ratio_per_round": 1.2784077346395795,
+   "odds_ratio_per_round_ci95": [
+    1.072379246603599,
+    1.5240189897020862
+   ],
+   "odds_ratio_r5_vs_r1": 2.6710225724984085,
+   "iterations": 6,
+   "converged": true,
+   "separation_suspected": false
+  }
+ },
+ "secondary_judge_validity": {
+  "bootstrap": "kappa/agreement: item bootstrap; FPR difference and drifts: stratified; seed 20260947",
+  "fpr_definition": "judge ill-posed among items the humans label S",
+  "judges": {
+   "opus_original": {
+    "source": "key.json opus_original (non-blind Opus audit)",
+    "n_joined": 240,
+    "n_not_joined": 0,
+    "agreement_three_class": {
+     "n": 240,
+     "raw_agreement": 0.8291666666666667,
+     "raw_agreement_ci95": [
+      0.7791666666666667,
+      0.875
+     ],
+     "kappa": 0.6780104712041886,
+     "kappa_ci95": [
+      0.5875154681699436,
+      0.7624672753974842
+     ],
+     "boot_valid_replicates": 4000
+    },
+    "agreement_binary": {
+     "n": 240,
+     "raw_agreement": 0.9,
+     "raw_agreement_ci95": [
+      0.8583333333333333,
+      0.9375
+     ],
+     "kappa": 0.7476119533783192,
+     "kappa_ci95": [
+      0.6470912599944859,
+      0.8410896708286039
+     ],
+     "boot_valid_replicates": 4000
+    },
+    "note_agreement": "raw_agreement = accuracy of the judge against the final human label",
+    "confusion_human_rows_judge_cols": {
+     "S": {
+      "S": 53,
+      "U": 10,
+      "A": 8
+     },
+     "U": {
+      "S": 3,
+      "U": 134,
+      "A": 11
+     },
+     "A": {
+      "S": 3,
+      "U": 6,
+      "A": 12
+     }
+    },
+    "illposed_detection_vs_humans": {
+     "all": {
+      "n": 240,
+      "tp": 163,
+      "fp": 18,
+      "fn": 6,
+      "tn": 53,
+      "precision": 0.9005524861878453,
+      "recall": 0.9644970414201184,
+      "f1": 0.9314285714285714
+     },
+     "r1": {
+      "n": 80,
+      "tp": 42,
+      "fp": 4,
+      "fn": 3,
+      "tn": 31,
+      "precision": 0.9130434782608695,
+      "recall": 0.9333333333333333,
+      "f1": 0.9230769230769231
+     },
+     "r3": {
+      "n": 80,
+      "tp": 60,
+      "fp": 7,
+      "fn": 3,
+      "tn": 10,
+      "precision": 0.8955223880597015,
+      "recall": 0.9523809523809523,
+      "f1": 0.923076923076923
+     },
+     "r5": {
+      "n": 80,
+      "tp": 61,
+      "fp": 7,
+      "fn": 0,
+      "tn": 12,
+      "precision": 0.8970588235294118,
+      "recall": 1.0,
+      "f1": 0.9457364341085273
+     }
+    },
+    "false_positive_rate_by_round": {
+     "r1": {
+      "k": 4,
+      "n": 35,
+      "share_pct": 11.428571428571429,
+      "wilson95_pct": [
+       4.535179333097357,
+       25.95146864621381
+      ]
+     },
+     "r3": {
+      "k": 7,
+      "n": 17,
+      "share_pct": 41.1764705882353,
+      "wilson95_pct": [
+       21.61105679021481,
+       63.99455735700022
+      ]
+     },
+     "r5": {
+      "k": 7,
+      "n": 19,
+      "share_pct": 36.8421052631579,
+      "wilson95_pct": [
+       19.149512745135073,
+       58.96046683519693
+      ]
+     }
+    },
+    "fpr_r5_minus_r1": {
+     "d_pts": 25.413533834586467,
+     "ci95_pts": [
+      1.3071895424836626,
+      49.673202614379086
+     ],
+     "n_hi": 19,
+     "n_lo": 35,
+     "boot_valid_replicates": 4000
+    },
+    "judge_illposed_share_by_round": {
+     "r1": {
+      "k": 46,
+      "n": 80,
+      "share_pct": 57.5,
+      "wilson95_pct": [
+       46.569289846568864,
+       67.74343821039822
+      ]
+     },
+     "r3": {
+      "k": 67,
+      "n": 80,
+      "share_pct": 83.75,
+      "wilson95_pct": [
+       74.15709565930229,
+       90.25018059704963
+      ]
+     },
+     "r5": {
+      "k": 68,
+      "n": 80,
+      "share_pct": 85.0,
+      "wilson95_pct": [
+       75.58677143867665,
+       91.20595949383645
+      ]
+     }
+    },
+    "drift_on_same_items": {
+     "judge_D": {
+      "d_pts": 27.5,
+      "ci95_pts": [
+       13.75,
+       40.0
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000,
+      "reading": "RISES"
+     },
+     "human_D_h_same_items": {
+      "d_pts": 20.0,
+      "ci95_pts": [
+       6.25,
+       33.75
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000,
+      "reading": "RISES"
+     },
+     "judge_minus_human_paired": {
+      "d_pts": 7.5,
+      "ci95_pts": [
+       -1.25,
+       16.25
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000
+     }
+    }
+   },
+   "opus_blind": {
+    "source": "key.json opus_blind (A7b blind Opus re-audit)",
+    "n_joined": 240,
+    "n_not_joined": 0,
+    "agreement_three_class": {
+     "n": 240,
+     "raw_agreement": 0.8708333333333333,
+     "raw_agreement_ci95": [
+      0.8291666666666667,
+      0.9125
+     ],
+     "kappa": 0.7699585678065675,
+     "kappa_ci95": [
+      0.697146185206756,
+      0.8391528717914347
+     ],
+     "boot_valid_replicates": 4000
+    },
+    "agreement_binary": {
+     "n": 240,
+     "raw_agreement": 0.9541666666666667,
+     "raw_agreement_ci95": [
+      0.925,
+      0.9791666666666666
+     ],
+     "kappa": 0.8867536032944408,
+     "kappa_ci95": [
+      0.8145117294053464,
+      0.9464668094218415
+     ],
+     "boot_valid_replicates": 4000
+    },
+    "note_agreement": "raw_agreement = accuracy of the judge against the final human label",
+    "confusion_human_rows_judge_cols": {
+     "S": {
+      "S": 62,
+      "U": 4,
+      "A": 5
+     },
+     "U": {
+      "S": 0,
+      "U": 129,
+      "A": 19
+     },
+     "A": {
+      "S": 2,
+      "U": 1,
+      "A": 18
+     }
+    },
+    "illposed_detection_vs_humans": {
+     "all": {
+      "n": 240,
+      "tp": 167,
+      "fp": 9,
+      "fn": 2,
+      "tn": 62,
+      "precision": 0.9488636363636364,
+      "recall": 0.9881656804733728,
+      "f1": 0.9681159420289855
+     },
+     "r1": {
+      "n": 80,
+      "tp": 43,
+      "fp": 1,
+      "fn": 2,
+      "tn": 34,
+      "precision": 0.9772727272727273,
+      "recall": 0.9555555555555556,
+      "f1": 0.9662921348314608
+     },
+     "r3": {
+      "n": 80,
+      "tp": 63,
+      "fp": 4,
+      "fn": 0,
+      "tn": 13,
+      "precision": 0.9402985074626866,
+      "recall": 1.0,
+      "f1": 0.9692307692307692
+     },
+     "r5": {
+      "n": 80,
+      "tp": 61,
+      "fp": 4,
+      "fn": 0,
+      "tn": 15,
+      "precision": 0.9384615384615385,
+      "recall": 1.0,
+      "f1": 0.9682539682539683
+     }
+    },
+    "false_positive_rate_by_round": {
+     "r1": {
+      "k": 1,
+      "n": 35,
+      "share_pct": 2.857142857142857,
+      "wilson95_pct": [
+       0.5061491855444202,
+       14.533087233613672
+      ]
+     },
+     "r3": {
+      "k": 4,
+      "n": 17,
+      "share_pct": 23.529411764705884,
+      "wilson95_pct": [
+       9.555044322080116,
+       47.26179811956498
+      ]
+     },
+     "r5": {
+      "k": 4,
+      "n": 19,
+      "share_pct": 21.05263157894737,
+      "wilson95_pct": [
+       8.507676632916253,
+       43.33427844381417
+      ]
+     }
+    },
+    "fpr_r5_minus_r1": {
+     "d_pts": 18.195488721804512,
+     "ci95_pts": [
+      0.0,
+      38.80952380952381
+     ],
+     "n_hi": 19,
+     "n_lo": 35,
+     "boot_valid_replicates": 4000
+    },
+    "judge_illposed_share_by_round": {
+     "r1": {
+      "k": 44,
+      "n": 80,
+      "share_pct": 55.0,
+      "wilson95_pct": [
+       44.119507889355965,
+       65.42231081528878
+      ]
+     },
+     "r3": {
+      "k": 67,
+      "n": 80,
+      "share_pct": 83.75,
+      "wilson95_pct": [
+       74.15709565930229,
+       90.25018059704963
+      ]
+     },
+     "r5": {
+      "k": 65,
+      "n": 80,
+      "share_pct": 81.25,
+      "wilson95_pct": [
+       71.34167737100688,
+       88.29468953302268
+      ]
+     }
+    },
+    "drift_on_same_items": {
+     "judge_D": {
+      "d_pts": 26.25,
+      "ci95_pts": [
+       12.5,
+       40.0
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000,
+      "reading": "RISES"
+     },
+     "human_D_h_same_items": {
+      "d_pts": 20.0,
+      "ci95_pts": [
+       6.25,
+       33.75
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000,
+      "reading": "RISES"
+     },
+     "judge_minus_human_paired": {
+      "d_pts": 6.25,
+      "ci95_pts": [
+       0.0,
+       12.5
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000
+     }
+    }
+   },
+   "open_weight_qwen2.5_32b": {
+    "source": "dirA5/results/a10/verdicts.jsonl field verdict, joined on key == a7b_key",
+    "n_joined": 240,
+    "n_not_joined": 0,
+    "agreement_three_class": {
+     "n": 240,
+     "raw_agreement": 0.5791666666666667,
+     "raw_agreement_ci95": [
+      0.5166666666666667,
+      0.6416666666666667
+     ],
+     "kappa": 0.25053334570076996,
+     "kappa_ci95": [
+      0.15113489573722091,
+      0.35042309606769534
+     ],
+     "boot_valid_replicates": 4000
+    },
+    "agreement_binary": {
+     "n": 240,
+     "raw_agreement": 0.7,
+     "raw_agreement_ci95": [
+      0.6416666666666667,
+      0.7583333333333333
+     ],
+     "kappa": 0.3490544714834626,
+     "kappa_ci95": [
+      0.22832369942196523,
+      0.4685482660261222
+     ],
+     "boot_valid_replicates": 4000
+    },
+    "note_agreement": "raw_agreement = accuracy of the judge against the final human label",
+    "confusion_human_rows_judge_cols": {
+     "S": {
+      "S": 48,
+      "U": 18,
+      "A": 5
+     },
+     "U": {
+      "S": 42,
+      "U": 90,
+      "A": 16
+     },
+     "A": {
+      "S": 7,
+      "U": 13,
+      "A": 1
+     }
+    },
+    "illposed_detection_vs_humans": {
+     "all": {
+      "n": 240,
+      "tp": 120,
+      "fp": 23,
+      "fn": 49,
+      "tn": 48,
+      "precision": 0.8391608391608392,
+      "recall": 0.7100591715976331,
+      "f1": 0.7692307692307692
+     },
+     "r1": {
+      "n": 80,
+      "tp": 30,
+      "fp": 7,
+      "fn": 15,
+      "tn": 28,
+      "precision": 0.8108108108108109,
+      "recall": 0.6666666666666666,
+      "f1": 0.7317073170731707
+     },
+     "r3": {
+      "n": 80,
+      "tp": 45,
+      "fp": 4,
+      "fn": 18,
+      "tn": 13,
+      "precision": 0.9183673469387755,
+      "recall": 0.7142857142857143,
+      "f1": 0.8035714285714286
+     },
+     "r5": {
+      "n": 80,
+      "tp": 45,
+      "fp": 12,
+      "fn": 16,
+      "tn": 7,
+      "precision": 0.7894736842105263,
+      "recall": 0.7377049180327869,
+      "f1": 0.7627118644067797
+     }
+    },
+    "false_positive_rate_by_round": {
+     "r1": {
+      "k": 7,
+      "n": 35,
+      "share_pct": 20.0,
+      "wilson95_pct": [
+       10.042446473798625,
+       35.89161306566562
+      ]
+     },
+     "r3": {
+      "k": 4,
+      "n": 17,
+      "share_pct": 23.529411764705884,
+      "wilson95_pct": [
+       9.555044322080116,
+       47.26179811956498
+      ]
+     },
+     "r5": {
+      "k": 12,
+      "n": 19,
+      "share_pct": 63.1578947368421,
+      "wilson95_pct": [
+       41.03953316480307,
+       80.85048725486492
+      ]
+     }
+    },
+    "fpr_r5_minus_r1": {
+     "d_pts": 43.1578947368421,
+     "ci95_pts": [
+      17.17171717171717,
+      68.13186813186813
+     ],
+     "n_hi": 19,
+     "n_lo": 35,
+     "boot_valid_replicates": 4000
+    },
+    "judge_illposed_share_by_round": {
+     "r1": {
+      "k": 37,
+      "n": 80,
+      "share_pct": 46.25,
+      "wilson95_pct": [
+       35.74799356278525,
+       57.095642408731194
+      ]
+     },
+     "r3": {
+      "k": 49,
+      "n": 80,
+      "share_pct": 61.25,
+      "wilson95_pct": [
+       50.29365721075572,
+       71.17543487469493
+      ]
+     },
+     "r5": {
+      "k": 57,
+      "n": 80,
+      "share_pct": 71.25,
+      "wilson95_pct": [
+       60.53965378701002,
+       80.01307570773008
+      ]
+     }
+    },
+    "drift_on_same_items": {
+     "judge_D": {
+      "d_pts": 25.0,
+      "ci95_pts": [
+       10.0,
+       38.75
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000,
+      "reading": "RISES"
+     },
+     "human_D_h_same_items": {
+      "d_pts": 20.0,
+      "ci95_pts": [
+       6.25,
+       33.75
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000,
+      "reading": "RISES"
+     },
+     "judge_minus_human_paired": {
+      "d_pts": 5.0,
+      "ci95_pts": [
+       -11.25,
+       21.25
+      ],
+      "n_hi": 80,
+      "n_lo": 80,
+      "boot_valid_replicates": 4000
+     }
+    }
+   }
+  }
+ },
+ "robustness": {
+  "annotator1_alone": {
+   "illposed_share_by_round": {
+    "r1": {
+     "k": 46,
+     "n": 80,
+     "share_pct": 57.5,
+     "wilson95_pct": [
+      46.569289846568864,
+      67.74343821039822
+     ]
+    },
+    "r3": {
+     "k": 63,
+     "n": 80,
+     "share_pct": 78.75,
+     "wilson95_pct": [
+      68.57784426940333,
+      86.28761328230384
+     ]
+    },
+    "r5": {
+     "k": 61,
+     "n": 80,
+     "share_pct": 76.25,
+     "wilson95_pct": [
+      65.85922106615945,
+      84.23532713322537
+     ]
+    }
+   },
+   "D_r5_minus_r1": {
+    "d_pts": 18.75,
+    "ci95_pts": [
+     5.0,
+     32.5
+    ],
+    "n_hi": 80,
+    "n_lo": 80,
+    "boot_valid_replicates": 4000,
+    "reading": "RISES"
+   }
+  },
+  "annotator2_alone": {
+   "illposed_share_by_round": {
+    "r1": {
+     "k": 45,
+     "n": 80,
+     "share_pct": 56.25,
+     "wilson95_pct": [
+      45.34113429694972,
+      66.58613908385618
+     ]
+    },
+    "r3": {
+     "k": 63,
+     "n": 80,
+     "share_pct": 78.75,
+     "wilson95_pct": [
+      68.57784426940333,
+      86.28761328230384
+     ]
+    },
+    "r5": {
+     "k": 59,
+     "n": 80,
+     "share_pct": 73.75,
+     "wilson95_pct": [
+      63.181040335571836,
+      82.14259851149063
+     ]
+    }
+   },
+   "D_r5_minus_r1": {
+    "d_pts": 17.5,
+    "ci95_pts": [
+     3.75,
+     31.25
+    ],
+    "n_hi": 80,
+    "n_lo": 80,
+    "boot_valid_replicates": 4000,
+    "reading": "RISES"
+   }
+  },
+  "unsolvable_only_final": {
+   "illposed_share_by_round": {
+    "r1": {
+     "k": 39,
+     "n": 80,
+     "share_pct": 48.75,
+     "wilson95_pct": [
+      38.10787954038107,
+      59.506665783457734
+     ]
+    },
+    "r3": {
+     "k": 54,
+     "n": 80,
+     "share_pct": 67.5,
+     "wilson95_pct": [
+      56.64052731061473,
+      76.75583815564183
+     ]
+    },
+    "r5": {
+     "k": 55,
+     "n": 80,
+     "share_pct": 68.75,
+     "wilson95_pct": [
+      57.93222425531256,
+      77.84959588710517
+     ]
+    }
+   },
+   "D_r5_minus_r1": {
+    "d_pts": 20.0,
+    "ci95_pts": [
+     5.0,
+     35.0
+    ],
+    "n_hi": 80,
+    "n_lo": 80,
+    "boot_valid_replicates": 4000,
+    "reading": "RISES"
+   }
+  },
+  "note": "descriptive; the reading uses the pre-stated rule but only the primary D_h is confirmatory"
+ },
+ "exploratory": {
+  "label": "EXPLORATORY (not registered as a test): misclassification-corrected Opus blind drift on the 900 A7b items, two estimators (Rogan-Gladen as planned; two-phase added before the read)",
+  "method": "Rogan-Gladen per round: pi_r = (p_obs_r + Sp_r - 1) / (Se_r + Sp_r - 1), clipped to [0, 1]; p_obs_r = blind-Opus ill-posed share among the round-r items of the 900; Se_r / Sp_r = blind-Opus sensitivity / specificity for ill-posed against the final human label on the 80 round-r items of the 240; D = 100 (pi_5 - pi_1). CI: each replicate pairs one stratified resample of the 900 (random.Random(20260948)) with one stratified resample of the 240 (random.Random(20260947)); a replicate with Se + Sp - 1 <= 0 in a round is dropped. The 240 are a subset of the 900; the two resamples are treated as independent (approximation).",
+  "per_round": {
+   "r1": {
+    "n_900": 300,
+    "p_obs": 0.51,
+    "n_human_illposed": 45,
+    "sensitivity": 0.9555555555555556,
+    "n_human_solvable": 35,
+    "specificity": 0.9714285714285714,
+    "pi_raw": 0.519349315068493,
+    "pi_clipped": 0.519349315068493
+   },
+   "r3": {
+    "n_900": 300,
+    "p_obs": 0.7833333333333333,
+    "n_human_illposed": 63,
+    "sensitivity": 1.0,
+    "n_human_solvable": 17,
+    "specificity": 0.7647058823529411,
+    "pi_raw": 0.7166666666666665,
+    "pi_clipped": 0.7166666666666665
+   },
+   "r5": {
+    "n_900": 300,
+    "p_obs": 0.7566666666666667,
+    "n_human_illposed": 61,
+    "sensitivity": 1.0,
+    "n_human_solvable": 19,
+    "specificity": 0.7894736842105263,
+    "pi_raw": 0.6917777777777777,
+    "pi_clipped": 0.6917777777777777
+   }
+  },
+  "D_uncorrected_900": {
+   "d_pts": 24.66666666666667,
+   "ci95_pts": [
+    17.333333333333336,
+    32.00000000000001
+   ],
+   "n_hi": 300,
+   "n_lo": 300,
+   "boot_valid_replicates": 4000
+  },
+  "D_corrected_900": {
+   "d_pts": 17.242846270928467,
+   "ci95_pts": [
+    2.8027210884354004,
+    28.07722674562056
+   ],
+   "n_hi": 300,
+   "n_lo": 300,
+   "boot_valid_replicates": 4000
+  },
+  "two_phase_method": "two-phase (double-sampling) estimator per round: pi_r = PPV_r * p_obs_r + (1 - NPV_r) * (1 - p_obs_r); PPV_r = human ill-posed share among the sampled round-r items that blind Opus calls ill-posed, 1 - NPV_r = human ill-posed share among the sampled round-r items that blind Opus calls solvable (the 240 were sampled 26-27 per 100 in every seed x round cell); D = 100 (pi_5 - pi_1). CI: one stratified resample of the 900 per replicate (random.Random(20260948)), carrying the human labels of the sampled items; a replicate with an undefined PPV or NPV in a round is dropped.",
+  "per_round_two_phase": {
+   "r1": {
+    "n_900": 300,
+    "p_obs": 0.51,
+    "n_sampled_judge_illposed": 44,
+    "ppv": 0.9772727272727273,
+    "n_sampled_judge_solvable": 36,
+    "one_minus_npv": 0.05555555555555555,
+    "pi": 0.5256313131313132
+   },
+   "r3": {
+    "n_900": 300,
+    "p_obs": 0.7833333333333333,
+    "n_sampled_judge_illposed": 67,
+    "ppv": 0.9402985074626865,
+    "n_sampled_judge_solvable": 13,
+    "one_minus_npv": 0.0,
+    "pi": 0.7365671641791044
+   },
+   "r5": {
+    "n_900": 300,
+    "p_obs": 0.7566666666666667,
+    "n_sampled_judge_illposed": 65,
+    "ppv": 0.9384615384615383,
+    "n_sampled_judge_solvable": 15,
+    "one_minus_npv": 0.0,
+    "pi": 0.710102564102564
+   }
+  },
+  "D_two_phase_900": {
+   "d_pts": 18.447125097125085,
+   "ci95_pts": [
+    9.128879892037789,
+    27.334899576193123
+   ],
+   "n_hi": 300,
+   "n_lo": 300,
+   "boot_valid_replicates": 4000
+  }
+ },
+ "descriptive": {
+  "note": "annotator notes are free text and are not coded; counts of final labels per round only",
+  "final_label_counts_by_round": {
+   "r1": {
+    "n": 80,
+    "S": 35,
+    "U_or_A": 45,
+    "U": 39,
+    "A": 6
+   },
+   "r3": {
+    "n": 80,
+    "S": 17,
+    "U_or_A": 63,
+    "U": 54,
+    "A": 9
+   },
+   "r5": {
+    "n": 80,
+    "S": 19,
+    "U_or_A": 61,
+    "U": 55,
+    "A": 6
+   }
+  },
+  "u_and_a_counts": "reported",
+  "items_per_seed_round": {
+   "s0_r1": 27,
+   "s0_r3": 27,
+   "s0_r5": 27,
+   "s1_r1": 27,
+   "s1_r3": 27,
+   "s1_r5": 27,
+   "s2_r1": 26,
+   "s2_r3": 26,
+   "s2_r5": 26
+  }
+ },
+ "integrity": {
+  "a7b_900": {
+   "n_items": 900,
+   "n_blind_valid": 900,
+   "n_blind_conflicting_duplicates": 0
+  },
+  "open_judge_file": {
+   "n_lines": 900,
+   "n_lines_without_valid_verdict": 0,
+   "n_conflicting_duplicate_keys": 0
+  },
+  "key_opus_original_differs_from_key_full": 0,
+  "key_opus_blind_differs_from_blind_verdicts": 0,
+  "n_key_opus_original_invalid": 0,
+  "n_key_opus_blind_invalid": 0,
+  "n_packet_text_differs_from_key_full_problem": 0,
+  "open_judge_join": "direct: verdicts.jsonl 'key' == key.json 'a7b_key' (both the A7b neutral item id)"
+ }
+}

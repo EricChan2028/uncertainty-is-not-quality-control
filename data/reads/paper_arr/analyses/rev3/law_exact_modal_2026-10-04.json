@@ -1,0 +1,333 @@
+{
+ "proxy_all": {
+  "beta": {
+   "SOLVABLE": 3.75,
+   "AMBIGUOUS": 1.6,
+   "UNSOLVABLE": 1.4
+  },
+  "train_s0": {
+   "observed": [
+    52.9,
+    70.5,
+    74.7,
+    77.9,
+    78.6,
+    81.2
+   ],
+   "per_class": [
+    51.0,
+    67.9,
+    77.0,
+    83.4,
+    82.8,
+    81.6
+   ],
+   "mae_per_class": 2.83,
+   "single_rate": [
+    51.0,
+    65.8,
+    66.7,
+    62.2,
+    62.2,
+    62.2
+   ],
+   "mae_single": 10.93,
+   "n": {
+    "SOLVABLE": 639,
+    "AMBIGUOUS": 180,
+    "UNSOLVABLE": 339
+   }
+  },
+  "heldout_s1": {
+   "observed": [
+    56.2,
+    75.4,
+    81.1,
+    82.5,
+    83.1,
+    82.0
+   ],
+   "per_class": [
+    53.8,
+    69.4,
+    79.0,
+    84.6,
+    84.0,
+    83.1
+   ],
+   "mae_per_class": 2.43,
+   "single_rate": [
+    53.8,
+    67.3,
+    70.0,
+    65.2,
+    65.2,
+    65.2
+   ],
+   "mae_single": 12.28,
+   "n": {
+    "SOLVABLE": 607,
+    "AMBIGUOUS": 178,
+    "UNSOLVABLE": 351
+   }
+  }
+ },
+ "exact_all": {
+  "beta": {
+   "SOLVABLE": 7.5,
+   "AMBIGUOUS": 1.8,
+   "UNSOLVABLE": 1.75
+  },
+  "train_s0": {
+   "observed": [
+    52.9,
+    70.5,
+    74.7,
+    77.9,
+    78.6,
+    81.2
+   ],
+   "per_class": [
+    55.1,
+    74.8,
+    83.8,
+    82.5,
+    79.9,
+    74.3
+   ],
+   "mae_per_class": 4.72,
+   "single_rate": [
+    55.1,
+    69.9,
+    67.4,
+    67.4,
+    67.4,
+    67.4
+   ],
+   "mae_single": 7.59,
+   "n": {
+    "SOLVABLE": 639,
+    "AMBIGUOUS": 180,
+    "UNSOLVABLE": 339
+   }
+  },
+  "heldout_s1": {
+   "observed": [
+    56.2,
+    75.4,
+    81.1,
+    82.5,
+    83.1,
+    82.0
+   ],
+   "per_class": [
+    57.8,
+    76.5,
+    85.4,
+    84.1,
+    81.9,
+    76.9
+   ],
+   "mae_per_class": 2.48,
+   "single_rate": [
+    57.8,
+    71.8,
+    70.2,
+    70.2,
+    70.2,
+    70.2
+   ],
+   "mae_single": 8.82,
+   "n": {
+    "SOLVABLE": 607,
+    "AMBIGUOUS": 178,
+    "UNSOLVABLE": 351
+   }
+  },
+  "ci95": {
+   "beta_SOLVABLE": [
+    3.85,
+    8.0
+   ],
+   "beta_AMBIGUOUS": [
+    1.65,
+    2.6
+   ],
+   "beta_UNSOLVABLE": [
+    1.65,
+    1.93
+   ]
+  },
+  "share_reps_beta_S_gt_max_A_U": 1.0
+ },
+ "proxy_untied": {
+  "beta": {
+   "SOLVABLE": 2.4,
+   "AMBIGUOUS": 1.55,
+   "UNSOLVABLE": 1.5
+  },
+  "train_s0": {
+   "observed": [
+    52.3,
+    69.1,
+    74.2,
+    78.5,
+    79.1,
+    79.7
+   ],
+   "per_class": [
+    47.5,
+    63.5,
+    74.4,
+    85.3,
+    99.6,
+    100.0
+   ],
+   "mae_per_class": 9.7,
+   "single_rate": [
+    47.5,
+    61.9,
+    71.4,
+    72.5,
+    72.4,
+    72.4
+   ],
+   "mae_single": 5.82,
+   "n": {
+    "SOLVABLE": 558,
+    "AMBIGUOUS": 133,
+    "UNSOLVABLE": 222
+   }
+  },
+  "heldout_s1": {
+   "observed": [
+    55.6,
+    72.8,
+    79.9,
+    80.5,
+    81.1,
+    78.6
+   ],
+   "per_class": [
+    50.0,
+    65.2,
+    75.0,
+    87.0,
+    99.7,
+    100.0
+   ],
+   "mae_per_class": 10.75,
+   "single_rate": [
+    50.0,
+    63.5,
+    71.7,
+    76.1,
+    77.1,
+    77.1
+   ],
+   "mae_single": 5.49,
+   "n": {
+    "SOLVABLE": 533,
+    "AMBIGUOUS": 135,
+    "UNSOLVABLE": 223
+   }
+  }
+ },
+ "exact_untied": {
+  "beta": {
+   "SOLVABLE": 2.55,
+   "AMBIGUOUS": 1.6,
+   "UNSOLVABLE": 1.55
+  },
+  "train_s0": {
+   "observed": [
+    52.3,
+    69.1,
+    74.2,
+    78.5,
+    79.1,
+    79.7
+   ],
+   "per_class": [
+    50.2,
+    66.2,
+    77.1,
+    89.8,
+    100.0,
+    100.0
+   ],
+   "mae_per_class": 10.06,
+   "single_rate": [
+    50.2,
+    63.8,
+    72.0,
+    72.4,
+    72.4,
+    72.4
+   ],
+   "mae_single": 4.95,
+   "n": {
+    "SOLVABLE": 558,
+    "AMBIGUOUS": 133,
+    "UNSOLVABLE": 222
+   }
+  },
+  "heldout_s1": {
+   "observed": [
+    55.6,
+    72.8,
+    79.9,
+    80.5,
+    81.1,
+    78.6
+   ],
+   "per_class": [
+    52.8,
+    67.9,
+    77.9,
+    91.2,
+    100.0,
+    100.0
+   ],
+   "mae_per_class": 10.1,
+   "single_rate": [
+    52.8,
+    65.5,
+    72.5,
+    76.7,
+    77.1,
+    77.1
+   ],
+   "mae_single": 4.47,
+   "n": {
+    "SOLVABLE": 533,
+    "AMBIGUOUS": 135,
+    "UNSOLVABLE": 223
+   }
+  },
+  "ci95": {
+   "beta_SOLVABLE": [
+    2.1,
+    2.75
+   ],
+   "beta_AMBIGUOUS": [
+    1.5,
+    1.7
+   ],
+   "beta_UNSOLVABLE": [
+    1.5,
+    1.6
+   ]
+  },
+  "share_reps_beta_S_gt_max_A_U": 1.0
+ },
+ "mean_exact_minus_proxy_at_base_s0": {
+  "SOLVABLE": 0.0504,
+  "AMBIGUOUS": 0.1257,
+  "UNSOLVABLE": 0.2379
+ },
+ "check_example_0.4_0.3_0.3": {
+  "exact": 0.98889966,
+  "proxy": 0.8851046400000001
+ }
+}

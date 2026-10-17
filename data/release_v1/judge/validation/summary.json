@@ -1,0 +1,178 @@
+{
+ "snapshot_time": "2026-09-24T17:07:57+08:00",
+ "umwp400": {
+  "n": 400,
+  "detection_unanswerable": 0.985,
+  "false_illposed_answerable": 0.045,
+  "kappa_binary": 0.94,
+  "agreement": 0.97,
+  "J_P1": true,
+  "detection_by_category": {
+   "1": 0.984,
+   "2": 1.0,
+   "3": 0.955,
+   "4": 1.0,
+   "5": 0.909
+  },
+  "confusion": {
+   "answerable": {
+    "SOLVABLE": 191,
+    "UNSOLVABLE": 3,
+    "AMBIGUOUS": 6
+   },
+   "unanswerable": {
+    "UNSOLVABLE": 191,
+    "AMBIGUOUS": 6,
+    "SOLVABLE": 3
+   }
+  },
+  "n_rows_released": 400
+ },
+ "tracer200": {
+  "tracer_intact": {
+   "n": 100,
+   "counts": {
+    "AMBIGUOUS": 8,
+    "SOLVABLE": 88,
+    "UNSOLVABLE": 4
+   },
+   "share": {
+    "AMBIGUOUS": 0.08,
+    "SOLVABLE": 0.88,
+    "UNSOLVABLE": 0.04
+   },
+   "mean_conf": {
+    "AMBIGUOUS": 0.575,
+    "SOLVABLE": 0.831,
+    "UNSOLVABLE": 0.662
+   },
+   "solvable_note_matches_intact_gold": 87,
+   "solvable_note_other_answer": 1
+  },
+  "tracer_deleted": {
+   "n": 100,
+   "counts": {
+    "UNSOLVABLE": 91,
+    "SOLVABLE": 8,
+    "AMBIGUOUS": 1
+   },
+   "share": {
+    "UNSOLVABLE": 0.91,
+    "SOLVABLE": 0.08,
+    "AMBIGUOUS": 0.01
+   },
+   "mean_conf": {
+    "UNSOLVABLE": 0.931,
+    "SOLVABLE": 0.694,
+    "AMBIGUOUS": 0.6
+   },
+   "solvable_note_matches_intact_gold": 0,
+   "solvable_note_other_answer": 8
+  },
+  "summary": {
+   "intact_judged_solvable": 0.88,
+   "deleted_judged_illposed": 0.92
+  },
+  "judges_saw_id_prefix": "trd: (premise deleted) / tri: (intact); items fetched from sample.jsonl in file order"
+ },
+ "rejudge": [
+  {
+   "run": "llama3p2_3b_own_a3_s3_r2",
+   "n": 200,
+   "agreement": 0.78,
+   "kappa3": 0.6384849231780463,
+   "agreement_binary": 0.9,
+   "kappa_binary": 0.7432935438326275,
+   "unsolvable_share": [
+    0.585,
+    0.485
+   ],
+   "illposed_share": [
+    0.735,
+    0.735
+   ],
+   "confusion": {
+    "UNSOLVABLE|UNSOLVABLE": 91,
+    "SOLVABLE|SOLVABLE": 43,
+    "SOLVABLE|AMBIGUOUS": 8,
+    "UNSOLVABLE|AMBIGUOUS": 20,
+    "AMBIGUOUS|AMBIGUOUS": 22,
+    "AMBIGUOUS|SOLVABLE": 4,
+    "SOLVABLE|UNSOLVABLE": 2,
+    "UNSOLVABLE|SOLVABLE": 6,
+    "AMBIGUOUS|UNSOLVABLE": 4
+   }
+  },
+  {
+   "run": "qwen3_4b_Base_own_a3_s0_r3",
+   "n": 200,
+   "agreement": 0.815,
+   "kappa3": 0.673505404809177,
+   "agreement_binary": 0.915,
+   "kappa_binary": 0.7583854462762935,
+   "unsolvable_share": [
+    0.645,
+    0.55
+   ],
+   "illposed_share": [
+    0.76,
+    0.785
+   ],
+   "confusion": {
+    "UNSOLVABLE|UNSOLVABLE": 106,
+    "AMBIGUOUS|AMBIGUOUS": 20,
+    "SOLVABLE|SOLVABLE": 37,
+    "UNSOLVABLE|SOLVABLE": 4,
+    "UNSOLVABLE|AMBIGUOUS": 19,
+    "AMBIGUOUS|SOLVABLE": 2,
+    "SOLVABLE|UNSOLVABLE": 3,
+    "SOLVABLE|AMBIGUOUS": 8,
+    "AMBIGUOUS|UNSOLVABLE": 1
+   }
+  }
+ ],
+ "human_packet150": {
+  "n": 150,
+  "opus_mix": {
+   "SOLVABLE": 50,
+   "AMBIGUOUS": 50,
+   "UNSOLVABLE": 50
+  },
+  "labels_on_server": false,
+  "key_in_release": false,
+  "note": "sealed packet for non-author annotation (50 items per Opus class, drifted rounds); its item key is withheld from this release until those labels are in"
+ },
+ "pool_vs_run_audit": [
+  {
+   "pool": "qwen_s0_r1",
+   "run": "qwen3_4b_Base_own_a3_s0_r1",
+   "n_overlap": 730,
+   "identical_verdicts": 598,
+   "kappa3": 0.71,
+   "kappa_binary": 0.786
+  },
+  {
+   "pool": "qwen_s1_r1",
+   "run": "qwen3_4b_Base_own_a3_s1_r1",
+   "n_overlap": 736,
+   "identical_verdicts": 622,
+   "kappa3": 0.75,
+   "kappa_binary": 0.844
+  }
+ ],
+ "same_text_in_several_audits": {
+  "texts_in_several_distinct_pools": 5831,
+  "different_three_way_verdict": 990,
+  "different_binary_verdict": 518,
+  "note": "problem texts that occur in more than one distinct admitted pool were judged by independent judge instances"
+ },
+ "expert_annotation_user_reported": {
+  "kappa_binary": 0.77,
+  "kappa_three_way": 0.69,
+  "status": "user-reported; comparison target (expert vs Opus or expert vs expert), item count, annotators and blinding not yet documented; no label file exists on the compute host; not part of this release",
+  "sources": [
+   "dirA4/docs/A4_verdict_2026-09-24.md",
+   "dirA4/docs/mechanism_note_2026-09-24.md"
+  ]
+ }
+}

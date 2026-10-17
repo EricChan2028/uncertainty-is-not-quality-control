@@ -1,0 +1,127 @@
+{
+ "base": {
+  "qwen3_4b_base": {
+   "paper_CA": 28.5,
+   "no_tie_at_top": 28.5,
+   ">=5": 17.5,
+   ">=6": 7.2,
+   ">=7": 2.8,
+   "8of8": 0.2,
+   "ties_among_CA": 0.0
+  }
+ },
+ "own_r3": {
+  "qwen3_4b_Base_own_a3_s0_r3": {
+   "paper_CA": 66.3,
+   "no_tie_at_top": 65.8,
+   ">=5": 49.3,
+   ">=6": 30.5,
+   ">=7": 18.0,
+   "8of8": 6.2,
+   "ties_among_CA": 0.5
+  },
+  "qwen3_4b_Base_own_a3_s1_r3": {
+   "paper_CA": 57.3,
+   "no_tie_at_top": 56.7,
+   ">=5": 40.2,
+   ">=6": 24.3,
+   ">=7": 13.7,
+   "8of8": 5.2,
+   "ties_among_CA": 0.7
+  },
+  "qwen3_4b_Base_own_a3_s2_r3": {
+   "paper_CA": 73.5,
+   "no_tie_at_top": 71.8,
+   ">=5": 51.2,
+   ">=6": 38.0,
+   ">=7": 24.2,
+   "8of8": 9.8,
+   "ties_among_CA": 1.7
+  },
+  "qwen3_4b_Base_own_a3_s3_r3": {
+   "paper_CA": 74.7,
+   "no_tie_at_top": 73.2,
+   ">=5": 54.2,
+   ">=6": 37.8,
+   ">=7": 24.8,
+   "8of8": 12.2,
+   "ties_among_CA": 1.5
+  },
+  "qwen3_4b_Base_own_a3_s4_r3": {
+   "paper_CA": 65.3,
+   "no_tie_at_top": 64.3,
+   ">=5": 45.5,
+   ">=6": 30.8,
+   ">=7": 17.5,
+   "8of8": 6.8,
+   "ties_among_CA": 1.0
+  }
+ },
+ "solvable_only_r3": {
+  "qwen3_4b_Base_own_clean_a3_s0_r3": {
+   "paper_CA": 50.5,
+   "no_tie_at_top": 49.8,
+   ">=5": 31.8,
+   ">=6": 20.0,
+   ">=7": 9.5,
+   "8of8": 3.3,
+   "ties_among_CA": 0.7
+  },
+  "qwen3_4b_Base_own_clean_a3_s1_r3": {
+   "paper_CA": 50.3,
+   "no_tie_at_top": 49.5,
+   ">=5": 33.5,
+   ">=6": 18.5,
+   ">=7": 10.2,
+   "8of8": 3.0,
+   "ties_among_CA": 0.8
+  },
+  "qwen3_4b_Base_own_clean_a3_s2_r3": {
+   "paper_CA": 53.5,
+   "no_tie_at_top": 53.3,
+   ">=5": 37.0,
+   ">=6": 21.0,
+   ">=7": 10.3,
+   "8of8": 3.2,
+   "ties_among_CA": 0.2
+  },
+  "qwen3_4b_Base_own_clean_a3_s3_r3": {
+   "paper_CA": 66.3,
+   "no_tie_at_top": 65.2,
+   ">=5": 48.0,
+   ">=6": 32.8,
+   ">=7": 19.8,
+   "8of8": 9.3,
+   "ties_among_CA": 1.2
+  }
+ },
+ "own_r5": {
+  "qwen3_4b_Base_own_a3_s0_r5": {
+   "paper_CA": 75.5,
+   "no_tie_at_top": 74.7,
+   ">=5": 55.3,
+   ">=6": 37.5,
+   ">=7": 23.7,
+   "8of8": 11.7,
+   "ties_among_CA": 0.8
+  },
+  "qwen3_4b_Base_own_a3_s1_r5": {
+   "paper_CA": 65.2,
+   "no_tie_at_top": 64.7,
+   ">=5": 44.7,
+   ">=6": 28.8,
+   ">=7": 16.3,
+   "8of8": 4.5,
+   "ties_among_CA": 0.5
+  },
+  "qwen3_4b_Base_own_a3_s2_r5": {
+   "paper_CA": 79.3,
+   "no_tie_at_top": 77.5,
+   ">=5": 61.8,
+   ">=6": 45.0,
+   ">=7": 31.8,
+   "8of8": 14.8,
+   "ties_among_CA": 1.8
+  }
+ }
+}

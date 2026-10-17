@@ -1,0 +1,13 @@
+{
+ "math500_train": {
+  "n": 500,
+  "greedy_acc": 0.296,
+  "maj_acc": 0.356,
+  "pass_k": 0.518,
+  "k": 8,
+  "mean_p_mode": 0.2455,
+  "sample_trunc": 0.035,
+  "mean_len": 434.028,
+  "model": "/root/models/Llama-3.2-3B-Instruct"
+ }
+}

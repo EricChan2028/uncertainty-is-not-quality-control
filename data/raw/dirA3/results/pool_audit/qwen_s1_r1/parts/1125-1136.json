@@ -1,0 +1,13 @@
+{"verdicts": [
+{"k": 1125, "id": "prop101:1125", "verdict": "UNSOLVABLE", "confidence": 0.8, "note": "Contradictory: '3 loads' said to be 5 regular plus 1 heavy load; count inconsistent."},
+{"k": 1126, "id": "prop101:1126", "verdict": "UNSOLVABLE", "confidence": 0.65, "note": "Spending 6000+4500=10500 exceeds 10000 budget; nothing remains, premise contradicted (-500)."},
+{"k": 1127, "id": "prop101:1127", "verdict": "SOLVABLE", "confidence": 0.9, "note": "20-2*7=6 feet left."},
+{"k": 1128, "id": "prop101:1128", "verdict": "SOLVABLE", "confidence": 0.9, "note": "6*(25*5+15*2)=930 beds."},
+{"k": 1129, "id": "prop101:1129", "verdict": "SOLVABLE", "confidence": 0.6, "note": "Taking the 7 shop visitors as buyers: (45-7)/2=19."},
+{"k": 1130, "id": "prop101:1130", "verdict": "SOLVABLE", "confidence": 0.7, "note": "Houses 1,6,11,16 -> 4 houses."},
+{"k": 1131, "id": "prop101:1131", "verdict": "SOLVABLE", "confidence": 0.95, "note": "(10-1)/0.5=18 candies."},
+{"k": 1132, "id": "prop101:1132", "verdict": "SOLVABLE", "confidence": 0.9, "note": "2.50+6*0.25=$4.00."},
+{"k": 1133, "id": "prop101:1133", "verdict": "SOLVABLE", "confidence": 0.5, "note": "Needs 3*180=540 mL, has 2400 mL; enough, 0 more needed. Wording muddled."},
+{"k": 1134, "id": "prop101:1134", "verdict": "SOLVABLE", "confidence": 0.7, "note": "210+1250+10 tip=$1470; trailing meta text ignored."},
+{"k": 1135, "id": "prop101:1135", "verdict": "AMBIGUOUS", "confidence": 0.75, "note": "Two questions; cost split among 3 (4.80) or 2 friends (7.20); pencils 5."}
+]}

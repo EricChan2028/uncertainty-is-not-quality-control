@@ -1,0 +1,47 @@
+{
+ "history": [
+  {
+   "time": "2026-09-27 03:30:01 CST",
+   "host": "<NODE>",
+   "state": "running",
+   "gpu": "7",
+   "model": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r2/final",
+   "script_sha256": "fb9156b0ef6a685029c14c2ca52c4f17b6f0302a97c657c43cffeec1945d97d7",
+   "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r2/final",
+   "start_ckpt_sha_ok": true,
+   "set_sha256": "a4cd93eb55911a77b8adfd6fb5a0ac41d6b28718cc2e348807863fb285e0e64c",
+   "attempt": 1
+  },
+  {
+   "time": "2026-09-27 04:52:06 CST",
+   "host": "<NODE>",
+   "state": "complete",
+   "gpu": "-",
+   "model": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r2/final",
+   "script_sha256": "fb9156b0ef6a685029c14c2ca52c4f17b6f0302a97c657c43cffeec1945d97d7",
+   "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r2/final",
+   "start_ckpt_sha_ok": true,
+   "set_sha256": "a4cd93eb55911a77b8adfd6fb5a0ac41d6b28718cc2e348807863fb285e0e64c",
+   "n_resumes": 0,
+   "resumes": [],
+   "config_sha256": "633e9d1ac48569e4701d84a752b3268773f0bf88606d9daec7df74c88245b0a1",
+   "n_attempts": 0,
+   "n_yields": 0
+  }
+ ],
+ "registration": "A13",
+ "cell": "train:0",
+ "state": "complete",
+ "host": "<NODE>",
+ "model": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r2/final",
+ "script_sha256": "fb9156b0ef6a685029c14c2ca52c4f17b6f0302a97c657c43cffeec1945d97d7",
+ "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r2/final",
+ "start_ckpt_sha_ok": true,
+ "set_sha256": "a4cd93eb55911a77b8adfd6fb5a0ac41d6b28718cc2e348807863fb285e0e64c",
+ "attempt": 1,
+ "n_resumes": 0,
+ "resumes": [],
+ "config_sha256": "633e9d1ac48569e4701d84a752b3268773f0bf88606d9daec7df74c88245b0a1",
+ "n_attempts": 0,
+ "n_yields": 0
+}

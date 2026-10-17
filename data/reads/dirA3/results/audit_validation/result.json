@@ -1,0 +1,46 @@
+{
+ "tracer_intact": {
+  "n": 100,
+  "counts": {
+   "AMBIGUOUS": 8,
+   "SOLVABLE": 88,
+   "UNSOLVABLE": 4
+  },
+  "share": {
+   "AMBIGUOUS": 0.08,
+   "SOLVABLE": 0.88,
+   "UNSOLVABLE": 0.04
+  },
+  "mean_conf": {
+   "AMBIGUOUS": 0.575,
+   "SOLVABLE": 0.831,
+   "UNSOLVABLE": 0.662
+  },
+  "solvable_note_matches_intact_gold": 87,
+  "solvable_note_other_answer": 1
+ },
+ "tracer_deleted": {
+  "n": 100,
+  "counts": {
+   "UNSOLVABLE": 91,
+   "SOLVABLE": 8,
+   "AMBIGUOUS": 1
+  },
+  "share": {
+   "UNSOLVABLE": 0.91,
+   "SOLVABLE": 0.08,
+   "AMBIGUOUS": 0.01
+  },
+  "mean_conf": {
+   "UNSOLVABLE": 0.931,
+   "SOLVABLE": 0.694,
+   "AMBIGUOUS": 0.6
+  },
+  "solvable_note_matches_intact_gold": 0,
+  "solvable_note_other_answer": 8
+ },
+ "summary": {
+  "intact_judged_solvable": 0.88,
+  "deleted_judged_illposed": 0.92
+ }
+}

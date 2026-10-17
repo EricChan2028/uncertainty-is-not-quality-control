@@ -1,0 +1,200 @@
+{"id": "trd:282:4", "kind": "tracer_deleted", "fam": 282, "task": 4, "audit_k": 0, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Friday exercise time is never given."}
+{"id": "tri:237:7", "kind": "tracer_intact", "fam": 237, "task": 7, "audit_k": 1, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.6, "opus_note": "20 pears initial vs final unclear; '17 fewer than pears' bought(49) or total(69): 281 vs 301."}
+{"id": "trd:296:7", "kind": "tracer_deleted", "fam": 296, "task": 7, "audit_k": 2, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Comet period missing; cannot get first-sighting age from second at 84."}
+{"id": "trd:356:7", "kind": "tracer_deleted", "fam": 356, "task": 7, "audit_k": 3, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.85, "opus_note": "Mentions 3 groups but only volleyball group defined; other groups missing."}
+{"id": "tri:355:2", "kind": "tracer_intact", "fam": 355, "task": 2, "audit_k": 4, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "625*0.2=125 interviews, *0.48=60 offers, /5 = 12 accept."}
+{"id": "tri:32:5", "kind": "tracer_intact", "fam": 32, "task": 5, "audit_k": 5, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "172+136+344 = 652 watermelons."}
+{"id": "trd:346:4", "kind": "tracer_deleted", "fam": 346, "task": 4, "audit_k": 6, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Tax rate not given; weeks in April also unspecified."}
+{"id": "tri:195:2", "kind": "tracer_intact", "fam": 195, "task": 2, "audit_k": 7, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "247-(71+42+34) = 100 bouncy balls."}
+{"id": "tri:419:4", "kind": "tracer_intact", "fam": 419, "task": 4, "audit_k": 8, "opus_verdict": "SOLVABLE", "opus_confidence": 0.6, "opus_note": "6h-2 free=4 paid: 29+3*58+13 = 216 (doubling reading gives 448)."}
+{"id": "tri:411:3", "kind": "tracer_intact", "fam": 411, "task": 3, "audit_k": 9, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.6, "opus_note": "37 pears initial vs final unclear; '22 fewer than pears' 47 or 84: 462 vs 499."}
+{"id": "tri:440:4", "kind": "tracer_intact", "fam": 440, "task": 4, "audit_k": 10, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "Isabella 54, average (30+54)/2 = 42."}
+{"id": "trd:322:7", "kind": "tracer_deleted", "fam": 322, "task": 7, "audit_k": 11, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Apricot yield per square yard per harvest missing."}
+{"id": "tri:226:2", "kind": "tracer_intact", "fam": 226, "task": 2, "audit_k": 12, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "54-18 dropped +17 found -5 beads = 48."}
+{"id": "tri:137:6", "kind": "tracer_intact", "fam": 137, "task": 6, "audit_k": 13, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.6, "opus_note": "Needs 56 h but only 50 work hours; 112% contradicts; 'day' unclear."}
+{"id": "trd:303:6", "kind": "tracer_deleted", "fam": 303, "task": 6, "audit_k": 14, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Calories per serving/gram never given."}
+{"id": "trd:211:4", "kind": "tracer_deleted", "fam": 211, "task": 4, "audit_k": 15, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Price of a loaf of bread missing."}
+{"id": "tri:85:1", "kind": "tracer_intact", "fam": 85, "task": 1, "audit_k": 16, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "Friend 4*20-8=72; together 92."}
+{"id": "trd:159:4", "kind": "tracer_deleted", "fam": 159, "task": 4, "audit_k": 17, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Comet period missing; first-sighting age undetermined."}
+{"id": "tri:238:4", "kind": "tracer_intact", "fam": 238, "task": 4, "audit_k": 18, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "Amelia 33, Luca 165; (66+33+165)/3 = 88."}
+{"id": "trd:87:3", "kind": "tracer_deleted", "fam": 87, "task": 3, "audit_k": 19, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Cold-day base time and hot-day relation missing."}
+{"id": "tri:351:7", "kind": "tracer_intact", "fam": 351, "task": 7, "audit_k": 20, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "259-7*28 = 63 bananas left over."}
+{"id": "trd:365:4", "kind": "tracer_deleted", "fam": 365, "task": 4, "audit_k": 21, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Liam's egg count missing."}
+{"id": "trd:190:5", "kind": "tracer_deleted", "fam": 190, "task": 5, "audit_k": 22, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Price of sourdough loaf missing."}
+{"id": "trd:196:4", "kind": "tracer_deleted", "fam": 196, "task": 4, "audit_k": 23, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Total toy count or ball count never given."}
+{"id": "tri:216:1", "kind": "tracer_intact", "fam": 216, "task": 1, "audit_k": 24, "opus_verdict": "SOLVABLE", "opus_confidence": 0.7, "opus_note": "130/13=10 plants, buy 5: 5*14-10 = 60 yen."}
+{"id": "trd:247:4", "kind": "tracer_deleted", "fam": 247, "task": 4, "audit_k": 25, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Initial number of beads Liam carried is never given."}
+{"id": "trd:117:4", "kind": "tracer_deleted", "fam": 117, "task": 4, "audit_k": 26, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Initial number of marbles never given."}
+{"id": "trd:419:4", "kind": "tracer_deleted", "fam": 419, "task": 4, "audit_k": 27, "opus_verdict": "SOLVABLE", "opus_confidence": 0.65, "opus_note": "6h, 4 paid: 29+3*58=203 (GSM8K reading); compounding reading would give 435."}
+{"id": "tri:33:5", "kind": "tracer_intact", "fam": 33, "task": 5, "audit_k": 28, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "Santiago 86, average (68+86)/2=77."}
+{"id": "trd:237:7", "kind": "tracer_deleted", "fam": 237, "task": 7, "audit_k": 29, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Initial number of pears (or watermelons) never given."}
+{"id": "trd:127:7", "kind": "tracer_deleted", "fam": 127, "task": 7, "audit_k": 30, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "11*5+10*6+15*6=205."}
+{"id": "trd:71:7", "kind": "tracer_deleted", "fam": 71, "task": 7, "audit_k": 31, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Only ratios given; no absolute quantity of any ingredient."}
+{"id": "tri:93:5", "kind": "tracer_intact", "fam": 93, "task": 5, "audit_k": 32, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "126/18=7 plants, buy 2 (not more than 2, no discount): 2*13=$26."}
+{"id": "trd:34:4", "kind": "tracer_deleted", "fam": 34, "task": 4, "audit_k": 33, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Calories per serving missing; 450 remaining calories cannot convert to grams."}
+{"id": "tri:441:4", "kind": "tracer_intact", "fam": 441, "task": 4, "audit_k": 34, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "108-(7+28+24+6)=43."}
+{"id": "tri:190:5", "kind": "tracer_intact", "fam": 190, "task": 5, "audit_k": 35, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "27-6=21 yen."}
+{"id": "trd:134:7", "kind": "tracer_deleted", "fam": 134, "task": 7, "audit_k": 36, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "990 pomegranates total but box size never given."}
+{"id": "trd:351:7", "kind": "tracer_deleted", "fam": 351, "task": 7, "audit_k": 37, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.8, "opus_note": "Basket capacity missing; equal split would give 0 only by assumption."}
+{"id": "trd:177:4", "kind": "tracer_deleted", "fam": 177, "task": 4, "audit_k": 38, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "No information about bouncy balls or total toys."}
+{"id": "tri:435:4", "kind": "tracer_intact", "fam": 435, "task": 4, "audit_k": 39, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Warm 2*28+3=59 min/mile; 5*(59-28)=155 minutes."}
+{"id": "trd:33:5", "kind": "tracer_deleted", "fam": 33, "task": 5, "audit_k": 40, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Santiago's age or age gap missing."}
+{"id": "tri:116:6", "kind": "tracer_intact", "fam": 116, "task": 6, "audit_k": 41, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Daily 58+232+145=435; 7 days gives 3045 customers."}
+{"id": "trd:444:7", "kind": "tracer_deleted", "fam": 444, "task": 7, "audit_k": 42, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Cold-water time per kilometer never given."}
+{"id": "tri:127:7", "kind": "tracer_intact", "fam": 127, "task": 7, "audit_k": 43, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "205*0.8=164."}
+{"id": "trd:371:2", "kind": "tracer_deleted", "fam": 371, "task": 2, "audit_k": 44, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Monday's pick count missing (Wednesday depends on it)."}
+{"id": "tri:303:6", "kind": "tracer_intact", "fam": 303, "task": 6, "audit_k": 45, "opus_verdict": "SOLVABLE", "opus_confidence": 0.65, "opus_note": "Remaining 2150-1725+50=475 = one serving = 25 grams."}
+{"id": "trd:176:4", "kind": "tracer_deleted", "fam": 176, "task": 4, "audit_k": 46, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "972 grapes total but grapes per box never given."}
+{"id": "trd:34:5", "kind": "tracer_deleted", "fam": 34, "task": 5, "audit_k": 47, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Calories per serving missing."}
+{"id": "tri:118:7", "kind": "tracer_intact", "fam": 118, "task": 7, "audit_k": 48, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Friends found 150-78-18=54, i.e. 36%."}
+{"id": "trd:343:4", "kind": "tracer_deleted", "fam": 343, "task": 4, "audit_k": 49, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Cold-water time per mile never given."}
+{"id": "tri:230:3", "kind": "tracer_intact", "fam": 230, "task": 3, "audit_k": 50, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "6*(30+53)=498 minutes."}
+{"id": "trd:122:5", "kind": "tracer_deleted", "fam": 122, "task": 5, "audit_k": 51, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Needs 7 more plants but price per plant never given."}
+{"id": "trd:216:1", "kind": "tracer_deleted", "fam": 216, "task": 1, "audit_k": 52, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Needs 5 more plants but price per plant never given."}
+{"id": "trd:256:4", "kind": "tracer_deleted", "fam": 256, "task": 4, "audit_k": 53, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Monday's exercise time missing."}
+{"id": "trd:116:1", "kind": "tracer_deleted", "fam": 116, "task": 1, "audit_k": 54, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "No daily customer count for anyone given."}
+{"id": "trd:440:4", "kind": "tracer_deleted", "fam": 440, "task": 4, "audit_k": 55, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Isabella's age or age gap missing."}
+{"id": "tri:96:7", "kind": "tracer_intact", "fam": 96, "task": 7, "audit_k": 56, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "(91+910)*7=7007 customers."}
+{"id": "tri:444:7", "kind": "tracer_intact", "fam": 444, "task": 7, "audit_k": 57, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Warm=2*22+3=47; hot day = warm water; 7*(47-22)=175 minutes."}
+{"id": "tri:326:7", "kind": "tracer_intact", "fam": 326, "task": 7, "audit_k": 58, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "223-71-35-28=89 bouncy balls."}
+{"id": "tri:236:6", "kind": "tracer_intact", "fam": 236, "task": 6, "audit_k": 59, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "120*12min=24h over 5 days=4.8h/day of 16h = 30%."}
+{"id": "trd:137:6", "kind": "tracer_deleted", "fam": 137, "task": 6, "audit_k": 60, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Time per floor missing."}
+{"id": "tri:148:5", "kind": "tracer_intact", "fam": 148, "task": 5, "audit_k": 61, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.65, "opus_note": "38 apples initial vs final; '10 fewer than apples' bought vs total; e.g. 294 vs others."}
+{"id": "tri:296:7", "kind": "tracer_intact", "fam": 296, "task": 7, "audit_k": 62, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "2*42-51=33 years old."}
+{"id": "tri:108:1", "kind": "tracer_intact", "fam": 108, "task": 1, "audit_k": 63, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "2*40-65=15 years old."}
+{"id": "trd:70:3", "kind": "tracer_deleted", "fam": 70, "task": 3, "audit_k": 64, "opus_verdict": "SOLVABLE", "opus_confidence": 0.6, "opus_note": "5h, 3 paid: 50+100+100=250 euros (doubling reading would give 350)."}
+{"id": "tri:197:4", "kind": "tracer_intact", "fam": 197, "task": 4, "audit_k": 65, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "Luca 42; average (16+42)/2=29."}
+{"id": "trd:107:1", "kind": "tracer_deleted", "fam": 107, "task": 1, "audit_k": 66, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.98, "opus_note": "His marble count never given; no referent."}
+{"id": "tri:159:4", "kind": "tracer_intact", "fam": 159, "task": 4, "audit_k": 67, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "2*40-50=30 years old."}
+{"id": "tri:418:7", "kind": "tracer_intact", "fam": 418, "task": 7, "audit_k": 68, "opus_verdict": "SOLVABLE", "opus_confidence": 0.6, "opus_note": "February=4 weeks: 4*(1680+425)=8420, after 40% tax 5052."}
+{"id": "tri:286:7", "kind": "tracer_intact", "fam": 286, "task": 7, "audit_k": 69, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Lost (8+3)*80=880 minus fee 84 = 796 lira."}
+{"id": "trd:95:7", "kind": "tracer_deleted", "fam": 95, "task": 7, "audit_k": 70, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Comet period and Andre's first sighting relation missing."}
+{"id": "trd:445:2", "kind": "tracer_deleted", "fam": 445, "task": 2, "audit_k": 71, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Tuesday's exercise time missing."}
+{"id": "trd:269:6", "kind": "tracer_deleted", "fam": 269, "task": 6, "audit_k": 72, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Time per room missing."}
+{"id": "trd:50:4", "kind": "tracer_deleted", "fam": 50, "task": 4, "audit_k": 73, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.85, "opus_note": "Third-year price change not given."}
+{"id": "trd:395:4", "kind": "tracer_deleted", "fam": 395, "task": 4, "audit_k": 74, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Cold-water swim time missing."}
+{"id": "tri:274:6", "kind": "tracer_intact", "fam": 274, "task": 6, "audit_k": 75, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "126/14=9 plants, buy 4 at 11 = 44, minus 7 discount = 37 yen."}
+{"id": "trd:197:4", "kind": "tracer_deleted", "fam": 197, "task": 4, "audit_k": 76, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Luca's age is never given; only that he is older."}
+{"id": "trd:286:7", "kind": "tracer_deleted", "fam": 286, "task": 7, "audit_k": 77, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.85, "opus_note": "Lost income 11h*80=880, but the tax consultant's fee is missing."}
+{"id": "trd:289:1", "kind": "tracer_deleted", "fam": 289, "task": 1, "audit_k": 78, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Price is per box but number of bananas per box is not given."}
+{"id": "tri:289:1", "kind": "tracer_intact", "fam": 289, "task": 1, "audit_k": 79, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "181+185+362+364=1092 bananas, /28 = 39 boxes, $390."}
+{"id": "trd:411:3", "kind": "tracer_deleted", "fam": 411, "task": 3, "audit_k": 80, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Only ratio 9:1 given; initial number of pears or bananas missing."}
+{"id": "trd:35:5", "kind": "tracer_deleted", "fam": 35, "task": 5, "audit_k": 81, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "His own pencil count is never given."}
+{"id": "trd:273:3", "kind": "tracer_deleted", "fam": 273, "task": 3, "audit_k": 82, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.6, "opus_note": "Gym leg double of 11 (22) or of 11+46 coffee (114): 117 vs 25 min."}
+{"id": "tri:313:2", "kind": "tracer_intact", "fam": 313, "task": 2, "audit_k": 83, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "7900-1721-1413 = 4766 blueberry biscuits."}
+{"id": "tri:71:7", "kind": "tracer_intact", "fam": 71, "task": 7, "audit_k": 84, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "Sugar 4x, water 3x, milk 3.5x, cream 8x; 18.5x=185, sugar 40."}
+{"id": "tri:343:4", "kind": "tracer_intact", "fam": 343, "task": 4, "audit_k": 85, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Warm 2*18+3=39 min/mile; hot=warm; (39-18)*4 = 84 minutes."}
+{"id": "tri:371:2", "kind": "tracer_intact", "fam": 371, "task": 2, "audit_k": 86, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "398+114+1194=1706, Thursday 853, total 2559."}
+{"id": "trd:313:2", "kind": "tracer_deleted", "fam": 313, "task": 2, "audit_k": 87, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Total biscuit count missing; blueberry count undetermined."}
+{"id": "tri:122:5", "kind": "tracer_intact", "fam": 122, "task": 5, "audit_k": 88, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "144/12=12 plants, buy 7 at 4 = 28, minus 5 discount = 23 euros."}
+{"id": "tri:269:6", "kind": "tracer_intact", "fam": 269, "task": 6, "audit_k": 89, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "60*16=960 min=16 h over 10 days = 1.6 of 10 h/day = 16%."}
+{"id": "tri:70:3", "kind": "tracer_intact", "fam": 70, "task": 3, "audit_k": 90, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.55, "opus_note": "3 paid hours: 50+100+100+5=255 or doubling 50+100+200+5=355."}
+{"id": "trd:393:3", "kind": "tracer_deleted", "fam": 393, "task": 3, "audit_k": 91, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "His own marble count is never given."}
+{"id": "tri:273:3", "kind": "tracer_intact", "fam": 273, "task": 3, "audit_k": 92, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.5, "opus_note": "Gym leg 22 gives 80 min left; counting coffee (114) gives -12."}
+{"id": "trd:244:2", "kind": "tracer_deleted", "fam": 244, "task": 2, "audit_k": 93, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Number of floors to clean is missing."}
+{"id": "trd:238:4", "kind": "tracer_deleted", "fam": 238, "task": 4, "audit_k": 94, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Amelia's friend count is missing; average is 8A/3."}
+{"id": "tri:444:2", "kind": "tracer_intact", "fam": 444, "task": 2, "audit_k": 95, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Warm 2*22+7=51 min/km; (51-22)*8 = 232 minutes."}
+{"id": "tri:410:1", "kind": "tracer_intact", "fam": 410, "task": 1, "audit_k": 96, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "12 pals*3*11=396 pages*5 min=1980 min = 33 hours."}
+{"id": "trd:100:5", "kind": "tracer_deleted", "fam": 100, "task": 5, "audit_k": 97, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Needs 5 plants but the price per plant is missing."}
+{"id": "tri:34:4", "kind": "tracer_intact", "fam": 34, "task": 4, "audit_k": 98, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "450 cal left = 2 servings of 60 g = 120 grams."}
+{"id": "tri:117:4", "kind": "tracer_intact", "fam": 117, "task": 4, "audit_k": 99, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Keeps 20, recovers 14 of which 4 marbles: 24 marbles."}
+{"id": "tri:203:6", "kind": "tracer_intact", "fam": 203, "task": 6, "audit_k": 100, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "84 - (14+28+24+8) = 10 eggs still hidden."}
+{"id": "trd:430:3", "kind": "tracer_deleted", "fam": 430, "task": 3, "audit_k": 101, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Asks after-tax pay but no tax rate given; weeks in July also unspecified."}
+{"id": "tri:356:7", "kind": "tracer_intact", "fam": 356, "task": 7, "audit_k": 102, "opus_verdict": "SOLVABLE", "opus_confidence": 0.55, "opus_note": "10 volleyball + 7 choir/robotics + 9 cheerleaders = 26; group phrasing shaky."}
+{"id": "trd:108:1", "kind": "tracer_deleted", "fam": 108, "task": 1, "audit_k": 103, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Comet period not given; cannot get Oliver's first-sighting age."}
+{"id": "tri:173:1", "kind": "tracer_intact", "fam": 173, "task": 1, "audit_k": 104, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "26 per person; 130/26 = 5 people incl. Tara, so 4 friends."}
+{"id": "tri:392:6", "kind": "tracer_intact", "fam": 392, "task": 6, "audit_k": 105, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "320*0.5=160, *0.15=24 offers, *4/6 = 16 accept."}
+{"id": "tri:322:7", "kind": "tracer_intact", "fam": 322, "task": 7, "audit_k": 106, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "65*99=6435 per harvest, 3 harvests/year = 19305."}
+{"id": "tri:430:3", "kind": "tracer_intact", "fam": 430, "task": 3, "audit_k": 107, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.6, "opus_note": "Weeks/workdays in July unspecified; 4-week assumption gives 5814."}
+{"id": "tri:231:7", "kind": "tracer_intact", "fam": 231, "task": 7, "audit_k": 108, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "Home-gym 59 min; 59*3=177 used; 242-177 = 65 minutes left."}
+{"id": "tri:440:7", "kind": "tracer_intact", "fam": 440, "task": 7, "audit_k": 109, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "Kai = 68; average (44+68)/2 = 56."}
+{"id": "trd:392:6", "kind": "tracer_deleted", "fam": 392, "task": 6, "audit_k": 110, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Fraction of interviewees receiving offers is missing."}
+{"id": "tri:216:2", "kind": "tracer_intact", "fam": 216, "task": 2, "audit_k": 111, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "144/12=12 plants, buy 7: 7*14-7 = 91 yen."}
+{"id": "trd:185:4", "kind": "tracer_deleted", "fam": 185, "task": 4, "audit_k": 112, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Flower bed length not given."}
+{"id": "trd:173:1", "kind": "tracer_deleted", "fam": 173, "task": 1, "audit_k": 113, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Roller coaster ride price missing."}
+{"id": "trd:280:1", "kind": "tracer_deleted", "fam": 280, "task": 1, "audit_k": 114, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Watermelons per hectare not given."}
+{"id": "tri:100:5", "kind": "tracer_intact", "fam": 100, "task": 5, "audit_k": 115, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "140/14=10 plants, buy 5: 5*12-5 = 55 euros."}
+{"id": "trd:410:1", "kind": "tracer_deleted", "fam": 410, "task": 1, "audit_k": 116, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Writing speed (pages per hour) not given."}
+{"id": "trd:277:2", "kind": "tracer_deleted", "fam": 277, "task": 2, "audit_k": 117, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.55, "opus_note": "Sugar calories not given; ignoring sugar gives 384."}
+{"id": "trd:116:6", "kind": "tracer_deleted", "fam": 116, "task": 6, "audit_k": 118, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "No base rate, hours, or units of production given."}
+{"id": "tri:445:2", "kind": "tracer_intact", "fam": 445, "task": 2, "audit_k": 119, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "6*(37+43)=480 min = 8 hours."}
+{"id": "tri:254:1", "kind": "tracer_intact", "fam": 254, "task": 1, "audit_k": 120, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.55, "opus_note": "7.5 h/day cleaning: 50% of 15h workday or 31.25% of 24h."}
+{"id": "tri:34:5", "kind": "tracer_intact", "fam": 34, "task": 5, "audit_k": 121, "opus_verdict": "SOLVABLE", "opus_confidence": 0.6, "opus_note": "1290/225 servings * 30 oz = 172 oz (exceeds one 150 oz bag)."}
+{"id": "tri:301:4", "kind": "tracer_intact", "fam": 301, "task": 4, "audit_k": 122, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "750/250 = 3 servings * 35 oz = 105 oz."}
+{"id": "tri:256:4", "kind": "tracer_intact", "fam": 256, "task": 4, "audit_k": 123, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "3*(41+39)=240 min = 4 hours."}
+{"id": "trd:14:5", "kind": "tracer_deleted", "fam": 14, "task": 5, "audit_k": 124, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "6*10 + 14*5 + 15*2 = $160."}
+{"id": "trd:230:3", "kind": "tracer_deleted", "fam": 230, "task": 3, "audit_k": 125, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Thursday exercise time missing."}
+{"id": "trd:326:7", "kind": "tracer_deleted", "fam": 326, "task": 7, "audit_k": 126, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.98, "opus_note": "No total or relation given for bouncy balls."}
+{"id": "trd:85:1", "kind": "tracer_deleted", "fam": 85, "task": 1, "audit_k": 127, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.98, "opus_note": "His own book count missing."}
+{"id": "trd:203:6", "kind": "tracer_deleted", "fam": 203, "task": 6, "audit_k": 128, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Liam's egg count missing."}
+{"id": "trd:231:7", "kind": "tracer_deleted", "fam": 231, "task": 7, "audit_k": 129, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Time to gym and gym-to-store time missing."}
+{"id": "tri:365:4", "kind": "tracer_intact", "fam": 365, "task": 4, "audit_k": 130, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "72-(9+18+14+7)=24."}
+{"id": "tri:99:4", "kind": "tracer_intact", "fam": 99, "task": 4, "audit_k": 131, "opus_verdict": "SOLVABLE", "opus_confidence": 0.88, "opus_note": "Total 612, 36 boxes x $13 = $468."}
+{"id": "tri:107:1", "kind": "tracer_intact", "fam": 107, "task": 1, "audit_k": 132, "opus_verdict": "SOLVABLE", "opus_confidence": 0.88, "opus_note": "18+14=32."}
+{"id": "tri:247:4", "kind": "tracer_intact", "fam": 247, "task": 4, "audit_k": 133, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "36-24=12, +19=31, -3=28, +9=37."}
+{"id": "tri:211:4", "kind": "tracer_intact", "fam": 211, "task": 4, "audit_k": 134, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "14-5=$9."}
+{"id": "trd:112:7", "kind": "tracer_deleted", "fam": 112, "task": 7, "audit_k": 135, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.98, "opus_note": "Ali's current age missing."}
+{"id": "trd:202:3", "kind": "tracer_deleted", "fam": 202, "task": 3, "audit_k": 136, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.98, "opus_note": "Peanut butter count or total missing."}
+{"id": "trd:33:6", "kind": "tracer_deleted", "fam": 33, "task": 6, "audit_k": 137, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.98, "opus_note": "Yara's age or age gap missing."}
+{"id": "trd:195:2", "kind": "tracer_deleted", "fam": 195, "task": 2, "audit_k": 138, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.98, "opus_note": "No total or relation given for bouncy balls."}
+{"id": "trd:274:6", "kind": "tracer_deleted", "fam": 274, "task": 6, "audit_k": 139, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Plant price missing; spacing text garbled."}
+{"id": "tri:395:4", "kind": "tracer_intact", "fam": 395, "task": 4, "audit_k": 140, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "Warm 2*25+2=52/km; 416-50=366 minutes."}
+{"id": "tri:33:6", "kind": "tracer_intact", "fam": 33, "task": 6, "audit_k": 141, "opus_verdict": "SOLVABLE", "opus_confidence": 0.95, "opus_note": "Yara 80; average 71."}
+{"id": "tri:280:1", "kind": "tracer_intact", "fam": 280, "task": 1, "audit_k": 142, "opus_verdict": "SOLVABLE", "opus_confidence": 0.82, "opus_note": "1700 per harvest x 3 harvests = 5100."}
+{"id": "trd:37:1", "kind": "tracer_deleted", "fam": 37, "task": 1, "audit_k": 143, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Calories per serving missing."}
+{"id": "tri:176:4", "kind": "tracer_intact", "fam": 176, "task": 4, "audit_k": 144, "opus_verdict": "SOLVABLE", "opus_confidence": 0.88, "opus_note": "Total 972, 36 boxes x $14 = $504."}
+{"id": "trd:247:2", "kind": "tracer_deleted", "fam": 247, "task": 2, "audit_k": 145, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Initial marble count missing."}
+{"id": "tri:244:2", "kind": "tracer_intact", "fam": 244, "task": 2, "audit_k": 146, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "135x12=1620 min over 3x540 min = 100%."}
+{"id": "trd:203:4", "kind": "tracer_deleted", "fam": 203, "task": 4, "audit_k": 147, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.97, "opus_note": "Liam's egg count missing."}
+{"id": "trd:163:7", "kind": "tracer_deleted", "fam": 163, "task": 7, "audit_k": 148, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Fraction of interviewees receiving offers missing."}
+{"id": "tri:202:3", "kind": "tracer_intact", "fam": 202, "task": 3, "audit_k": 149, "opus_verdict": "SOLVABLE", "opus_confidence": 0.93, "opus_note": "3233/6100 = 53%."}
+{"id": "trd:148:5", "kind": "tracer_deleted", "fam": 148, "task": 5, "audit_k": 150, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Initial apple/kiwi counts never given; purchase phrasing also unclear."}
+{"id": "tri:334:4", "kind": "tracer_intact", "fam": 334, "task": 4, "audit_k": 151, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "52/2=26 kept, +12 found, -8 pebbles, +9 = 39."}
+{"id": "trd:421:5", "kind": "tracer_deleted", "fam": 421, "task": 5, "audit_k": 152, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.7, "opus_note": "'The friends' never defined; info about friends' finds missing (twins found 44)."}
+{"id": "tri:185:4", "kind": "tracer_intact", "fam": 185, "task": 4, "audit_k": 153, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.55, "opus_note": "14 ft per plant gives 13 plants, 18 yen; 14 ft gap plus 7 ft width gives fewer than owned."}
+{"id": "trd:418:7", "kind": "tracer_deleted", "fam": 418, "task": 7, "audit_k": 154, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Tax rate missing; weeks in February also unstated."}
+{"id": "trd:440:7", "kind": "tracer_deleted", "fam": 440, "task": 7, "audit_k": 155, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Kai's age not given."}
+{"id": "trd:254:1", "kind": "tracer_deleted", "fam": 254, "task": 1, "audit_k": 156, "opus_verdict": "SOLVABLE", "opus_confidence": 0.55, "opus_note": "15/24 = 62.5%; floors and days irrelevant."}
+{"id": "tri:203:4", "kind": "tracer_intact", "fam": 203, "task": 4, "audit_k": 157, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "72 - (14+28+24+4) = 2."}
+{"id": "trd:216:2", "kind": "tracer_deleted", "fam": 216, "task": 2, "audit_k": 158, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Needs 7 plants but price per plant not given."}
+{"id": "tri:346:4", "kind": "tracer_intact", "fam": 346, "task": 4, "audit_k": 159, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.55, "opus_note": "Weeks/workdays in April not given; 4-week assumption gives 3776."}
+{"id": "trd:236:6", "kind": "tracer_deleted", "fam": 236, "task": 6, "audit_k": 160, "opus_verdict": "SOLVABLE", "opus_confidence": 0.55, "opus_note": "16/24 = 66.67%."}
+{"id": "tri:177:4", "kind": "tracer_intact", "fam": 177, "task": 4, "audit_k": 161, "opus_verdict": "SOLVABLE", "opus_confidence": 0.6, "opus_note": "31+8+78+12+66+25=220; 350-220 = 130."}
+{"id": "trd:441:4", "kind": "tracer_deleted", "fam": 441, "task": 4, "audit_k": 162, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Roya's count missing."}
+{"id": "tri:134:7", "kind": "tracer_intact", "fam": 134, "task": 7, "audit_k": 163, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "172+144+344+330=990; 66 boxes x $11 = $726."}
+{"id": "trd:12:4", "kind": "tracer_deleted", "fam": 12, "task": 4, "audit_k": 164, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "'3 groups' but only soccer group described; other groups missing."}
+{"id": "trd:435:4", "kind": "tracer_deleted", "fam": 435, "task": 4, "audit_k": 165, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Base swim time missing; hot/cold day relation undefined."}
+{"id": "tri:247:2", "kind": "tracer_intact", "fam": 247, "task": 2, "audit_k": 166, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "36/2=18 kept, +11, -3, +5 = 31."}
+{"id": "trd:364:4", "kind": "tracer_deleted", "fam": 364, "task": 4, "audit_k": 167, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.8, "opus_note": "Sugar calories per teaspoon missing (juice alone 432)."}
+{"id": "trd:99:4", "kind": "tracer_deleted", "fam": 99, "task": 4, "audit_k": 168, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "612 pomegranates but box size missing."}
+{"id": "trd:118:7", "kind": "tracer_deleted", "fam": 118, "task": 7, "audit_k": 169, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.65, "opus_note": "'The friends' undefined; if twins, 78/150 = 52%."}
+{"id": "tri:364:4", "kind": "tracer_intact", "fam": 364, "task": 4, "audit_k": 170, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "432 juice + 8 tsp x 6 = 480."}
+{"id": "tri:195:1", "kind": "tracer_intact", "fam": 195, "task": 1, "audit_k": 171, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "247 - (71+41+29) = 106."}
+{"id": "tri:393:3", "kind": "tracer_intact", "fam": 393, "task": 3, "audit_k": 172, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "17 + 10 = 27."}
+{"id": "trd:355:2", "kind": "tracer_deleted", "fam": 355, "task": 2, "audit_k": 173, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Fraction of interviewees receiving offers missing."}
+{"id": "tri:35:5", "kind": "tracer_intact", "fam": 35, "task": 5, "audit_k": 174, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "15 + (8x15-7=113) = 128."}
+{"id": "tri:12:4", "kind": "tracer_intact", "fam": 12, "task": 4, "audit_k": 175, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Mentions 3 groups but only soccer players defined; other groups' sizes missing."}
+{"id": "trd:195:1", "kind": "tracer_deleted", "fam": 195, "task": 1, "audit_k": 176, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "No total or count given for bouncy balls."}
+{"id": "tri:163:7", "kind": "tracer_intact", "fam": 163, "task": 7, "audit_k": 177, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "384*0.25=96 interviews, 48 offers, 48/6=8 accept."}
+{"id": "trd:32:5", "kind": "tracer_deleted", "fam": 32, "task": 5, "audit_k": 178, "opus_verdict": "SOLVABLE", "opus_confidence": 0.7, "opus_note": "172 + 344 = 516 watermelons."}
+{"id": "tri:299:4", "kind": "tracer_intact", "fam": 299, "task": 4, "audit_k": 179, "opus_verdict": "SOLVABLE", "opus_confidence": 0.6, "opus_note": "Deshawn second at 74, first at 11 with father 37; difference 26."}
+{"id": "tri:70:5", "kind": "tracer_intact", "fam": 70, "task": 5, "audit_k": 180, "opus_verdict": "SOLVABLE", "opus_confidence": 0.65, "opus_note": "9h-2 free=7 paid: 45+6*90=585, plus 5 insurance = 590."}
+{"id": "tri:282:4", "kind": "tracer_intact", "fam": 282, "task": 4, "audit_k": 181, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "2*(12+48)=120 minutes = 2 hours."}
+{"id": "trd:334:4", "kind": "tracer_deleted", "fam": 334, "task": 4, "audit_k": 182, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Initial number of coins never given."}
+{"id": "tri:14:5", "kind": "tracer_intact", "fam": 14, "task": 5, "audit_k": 183, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "60+70+30=160, 25% discount gives 120."}
+{"id": "trd:96:7", "kind": "tracer_deleted", "fam": 96, "task": 7, "audit_k": 184, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "No production rate given for either worker."}
+{"id": "trd:444:2", "kind": "tracer_deleted", "fam": 444, "task": 2, "audit_k": 185, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Cold-water swim time missing."}
+{"id": "trd:226:2", "kind": "tracer_deleted", "fam": 226, "task": 2, "audit_k": 186, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Initial number of pebbles never given."}
+{"id": "tri:87:3", "kind": "tracer_intact", "fam": 87, "task": 3, "audit_k": 187, "opus_verdict": "SOLVABLE", "opus_confidence": 0.7, "opus_note": "Warm 33 min/km vs cold 12; 2 km: 66-24=42 minutes."}
+{"id": "tri:196:4", "kind": "tracer_intact", "fam": 196, "task": 4, "audit_k": 188, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "235-(71+36+34)=94."}
+{"id": "tri:50:4", "kind": "tracer_intact", "fam": 50, "task": 4, "audit_k": 189, "opus_verdict": "SOLVABLE", "opus_confidence": 0.8, "opus_note": "80->120->90->100.8; 15*20.8=312 profit."}
+{"id": "tri:112:7", "kind": "tracer_intact", "fam": 112, "task": 7, "audit_k": 190, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "Leilani+6=20, so 14."}
+{"id": "trd:93:5", "kind": "tracer_deleted", "fam": 93, "task": 5, "audit_k": 191, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Plant price never given."}
+{"id": "trd:299:4", "kind": "tracer_deleted", "fam": 299, "task": 4, "audit_k": 192, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.9, "opus_note": "Comet period missing; cannot find Deshawn's first sighting age."}
+{"id": "tri:95:7", "kind": "tracer_intact", "fam": 95, "task": 7, "audit_k": 193, "opus_verdict": "SOLVABLE", "opus_confidence": 0.6, "opus_note": "Andre second at 52, first at 6 with father 26; difference 20."}
+{"id": "trd:301:4", "kind": "tracer_deleted", "fam": 301, "task": 4, "audit_k": 194, "opus_verdict": "UNSOLVABLE", "opus_confidence": 0.95, "opus_note": "Calories per serving not given."}
+{"id": "trd:70:5", "kind": "tracer_deleted", "fam": 70, "task": 5, "audit_k": 195, "opus_verdict": "SOLVABLE", "opus_confidence": 0.65, "opus_note": "7 paid hours: 45+6*90=585."}
+{"id": "tri:116:1", "kind": "tracer_intact", "fam": 116, "task": 1, "audit_k": 196, "opus_verdict": "SOLVABLE", "opus_confidence": 0.85, "opus_note": "58+116+87=261/day, *7=1827."}
+{"id": "tri:37:1", "kind": "tracer_intact", "fam": 37, "task": 1, "audit_k": 197, "opus_verdict": "AMBIGUOUS", "opus_confidence": 0.6, "opus_note": "Exercise 10 cal: add to allowance (77 g) or ignore (~76.2 g)."}
+{"id": "tri:421:5", "kind": "tracer_intact", "fam": 421, "task": 5, "audit_k": 198, "opus_verdict": "SOLVABLE", "opus_confidence": 0.75, "opus_note": "90-44-15=31 found by friends."}
+{"id": "tri:277:2", "kind": "tracer_intact", "fam": 277, "task": 2, "audit_k": 199, "opus_verdict": "SOLVABLE", "opus_confidence": 0.9, "opus_note": "48 oz*8=384 + 8 tsp*20=160 = 544."}

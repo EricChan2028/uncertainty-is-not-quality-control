@@ -1,0 +1,54 @@
+{
+ "n_items": 1200,
+ "n_blind": 1175,
+ "complete": false,
+ "orig_verdicts_reproduce": true,
+ "orig_drift_matches_registered": true,
+ "orig_drift": {
+  "s0": 23.0,
+  "s1": 27.0,
+  "pooled": 25.0
+ },
+ "passes_run": 1,
+ "passes": [
+  {
+   "file": "blind_verdicts.json",
+   "n_expected_batches": 48,
+   "n_raw": 1200,
+   "n_valid": 1175,
+   "n_invalid_label": 0,
+   "n_unknown_key": 0,
+   "n_out_of_range": 0,
+   "n_dropped_batch": 25,
+   "n_conflict_keys": 0,
+   "n_malformed": 0,
+   "dropped": [
+    [
+     626,
+     650
+    ]
+   ],
+   "absent": [],
+   "transcript_dirs": [
+    "wf_c8ae8bd7-99d"
+   ],
+   "port": "<PORT>",
+   "n_judge_sessions": 48,
+   "n_sessions_with_local_computation": 46,
+   "n_keys_labelled": 1175,
+   "n_keys_filled": 1175
+  }
+ ],
+ "n_missing": 25,
+ "next_pass_ranges": [
+  [
+   626,
+   650
+  ]
+ ],
+ "verdicts": {
+  "RB-P1": null,
+  "RB-P2": null,
+  "RB-P3": null
+ }
+}

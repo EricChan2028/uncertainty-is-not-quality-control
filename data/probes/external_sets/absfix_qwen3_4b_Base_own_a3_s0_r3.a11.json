@@ -1,0 +1,84 @@
+{
+ "history": [
+  {
+   "time": "2026-09-26 17:37:33 CST",
+   "host": "<NODE>",
+   "state": "running",
+   "gpu": "1",
+   "n_ids": 0,
+   "model": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r3/final",
+   "probe_sha256": "9576635bf12570f48918785572bbea01b8a7933a6e1a428b31fa90598f6f532e",
+   "model_fingerprint": {
+    "path": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r3/final",
+    "realpath": "/run/ti/rsi_ckpt_archive/qwen3_4b_Base_own_a3_s0_r3/final",
+    "files": {
+     "added_tokens.json": [
+      707,
+      "c0284b582e14987f"
+     ],
+     "chat_template.jinja": [
+      4116,
+      "87a2728cb8dc9fe4"
+     ],
+     "config.json": [
+      1536,
+      "0a7cb83af085ee21"
+     ],
+     "generation_config.json": [
+      117,
+      "ce8f331663b06a84"
+     ],
+     "merges.txt": [
+      1671853,
+      "8831e4f1a0444713"
+     ],
+     "model-00001-of-00002.safetensors": [
+      4967215360,
+      "16c6badff2e47622"
+     ],
+     "model-00002-of-00002.safetensors": [
+      3077766632,
+      "9b0cdc1a63186b20"
+     ],
+     "model.safetensors.index.json": [
+      32855,
+      "06b3d5319b6d76d1"
+     ],
+     "special_tokens_map.json": [
+      616,
+      "6676f091c8bc4d1b"
+     ],
+     "tokenizer.json": [
+      11422654,
+      "aeb13307a71acd8f"
+     ],
+     "tokenizer_config.json": [
+      5407,
+      "67e5a0a11cd35f9c"
+     ],
+     "vocab.json": [
+      2776833,
+      "ca10d7e9fb3ed185"
+     ]
+    }
+   }
+  },
+  {
+   "time": "2026-09-26 17:45:54 CST",
+   "host": "<NODE>",
+   "state": "complete",
+   "gpu": "1",
+   "n_ids": 1552,
+   "model": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r3/final",
+   "probe_sha256": "9576635bf12570f48918785572bbea01b8a7933a6e1a428b31fa90598f6f532e"
+  }
+ ],
+ "registration": "A11",
+ "bench": "a6",
+ "tag": "absfix_qwen3_4b_Base_own_a3_s0_r3",
+ "state": "complete",
+ "host": "<NODE>",
+ "model": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r3/final",
+ "probe_sha256": "9576635bf12570f48918785572bbea01b8a7933a6e1a428b31fa90598f6f532e",
+ "n_ids": 1552
+}

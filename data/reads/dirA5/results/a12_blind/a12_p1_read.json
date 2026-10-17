@@ -1,0 +1,973 @@
+{
+ "part": "A12 part 1 (raw R-Zero challenger audit)",
+ "n_items": 1200,
+ "n_blind": 1200,
+ "complete": true,
+ "passes_run": 3,
+ "passes": [
+  {
+   "file": "blind_verdicts.json",
+   "n_expected_batches": 48,
+   "n_raw": 1200,
+   "n_valid": 850,
+   "n_invalid_label": 0,
+   "n_unknown_key": 0,
+   "n_out_of_range": 0,
+   "n_dropped_batch": 350,
+   "n_conflict_keys": 0,
+   "n_malformed": 0,
+   "passed_null_return": [],
+   "dropped": [
+    [
+     26,
+     50
+    ],
+    [
+     201,
+     225
+    ],
+    [
+     326,
+     350
+    ],
+    [
+     476,
+     500
+    ],
+    [
+     501,
+     525
+    ],
+    [
+     676,
+     700
+    ],
+    [
+     751,
+     775
+    ],
+    [
+     826,
+     850
+    ],
+    [
+     851,
+     875
+    ],
+    [
+     876,
+     900
+    ],
+    [
+     901,
+     925
+    ],
+    [
+     976,
+     1000
+    ],
+    [
+     1076,
+     1100
+    ],
+    [
+     1151,
+     1175
+    ]
+   ],
+   "absent": [],
+   "transcript_dirs": [
+    "wf_8eba3d04-117"
+   ],
+   "port": "<PORT>",
+   "n_judge_sessions": 48,
+   "n_sessions_with_local_computation": 33,
+   "n_keys_labelled": 850,
+   "n_keys_filled": 850
+  },
+  {
+   "file": "blind_verdicts_rejudge.json",
+   "n_expected_batches": 14,
+   "n_raw": 350,
+   "n_valid": 300,
+   "n_invalid_label": 0,
+   "n_unknown_key": 0,
+   "n_out_of_range": 0,
+   "n_dropped_batch": 50,
+   "n_conflict_keys": 0,
+   "n_malformed": 0,
+   "passed_null_return": [],
+   "dropped": [
+    [
+     26,
+     50
+    ],
+    [
+     876,
+     900
+    ]
+   ],
+   "absent": [],
+   "transcript_dirs": [
+    "wf_dc3db97e-23a"
+   ],
+   "port": "<PORT>",
+   "n_judge_sessions": 14,
+   "n_sessions_with_local_computation": 14,
+   "n_keys_labelled": 300,
+   "n_keys_filled": 300
+  },
+  {
+   "file": "blind_verdicts_rejudge2.json",
+   "n_expected_batches": 2,
+   "n_raw": 50,
+   "n_valid": 50,
+   "n_invalid_label": 0,
+   "n_unknown_key": 0,
+   "n_out_of_range": 0,
+   "n_dropped_batch": 0,
+   "n_conflict_keys": 0,
+   "n_malformed": 0,
+   "passed_null_return": [],
+   "dropped": [],
+   "absent": [],
+   "transcript_dirs": [
+    "wf_d6d3253b-7a0"
+   ],
+   "port": "<PORT>",
+   "n_judge_sessions": 2,
+   "n_sessions_with_local_computation": 2,
+   "n_keys_labelled": 50,
+   "n_keys_filled": 50
+  }
+ ],
+ "n_missing": 0,
+ "next_pass_ranges": [],
+ "items_sha256": "cd32d8ec37a88febf6468755aee25a984278f5c058f487a721b47676de5bef3d",
+ "key_sha256": "389f2d4a8f0e23f0032b0b23cd815ed38869685b069ab420bce75a79b24f9ca9",
+ "cells": {
+  "s0_it1": {
+   "n": 200,
+   "raw_illposed": 38.5,
+   "raw_illposed_wilson95": [
+    32.033309678498924,
+    45.400132834887216
+   ],
+   "raw_unsolvable": 33.5,
+   "raw_unsolvable_wilson95": [
+    27.324086932910685,
+    40.297808847165086
+   ],
+   "raw_ambiguous": 5.0,
+   "raw_ambiguous_wilson95": [
+    2.7382645473457017,
+    8.957814852860963
+   ]
+  },
+  "s0_it2": {
+   "n": 200,
+   "raw_illposed": 52.0,
+   "raw_illposed_wilson95": [
+    45.10378501914959,
+    58.82083367417456
+   ],
+   "raw_unsolvable": 44.5,
+   "raw_unsolvable_wilson95": [
+    37.780600951740404,
+    51.426697641618176
+   ],
+   "raw_ambiguous": 7.5,
+   "raw_ambiguous_wilson95": [
+    4.5974917008330545,
+    12.004361066028794
+   ]
+  },
+  "s0_it3": {
+   "n": 200,
+   "raw_illposed": 59.5,
+   "raw_illposed_wilson95": [
+    52.579710026358676,
+    66.06222876693103
+   ],
+   "raw_unsolvable": 52.0,
+   "raw_unsolvable_wilson95": [
+    45.10378501914959,
+    58.82083367417456
+   ],
+   "raw_ambiguous": 7.5,
+   "raw_ambiguous_wilson95": [
+    4.5974917008330545,
+    12.004361066028794
+   ]
+  },
+  "s1_it1": {
+   "n": 200,
+   "raw_illposed": 41.0,
+   "raw_illposed_wilson95": [
+    34.41567485880499,
+    47.923541021236325
+   ],
+   "raw_unsolvable": 36.5,
+   "raw_unsolvable_wilson95": [
+    30.14052641760262,
+    43.36829740245937
+   ],
+   "raw_ambiguous": 4.5,
+   "raw_ambiguous_wilson95": [
+    2.385254288504434,
+    8.329670438371192
+   ]
+  },
+  "s1_it2": {
+   "n": 200,
+   "raw_illposed": 42.5,
+   "raw_illposed_wilson95": [
+    35.85361249314706,
+    49.42906740688737
+   ],
+   "raw_unsolvable": 37.5,
+   "raw_unsolvable_wilson95": [
+    31.08543681052461,
+    44.38569635619946
+   ],
+   "raw_ambiguous": 5.0,
+   "raw_ambiguous_wilson95": [
+    2.7382645473457017,
+    8.957814852860963
+   ]
+  },
+  "s1_it3": {
+   "n": 200,
+   "raw_illposed": 48.0,
+   "raw_illposed_wilson95": [
+    41.179166325825435,
+    54.8962149808504
+   ],
+   "raw_unsolvable": 43.5,
+   "raw_unsolvable_wilson95": [
+    36.81572545189893,
+    50.42926379479758
+   ],
+   "raw_ambiguous": 4.5,
+   "raw_ambiguous_wilson95": [
+    2.385254288504434,
+    8.329670438371192
+   ]
+  }
+ },
+ "primary": {
+  "D_raw_pooled": 14.0,
+  "ci95": [
+   7.25,
+   20.75
+  ],
+  "n_it1": 400,
+  "n_it3": 400,
+  "pooled_raw_share": {
+   "it1": 39.75,
+   "it2": 47.25,
+   "it3": 53.75
+  }
+ },
+ "selection_share": {
+  "delta_log_E": 0.2564584240264933,
+  "ci95": [
+   0.014052003719960737,
+   0.5281251805969163
+  ],
+  "state": "POSITIVE",
+  "note": "Delta log E = Delta logit(in-sample admitted) - Delta logit(raw), it3 vs it1, pooled over seeds; E is the enrichment of downstream selection (pseudo-labelling and the 0.3-0.8 filter)"
+ },
+ "band_share_secondary": {
+  "delta_log_E_scored": 0.17751731357998007,
+  "ci95": [
+   -0.059105815799145034,
+   0.4329576470083088
+  ],
+  "state": "NOT ESTABLISHED",
+  "note": "SECONDARY, descriptive label: the same states for Delta log E among scored items only (status != not_scored), which isolates the 0.3-0.8 filter; no wording attached"
+ },
+ "reading": {
+  "label": "RISES",
+  "selection_share": "POSITIVE",
+  "band_share_secondary": "NOT ESTABLISHED",
+  "text": "the challenger's raw output drifts upward (D_raw +14.0 points, CI [+7.2, +20.8]); A12 does not separate its cause (the uncertainty reward, the repetition penalty or the format reward): consistent with, not proof of, the uncertainty reward; downstream selection (pseudo-labelling and the 0.3-0.8 filter) adds drift on top (Delta log E CI > 0): the drift acts at both stages"
+ },
+ "descriptive": {
+  "note": "no thresholds registered in this block except the condition flag (pooled CI against A7-5d blind excludes 0)",
+  "per_seed_D_raw": {
+   "s0": {
+    "D": 21.0,
+    "ci95": [
+     11.0,
+     30.5
+    ]
+   },
+   "s1": {
+    "D": 7.0,
+    "ci95": [
+     -2.5,
+     17.0
+    ]
+   }
+  },
+  "D_raw_unsolvable_only": {
+   "D": 12.75,
+   "ci95": [
+    6.0,
+    19.5
+   ]
+  },
+  "admitted_original": {
+   "cells": {
+    "s0_it1": 32.5,
+    "s0_it2": 44.0,
+    "s0_it3": 55.5,
+    "s1_it1": 34.0,
+    "s1_it2": 42.5,
+    "s1_it3": 61.0
+   },
+   "D": {
+    "s0": 23.0,
+    "s1": 27.0,
+    "pooled": 25.0
+   },
+   "matches_registered_RZ_P1": true
+  },
+  "admitted_a75d_blind": {
+   "sha256": "7c9bd8bd17d285c7b810450f2561d0c5566ceeb74e95d1e8bd7413e5deb87d7b",
+   "cells": {
+    "s0_it1": 33.0,
+    "s0_it2": 43.5,
+    "s0_it3": 55.0,
+    "s1_it1": 34.0,
+    "s1_it2": 44.0,
+    "s1_it3": 60.0
+   },
+   "D_pooled": 24.0,
+   "per_seed": {
+    "s0": {
+     "D_blind": 22.0,
+     "D_orig": 23.0
+    },
+    "s1": {
+     "D_blind": 26.0,
+     "D_orig": 27.0
+    }
+   }
+  },
+  "D_adm_orig_minus_D_raw": {
+   "point": 11.0,
+   "ci95": [
+    1.5,
+    20.5
+   ]
+  },
+  "D_raw_over_D_adm_orig": {
+   "point": 0.56,
+   "ci95": [
+    0.2736842105263158,
+    0.9342105263157895
+   ]
+  },
+  "within_sample": {
+   "status_method_counts": {
+    "ordered": 1200
+   },
+   "by_iteration": {
+    "it1": {
+     "a_ill": 0.4339622641509434,
+     "a_solv": 0.5518672199170125,
+     "E": 0.7863526741381756,
+     "a_ill_scored": 0.5073529411764706,
+     "a_solv_scored": 0.5859030837004405,
+     "E_scored": 0.8659332153914197,
+     "s_raw": 39.75,
+     "s_adm_in": 34.15841584158416,
+     "n_adm_in": 202,
+     "s_adm_in_by_seed": {
+      "s0": 30.303030303030305,
+      "s1": 37.86407766990291
+     },
+     "n_adm_in_by_seed": {
+      "s0": 99,
+      "s1": 103
+     },
+     "status_shares": {
+      "admitted": 50.5,
+      "scored_rejected": 40.25,
+      "not_scored": 9.25
+     }
+    },
+    "it2": {
+     "a_ill": 0.5608465608465608,
+     "a_solv": 0.5545023696682464,
+     "E": 1.011441233663456,
+     "a_ill_scored": 0.6708860759493671,
+     "a_solv_scored": 0.6610169491525424,
+     "E_scored": 1.014930217461863,
+     "s_raw": 47.25,
+     "s_adm_in": 47.53363228699551,
+     "n_adm_in": 223,
+     "s_adm_in_by_seed": {
+      "s0": 53.65853658536585,
+      "s1": 40.0
+     },
+     "n_adm_in_by_seed": {
+      "s0": 123,
+      "s1": 100
+     },
+     "status_shares": {
+      "admitted": 55.75,
+      "scored_rejected": 28.0,
+      "not_scored": 16.25
+     }
+    },
+    "it3": {
+     "a_ill": 0.6372093023255814,
+     "a_solv": 0.6270270270270271,
+     "E": 1.0162389735364874,
+     "a_ill_scored": 0.681592039800995,
+     "a_solv_scored": 0.6590909090909091,
+     "E_scored": 1.034139646594613,
+     "s_raw": 53.75,
+     "s_adm_in": 54.1501976284585,
+     "n_adm_in": 253,
+     "s_adm_in_by_seed": {
+      "s0": 58.73015873015873,
+      "s1": 49.60629921259842
+     },
+     "n_adm_in_by_seed": {
+      "s0": 126,
+      "s1": 127
+     },
+     "status_shares": {
+      "admitted": 63.25,
+      "scored_rejected": 31.0,
+      "not_scored": 5.75
+     }
+    }
+   },
+   "E_ci95": {
+    "it1": [
+     0.627769056340485,
+     0.9636046638334967
+    ],
+    "it2": [
+     0.8457446808510638,
+     1.2043010752688172
+    ],
+    "it3": [
+     0.8779635258358662,
+     1.1859043509528946
+    ]
+   },
+   "E_scored_ci95": {
+    "it1": [
+     0.7014388489208633,
+     1.0459616783895223
+    ],
+    "it2": [
+     0.8731665228645383,
+     1.1836709562219074
+    ],
+    "it3": [
+     0.9007621653312488,
+     1.1964285714285714
+    ]
+   },
+   "D_adm_in_sample": {
+    "point": 19.99178178687434,
+    "ci95": [
+     10.861867704280158,
+     28.82352941176471
+    ]
+   },
+   "logodds": {
+    "delta_logit_raw": 0.5661749343197614,
+    "delta_logit_admitted_in_sample": 0.8226333583462547,
+    "delta_log_E": 0.2564584240264933,
+    "delta_log_E_scored": 0.17751731357998007,
+    "challenger_fraction": 0.6882469919016494,
+    "delta_log_E_ci95": [
+     0.014052003719960737,
+     0.5281251805969163
+    ],
+    "delta_log_E_scored_ci95": [
+     -0.059105815799145034,
+     0.4329576470083088
+    ],
+    "challenger_fraction_ci95": [
+     0.4439029545216703,
+     0.9757882003106003
+    ]
+   }
+  },
+  "condition_check": {
+   "per_iteration": {
+    "it1": {
+     "in_sample_admitted_seed_mean": 34.08355398646661,
+     "a75d_blind": 33.5,
+     "registered_original": 33.25,
+     "diff_vs_blind": 0.5835539864666117,
+     "diff_vs_original": 0.8335539864666117
+    },
+    "it2": {
+     "in_sample_admitted_seed_mean": 46.829268292682926,
+     "a75d_blind": 43.75,
+     "registered_original": 43.25,
+     "diff_vs_blind": 3.079268292682926,
+     "diff_vs_original": 3.579268292682926
+    },
+    "it3": {
+     "in_sample_admitted_seed_mean": 54.168228971378575,
+     "a75d_blind": 57.5,
+     "registered_original": 58.25,
+     "diff_vs_blind": -3.331771028621425,
+     "diff_vs_original": -4.081771028621425
+    }
+   },
+   "pooled_diff_vs_blind": 0.11035041684270415,
+   "pooled_diff_vs_original": 0.11035041684270415,
+   "pooled_ci95": {
+    "pooled_diff_vs_blind": [
+     -4.579416337889456,
+     4.827994771131446
+    ],
+    "pooled_diff_vs_original": [
+     -4.398474949768841,
+     4.750090395420895
+    ]
+   },
+   "primary_reference": "A7-5d blind",
+   "flag": false
+  },
+  "overlap_with_audited_admitted": {
+   "n": 49,
+   "binary_agreement": 0.9795918367346939,
+   "three_class_agreement": 0.9795918367346939
+  },
+  "covariates": {
+   "s0_it1": {
+    "parse_failure_rate": 6.2625,
+    "not_scored_rate_all_parsed": 8.534471262835044,
+    "cjk": 5.5,
+    "multi_line": 10.5,
+    "median_chars": 218,
+    "repeated_text": 2.5,
+    "status_counts": {
+     "admitted": 99,
+     "scored_rejected": 86,
+     "not_scored": 15
+    },
+    "illposed_by_status": {
+     "admitted": {
+      "n": 99,
+      "share": 30.303030303030305,
+      "wilson95": [
+       22.12628957719261,
+       39.95126122358371
+      ]
+     },
+     "scored_rejected": {
+      "n": 86,
+      "share": 43.02325581395349,
+      "wilson95": [
+       33.07934094355588,
+       53.56379670199913
+      ]
+     },
+     "not_scored": {
+      "n": 15,
+      "share": 66.66666666666667,
+      "wilson95": [
+       41.71354755711991,
+       84.82367565633054
+      ]
+     }
+    }
+   },
+   "s0_it2": {
+    "parse_failure_rate": 11.4625,
+    "not_scored_rate_all_parsed": 11.195820979810815,
+    "cjk": 10.5,
+    "multi_line": 9.5,
+    "median_chars": 227,
+    "repeated_text": 3.0,
+    "status_counts": {
+     "not_scored": 24,
+     "admitted": 123,
+     "scored_rejected": 53
+    },
+    "illposed_by_status": {
+     "admitted": {
+      "n": 123,
+      "share": 53.65853658536585,
+      "wilson95": [
+       44.868986269207554,
+       62.226485573656234
+      ]
+     },
+     "scored_rejected": {
+      "n": 53,
+      "share": 49.056603773584904,
+      "wilson95": [
+       36.12424975319505,
+       62.1164709818439
+      ]
+     },
+     "not_scored": {
+      "n": 24,
+      "share": 50.0,
+      "wilson95": [
+       31.42742569328851,
+       68.57257430671149
+      ]
+     }
+    }
+   },
+   "s0_it3": {
+    "parse_failure_rate": 14.5,
+    "not_scored_rate_all_parsed": 6.739766081871345,
+    "cjk": 8.5,
+    "multi_line": 10.0,
+    "median_chars": 253,
+    "repeated_text": 1.0,
+    "status_counts": {
+     "admitted": 126,
+     "scored_rejected": 61,
+     "not_scored": 13
+    },
+    "illposed_by_status": {
+     "admitted": {
+      "n": 126,
+      "share": 58.73015873015873,
+      "wilson95": [
+       49.99978518451192,
+       66.9439554277319
+      ]
+     },
+     "scored_rejected": {
+      "n": 61,
+      "share": 62.295081967213115,
+      "wilson95": [
+       49.74785774297335,
+       73.38548974610801
+      ]
+     },
+     "not_scored": {
+      "n": 13,
+      "share": 53.84615384615385,
+      "wilson95": [
+       29.143795558562896,
+       76.79393232503864
+      ]
+     }
+    }
+   },
+   "s1_it1": {
+    "parse_failure_rate": 6.3875,
+    "not_scored_rate_all_parsed": 11.964214180798505,
+    "cjk": 3.0,
+    "multi_line": 13.0,
+    "median_chars": 223,
+    "repeated_text": 2.5,
+    "status_counts": {
+     "admitted": 103,
+     "scored_rejected": 75,
+     "not_scored": 22
+    },
+    "illposed_by_status": {
+     "admitted": {
+      "n": 103,
+      "share": 37.86407766990291,
+      "wilson95": [
+       29.09271558280988,
+       47.508128076788836
+      ]
+     },
+     "scored_rejected": {
+      "n": 75,
+      "share": 40.0,
+      "wilson95": [
+       29.662515571790465,
+       51.31196129248971
+      ]
+     },
+     "not_scored": {
+      "n": 22,
+      "share": 59.09090909090909,
+      "wilson95": [
+       38.7348183298974,
+       76.74418391364541
+      ]
+     }
+    }
+   },
+   "s1_it2": {
+    "parse_failure_rate": 2.4875,
+    "not_scored_rate_all_parsed": 22.663761056274836,
+    "cjk": 5.5,
+    "multi_line": 22.0,
+    "median_chars": 234,
+    "repeated_text": 2.0,
+    "status_counts": {
+     "admitted": 100,
+     "scored_rejected": 59,
+     "not_scored": 41
+    },
+    "illposed_by_status": {
+     "admitted": {
+      "n": 100,
+      "share": 40.0,
+      "wilson95": [
+       30.94012857712627,
+       49.79974139825367
+      ]
+     },
+     "scored_rejected": {
+      "n": 59,
+      "share": 44.067796610169495,
+      "wilson95": [
+       32.150211681960364,
+       56.71064526723519
+      ]
+     },
+     "not_scored": {
+      "n": 41,
+      "share": 46.34146341463415,
+      "wilson95": [
+       32.0562338755209,
+       61.25352884218734
+      ]
+     }
+    }
+   },
+   "s1_it3": {
+    "parse_failure_rate": 1.0375,
+    "not_scored_rate_all_parsed": 6.643930781861816,
+    "cjk": 9.0,
+    "multi_line": 20.5,
+    "median_chars": 252,
+    "repeated_text": 0.5,
+    "status_counts": {
+     "scored_rejected": 63,
+     "admitted": 127,
+     "not_scored": 10
+    },
+    "illposed_by_status": {
+     "admitted": {
+      "n": 127,
+      "share": 49.60629921259842,
+      "wilson95": [
+       41.050787613029776,
+       58.18492864346104
+      ]
+     },
+     "scored_rejected": {
+      "n": 63,
+      "share": 41.26984126984127,
+      "wilson95": [
+       29.958465546228496,
+       53.58468239802128
+      ]
+     },
+     "not_scored": {
+      "n": 10,
+      "share": 70.0,
+      "wilson95": [
+       39.67781453459709,
+       89.2208733443606
+      ]
+     }
+    }
+   }
+  },
+  "populations": {
+   "s0": {
+    "it1": {
+     "n_generated": 8000,
+     "n_parsed": 7499,
+     "n_scored": 6859,
+     "n_admitted": 3678,
+     "status_method": "ordered",
+     "status_counts_all_parsed": {
+      "admitted": 3678,
+      "scored_rejected": 3181,
+      "not_scored": 640
+     },
+     "shard_sha256": {
+      "0": "beffd10bbc7df2402e54cedd908e19449b58e7c83f3090a22a9c136af0876742",
+      "1": "9a2c3147ddfde923f8b5db5403ac21aca52e34f53ce3e7f2a4609d00efb0653f",
+      "2": "3c832c5646b1596ca5861d640926e72efd7c068afa81a8022ca509228b07f441",
+      "3": "15f841555f5ac641cd10fbe7724112cdee338eaaea5c61960db822579b41eaad",
+      "4": "93585eedb2fa0687941ce182400e21562829efb1ce846e5aaede26c6ddde05b5",
+      "5": "c8c82fefeab83ee272d10b4bdcb5b61ae8a14496bea5382b5fdd9357fc05c5a7",
+      "6": "49205518f8d667a6db46ac65a4ef4121263202f1a051ab4dbe02d0d9ab3fb1cb",
+      "7": "3e95e1f0d39288d632bc9c678a94178f4009c23cca7ff5c2ae3ca781f88554cb"
+     },
+     "pool_sha256": "927934bfaf71bbfe033dd78a7d225912a3936be893599ec7cbfa203f139dbc3e",
+     "admitted_sha256": "8d236558404fc8cb5144d56d800ed3b5e229c217df7ec8a9b945ef53b137b6cf",
+     "sample_seed": 2026092613,
+     "sample_status_counts": {
+      "admitted": 99,
+      "scored_rejected": 86,
+      "not_scored": 15
+     }
+    },
+    "it2": {
+     "n_generated": 8000,
+     "n_parsed": 7083,
+     "n_scored": 6290,
+     "n_admitted": 3817,
+     "status_method": "ordered",
+     "status_counts_all_parsed": {
+      "admitted": 3817,
+      "scored_rejected": 2473,
+      "not_scored": 793
+     },
+     "shard_sha256": {
+      "0": "48fb53d66d25ff6b3f560b0a81f1cd610f0e77286acb9bd6e003cec5de3413f5",
+      "1": "6cdfd318dc9f3f035abdc673afc7fa88a490626fbe56235f44b4696503b7e5fe",
+      "2": "cf25adcb6678a35a34181de4fe97d9a6cf3eb2458e31b96e38cae14744a562a5",
+      "3": "680d82c4d85fc55b66bb08400ca7db9bede9963d7edb7816bef56cb952aefd16",
+      "4": "55a059f55377a09df63dc15c3e46cf0928da59caa4788cabfe1a695159b8e904",
+      "5": "07ab07482a537c9665682b26c0cfefbe72b445224b89b875b99258fba2197f07",
+      "6": "7dd22bc04ae14022a5a035c6db1619557d9c07a38c37fda11401883f85fa0d4f",
+      "7": "f7f8d3406a18ee588e63790ccf5bca91bb0d6d6e957ec19fedb19c9146ee0550"
+     },
+     "pool_sha256": "c43a669cf84b4059ec458aabbcb8ef1e3b466df0ff30da6fe517c598cb3ffecd",
+     "admitted_sha256": "aff1fe534932f4d6a0b6f2bb172ff7cd975741f19fc6265819370a8580b305f8",
+     "sample_seed": 2026092614,
+     "sample_status_counts": {
+      "admitted": 123,
+      "scored_rejected": 53,
+      "not_scored": 24
+     }
+    },
+    "it3": {
+     "n_generated": 8000,
+     "n_parsed": 6840,
+     "n_scored": 6379,
+     "n_admitted": 4271,
+     "status_method": "ordered",
+     "status_counts_all_parsed": {
+      "scored_rejected": 2108,
+      "admitted": 4271,
+      "not_scored": 461
+     },
+     "shard_sha256": {
+      "0": "10a947c939d6640214d69ea3c4e980e45b8ed12f2ac61a9ceb8d87234bd682a8",
+      "1": "8a2beeb4bb2927a9d533be9f9c1a31ee70c25a751b16119d79860d096843d1ac",
+      "2": "0f6975e6bcfa1f66d13138fb544daea26feebbe9c05287d786ceb9f31971b184",
+      "3": "3c8a200ae13a834678fb0e9b86187431f3998f75c11bca631ff634631eb47ebb",
+      "4": "f8280441f1dcbd5b6c5b4c889fc3a2b2333c3d1e551177bbff4b46dc427ad0af",
+      "5": "34758b5c9e606b389f840bd553c48ae93070a5e89bedcffbaa1f4aeaa265088d",
+      "6": "42f4d9053b3eb3e389c8196df695aeeef358da1e316a8b792631e638c6cf34af",
+      "7": "8aad6fc065bba1107cea529d7fd57e923ba4003b1193fc316c218a75a8b718f3"
+     },
+     "pool_sha256": "6107c15a32cba349240e3cb241a5359fde274dd7906bcc3080c4ada8e182f247",
+     "admitted_sha256": "4e3429a129a15c9583f4dcb5f5c4ffa605bd6b2d6698331b099caa688b48a3b5",
+     "sample_seed": 2026092615,
+     "sample_status_counts": {
+      "admitted": 126,
+      "scored_rejected": 61,
+      "not_scored": 13
+     }
+    }
+   },
+   "s1": {
+    "it1": {
+     "n_generated": 8000,
+     "n_parsed": 7489,
+     "n_scored": 6593,
+     "n_admitted": 3423,
+     "status_method": "ordered",
+     "status_counts_all_parsed": {
+      "not_scored": 896,
+      "scored_rejected": 3170,
+      "admitted": 3423
+     },
+     "shard_sha256": {
+      "0": "e811b48a170eea6e6d2ec7b12da59ec2b2489a3db4e6ed39d5bbb2a9ec4f1e3a",
+      "1": "c67a36fc453eba67a3f98b681e4fcb4210b5d4faaf4e0505412b5cae5557583c",
+      "2": "4a57f1edea94d6eba447a380f3f18dc8d89ce0ad5647414215474f50a70a4a16",
+      "3": "ac2519e271ee3afccbe44213da7f87f481e7fd353aa15a4c48d487564f8096dd",
+      "4": "f1c727479d54e3b783691caeaa44c2c8532bad1fff8e1843b9f300268a4c0c65",
+      "5": "9fa3493800015eaa1331f4851df30d18d7c128658cc19622c9212c6a915e34e3",
+      "6": "f1b74e5175748926a9f1f0d53980035cc4541b3dc726369cdd92d42995b93bb8",
+      "7": "49539f6a67a4acc5c090e310ce7592da0045893182287754123ccea23a5e79e0"
+     },
+     "pool_sha256": "c301bdcf43a16c769add47d64879ce32381bf02155a81f416b9cc4b44ba046c9",
+     "admitted_sha256": "f0da8ae29b369a57c1d73ba7c1a85d0019b9f7e79ba68f432813fa3375c752e0",
+     "sample_seed": 2026092623,
+     "sample_status_counts": {
+      "scored_rejected": 75,
+      "admitted": 103,
+      "not_scored": 22
+     }
+    },
+    "it2": {
+     "n_generated": 8000,
+     "n_parsed": 7801,
+     "n_scored": 6033,
+     "n_admitted": 3697,
+     "status_method": "ordered",
+     "status_counts_all_parsed": {
+      "not_scored": 1768,
+      "admitted": 3697,
+      "scored_rejected": 2336
+     },
+     "shard_sha256": {
+      "0": "fb52d0b0f7e0d089836ebb8e5a25d00b32f6913f13f4f62e249f71981ad13f78",
+      "1": "7ce6c95057558f47bca2564425329560a4612e78ccacf2ba097501e544955709",
+      "2": "667d014c2bb4b2286a8470f27c7ae78743d2e388e2478bbf12d2acd867a69a39",
+      "3": "6eb51e424fb6e28d8f483c80836e9520706e51874520829c68cd82c2fac40230",
+      "4": "9d1b21bfa2f6626b7475e91725d112b6d9d200e5604171cc6f5d444ca9b9cf76",
+      "5": "c15aa5b4d10e71a8a13838dfd312ea7d68e2665a5ee9be7861b13e129a20e093",
+      "6": "bd97d541bce69c151c0020d72d4b3db63782f29e4d952a130f40ee02ec143f83",
+      "7": "03620cc01f51a5766d99aadd5f4447023d600b850a99e297017f32efc9b12afb"
+     },
+     "pool_sha256": "184d24ffa74fad07bae03b428d61dd41b081a5f967391d7d9e49cfeca2600b74",
+     "admitted_sha256": "456aa69ca8d387b73e08edb57f6358de3ad84d742dd36657959976614737c473",
+     "sample_seed": 2026092624,
+     "sample_status_counts": {
+      "admitted": 100,
+      "scored_rejected": 59,
+      "not_scored": 41
+     }
+    },
+    "it3": {
+     "n_generated": 8000,
+     "n_parsed": 7917,
+     "n_scored": 7391,
+     "n_admitted": 4941,
+     "status_method": "ordered",
+     "status_counts_all_parsed": {
+      "not_scored": 526,
+      "scored_rejected": 2450,
+      "admitted": 4941
+     },
+     "shard_sha256": {
+      "0": "c3bb0b9f0946fd92b847a7e1861d12a0cfaa67735ae23d82a2147f77b6b0e149",
+      "1": "9c7416bf36cd102f60e36a89768409fb3e8b9888face9381f8c1df44c98ba8a8",
+      "2": "960f375ec438ec2cfac75b3fd1cd7a440f7730f5d619d8050230a85cb10bfe0d",
+      "3": "7c6e6a72efc3a4479e62f335d444799054bba9a51447aa2e01513b56841bf244",
+      "4": "1cc20645a1beb4d195977ec1d200f0fe04c04fddd0390cc8a86ef8c64025426b",
+      "5": "267391d0229aeb5d51eaefc415e55e0ed8b90f2fe7f7608ddd11ddabf71e1062",
+      "6": "ca7d6d271e270da532434c0d16765ac1e4452412b042a69f06a3e9eb5054a3e7",
+      "7": "941d915e2d4fbbaa61a9493da629cdb88c5a728ec242f10b65fbec73907f2dd5"
+     },
+     "pool_sha256": "5d2d67e4bf6423469a8ffa5bae473e39300f6501f93145367f9681fb1088ccf1",
+     "admitted_sha256": "93b0c46c5e9cbe8585ad89c138cd382408e30d5446f3a526596d39eb92011114",
+     "sample_seed": 2026092625,
+     "sample_status_counts": {
+      "admitted": 127,
+      "scored_rejected": 63,
+      "not_scored": 10
+     }
+    }
+   }
+  }
+ }
+}

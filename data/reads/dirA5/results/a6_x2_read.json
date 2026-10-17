@@ -1,0 +1,17 @@
+{
+ "seeds": [
+  {
+   "seed": 0,
+   "CA_cln1": 0.7933333333333333,
+   "CA_rnd1": 0.82,
+   "holds": false
+  },
+  {
+   "seed": 1,
+   "CA_cln1": 0.765,
+   "CA_rnd1": 0.8066666666666666,
+   "holds": true
+  }
+ ],
+ "X2_phi": false
+}

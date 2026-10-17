@@ -1,0 +1,32 @@
+{
+ "0": {
+  "admitted": 593,
+  "proposed": 419,
+  "audited": 200,
+  "to_audit": 219
+ },
+ "1": {
+  "admitted": 593,
+  "proposed": 435,
+  "audited": 200,
+  "to_audit": 235
+ },
+ "2": {
+  "admitted": 593,
+  "proposed": 415,
+  "audited": 200,
+  "to_audit": 215
+ },
+ "3": {
+  "admitted": 587,
+  "proposed": 424,
+  "audited": 200,
+  "to_audit": 224
+ },
+ "4": {
+  "admitted": 586,
+  "proposed": 397,
+  "audited": 200,
+  "to_audit": 197
+ }
+}

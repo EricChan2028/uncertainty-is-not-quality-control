@@ -1,0 +1,525 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{microtype}
+\usepackage{multicol}
+
+\newcommand{\unk}{\texttt{unknown}}
+\newcommand{\met}{\textbf{Met.}}
+\newcommand{\nmet}{\textbf{Not met.}}
+\newcommand{\inc}{\textbf{Inconclusive.}}
+\newcommand{\nrun}{\textbf{Not run.}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\sub}[1]{\multicolumn{4}{@{}l}{\emph{#1}}\\\addlinespace[1pt]}
+\setlength{\tabcolsep}{4pt}
+\setlength{\LTpre}{4pt}
+\setlength{\LTpost}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\title{Supplementary Material: Pre-registered Predictions}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-2.5em}
+
+\section*{About this document}
+
+This supplement accompanies the paper \emph{Uncertainty Is Not Quality Control: Label-Free Self-Play Drifts Toward Ill-Posed Problems}. It lists all 136 pre-registered predictions summarised in Appendix~C of the paper, grouped by the ten topics of that summary, in the same order and with the same counts (Table~\ref{tab:summary} below). For each prediction we give a running number (S1--S136), the prediction with its pre-registered threshold, the outcome with the observed value, and the section of the paper where it is discussed. Section numbers (\S) and appendix letters refer to the paper; ``App.~C'' means that the prediction appears in the paper only in the outcome summary of Appendix~C. The last section lists the proposer's 40 topic prompts and its instruction template.
+
+\paragraph{Procedure.} We pre-registered eleven sets of predictions, one per study. For each, we wrote the predictions, thresholds, analysis scripts and the conditions for stopping a run before generating the data and appended their SHA-256 hashes, with timestamps, to an append-only log. Additions made while a study was running (further seeds, arms or predictions) were written and hashed in the same way before any of their data existed; the cases in which this order was not kept are listed under Deviations. From the third study on, most analysis scripts were also reviewed by two or three LLM agents before their first run. Outcomes were computed from the outputs of the hashed analysis scripts; in the first study, and in the cases listed in Deviation~3, the thresholds were applied to these outputs by hand.
+
+\paragraph{What counts as a prediction.} Each entry is a prediction with a pre-registered threshold. A prediction registered for several models, with a separate criterion for each, is listed once per model. A prediction with several clauses is met only if every clause is met. The required number of seeds (for example ``in at least 2 of 3 seeds'') is part of the threshold, and thresholds are inclusive unless written as strict inequalities. Pre-registered decision rules, which stated what we would claim or run next depending on the outcomes, and descriptive analyses without a threshold are not predictions and are not listed.
+
+\paragraph{Outcomes.} \emph{Met} and \emph{Not met}: the observed value meets or misses the pre-registered criterion. \emph{Inconclusive}: the pre-registration defined a prediction and an alternative and neither held, or the data left the criterion undefined. \emph{Not run}: the prediction was not tested, because its data were never produced, because it was to run only if an earlier prediction held, or because a pre-registered condition stopped its run. Observed values are given per seed, as ranges over seeds, or as the number of seeds that meet the criterion.
+
+\paragraph{Terms.} Unless stated otherwise, the model is Qwen3-4B-Base, ``round $t$'' is the $t$-th round of the self-play loop (\S2), and the \emph{full curriculum} is the standard loop with the agreement band $0.25 \le p \le 0.75$.
+\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\item \emph{Solvable-only curriculum}: the admitted proposals that a full audit labels solvable, plus the admitted intact planted problems. \emph{Random-half curriculum}: a uniformly random half of the admitted set.
+\item \emph{Abstention guard}: rejects a band problem when at least 2 of its 8 samples answer \unk{} under a prompt that offers this option; the \emph{guarded loop} is the loop with this guard.
+\item \emph{Ill-posed share}: share of a random sample of 200 admitted proposer-written problems that the Claude Opus judges label unsolvable or ambiguous; \emph{unsolvable share}: the same, counting unsolvable labels only.
+\item \emph{Planted ratio}: admission rate of the planted premise-deleted problems divided by that of their intact originals.
+\item \emph{Premise-deleted probe}: the 412 premise-deleted GSM-Symbolic problems and their intact originals (\S2).
+\item \emph{Self-consistent-answer rate} (CA in the registration documents): share of unanswerable (or premise-deleted) questions whose most frequent numeric answer holds at least half of the samples, under the plain prompt.
+\item \emph{Abstention} and \emph{false abstention}: mean share of samples answering \unk{} on unanswerable and on answerable questions when the option is offered.
+\item \emph{Accuracy}: greedy benchmark accuracy averaged over MATH-500, 1,000 further MATH test problems and 500 GSM8K test problems, with lenient answer extraction, in points.
+\item \emph{Fixed pool} and \emph{held-out pool}: the two fully audited first-round pools of \S4.1, scored by the base model and by the solvers of rounds 1 to 5.
+\item \emph{Selective-answering frontier}: the lowest self-consistent-answer rate that label-free rules on the eight samples (answer only when enough samples agree, or when few of them abstain) reach at a given false-abstention rate, with the \unk{} option offered (\S6).
+\end{itemize}
+
+\paragraph{Abstention-prompt values.} For the predictions that use the abstention prompt on UMWP or on SUM, MiP-GSM8K and MiP-MATH (S67, S72, S76--S78, S80, S81 and S119), the observed values on these sets come from the re-run with the corrected instruction (Deviation~11). The outcomes are those of the pre-registered analysis; the corrected data give the same outcomes, except that S77 also needs two Phi-4-mini lineages that were not re-run.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Topic (sections) & Numbers & Pred. & Met & Not met & Inc. & N/R \\
+\midrule
+1\enspace Drift across models (\S3) & S1--S14 & 14 & 5 & 8 & 0 & 1 \\
+2\enspace Filters, proposers, rewards (\S3, \S6) & S15--S72 & 58 & 26 & 29 & 1 & 2 \\
+3\enspace Validity, controls (\S3, \S5, \S6) & S73--S109 & 37 & 13 & 11 & 2 & 11 \\
+4\enspace Difficulty, swaps, sets (\S4, \S5) & S110--S119 & 10 & 5 & 5 & 0 & 0 \\
+5\enspace Exit through round 5 (\S4) & S120--S121 & 2 & 1 & 1 & 0 & 0 \\
+6\enspace Official R-Zero code (\S3, \S5) & S122--S123 & 2 & 2 & 0 & 0 & 0 \\
+7\enspace Blind re-judging, two studies (\S3) & S124--S129 & 6 & 6 & 0 & 0 & 0 \\
+8\enspace Readings (\S4, \S5) & S130--S132 & 3 & 2 & 1 & 0 & 0 \\
+9\enspace Sharpening model in two more models (\S4) & S133--S134 & 2 & 2 & 0 & 0 & 0 \\
+10\enspace Open-weight judge (\S3) & S135--S136 & 2 & 1 & 1 & 0 & 0 \\
+\midrule
+Total & & 136 & 63 & 56 & 3 & 14 \\
+\bottomrule
+\end{tabular}
+\caption{Outcomes of the pre-registered predictions by topic (summarised in Appendix~C of the paper). Inc.: inconclusive; N/R: not run.}
+\label{tab:summary}
+\end{table}
+
+% ---------------------------------------------------------------- topic 1
+\section*{1\quad Drift across models (\S3)}
+14 predictions: 5 met, 8 not met, 1 not run. All concern the full curriculum and its variants over rounds 1--3.
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+S1 & Qwen3-4B and Qwen3-8B: the planted ratio rises from round 1 to round 3, and the share of planted premise-deleted problems answered self-consistently (agreement $\ge 0.5$) rises monotonically over rounds 1--3. & \met{} In 8 of 8 lineages: planted ratio 0.76--1.01 in round 1 and 1.30--2.10 in round 3 (it fell from round 2 to round 3 in 5 of 8); self-consistent share monotone, 76--82\% in round 3. & App.~A \\
+S2 & Llama-3.2-3B: planted premise-deleted problems are admitted at $\ge 0.8$ times the rate of intact ones in every round, the planted ratio rises over rounds, and the self-consistent share of planted premise-deleted problems rises monotonically. & \nmet{} The first clause held (0.87--1.34). In the three seeds that could be evaluated through round 3, the ratio fell from round 2 to round 3 and ended below its round-1 value in two, and the self-consistent share rose monotonically in one. & \S3 \\
+S3 & Qwen3-4B and Qwen3-8B: the unsolvable share of the admitted curriculum is $\ge 15\%$ in round 1 and does not decrease from round 1 to round 3. & \met{} 35.0--46.0\% in round 1; non-decreasing in 8 of 8 lineages, rising by 18.0--27.5 points by round 3. & \S3 \\
+S4 & Llama-3.2-3B: the unsolvable share is $\ge 15\%$ in round 1 and does not decrease from round 1 to round 3. & \nmet{} 48.0--51.0\% in round 1; in all three evaluable seeds the share rose in round 2 and fell in round 3 (seeds 0 and 1 collapsed in round 1). & \S3 \\
+S5 & A cost by round 3 on each model: the premise-deleted self-consistent-answer rate rises by $\ge 0.05$ from round 1 to round 3, accuracy on the 1,000 further MATH problems changes by $< +1$ point from round 2 to round 3, and accuracy on 500 problems with an inserted irrelevant clause falls by $\ge 3$ points from the base model. & \nmet{} On no model. Qwen3-4B met the first clause in 5 of 5 seeds, but its accuracy with the irrelevant clause rose (63.2\% to 67.2--70.4\%); Qwen3-8B's self-consistent-answer rate rose by only 0.02--0.04; Llama-3.2-3B met all three clauses in one of three seeds. & App.~C \\
+S6 & A variant that adds a premise-deletion contrast to the solver update keeps accuracy on the further MATH problems within 2 points of the full curriculum in every round, keeps the premise-deleted self-consistent-answer rate within $+0.05$ of the base model, and abstains on $\le 10\%$ of intact and irrelevant-clause problems; it was to be run only if its preliminary study met its criteria. & \nrun{} The preliminary study missed its criteria (abstention on intact problems 25.5--27.1\% against at most 10\%). & App.~C \\
+S7 & Qwen3-8B (seed 0) matches Qwen3-4B: its unsolvable share and planted ratio are within 0.10 of Qwen3-4B's in every round, and its premise-deleted self-consistent-answer rate stays below 0.10 in every round. & \nmet{} The planted ratio exceeded Qwen3-4B's by 0.19, 0.23 and 0.21 in rounds 1--3; the share (differences of $-1.0$ to $-6.5$ points) and the self-consistent-answer rate (0.063--0.083) met their clauses. & App.~C \\
+S8 & Round 3: the solvable-only curriculum's accuracy exceeds the full curriculum's by $\ge 2$ points in both seeds of a model, while the random-half curriculum stays within 2 points of the full one. & \nmet{} Qwen3-4B: solvable-only minus full $-0.10$ and $+0.27$ points. Llama-3.2-3B gave no valid comparison, since its full curricula collapsed. & \S5 \\
+S9 & Round 3: the full, solvable-only and random-half curricula are within 2 points of each other in accuracy. & \met{} Qwen3-4B: ranges of 0.80 and 0.27 points in the two seeds. Llama-3.2-3B, whose full curricula collapsed, did not meet it. & \S5 \\
+S10 & Round 3: the random-half curriculum differs from the full curriculum by at least as much as the solvable-only curriculum does (by $\ge 2$ points, and by at least the solvable-only difference, in some seed). & \nmet{} Random-half minus full $-0.80$ and $+0.23$ points; solvable-only minus full $-0.10$ and $+0.27$ (Qwen3-4B; not met for Llama-3.2-3B either). & App.~C \\
+S11 & A band recalibrated each round on the planted problems stops the drift: planted ratio $\le 0.8$ in every round, and unsolvable share in rounds 2--3 no higher than the full curriculum's round-1 share (not met if the ratio exceeds 1.0 in any round or the share rises by $\ge 10$ points from round 1 to round 3). & \nmet{} The ratio reached 1.25 and 1.16 in round 3 (Qwen3-4B), and the unsolvable share rose by 21 points (Qwen3-4B) and 24 points (Llama-3.2-3B); the band delayed the drift by about one round. & App.~C \\
+S12 & Qwen3-4B: the recalibrated band's round-3 accuracy is at least the full curriculum's minus 2 points. & \met{} 2 of 2 seeds: 81.8 and 82.3 against 81.9 and 81.5. & App.~C \\
+S13 & Llama-3.2-3B: the recalibrated band does not collapse in round 1 (seeds 0 and 1). & \nmet{} Seed 0 collapsed (accuracy 20.9, truncation rate 0.50); seed 1 did not. & App.~C \\
+S14 & The Absolute-Zero-style band (admit $0 < p < 1$) drifts as well: planted ratio $> 1.0$ in round 2, or an unsolvable share rising by $\ge 10$ points from round 1 to round 2. & \met{} Planted ratio 1.24 and 1.33 in round 2; unsolvable share $+16.0$ and $+15.5$ points. & \S3 \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 2
+\section*{2\quad Filters, proposers, rewards (\S3, \S6)}
+58 predictions: 26 met, 29 not met, 1 inconclusive, 2 not run.
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\sub{Abstention guard}
+S15 & Fixed pool: at every checkpoint from the base model to round 5, the abstention guard admits a set that is $\le 35\%$ ill-posed and rises by $< 10$ points, while keeping $\ge 50\%$ of the solvable problems the band admits. & \nmet{} 49.0\% at base and 74.6\% at round 5 ($+25.6$ points); the retention clause held. Here the band is computed on the samples with the \unk{} option; the filter table of the paper (\S6) computes it on plain-prompt samples (45.8\% to 76.9\%). & \S6 \\
+S16 & Guarded loop (Qwen3-4B, Qwen3-8B, Phi-4-mini): the unsolvable share is $\le 30\%$ in every round and rises by $< 10$ points from round 1 to round 3, and the planted ratio is $\le 0.6$ in every round. & \nmet{} In 7 of 7 lineages the share exceeded 30\% by round 2; round 3: 34.5--39.5\% (Qwen3-4B), 36.5--40.0\% (Qwen3-8B), 44.5--45.0\% (Phi-4-mini). & \S6 \\
+S17 & Qwen3-4B guarded loop: round-3 accuracy is at least the full curriculum's minus 2 points in at least 2 of 3 seeds. & \met{} 2 of 3: 79.4, 81.9, 80.1 against thresholds of 79.9, 79.5, 79.8. & App.~C \\
+S18 & Qwen3-8B guarded loop: round-3 accuracy is at least the full curriculum's minus 2 points in both seeds. & \met{} 83.4 and 83.3 against thresholds of 81.7 and 81.5. & App.~C \\
+S19 & Phi-4-mini guarded loop: round-3 accuracy is at least the full curriculum's minus 2 points in both seeds. & \met{} 76.9 and 76.0 against thresholds of 75.8 and 75.8. & App.~C \\
+S20 & Qwen3-4B guarded loop, round 3: the premise-deleted self-consistent-answer rate is at most the full curriculum's, and abstention on premise-deleted problems with the \unk{} option is at least the full curriculum's. & \met{} 3 of 3 seeds: 0.19--0.26 against 0.32--0.41; abstention 0.73--0.75 against 0.69--0.71. & App.~C \\
+S21 & Phi-4-mini guarded loop, round 3: the same two clauses. & \met{} 2 of 2: 0.60 and 0.54 against 0.64 and 0.59; abstention 0.51 and 0.54 against 0.48 and 0.51. & App.~C \\
+S22 & Qwen3-8B guarded loop, round 3: the same two clauses. & \nmet{} Self-consistent-answer clause met in 2 of 2 seeds (0.039 and 0.114 against 0.073 and 0.129); abstention clause in 1 of 2 (0.510 against 0.524). & App.~C \\
+\addlinespace[2pt]
+\sub{Co-evolving proposer}
+S23 & A proposer fine-tuned each round on its admitted problems learns to write ill-posed ones: the unsolvable share of its raw output rises by $\ge 15$ points from round 1 (frozen proposer, 29\%) to round 3, and its admitted round-3 unsolvable share is at least the full curriculum's. & \nmet{} 0 of 4 seeds: raw share 22.0--28.0\% in rounds 2--3; admitted 40.5--55.0\% against 61.0--66.5\% (full curriculum, seeds 0--3). & \S3 \\
+S24 & The co-evolving loop costs accuracy: round-3 accuracy is at most the full curriculum's minus 2 points in at least 3 of 4 seeds. & \nmet{} 0 of 4: 80.6--82.8 against 81.4--81.9. & App.~C \\
+S25 & Co-evolving proposer with the abstention guard: the raw unsolvable share rises by $< 10$ points from round 1 to round 3, and round-3 accuracy is at least the co-evolving loop's plus 2 points in both seeds and at least the full curriculum's minus 2. & \nmet{} Accuracy 80.5 and 81.4 against 83.8 and 82.6; the raw-share clause held. & App.~C \\
+\addlinespace[2pt]
+\sub{Further model families}
+S26 & Phi-4-mini, full curriculum: the planted ratio rises from round 1 to round 2 and the unsolvable share rises by $\ge 10$ points from round 1 to round 3, without collapse. & \met{} 2 of 2: ratio 1.00 to 1.68 and 1.04 to 1.67; unsolvable share 26.5\% to 53.0\% and 33.0\% to 57.0\%. & \S3 \\
+S27 & Phi-4-mini guarded loop: both the drift criterion of S16 and the accuracy criterion of S19 hold. & \nmet{} The drift criterion failed (round-3 unsolvable share 44.5\% and 45.0\%; planted ratio 0.78 in round 1). & App.~C \\
+S28 & OLMo-2-7B-Instruct as a fourth family: the predictions S26 and S27. & \nrun{} & App.~C \\
+\addlinespace[2pt]
+\sub{Admission rules and scale, scored on fixed pools}
+S29 & Held-out pool: the ill-posed share admitted by each of five label-free rules (the band; $0.5 \le p \le 0.875$; the same with no abstention; the band with fewer than 2 of 8 abstentions; the band with no abstention and the same answer under two prompts) rises by $\ge 15$ points from the base model to round 5. & \met{} All five rules: $+25.7$ to $+41.9$ points. & \S6 \\
+S30 & Held-out pool: the rule $0.5 \le p \le 1$, which also admits unanimous problems, rises by $< 10$ points, and its admitted solvable problems with $p < 1$ fall by $\ge 50\%$. & \nmet{} $+11.9$ points (30.5\% to 42.5\%); the count fell by 75\%. & \S6 \\
+S31 & Held-out pool: among problems with $1/8 \le p \le 7/8$, the ill-posed share rises monotonically from the base model to round 5. & \met{} 52.7, 64.4, 72.1, 74.4, 77.6 and 79.2\%. & App.~C \\
+S32 & In each base and post-trained pair (Qwen3-14B-Base and Qwen3-14B; Qwen2.5-32B and Qwen2.5-32B-Instruct), the post-trained model's band admits $\ge 10$ points more ill-posed problems from the fixed pool, with a lower in-band share of solvable problems and a higher mean agreement on solvable ones. & \met{} 2 of 2: 64.1\% to 74.9\% and 62.2\% to 75.7\%; the other two clauses held. & \S4.1 \\
+\addlinespace[2pt]
+\sub{Stronger proposer and harder refills (fixed-pool solvers)}
+S33 & A stronger frozen proposer, Qwen2.5-7B-Instruct, writes a less ill-posed raw pool than Qwen3-4B-Base (44.8\%). & \met{} 35.0\%. & \S3 \\
+S34 & With this proposer, the band's ill-posed share rises by $< 15$ points from the base model to round 5, and the number of in-band solvable problems at round 5 is $\ge 25\%$ of its base value. & \nmet{} 46.9\% to 73.7\% ($+26.8$ points); 18.5\% of the base number. & \S3 \\
+S35 & The same two predictions with Qwen3-14B as proposer. & \nrun{} & App.~C \\
+S36 & Harder refills, written by the proposer from problems the round-3 solver answers unanimously: the band of the round-3 solver admits a refill set that is $\le 45\%$ ill-posed and contains $\ge 150$ solvable problems per 1,000 refill candidates. & \nmet{} 73.6\% ill-posed; 76 solvable per 1,000. & \S3 \\
+S37 & With the round-5 solver, the admitted refill set is $\le 50\%$ ill-posed. & \nmet{} 74.1\%. & \S3 \\
+\addlinespace[2pt]
+\sub{Qwen3-14B loop}
+S38 & The round-2 band admits planted premise-deleted problems at a higher rate relative to intact ones than the round-1 band, and the unsolvable share rises by $\ge 10$ points from round 1 to round 2. & \nmet{} The ratio clause held (1.17 to 2.25); the unsolvable share rose by 6.0 points (37.5\% to 43.5\%). & \S3 \\
+\addlinespace[2pt]
+\sub{Solvable-only curriculum, two further seeds}
+S39 & Round 3: the solvable-only curriculum's premise-deleted self-consistent-answer rate is at most the full curriculum's minus 0.05 in both new seeds (2 and 3) and in at least 3 of 4 seeds, with paired McNemar $p < 0.05$ in at least 3 of 4. & \met{} 4 of 4: $-0.107$, $-0.097$, $-0.153$, $-0.121$; every $p \le 1.0 \times 10^{-8}$. & \S5 \\
+S40 & Round 3: the random-half curriculum's premise-deleted self-consistent-answer rate differs less from the full curriculum's than the solvable-only curriculum's does, in at least 3 of 4 seeds. & \met{} 3 of 4 (differences 0.070, 0.078, 0.034, 0.197 against 0.107, 0.097, 0.153, 0.121). & App.~C \\
+S41 & Round 3: the solvable-only curriculum's accuracy is within 2 points of the full curriculum's. & \met{} 4 of 4: 81.7--82.7 against 81.4--81.9. & \S5 \\
+\addlinespace[2pt]
+\sub{One round from the round-2 solver on the round-3 curriculum, \unk{} offered but not rewarded}
+S42 & The plain-prompt premise-deleted self-consistent-answer rate is at most the full curriculum's minus 0.05 in every seed. & \nmet{} 2 of 3 (0.335 against a threshold of 0.297 in one seed). & \S6 \\
+S43 & Accuracy is at least the full curriculum's minus 2 points in every seed. & \met{} 3 of 3: 81.8--82.3 against 81.5--81.9. & App.~C \\
+S44 & With the \unk{} option, abstention on premise-deleted problems is at least the full curriculum's plus 10 points, and abstention on intact ones is $\le 15\%$. & \nmet{} 0 of 3, in the opposite direction: 0.24--0.32 against 0.69--0.71 (intact 0.006--0.012). & \S6 \\
+\addlinespace[2pt]
+\sub{One round from the round-2 solver on the round-3 curriculum, \unk{} can win the vote}
+S45 & The premise-deleted self-consistent-answer rate is at most the full curriculum's minus 0.05 in every seed (0, 1, 2, 4). & \nmet{} 2 of 4 (0.233 and 0.299 met their thresholds; 0.347 and 0.367 did not, against 0.297 and 0.360). & \S6 \\
+S46 & Accuracy is at least the full curriculum's minus 2 points in every seed. & \met{} 4 of 4: 81.4--82.2. & App.~C \\
+S47 & With the option, abstention on premise-deleted problems is at least the full curriculum's plus 10 points and abstention on intact ones is $\le 15\%$, in every seed. & \nmet{} 2 of 4 (gains of 0.081--0.131; intact 0.087--0.134). & \S6 \\
+S48 & On the two audited pools, with \unk{} counted as an answer in the band, the ill-posed share admitted by this solver is at least 10 points below that admitted by the full curriculum's round-3 solver. & \nmet{} 0 of 2: 73.2\% against 78.0\% and 76.2\% against 81.0\% ($-4.8$ points each). & App.~C \\
+S49 & Phi-4-mini: the premise-deleted self-consistent-answer rate is at most the full curriculum's minus 0.05 in each seed. & \nmet{} 0 of 2: 0.597 and 0.590 against thresholds of 0.591 and 0.537. & App.~C \\
+S50 & Phi-4-mini: accuracy is at least the full curriculum's minus 2 points in each seed. & \met{} 76.9 and 77.6 against thresholds of 75.8 and 75.8. & App.~C \\
+S51 & Phi-4-mini: abstention on premise-deleted problems is at least the full curriculum's plus 10 points and abstention on intact ones is $\le 15\%$. & \met{} 0.652 and 0.655 against 0.478 and 0.508; intact 0.050 and 0.046. & App.~C \\
+\addlinespace[2pt]
+\sub{The same, with \unk{} counted as three votes}
+S52 & The premise-deleted self-consistent-answer rate is at most the full curriculum's minus 0.05 in both seeds. & \nmet{} 0.301 against 0.266 in one seed; the other seed met it only after collapsing. & App.~F \\
+S53 & Accuracy is at least the full curriculum's minus 2 points in both seeds. & \nmet{} 21.4 and 79.2 against 79.9 and 79.5. & App.~F \\
+S54 & Abstention on premise-deleted problems is at least the full curriculum's plus 10 points and abstention on intact ones is $\le 15\%$. & \nmet{} The solvers refused: abstention 0.97 and 1.00 on premise-deleted and 0.85 and 0.99 on intact problems. & App.~F \\
+S55 & The pool criterion of S48. & \inc{} The solvers refused so often that the band admitted 0 and 3 problems, which leaves the share undefined or degenerate. & App.~F \\
+\addlinespace[2pt]
+\sub{Continued loop in which \unk{} can win the vote, rounds 4 and 5}
+S56 & Round 4: among audited ill-posed problems, the share trained toward a numeric (invented) answer rather than \unk{} is at least 15 points below the full curriculum's round-4 ill-posed share, in each seed. & \met{} 3 of 3: 49.0, 61.0 and 56.0\% against thresholds of 65.5, 65.0 and 63.5\%. & App.~F \\
+S57 & Round 4: the premise-deleted self-consistent-answer rate is at most the full curriculum's round-4 rate minus 0.10, in each seed. & \nmet{} 0 of 3: 0.38, 0.23 and 0.42 against 0.43, 0.32 and 0.50. & App.~C \\
+S58 & Round 4: accuracy is at least the full curriculum's round-4 accuracy minus 2 points, in each seed. & \met{} 3 of 3: 81.0--81.6 against thresholds of 78.9--80.4. & App.~C \\
+S59 & Round 4: abstention on intact problems is $\le 15\%$, in each seed. & \met{} 3 of 3: 0.045--0.068. & App.~C \\
+S60 & Round 5: the invented-answer share is at least 15 points below the full curriculum's round-5 ill-posed share, in each seed. & \nmet{} 1 of 3: 75.0, 66.5 and 62.5\% against thresholds of 66.0, 59.0 and 65.5\%. & App.~F \\
+S61 & No renewed drift: the round-5 invented-answer share is at most its round-4 value plus 5 points, in each seed. & \nmet{} 0 of 3: $+26.0$, $+5.5$ and $+6.5$ points. & App.~F \\
+S62 & Round 5: the premise-deleted self-consistent-answer rate is at most the full curriculum's round-5 rate minus 0.10, in each seed. & \nmet{} 2 of 3; one seed missed by 0.007. & App.~C \\
+S63 & Round 5: accuracy is at least the full curriculum's round-5 accuracy minus 2 points, in each seed. & \met{} 3 of 3: 81.0--81.8 against 80.5--81.8. & App.~C \\
+S64 & Round 5: abstention on intact problems is $\le 15\%$, in each seed. & \nmet{} 0.950 in one seed (0.087 and 0.095 in the other two). & App.~F \\
+\addlinespace[2pt]
+\sub{UMWP}
+S65 & The solvable-only curriculum's round-3 self-consistent-answer rate is below the full curriculum's in at least 3 of 4 seeds. & \met{} 4 of 4: 0.492--0.660 against 0.587--0.758. & \S5 \\
+S66 & The full curriculum's round-3 self-consistent-answer rate exceeds the base model's (0.287) in every seed (0--4). & \met{} 5 of 5: 0.587--0.758. & \S5 \\
+S67 & One round in which \unk{} can win the vote, in every seed: abstention on unanswerable questions is at least the full curriculum's plus 10 points, false abstention at most the full curriculum's plus 5 points, and answerable accuracy at least the full curriculum's minus 2 points. & \nmet{} 1 of 4: abstention 75.4--79.6\% against thresholds of 77.5--80.9\%; the other two clauses held. & App.~C \\
+S68 & The same variant's self-consistent-answer rate is at most the full curriculum's minus 0.05 in every seed. & \nmet{} 3 of 4 (0.663 against a threshold of 0.603 in one seed). & App.~C \\
+S69 & Qwen3-8B: the full curriculum's round-3 self-consistent-answer rate exceeds the base model's in every seed (0--2). & \met{} 3 of 3: 0.065 at base, 0.203--0.362 at round 3. & \S5 \\
+S70 & Phi-4-mini: the full curriculum's round-3 self-consistent-answer rate exceeds the base model's in every seed (0 and 1). & \met{} 2 of 2: 0.208 at base, 0.785 and 0.787 at round 3. & \S5 \\
+S71 & The guarded loop's round-3 self-consistent-answer rate is below the full curriculum's in every seed (0--2). & \met{} 3 of 3: 0.432--0.577 against 0.587--0.727. & \S6 \\
+S72 & The guarded loop's false abstention is at most the full curriculum's plus 5 points and its answerable accuracy at least the full curriculum's minus 2 points, in every seed. & \nmet{} Answerable accuracy 92.5\% against 96.2\% in one seed; the false-abstention clause held. & App.~C \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 3
+\section*{3\quad Validity, controls (\S3, \S5, \S6)}
+37 predictions: 13 met, 11 not met, 2 inconclusive, 11 not run.
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\sub{Judge validity and judge-free drift}
+S73 & On 200 unanswerable and 200 answerable UMWP questions, the judge labels $\ge 85\%$ of the unanswerable and $\le 12\%$ of the answerable ones ill-posed, with Cohen's $\kappa \ge 0.70$ against the human labels. & \met{} 98.5\% and 4.5\%; $\kappa = 0.94$. & \S2, App.~B \\
+S74 & Without a judge: the ratio of the in-band rates of unanswerable to answerable UMWP questions at round 3 is at least 1.25 times its base value in at least 80\% of the adequately powered lineages (Qwen3-4B seeds 0--4, Qwen3-8B 0--2, Phi-4-mini 0--1; at least 30 answerable questions in the band). & \met{} 10 of 10; growth by factors of 1.37--4.53. & \S3 \\
+S75 & The same criterion on the 412 premise-deleted problems and their intact originals, in at least 8 of 10 lineages. & \met{} 8 of 10 (Qwen3-4B 5 of 5, Phi-4-mini 2 of 2, Qwen3-8B 1 of 3). & \S3 \\
+\addlinespace[2pt]
+\sub{Selective answering with the \unk{} option}
+S76 & At the guard's own false-abstention rate, the guard's round-3 self-consistent-answer rate is at least 0.05 below the full curriculum's selective-answering frontier, on UMWP in at least 2 of 3 seeds and on the premise-deleted probe in at least 2 of 3. & \nmet{} 0 of 3 on both, and the opposite held: 0.43--0.58 against 0.17--0.18 on UMWP, and 0.19--0.26 against 0.13--0.17 on the probe. & \S6 \\
+S77 & The guard's false abstention is at most the full curriculum's plus 0.05 on the intact probe problems and on answerable UMWP questions, in at least 4 of 5 guard lineages, with none above 0.25. & \met{} 5 of 5; maximum 0.084. The corrected re-run covered the three Qwen3-4B lineages, which met it again, but not the two Phi-4-mini lineages. & App.~C \\
+S78 & The guard's default operating point is within 0.05 of the self-consistent-answer rate that the full curriculum reaches at the same false abstention with a threshold tuned on labelled UMWP development data, in at least 2 of 3 seeds. & \nmet{} 0 of 3: 0.46--0.57 against 0.18--0.24. & \S6 \\
+S79 & The AUROC of plain-prompt agreement for telling unanswerable from answerable UMWP questions falls by $\ge 0.05$ from the base model to round 3 in at least 8 of 10 lineages. & \nmet{} 2 of 10 (both Phi-4-mini); it stayed level or rose for Qwen3-4B (0.810 to 0.810--0.851) and rose for Qwen3-8B (0.735 to 0.795--0.836). & \S6 \\
+S80 & UMWP at 5\% false abstention: the frontier of the one round in which \unk{} can win the vote lies at least 0.03 below the full curriculum's round-3 frontier, in at least 3 of 4 seeds. & \nmet{} 0 of 4 (0.102--0.125 against 0.121--0.143); 1 of 4 with the original probe. & \S6 \\
+S81 & UMWP at 5\% false abstention: the frontier of the continued loop at round 4 lies at least 0.03 below the full curriculum's round-3 frontier, in at least 2 of 3 seeds. & \nmet{} 0 of 2 seeds with data (0.116 against 0.121; 0.121 against 0.126); the third seed has no UMWP data. & \S6 \\
+S82 & The same two comparisons on the premise-deleted probe at 10\% false abstention. & \nmet{} 1 of 4 seeds for the one-round variant; 0 of 3 for the continued loop. & App.~C \\
+\addlinespace[2pt]
+\sub{Size- and difficulty-matched loops}
+S83 & Round 3: the guard's premise-deleted self-consistent-answer rate is at most that of a loop admitting a size-matched random subset of the band minus 0.05, in at least 2 of 3 seeds, and a pooled item-paired bootstrap gives one-sided $p < 0.01$. & \nmet{} 1 of 3 seeds (guard against random: 0.257 and 0.248, 0.216 and 0.221, 0.192 and 0.447); the pooled clause held (difference 0.083, $p = 0.00025$). & \S6 \\
+S84 & Round 3, UMWP: the guard's self-consistent-answer rate is at most the random loop's minus 0.05 in at least 2 of 3 seeds. & \nmet{} 1 of 3: 0.577 and 0.542, 0.497 and 0.515, 0.432 and 0.748. & \S6 \\
+S85 & Round 3: the guard's premise-deleted self-consistent-answer rate is at most that of a loop dropping the lowest-agreement band problems down to the guard's size, minus 0.05, in at least 2 of 3 seeds (uninformative if the two sets of rejected problems overlap with a Jaccard index above 0.6 in round 1). & \met{} 2 of 3; Jaccard index 0.13--0.19. & App.~C \\
+S86 & Size is not the cause: the random loop's round-3 premise-deleted self-consistent-answer rate is within 0.05 of the full curriculum's in at least 2 of 3 seeds. & \nmet{} 1 of 3 (differences 0.099, 0.095, 0.037). & App.~C \\
+S87 & Round 3: the accuracy of both matched loops is within 2 points of the full curriculum's. & \met{} 3 of 3: 81.3--82.2 against 81.5--81.9. & App.~C \\
+\addlinespace[2pt]
+\sub{Reward isolation at round 4, all arms starting from the round-3 solver of S45--S47}
+S88 & The continued loop's round-4 premise-deleted self-consistent-answer rate is at most that of a control with the same start, prompt and problems but \unk{} unrewarded, minus 0.05, in at least 2 of 3 seeds; if instead the two are within 0.02 in at least 2 of 3, the reward adds nothing; any other result is inconclusive. & \inc{} Prediction 0 of 3, alternative 1 of 3 (loop against control: 0.3835 and 0.4296, 0.2330 and 0.1845, 0.4175 and 0.4248). & App.~C \\
+S89 & A three-way gate (numeric target for band problems with at most 1 of 8 abstentions, target \unk{} for problems with 5 or 6 of 8, the rest dropped) gives a self-consistent-answer rate at most the control's minus 0.05 and at most the continued loop's, in at least 2 of 3 seeds. & \nrun{} The pre-registered stopping rule ended two of the three seeds (in the completed seed: 0.238 against 0.184 and 0.233). & App.~C \\
+S90 & The three-way gate's accuracy is at least the continued loop's minus 2 points, and its abstention on intact problems is $\le 0.15$, in 3 of 3 seeds. & \nmet{} Intact abstention 0.671 in the completed seed, which ended the run as pre-registered; the accuracy clause held there. & App.~C \\
+S91 & The three-way gate's UMWP self-consistent-answer rate is at most the control's minus 0.05 in at least 2 of 3 seeds. & \nrun{} Stopped as S89 (completed seed: 0.513 against 0.390). & App.~C \\
+\addlinespace[2pt]
+\sub{Guarded loop continued to round 5}
+S92 & Round 5: the guard's premise-deleted self-consistent-answer rate is at most the full curriculum's minus 0.10 in at least 2 of 3 seeds. & \met{} 3 of 3: 0.175--0.267 against 0.345--0.571. & App.~C \\
+S93 & No renewed rise: the guard's round-5 rate is at most its round-3 rate plus 0.05 in at least 2 of 3 seeds. & \met{} 2 of 3. & App.~C \\
+S94 & Round 5: the guard's accuracy is at least the full curriculum's minus 2.5 points in 3 of 3 seeds. & \met{} 79.4--81.8 against 78.0--79.3. & App.~C \\
+S95 & Round 5, UMWP: the guard's self-consistent-answer rate is at most the full curriculum's minus 0.05 in at least 2 of 3 seeds. & \met{} 3 of 3: 0.417--0.560 against 0.650--0.783. & App.~C \\
+S96 & The drift continues under the guard: its round-5 unsolvable share is at least its round-3 share minus 5 points in at least 2 of 3 seeds. & \met{} 3 of 3: 34.5--39.5\% at round 3, 42.0--50.5\% at round 5. & \S6 \\
+\addlinespace[2pt]
+\sub{One round from the round-2 solver on the round-3 curriculum, flagged problems removed}
+S97 & Removing the problems that the round-2 solver flags (at least 2 of 8 abstentions with the option) lowers the premise-deleted self-consistent-answer rate to at most the full curriculum's round-3 rate minus 0.04, in at least 3 of 5 seeds with at least 10\% of problems flagged. & \nmet{} 2 of 5; every seed had 29.7--35.4\% flagged. & App.~C \\
+S98 & Removing the flagged problems lowers the rate by at least 0.03 more than removing as many unflagged problems with the same audited class mix, in at least 3 of 5 seeds with pooled one-sided $p < 0.05$; if instead the two are within 0.02 in at least 3 of 5, the class mix explains the effect; any other result is inconclusive. & \inc{} Prediction 1 of 5, alternative 2 of 5; pooled difference 0.002 ($p = 0.38$). & App.~C \\
+S99 & The accuracy of both removal arms is within 2.5 points of the full curriculum's round 3 in at least 4 of 5 seeds. & \met{} 5 of 5: 81.4--82.4. & App.~C \\
+\addlinespace[2pt]
+\sub{Qwen3-8B guarded loop}
+S100 & Round 3, UMWP: the guard's self-consistent-answer rate is at most the full curriculum's minus 0.04 in at least 2 of 3 seeds. & \nrun{} The seed-0 lineage was never started, and the guard's UMWP probe was not run. & App.~C \\
+S101 & Round 3: the guard's premise-deleted self-consistent-answer rate is at most the full curriculum's in at least 2 of 3 seeds. & \met{} 2 of 3 (0.039 against 0.073; 0.114 against 0.129; seed 0 not run). & App.~C \\
+S102 & The guard's accuracy is at least the full curriculum's minus 2 points, and its round-3 planted ratio is $\ge 1.1$, each in at least 2 of 3 seeds. & \nrun{} The seed-0 lineage was never started, and no pre-registered analysis covers the planted-ratio clause; the accuracy clause held in the two other seeds. & App.~C \\
+\addlinespace[2pt]
+\sub{Conditional follow-ups of the three-way gate}
+S103 & The three-way gate continued to round 5 (to be run only if S89 and S90 held): the invented-answer share at round 5 is at most its round-4 value plus 5 points in at least 2 of 3 seeds. & \nrun{} Its precondition was not met. & App.~C \\
+S104 & The same round-5 variant: its self-consistent-answer rate is at most the full curriculum's round-5 rate minus 0.10 in at least 2 of 3 seeds, with accuracy at least the full curriculum's minus 2 points and intact abstention $\le 0.15$ in 3 of 3. & \nrun{} Its precondition was not met. & App.~C \\
+S105 & A three-way-gate loop from round 1 (to be run only if the round-5 variant succeeded), against a loop with \unk{} offered but unrewarded: its round-3 self-consistent-answer rate is at most that loop's minus 0.05 and at most the guard's, in at least 2 of 3 seeds. & \nrun{} Its precondition was not met. & App.~C \\
+S106 & The same loop: accuracy at least the guard's minus 2 points, and in every round intact abstention $\le 0.15$ and \unk{} as the target of at most 5\% of audited solvable problems, in 3 of 3 seeds. & \nrun{} Its precondition was not met. & App.~C \\
+\addlinespace[2pt]
+\sub{MiP}
+S107 & MiP-GSM8K and MiP-SVAMP: the full curriculum's round-3 self-consistent-answer rate exceeds the base model's by $\ge 0.10$ in at least 4 of 5 seeds. & \nrun{} The probe was not run. & App.~C \\
+S108 & MiP: the solvable-only curriculum's rate is below the full curriculum's in at least 3 of 4 seeds. & \nrun{} The probe was not run. & App.~C \\
+S109 & MiP: the guard's rate is at most the full curriculum's minus 0.05 in at least 2 of 3 seeds, with answerable accuracy within 3 points. & \nrun{} The probe was not run. & App.~C \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 4
+\section*{4\quad Difficulty, swaps, sets (\S4, \S5)}
+10 predictions: 5 met, 5 not met. S110--S113 use the plain-prompt samples of the ten full-curriculum lineages of S74, on UMWP (S110--S112) and on the premise-deleted probe (S113).
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+S110 & At matched base agreement, the round-3 in-band retention of unanswerable UMWP questions divided by that of answerable ones is $\ge 1.25$ in at least 8 of 10 lineages, and the pooled bootstrap 95\% CI excludes 1. & \met{} 8 of 10; pooled 1.36 [1.31, 1.42]. & \S4.3 \\
+S111 & The same criterion against hard answerable questions (the base model gives the reference answer in at most 3 of 8 samples), in at least 7 of 10 lineages. & \nmet{} 2 of 10. & \S4.3 \\
+S112 & The median sharpening of the modal share, $\log q_{\text{base}} / \log q_{\text{round 3}}$, is lower for unanswerable than for matched answerable questions in at least 8 of 10 lineages. & \met{} 10 of 10. & \S4.3 \\
+S113 & The criterion of S110 on the 412 premise-deleted problems against their intact originals, in at least 7 of 10 lineages. & \nmet{} 5 of 10 (the five Qwen3-4B lineages); pooled 1.18. & App.~C \\
+S114 & One round from the round-2 solver: training on the solvable problems of the round-3 curriculum (plus the intact planted ones) instead of a random subset of the same size lowers the premise-deleted self-consistent-answer rate by $\ge 0.04$ in at least 4 of 5 seeds, with pooled McNemar $p < 0.01$. & \nmet{} 2 of 5 seeds; the pooled clause held ($p = 0.00023$; mean difference $-0.029$). & \S5 \\
+S115 & Phi-4-mini: the same contrast lowers the UMWP self-consistent-answer rate by $\ge 0.04$ in 2 of 2 seeds. & \nmet{} 1 of 2 ($-0.027$ and $-0.042$). & App.~C \\
+S116 & The same-size random subset's premise-deleted self-consistent-answer rate is within 0.04 of the full curriculum's round 3 in at least 3 of 5 seeds. & \met{} 4 of 5. & App.~C \\
+S117 & The accuracy of the two arms of S114 is within 2 points in every seed. & \met{} 5 of 5 Qwen3-4B seeds (gaps of 0.13--1.90 points); the analysis covered Qwen3-4B only. & App.~C \\
+S118 & SUM, MiP-GSM8K and MiP-MATH, plain prompt: the full curriculum's round-3 self-consistent-answer rate is at least the solvable-only curriculum's plus 0.05 in at least 3 of 4 seeds, on at least 2 of 3 sets. & \nmet{} 1 of 3 sets (MiP-GSM8K 4 of 4; SUM and MiP-MATH 2 of 4); all 12 differences are positive. & \S5 \\
+S119 & The same sets with the \unk{} option: the two curricula abstain within 0.05 of each other in at least 3 of 4 seeds, on at least 2 of 3 sets. & \met{} 3 of 3 sets; 11 of 12 seed-level gaps within 0.05, the largest 0.056 (12 of 12 with the original probe). & \S5 \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 5
+\section*{5\quad Exit through round 5 (\S4)}
+2 predictions: 1 met, 1 not met. Qwen3-4B, full curriculum, seeds 0--2, UMWP.
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+S120 & The matched retention ratio of unanswerable to hard answerable questions (defined as in S111) grows by $\ge 0.10$ from round 3 to round 5 in at least 2 of 3 seeds. & \nmet{} 1 of 3: 1.19 to 1.20, 1.12 to 1.09, 1.25 to 1.67. & \S4.3 \\
+S121 & The in-band retention of hard answerable questions is lower at round 5 than at round 3 in at least 2 of 3 seeds. & \met{} 2 of 3: 0.65 to 0.56, 0.70 to 0.71, 0.59 to 0.35. & \S4.3 \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 6
+\section*{6\quad Official R-Zero code (\S3, \S5)}
+2 predictions: 2 met. Both outcomes come from the pre-registered analysis script, run after all computation had ended but before its scheduled times; the runs at those times give byte-identical output (Deviation~9).
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+S122 & Official R-Zero code on Qwen3-4B-Base: the ill-posed share of 200 audited admitted questions at iteration 3 is at least that at iteration 1 plus 10 points, in at least one seed. & \met{} 2 of 2: 32.5\% to 55.5\% ($+23.0$ points) and 34.0\% to 61.0\% ($+27.0$). & \S3 \\
+S123 & The final R-Zero solver's plain-prompt UMWP self-consistent-answer rate strictly exceeds the base model's (0.287) in every seed. & \met{} 2 of 2: 0.338 and 0.303. & \S5 \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 7
+\section*{7\quad Blind re-judging, two studies (\S3)}
+6 predictions: 6 met. Judges saw the problems shuffled under neutral identifiers, with no information on round, iteration or seed.
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+S124 & Qwen3-4B, 900 problems (100 per seed at rounds 1, 3 and 5) re-judged blind: the ill-posed share at round 5 is at least that at round 1 plus 10 points, in at least 2 of 3 seeds. & \met{} 3 of 3: 51\% to 74\%, 49\% to 72\%, 53\% to 81\%. & \S3 \\
+S125 & Pooled over seeds, the blind change from round 1 to round 5 is within 7.5 points of the original change on the same problems. & \met{} $+24.7$ against $+23.0$ points. & \S3 \\
+S126 & Binary Cohen's $\kappa$ between blind and original labels over the 900 problems is $\ge 0.60$. & \met{} 0.78 (90.8\% agreement). & \S3, App.~B \\
+S127 & R-Zero, all 1,200 audited questions re-judged blind: the ill-posed share at iteration 3 is at least that at iteration 1 plus 10 points, in both seeds. & \met{} $+22.0$ and $+26.0$ points. & \S3 \\
+S128 & Pooled over seeds, the blind change is within 7.5 points of the original change on the same questions. & \met{} $+24.0$ against $+25.0$ points (difference $-1.0$, 95\% CI $[-3.0, +1.0]$). & \S3 \\
+S129 & Binary $\kappa$ between blind and original labels over the 1,200 questions is $\ge 0.60$. & \met{} 0.94 (97.2\% agreement). & \S3, App.~B \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 8
+\section*{8\quad Readings (\S4, \S5)}
+3 predictions: 2 met, 1 not met. 112 unanswerable and 112 hard answerable UMWP questions, eight fresh solutions each, from the base model and the round-5 solvers of seeds 0--2 (Appendix~G).
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+S130 & At base, the share of questions whose disagreement comes from different readings of the text (alone or together with computation errors) is at least 20 points higher for unanswerable than for hard answerable questions, with a bootstrap 95\% CI excluding 0. & \met{} 0.94 against 0.26; difference $+0.68$ [0.59, 0.77]. & \S4.4 \\
+S131 & The share of solutions to unanswerable questions that flag missing, ambiguous or contradictory information or state an assumption they had to make falls by $\ge 5$ points from the base model to round 5, in at least 2 of 3 seeds. & \nmet{} 0 of 3; it rose from 15.1\% to 49.1--70.3\%. & \S5 \\
+S132 & The mean number of distinct readings per unanswerable question is lower at round 5 than at base, in at least 2 of 3 seeds. & \met{} 3 of 3: 3.87 at base, 2.65--3.16 at round 5. & \S4.4 \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 9
+\section*{9\quad Sharpening model in two more models (\S4)}
+2 predictions: 2 met. The class-conditional sharpening law fitted on the fixed pool, scored by the solvers of one Qwen3-8B-Base and one Phi-4-mini lineage.
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+S133 & In each of the two models, solvable problems sharpen faster than unsolvable ones ($\beta_S > \beta_U$), with this order in at least 90\% of 1,000 item-bootstrap resamples. & \met{} 2.55 against 1.45 (Qwen3-8B) and 2.5 against 1.0 (Phi-4-mini); 100\% of resamples in both. Phi-4-mini's $\beta_U$ lies at the no-sharpening boundary. & \S4.2 \\
+S134 & In each of the two models, the point estimates are ordered $\beta_S > \beta_A > \beta_U$. & \met{} $2.55 > 1.50 > 1.45$ and $2.5 > 1.1 > 1.0$. & \S4.2 \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- topic 10
+\section*{10\quad Open-weight judge (\S3)}
+2 predictions: 1 met, 1 not met. Qwen2.5-32B-Instruct (greedy) judged the 900 problems of S124 under the same prompt.
+
+\begingroup\small
+\begin{longtable}{@{}L{0.9cm}L{7.8cm}L{6.1cm}L{1.3cm}@{}}
+\toprule
+No. & Prediction and pre-registered threshold & Outcome and observed value & Section \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+S135 & Pooled over seeds, the open-weight judge's ill-posed share at round 5 is at least that at round 1 plus 10 points, with the bootstrap CI excluding 0. & \met{} 44.3\% to 63.7\%; $+19.3$ points [11.7, 27.0]. & \S3 \\
+S136 & Binary Cohen's $\kappa$ between the open-weight judge and the blind Opus labels over the 900 problems is $\ge 0.40$. & \nmet{} $\kappa = 0.38$ (70.6\% agreement). & \S3 \\
+\end{longtable}
+\endgroup
+
+% ---------------------------------------------------------------- deviations
+\section*{Deviations}
+
+\begin{enumerate}\setlength{\itemsep}{2pt}
+\item The solvable-only predictions (S39--S41) were written after two of the four seeds had been seen, as the pre-registration states; only the other two seeds test them.
+\item The UMWP replication of that contrast (S65) was pre-registered after the premise-deleted result was known, the exit prediction through round five (S120) after its round-3 terms were known, and the continued-loop comparison of S81 after the frontier values it uses had been computed.
+\item Three outcomes (S22, S81 and S101), and the abstention clause of S20 and S21, were computed by arithmetic from hashed outputs rather than by a hashed script.
+\item The open-weight judge's output file was hashed together with, rather than before, its analysis script (S135, S136).
+\item One validity analysis (S75) used Monte Carlo subsampling (2,000 draws per item) instead of the planned exact computation.
+\item One control curriculum could not be matched exactly in composition: the equal-mix removal arm of S98 was 6--25 unsolvable problems short.
+\item One Llama-3.2-3B seed (seed 2, used in S2, S4 and S5) was added by an entry in the log rather than in the pre-registration text, and three evaluations of one study (S57--S59) finished after its planned cut-off, as did the seed-2 evaluations of S45--S47 in the same study; without this seed their outcomes are unchanged (S45 2 of 3, S46 3 of 3, S47 1 of 3).
+\item We refitted the sharpening law after finding a numerical bug, when the original held-out error (3.0 points) was known. The held-out error is not among the 136 predictions.
+\item The R-Zero analyses (S122, S123) were first run before their scheduled times (72 and 84 hours after registration); the scheduled runs give byte-identical output.
+\item Qwen3-8B and Qwen3-14B used fp32 AdamW on the CPU rather than 8-bit AdamW.
+\item The abstention-prompt probes for UMWP and for SUM, MiP-GSM8K and MiP-MATH first contained a formatting error in the instruction: a backspace character in place of the ``\textbackslash b'' of \texttt{\textbackslash boxed}. The \unk{} option itself was intact. We re-ran the 30 checkpoints whose abstention numbers we report with the corrected instruction, under a separate pre-registration of three further predictions (not counted among the 136; see below), and report abstention numbers only from this run. Abstention rates changed by $-3$ to $+9$ points (most for the base model) and self-consistent-answer rates with the option by $-7$ to $+2$. The three new predictions hold, and the earlier predictions that use this probe (S67, S72, S76--S78, S80, S81, S119) reach the same outcomes on the corrected data, except S77, which also needs Phi-4-mini, which we did not re-run.
+\item The blindness check of the raw challenger audit (analysis~1 of the last section) was narrowed twice, each time before the next judging pass was run: local computations in judges' own temporary folders named after the items' directory, and then judges' own background computations, no longer count as violations. The first pass keeps the original check. Of the batches of 25 questions, 34 of 48 passed in the first pass, 12 of the 14 re-judged batches in the second and 2 of 2 in the third, so that every question has a label.
+\item In the benchmark comparison (analysis~2 of the last section), the base model's MATH-500 accuracy under our plain prompt was 2.4 points below an earlier evaluation of the same model (63.6\% against 66.0\%), beyond the pre-stated tolerance of 2 points. As pre-registered, the comparison uses the new evaluation, which was run with the same code and software as that of the solvers.
+\item The analysis plan and script for the human annotation (analysis~4 of the last section) were written and registered after the annotation was complete but before the labels were joined with the round, seed and judge information of the problems; the annotators were blind to all three.
+\end{enumerate}
+
+% ---------------------------------------------------------------- re-run
+\section*{Further predictions of the corrected abstention-prompt re-run}
+
+Before any data of the corrected re-run existed, we pre-registered three further predictions, with the same procedure as above. Each replicates, with the corrected instruction, a direction seen with the original probe, so they are not counted among the 136. All three were met. (1)~At round 3, the full and solvable-only curricula abstain on unanswerable UMWP questions within 0.05 of each other in every one of seeds 0--3: 70.9\% and 68.8\%, 69.2\% and 70.8\%, 70.7\% and 70.3\%, 70.2\% and 69.8\% (gaps of $-0.016$ to $+0.021$). (2)~The same holds on SUM, MiP-GSM8K and MiP-MATH under the earlier aggregation rule (within 0.05 in at least 3 of 4 seeds per set, on at least 2 of 3 sets): it was met on 3 of 3 sets, with 11 of the 12 seed-level gaps within 0.05. (3)~At the guard's false-abstention rate (2.1--2.6\%), the drifted model's selective-answering frontier lies at least 0.05 below the guard's self-consistent-answer rate in every seed: the margins are 0.41, 0.32 and 0.25 (guard 0.577, 0.497 and 0.432 against frontier values of 0.171, 0.178 and 0.179).
+
+% ---------------------------------------------------------------- stated readings
+\section*{Further pre-registered analyses with pre-stated interpretations}
+
+Five further analyses were pre-registered with the same procedure: the first three before any of their data existed, the fourth after its labels existed but before they were joined with the round, seed and judge information of the problems (Deviation~14), and the fifth before any of its new runs existed. Instead of pass/fail thresholds, each has a rule, fixed in advance, that maps its result to one of a few pre-written statements. They are therefore not counted among the 136. Ill-posed means unsolvable or ambiguous, and unless stated otherwise all intervals are 95\% item-bootstrap CIs (4,000 resamples).
+
+\paragraph{(1) Blind audit of R-Zero's raw challenger output (\S3, App.~E).} For each seed and iteration of the R-Zero replication, we sampled 200 of the questions the challenger wrote (every generated question with a parsable question block), before pseudo-labelling and filtering, and had the 1,200 questions judged blind as in S127, under a framing sentence that does not mention a filter (batches whose judges failed the blindness check were re-judged in up to two further passes; Deviation~12). The reading of the raw ill-posed share depends on the CI of its change from iteration 1 to 3, pooled over seeds (400 questions per iteration): the share \emph{rises} or \emph{falls} if the CI lies above or below 0, is \emph{flat} if the CI contains 0 and lies within $\pm 10$ points (the threshold of S122), and is \emph{inconclusive} otherwise. The share of downstream selection (pseudo-labelling and the $[0.3, 0.8]$ filter) is given by $\Delta \log E$, the change from iteration 1 to 3 in the log of $E$, the admission rate of ill-posed sampled questions divided by that of solvable ones; since the log-odds of the admitted ill-posed share equal those of the raw share plus $\log E$, $\Delta \log E$ is \emph{positive} or \emph{negative} if its CI excludes 0 on that side and \emph{not established} otherwise, and the same label computed on the pseudo-labelled questions only, which isolates the filter, is a secondary label. The reading is \emph{rises}, with a \emph{positive} selection share: the raw share went from 38.5\% to 52.0\% and 59.5\% in seed 0 and from 41.0\% to 42.5\% and 48.0\% in seed 1, a pooled change of $+14.0$ points [7.2, 20.8] (per seed $+21.0$ [11.0, 30.5] and $+7.0$ [$-2.5$, 17.0]), and $\Delta \log E = 0.26$ [0.01, 0.53], with $E$ rising from 0.79 [0.63, 0.96] to 1.02 [0.88, 1.19]; the secondary, filter-only label is \emph{not established} (0.18 [$-0.06$, 0.43]). The pre-stated statement for this outcome is that the challenger's raw output drifts upward, with its cause (the uncertainty reward, the repetition penalty or the format reward) not separated by this analysis, and that downstream selection adds drift on top, so that the drift acts at both stages. A pre-registered check for an effect of the new framing sentence found none: the sampled questions that R-Zero had admitted were as often ill-posed as the admitted questions of the blind re-audit of S127 (mean difference over iterations $+0.1$ points [$-4.6$, 4.8]).
+
+\paragraph{(2) Benchmark accuracy of R-Zero's final solvers (App.~E).} We measured the greedy accuracy of the base model and of R-Zero's solvers on MATH-500, the 1,000 further MATH problems and the 500 GSM8K problems, in R-Zero's own chat format (its system prompt asking for a boxed answer; up to 4,096 tokens) and under our plain prompt (up to 2,048 tokens), with the same non-lenient answer extraction in both. The primary comparison is the final solver (iteration 3) against the base model on MATH-500 in R-Zero's format, the secondary one the same under our plain prompt; in each seed, the paired difference on the 500 problems counts as a gain if its CI lies above 0, as a loss if it lies below 0, and as no gain otherwise. The reading is \emph{reproduces} if both seeds gain in both comparisons, \emph{reproduces, format-dependent} if both gain only in R-Zero's format, \emph{reproduces in one seed} if exactly one seed gains in R-Zero's format, \emph{plain-only} if neither does but a seed gains under the plain prompt, and \emph{not reproduced} otherwise (with a loss noted if a solver is worse than the base model in R-Zero's format). The reading is \emph{reproduces in one seed}: in R-Zero's format the base model scores 71.4\% and the two solvers 74.0\% ($+2.6$ points [$-1.2$, 6.2], no gain) and 75.4\% ($+4.0$ [0.8, 7.4], gain), a mean gain of 0.29 times the 11.4 points reported for R-Zero (68.2\% to 79.6\%), while under the plain prompt both seeds gain (63.6\% to 71.8\% and 73.8\%; $+8.2$ [4.0, 12.2] and $+10.2$ [6.6, 14.0]). In R-Zero's format the solvers also gain on the further MATH problems ($+3.2$ [0.9, 5.6] and $+3.4$ [1.1, 5.8]) and on GSM8K ($+8.4$ [5.4, 11.4] and $+8.0$ [5.2, 11.0], reaching 92.0\% and 91.6\% against a published 92.1\%). The pre-stated check that the base model reproduces an earlier plain-prompt evaluation within 2 points failed on MATH-500 (63.6\% against 66.0\%; Deviation~13), while on the further MATH problems and GSM8K the two evaluations differ by 0.9 and 0.2 points.
+
+\paragraph{(3) An open-weight verifier on top of the band (\S6).} On the fixed pool, scored by the base model and by the solvers of rounds 1--5, a problem in the band was admitted only if Qwen2.5-32B-Instruct (greedy, under the audit prompt, as in S135) judged it solvable, and the full Opus audit gives the admitted ill-posed share. The pre-stated readings are: the level is \emph{lowered} if the CI of the band's ill-posed share minus the verifier's excludes 0 upward at every checkpoint (\emph{not lowered} if at none, \emph{mixed} otherwise); the direction \emph{persists} if the CI of the verifier's change from the base model to round 5 lies above 0 (\emph{reversed} if below 0, \emph{not shown} otherwise); and, since by Equation~1 of the paper a verifier that passes fixed fractions of the in-band ill-posed and solvable problems multiplies the odds by a constant, the ratio of the odds ratios (round 5 against base) with and without the verifier is \emph{consistent} with such a verifier if its CI contains 1, \emph{weakens} the drift if the CI lies below 1, and \emph{amplifies} it if the CI lies above 1. The reading is \emph{lowered}, \emph{persists} and \emph{consistent}. The ill-posed share rises from 52.9\% to 81.2\% under the band alone ($+28.3$ points [24.2, 32.5]) and from 32.0\% to 65.6\% with the verifier ($+33.6$ [26.2, 41.0]); the verifier lowers it by 15.5--20.9 points at every checkpoint (lowest CI bound 9.7), and the ratio of the odds ratios is 1.06 [0.86, 1.32]. At every checkpoint the verifier passes 30--35\% of the in-band ill-posed problems and 68--84\% of the in-band solvable ones, and the admitted set shrinks from 419 problems at base to 128 at round 5 (band alone: 724 to 345).
+
+\paragraph{(4) Human annotation of the Qwen3-4B drift (\S3, App.~B).} We sampled 240 of the 900 problems of S124 (seeds 0--2, rounds 1, 3 and 5; 80 per round, 26 or 27 per seed and round), shuffled them under neutral identifiers and gave them, with only the problem text and the definitions of solvable, unsolvable and ambiguous used by the judges (instruction in App.~B), to two external annotators, PhD students in mathematics (fourth and third year). They labelled independently, without LLM assistance, blind to round, seed and the judges' labels, and had not read the paper or seen model outputs; an external postdoctoral mathematician adjudicated the 17 problems on which their three-class labels differed, seeing only the two labels, not the round or any judge label. Each of the three was paid USD 500 for about five hours of work. The analysis plan and script were registered after the annotation was complete but before the labels were joined with the round, seed and judge information (Deviation~14). The final label is the annotators' common label where they agree and the adjudicated label otherwise; 71 problems are solvable, 148 unsolvable and 21 ambiguous. The reading depends on the CI of the change in the human ill-posed share from round 1 to round 5, pooled over seeds, with problems resampled within seed and round: the share \emph{rises} or \emph{falls} if the CI lies above or below 0, is \emph{flat} if the CI contains 0 and lies within $\pm 10$ points, and is \emph{inconclusive} otherwise. The pre-stated statements are that the human labels confirm the direction of the judge-measured drift if the share rises, that the drift is reported as judge-measured, with the human estimate and its CI, if the result is inconclusive, and that the human labels contradict the judge-measured drift if the share falls. The reading is \emph{rises}: the human ill-posed share is 56.2\% at round 1, 78.8\% at round 3 and 76.2\% at round 5, a change of $+20.0$ points [6.2, 33.8] (round 1 to 3: $+22.5$ [8.8, 36.2]; per seed $+14.8$ [$-11.1$, 37.0], $+22.2$ [$-3.7$, 48.1] and $+23.1$ [0.0, 46.2]), and a logistic trend over rounds gives an odds ratio of 1.28 per round (Wald 95\% CI [1.07, 1.52]). Since the three seeds are fixed strata, these intervals cover the sampling of problems within the three runs, not variation across seeds, which the per-seed changes show. The annotators agree on 223 of the 240 problems over the three classes ($\kappa = 0.87$ [0.81, 0.92]) and on 231 for ill-posed against solvable ($\kappa = 0.91$ [0.85, 0.96]). Against the final human labels (ill-posed against solvable), the original Opus labels agree at $\kappa = 0.75$ [0.65, 0.84] (accuracy 90.0\%; three classes 0.68 [0.59, 0.76]), the blind Opus labels of S124 at 0.89 [0.81, 0.95] (95.4\%; 0.77 [0.70, 0.84]) and the open-weight judge of S135 at 0.35 [0.23, 0.47] (70.0\%; 0.25 [0.15, 0.35]); they call 96.4\%, 98.8\% and 71.0\% of the human-ill-posed problems ill-posed. Their false-positive rates, the shares of the human-solvable problems (35, 17 and 19 at rounds 1, 3 and 5) that they call ill-posed, are 11.4\%, 41.2\% and 36.8\% (original Opus), 2.9\%, 23.5\% and 21.1\% (blind Opus) and 20.0\%, 23.5\% and 63.2\% (open-weight judge), changes from round 1 to round 5 of $+25.4$ [1.3, 49.7], $+18.2$ [0.0, 38.8] and $+43.2$ [17.2, 68.1] points. On the same 240 problems the three judges measure drifts of $+27.5$ [13.8, 40.0], $+26.2$ [12.5, 40.0] and $+25.0$ [10.0, 38.8] points, which exceed the human drift by 7.5 [$-1.2$, 16.2], 6.2 [0.0, 12.5] and 5.0 [$-11.2$, 21.2] points (paired). The reading is the same under each annotator's labels alone ($+18.8$ [5.0, 32.5] and $+17.5$ [3.8, 31.2]) and with ambiguous problems counted as solvable ($+20.0$ [5.0, 35.0]). Two further estimates were planned as exploratory, without a pre-stated reading: corrected for the blind Opus judge's per-round error rates estimated on these 240 problems, its drift on all 900 problems of S124 is $+17.2$ points [2.8, 28.1] with the Rogan--Gladen estimator, whose interval treats the 240 problems as a sample independent of the 900, and $+18.4$ [9.1, 27.3] with a two-phase (double-sampling) estimator, against $+24.7$ [17.3, 32.0] uncorrected.
+
+\paragraph{(5) The same-size contrast without planted problems (\S5, App.~A).} The same-size contrast of \S5 (in the attribution table of the paper; its premise-deleted version is S114) trains one round from the round-2 solver either on the solvable proposals of the round-3 admitted set plus its intact planted problems (the \emph{solvable set}) or on a random subset of that set of the same size (148--177 problems). On UMWP, one round on the random subset answers self-consistently more often in all five seeds, by 5.6 points on average (95\% $t$-interval over seeds [2.1, 9.0]; all intervals of this analysis are such $t$-intervals), but the two sets differ by 79--95 ill-posed proposals and also by the 20--39 planted premise-deleted problems of the random subset. For each of seeds 0--4, we replaced each planted premise-deleted problem of the random subset, in place, by a random admitted proposal not already in it, leaving the size, the order of the other problems and every setting unchanged, and trained one round on this \emph{subset without planted problems} from the same round-2 solver. The registered quantity is $E_{\mathrm{prop}} = \mathrm{CA}(\text{subset without planted problems}) - \mathrm{CA}(\text{solvable set})$, where CA is the plain-prompt self-consistent-answer rate on the 600 unanswerable UMWP questions; with $E_{\mathrm{plant}} = \mathrm{CA}(\text{random subset}) - \mathrm{CA}(\text{subset without planted problems})$, the two add up to the same-size contrast in every seed by construction. The reading depends on the 95\% $t$-interval of $E_{\mathrm{prop}}$ over seeds and requires at least four finished seeds: the proposer-written problems \emph{add} to the rate if the interval lies above 0, \emph{reduce} it if it lies below 0, and their contribution is \emph{not detected} otherwise, with an estimate at or below 0 as a separate sub-case. The pre-stated statements are that proposer-written ill-posed problems raise the rate without any planted premise-deleted problem (adds); that the six points come from the planted premise-deleted problems rather than from the proposer-written ones (reduces); and that the one-round, same-size contrasts do not resolve how much of the six points proposer-written rather than planted ill-posed problems contribute (not detected), with, in the sub-case, the further statement that the six points are not detected without the planted problems. $E_{\mathrm{plant}}$, benchmark accuracy and abstention with the \unk{} option are descriptive, without a reading. Before the reading, the same-size contrast was recomputed from the outputs of its runs and reproduced exactly; all five new runs finished. The reading is \emph{not detected}, with a positive estimate: $E_{\mathrm{prop}} = +0.5$ points [$-6.5$, 7.5] (per seed $+1.8$, $+8.7$, $-5.2$, $+1.5$ and $-4.5$; higher in three of five seeds), against 5.6 points with the planted problems, and $E_{\mathrm{plant}} = +5.1$ points [$-0.7$, 10.9] (per seed $+4.7$, $-0.2$, $+12.3$, $+2.7$ and $+6.0$; higher in four of five seeds). The attribution table of the paper gives $E_{\mathrm{prop}}$ with the opposite sign, as solvable set minus subset. The new runs' self-consistent-answer rate is 52.8--73.3\% and their accuracy 81.1--81.9 points; one round on the solvable set scores 0.5 points higher [$-0.1$, 1.1] and one round on the random subset 0.3 points lower [$-0.8$, 0.2], and on the answerable UMWP questions (95.0--96.8\% for the new runs) the solvable set is 0.1 points higher [$-1.5$, 1.7]. With the \unk{} option, one round on the solvable set, on the random subset and on the subset without planted problems abstains on 69.5\%, 70.6\% and 68.4\% of the unanswerable UMWP questions and on 1.9\%, 2.0\% and 1.9\% of the answerable ones (seed means over the five seeds). The design leaves two further differences between the arms. The subset without planted problems holds 103--117 ill-posed proposals (the random subset 79--95) and 14--26 intact planted problems, against none and 60--82 in the solvable set, so $E_{\mathrm{prop}}$ also compares 14--26 with 60--82 intact planted problems, a difference inherited from the same-size contrast. And the new runs were trained three days after the others, with the same code and software; since GPU sampling is not bitwise reproducible, a difference between the two days would enter both $E_{\mathrm{prop}}$ and $E_{\mathrm{plant}}$.
+
+% ---------------------------------------------------------------- proposer
+\section*{Proposer topics and instruction}
+
+Every round, the frozen proposer receives 1,200 requests, 30 for each of the following 40 topics (the requests cycle through the topics in this order), each request with its own sampling seed ($T{=}1.0$, top-$p$ 0.95, at most 300 new tokens). The topics, verbatim:
+
+\begin{multicols}{4}
+\begin{enumerate}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\item oranges
+\item train tickets
+\item a bakery
+\item a swimming pool
+\item a farm with chickens
+\item a school library
+\item a painter
+\item a road trip
+\item a lemonade stand
+\item a bookshelf
+\item a marathon
+\item a garden
+\item a parking lot
+\item a pizza order
+\item a piggy bank
+\item a classroom
+\item a factory shift
+\item a concert
+\item a bus route
+\item a recipe
+\item a bicycle shop
+\item a movie theater
+\item a zoo
+\item a coin collection
+\item a phone plan
+\item a fish tank
+\item a car wash
+\item a summer camp
+\item a bookstore sale
+\item a laundromat
+\item a football season
+\item a carpenter
+\item a hotel
+\item a museum visit
+\item a paper route
+\item a bake sale
+\item a taxi ride
+\item a science fair
+\item a comic shop
+\item a music lesson
+\end{enumerate}
+\end{multicols}
+
+Each request fills the topic into the following instruction (verbatim; \texttt{\{topic\}} is the placeholder):
+
+\begin{quote}\raggedright\ttfamily\small
+Write one new, challenging grade-school math word problem about \{topic\}. It must require several arithmetic steps and have a single numeric answer. Output only the problem text, no solution.
+\end{quote}
+
+Base models receive the instruction as plain text in the form \texttt{Task: <instruction>} followed by a line break and \texttt{Problem:}, and continue after \texttt{Problem:}; instruction-tuned models receive it as a single user turn in their chat template, and we add no system message beyond the template's default. The output is cut before the first line that begins with \texttt{Solution}, \texttt{Answer}, \texttt{Step 1} or \texttt{Problem}, surrounding quotation marks are removed and whitespace is collapsed; a proposal is kept if it has at least 40 characters, a digit and a question mark and is not a duplicate within the round. The solver then sees the kept problem followed by a space and ``Let's think step by step and output the final answer within \textbackslash boxed\{\}.'' (loop settings in Appendix~A of the paper).
+
+\end{document}

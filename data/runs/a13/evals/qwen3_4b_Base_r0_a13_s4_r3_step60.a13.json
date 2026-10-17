@@ -1,0 +1,140 @@
+{
+ "history": [
+  {
+   "time": "2026-09-27 05:02:38 CST",
+   "host": "<NODE>",
+   "state": "running",
+   "gpu": "4",
+   "model": "/dev/shm/ckpt_b/qwen3_4b_Base_r0_a13_s4_r3/final",
+   "script_sha256": "5bf7c94ac1821c473e1826e9a2623b19af92673742dc169d12e28a0478f1f189",
+   "attempt": 1
+  },
+  {
+   "time": "2026-09-27 05:30:44 CST",
+   "host": "<NODE>",
+   "state": "complete",
+   "gpu": "-",
+   "model": "/dev/shm/ckpt_b/qwen3_4b_Base_r0_a13_s4_r3/final",
+   "script_sha256": "5bf7c94ac1821c473e1826e9a2623b19af92673742dc169d12e28a0478f1f189",
+   "fingerprint": {
+    "realpath": "/dev/shm/ckpt_b/qwen3_4b_Base_r0_a13_s4_r3/final",
+    "files": {
+     "added_tokens.json": [
+      707,
+      "c0284b582e14987f"
+     ],
+     "chat_template.jinja": [
+      4116,
+      "87a2728cb8dc9fe4"
+     ],
+     "config.json": [
+      1536,
+      "0a7cb83af085ee21"
+     ],
+     "generation_config.json": [
+      117,
+      "ce8f331663b06a84"
+     ],
+     "merges.txt": [
+      1671853,
+      "8831e4f1a0444713"
+     ],
+     "model-00001-of-00002.safetensors": [
+      4967215360,
+      "7d21e73a7bf3015f"
+     ],
+     "model-00002-of-00002.safetensors": [
+      3077766632,
+      "da707914ca8d03e6"
+     ],
+     "model.safetensors.index.json": [
+      32855,
+      "06b3d5319b6d76d1"
+     ],
+     "special_tokens_map.json": [
+      616,
+      "6676f091c8bc4d1b"
+     ],
+     "tokenizer.json": [
+      11422654,
+      "aeb13307a71acd8f"
+     ],
+     "tokenizer_config.json": [
+      5407,
+      "67e5a0a11cd35f9c"
+     ],
+     "vocab.json": [
+      2776833,
+      "ca10d7e9fb3ed185"
+     ]
+    }
+   },
+   "output_sha256": "614b6ec6bcc14a22e99ecfa5772d50f495ebda00f0787a629abe9c9437585140",
+   "n_attempts": 0,
+   "n_yields": 0
+  }
+ ],
+ "registration": "A13",
+ "cell": "beval:4",
+ "state": "complete",
+ "host": "<NODE>",
+ "model": "/dev/shm/ckpt_b/qwen3_4b_Base_r0_a13_s4_r3/final",
+ "script_sha256": "5bf7c94ac1821c473e1826e9a2623b19af92673742dc169d12e28a0478f1f189",
+ "attempt": 1,
+ "fingerprint": {
+  "realpath": "/dev/shm/ckpt_b/qwen3_4b_Base_r0_a13_s4_r3/final",
+  "files": {
+   "added_tokens.json": [
+    707,
+    "c0284b582e14987f"
+   ],
+   "chat_template.jinja": [
+    4116,
+    "87a2728cb8dc9fe4"
+   ],
+   "config.json": [
+    1536,
+    "0a7cb83af085ee21"
+   ],
+   "generation_config.json": [
+    117,
+    "ce8f331663b06a84"
+   ],
+   "merges.txt": [
+    1671853,
+    "8831e4f1a0444713"
+   ],
+   "model-00001-of-00002.safetensors": [
+    4967215360,
+    "7d21e73a7bf3015f"
+   ],
+   "model-00002-of-00002.safetensors": [
+    3077766632,
+    "da707914ca8d03e6"
+   ],
+   "model.safetensors.index.json": [
+    32855,
+    "06b3d5319b6d76d1"
+   ],
+   "special_tokens_map.json": [
+    616,
+    "6676f091c8bc4d1b"
+   ],
+   "tokenizer.json": [
+    11422654,
+    "aeb13307a71acd8f"
+   ],
+   "tokenizer_config.json": [
+    5407,
+    "67e5a0a11cd35f9c"
+   ],
+   "vocab.json": [
+    2776833,
+    "ca10d7e9fb3ed185"
+   ]
+  }
+ },
+ "output_sha256": "614b6ec6bcc14a22e99ecfa5772d50f495ebda00f0787a629abe9c9437585140",
+ "n_attempts": 0,
+ "n_yields": 0
+}

@@ -1,0 +1,257 @@
+{
+ "inputs": {
+  "n_items": 1158,
+  "n_open_verdicts": 1158,
+  "n_missing": 0,
+  "open_verdicts_sha256": "2ec1448c605ea5ceb8ee5133110aeecedfd3530b2a6ec3abdaa3a0ce072e0bef",
+  "pinned_inputs_sha256": {
+   "dirB/runs/qwen3_4b_Base_own_a3_s0_r1/proposed.jsonl": "a97bf54ebae71447ae5d686222083745202f8516f090068d4386d8176b15acb9",
+   "dirA3/results/guard_diag/qwen_s0/result.json": "a250ce8824a7fcaa86871d77b773d05a85996335de71546ea5648d48dd36c7ad",
+   "dirA3/results/guard_diag/qwen_s0/base/guard_records.jsonl": "d7271ee75aa62713519f53f9344aa5a715c5f56fb08d64a45dc47dde99f781cb",
+   "dirA3/results/guard_diag/qwen_s0/r1/guard_records.jsonl": "b9aa0601ec2755f943afd57e12558143d10735cb66a85b065eff23adc3cc78ac",
+   "dirA3/results/guard_diag/qwen_s0/r2/guard_records.jsonl": "5da61cd028448aa6195be14b9755a5f9335f05647ae7ea28535ce6004d17cd03",
+   "dirA3/results/guard_diag/qwen_s0/r3/guard_records.jsonl": "9ccddc3394df8074d90739e66c21b40dd0161684accddf319bf8c579c4269443",
+   "dirA3/results/guard_diag/qwen_s0/r4/guard_records.jsonl": "ca5dc3d652a5fa559d25fb87dfa29ec28b4545cf8a99711f295e2182f0842228",
+   "dirA3/results/guard_diag/qwen_s0/r5/guard_records.jsonl": "6677ec70cfeb37680d39cfeffcf57fe9d47f611f0b8d74523644b929e60ce4bb"
+  },
+  "opus_parts_digest": "d4718c01ee11de3cbeb624772ec507a003bdc67cb20788c265fc2aaf2aa194f7",
+  "opus_label_counts": {
+   "UNSOLVABLE": 339,
+   "SOLVABLE": 639,
+   "AMBIGUOUS": 180
+  },
+  "opus_duplicate_conflicts": 0,
+  "band_alone_reproduces_result_json": true
+ },
+ "rule": "admit an in-band proposal only if the open judge says SOLVABLE; missing counts as not SOLVABLE",
+ "per_checkpoint": {
+  "base": {
+   "n_band": 724,
+   "s_band": 52.90055248618785,
+   "s_band_wilson95": [
+    49.25887817831931,
+    56.51160926609678
+   ],
+   "n_ver": 419,
+   "s_ver": 31.98090692124105,
+   "s_ver_wilson95": [
+    27.69610002744429,
+    36.593115982854705
+   ],
+   "gap_band_minus_ver": 20.919645564946798,
+   "gap_ci95": [
+    17.773760890784857,
+    24.252136752136753
+   ],
+   "yield_ver_over_band": 0.5787292817679558,
+   "eps_inband": 0.34986945169712796,
+   "keep_inband": 0.8357771260997068,
+   "eps_over_k": 0.4186157299253355,
+   "odds_identity_check": true
+  },
+  "r1": {
+   "n_band": 491,
+   "s_band": 70.46843177189409,
+   "s_band_wilson95": [
+    66.28704750863761,
+    74.33202277993666
+   ],
+   "n_ver": 215,
+   "s_ver": 51.627906976744185,
+   "s_ver_wilson95": [
+    44.97827872868129,
+    58.220383917685425
+   ],
+   "gap_band_minus_ver": 18.840524795149904,
+   "gap_ci95": [
+    14.331821949197987,
+    23.807749627421757
+   ],
+   "yield_ver_over_band": 0.4378818737270876,
+   "eps_inband": 0.3208092485549133,
+   "keep_inband": 0.7172413793103448,
+   "eps_over_k": 0.44728212538906176,
+   "odds_identity_check": true
+  },
+  "r2": {
+   "n_band": 427,
+   "s_band": 74.7072599531616,
+   "s_band_wilson95": [
+    70.37647853487131,
+    78.597452745529
+   ],
+   "n_ver": 174,
+   "s_ver": 54.59770114942529,
+   "s_ver_wilson95": [
+    47.18029970885196,
+    61.81647758967412
+   ],
+   "gap_band_minus_ver": 20.109558803736306,
+   "gap_ci95": [
+    14.9530570185482,
+    25.619364683035087
+   ],
+   "yield_ver_over_band": 0.40749414519906324,
+   "eps_inband": 0.29780564263322884,
+   "keep_inband": 0.7314814814814815,
+   "eps_over_k": 0.4071267013213761,
+   "odds_identity_check": true
+  },
+  "r3": {
+   "n_band": 384,
+   "s_band": 77.86458333333333,
+   "s_band_wilson95": [
+    73.44762774061496,
+    81.72955744666992
+   ],
+   "n_ver": 155,
+   "s_ver": 61.935483870967744,
+   "s_ver_wilson95": [
+    54.09046395271646,
+    69.20320273895659
+   ],
+   "gap_band_minus_ver": 15.929099462365585,
+   "gap_ci95": [
+    10.507246376811594,
+    21.42238713667286
+   ],
+   "yield_ver_over_band": 0.4036458333333333,
+   "eps_inband": 0.3210702341137124,
+   "keep_inband": 0.6941176470588235,
+   "eps_over_k": 0.4625588118587382,
+   "odds_identity_check": true
+  },
+  "r4": {
+   "n_band": 369,
+   "s_band": 78.59078590785907,
+   "s_band_wilson95": [
+    74.12217136813271,
+    82.470247466699
+   ],
+   "n_ver": 149,
+   "s_ver": 61.07382550335571,
+   "s_ver_wilson95": [
+    53.06055451365075,
+    68.53044588737878
+   ],
+   "gap_band_minus_ver": 17.516960404503365,
+   "gap_ci95": [
+    12.03959197479216,
+    23.208256051743007
+   ],
+   "yield_ver_over_band": 0.4037940379403794,
+   "eps_inband": 0.3137931034482759,
+   "keep_inband": 0.7341772151898734,
+   "eps_over_k": 0.42740784780023783,
+   "odds_identity_check": true
+  },
+  "r5": {
+   "n_band": 345,
+   "s_band": 81.15942028985508,
+   "s_band_wilson95": [
+    76.69850595863525,
+    84.93407655878862
+   ],
+   "n_ver": 128,
+   "s_ver": 65.625,
+   "s_ver_wilson95": [
+    57.04962771521265,
+    73.28984238729446
+   ],
+   "gap_band_minus_ver": 15.534420289855078,
+   "gap_ci95": [
+    9.690656565656568,
+    21.935483870967744
+   ],
+   "yield_ver_over_band": 0.3710144927536232,
+   "eps_inband": 0.3,
+   "keep_inband": 0.676923076923077,
+   "eps_over_k": 0.4431818181818181,
+   "odds_identity_check": true
+  }
+ },
+ "drift": {
+  "D_band": 28.25886780366723,
+  "D_band_ci95": [
+   24.187358124078536,
+   32.50560552563078
+  ],
+  "D_ver": 33.64409307875895,
+  "D_ver_ci95": [
+   26.248720392530622,
+   41.03361344537815
+  ],
+  "OR_ver_over_OR_band": 1.058684102149874,
+  "OR_ver_over_OR_band_ci95": [
+   0.8613752549502235,
+   1.3197956963758544
+  ],
+  "n_or_replicates": 4000,
+  "n_d_replicates": 4000,
+  "n_gap_replicates": {
+   "base": 4000,
+   "r1": 4000,
+   "r2": 4000,
+   "r3": 4000,
+   "r4": 4000,
+   "r5": 4000
+  }
+ },
+ "pool_level": {
+  "miss_rate_on_opus_illposed": 0.34104046242774566,
+  "miss_rate_ambiguous": 0.4111111111111111,
+  "miss_rate_unsolvable": 0.30383480825958703,
+  "false_reject_rate_on_opus_solvable": 0.13615023474178403,
+  "confusion_open_vs_opus": {
+   "SOLVABLE|AMBIGUOUS": 74,
+   "SOLVABLE|UNSOLVABLE": 103,
+   "SOLVABLE|SOLVABLE": 552,
+   "AMBIGUOUS|UNSOLVABLE": 34,
+   "UNSOLVABLE|AMBIGUOUS": 75,
+   "UNSOLVABLE|UNSOLVABLE": 202,
+   "UNSOLVABLE|SOLVABLE": 66,
+   "AMBIGUOUS|AMBIGUOUS": 31,
+   "AMBIGUOUS|SOLVABLE": 21
+  },
+  "kappa_binary": 0.5314629369086044,
+  "kappa_3class": 0.4189562213469362
+ },
+ "sensitivity_missing_as_solvable": {
+  "base": {
+   "n_ver": 419,
+   "s_ver": 31.98090692124105
+  },
+  "r1": {
+   "n_ver": 215,
+   "s_ver": 51.627906976744185
+  },
+  "r2": {
+   "n_ver": 174,
+   "s_ver": 54.59770114942529
+  },
+  "r3": {
+   "n_ver": 155,
+   "s_ver": 61.935483870967744
+  },
+  "r4": {
+   "n_ver": 149,
+   "s_ver": 61.07382550335571
+  },
+  "r5": {
+   "n_ver": 128,
+   "s_ver": 65.625
+  }
+ },
+ "readings": {
+  "level": "LOWERED",
+  "direction": "PERSISTS",
+  "direction_text": "the admitted ill-posed share still rises from base to r5 with the verifier on top (D_ver CI lower bound > 0)",
+  "corollary": "CONSISTENT",
+  "corollary_text": "OR_ver / OR_band CI contains 1: consistent with Corollary 1, i.e. consistent with a constant eps/k (eps_t and k_t are reported across checkpoints)",
+  "eps_r5_inband_wilson95": [
+   24.932672513149427,
+   35.608680240100405
+  ],
+  "eps_near_0": false
+ }
+}

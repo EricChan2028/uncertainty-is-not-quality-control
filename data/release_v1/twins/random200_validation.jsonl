@@ -1,0 +1,200 @@
+{"hp_deleted500_idx": 0, "fam": 178, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Bookkeeper's fee (€149) removed; net gain over the €1209 lost income undetermined."}
+{"hp_deleted500_idx": 1, "fam": 349, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "The kid's own toy count (10) removed; only the relative difference remains."}
+{"hp_deleted500_idx": 2, "fam": 125, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Cold-water per-mile time removed; 'two times as long' has no referent."}
+{"hp_deleted500_idx": 3, "fam": 340, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "The kid's own book count (20) removed; only the relative difference remains."}
+{"hp_deleted500_idx": 4, "fam": 123, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial bag size (92 coins) removed; 'two-fourths of them' has no base."}
+{"hp_deleted500_idx": 5, "fam": 289, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Box size (28 oranges) removed; oranges computable but number of boxes is not."}
+{"hp_deleted500_idx": 6, "fam": 332, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "The boy's marble count (5) removed; only the relation to brother remains."}
+{"hp_deleted500_idx": 7, "fam": 415, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Cold-water per-mile time (19 min) removed; warm-day rate undefined."}
+{"hp_deleted500_idx": 8, "fam": 245, "task": 3, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.85, "note": "Extra 12-minute library leg removed; remaining text uniquely gives 84-21=63, not 51."}
+{"hp_deleted500_idx": 9, "fam": 38, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.82, "note": "No statement that friends found all remaining tokens except 12; friends' total undetermined."}
+{"hp_deleted500_idx": 10, "fam": 261, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Calories per serving (175) removed; calorie budget cannot convert to ounces."}
+{"hp_deleted500_idx": 11, "fam": 341, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Number of floors (160) removed; total cleaning time per day undetermined."}
+{"hp_deleted500_idx": 12, "fam": 43, "task": 6, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.78, "note": "Nursery's 48 plants removed; remaining text uniquely gives 462+10-264=208, not 256."}
+{"hp_deleted500_idx": 13, "fam": 242, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Advisor's fee (¥161) removed; net saving over ¥330 lost income undetermined."}
+{"hp_deleted500_idx": 14, "fam": 376, "task": 5, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.88, "note": "Saturday's 339 removed; remaining text uniquely gives 109+218=327, not 666."}
+{"hp_deleted500_idx": 15, "fam": 81, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Ava's 45 friends removed; only ratios to Oliver remain, no absolute scale."}
+{"hp_deleted500_idx": 16, "fam": 429, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Number of floors (120) removed; daily cleaning minutes undetermined."}
+{"hp_deleted500_idx": 17, "fam": 247, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial bag size (36 marbles) removed; 'two-fourths of them' has no base."}
+{"hp_deleted500_idx": 18, "fam": 238, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Benjamin's 66 friends removed; only ratios to Beatriz remain, no absolute scale."}
+{"hp_deleted500_idx": 19, "fam": 217, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Interview-to-offer rate (10%) removed; offers undetermined unless one assumes all interviewees get offers."}
+{"hp_deleted500_idx": 20, "fam": 205, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Boy's toy count (10) removed; no base quantity, so no unique answer."}
+{"hp_deleted500_idx": 21, "fam": 82, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Calories-per-serving (225) removed; 600 remaining calories cannot be converted to ounces."}
+{"hp_deleted500_idx": 22, "fam": 396, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Bumper-car price (¥5) removed; per-person cost undetermined."}
+{"hp_deleted500_idx": 23, "fam": 346, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "20% tax rate removed while question still asks after-tax earnings."}
+{"hp_deleted500_idx": 24, "fam": 6, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Total item count (300) removed; bouncy balls undetermined."}
+{"hp_deleted500_idx": 25, "fam": 136, "task": 5, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.8, "note": "Only the ₺11 insurance fee removed; remaining problem yields 120 instead of 131."}
+{"hp_deleted500_idx": 26, "fam": 69, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Emma's 108 friends removed; only ratios remain, no absolute numbers."}
+{"hp_deleted500_idx": 27, "fam": 242, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Advisor's $161 fee removed; net advantage cannot be computed."}
+{"hp_deleted500_idx": 28, "fam": 214, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Muffins-per-jar (10) removed; jars cannot be converted to muffins."}
+{"hp_deleted500_idx": 29, "fam": 125, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Cold-water rate (12 min/mile) removed; warm rate defined relative to nothing."}
+{"hp_deleted500_idx": 30, "fam": 180, "task": 0, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.92, "note": "Only 16% discount removed; total becomes ₣250 rather than ₣210."}
+{"hp_deleted500_idx": 31, "fam": 444, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Cold rate (22 min/mile) removed; warm rate has no referent."}
+{"hp_deleted500_idx": 32, "fam": 244, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Number of floors (135) removed; total cleaning time undetermined."}
+{"hp_deleted500_idx": 33, "fam": 313, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Total cupcakes (7900) removed; blueberry count undetermined."}
+{"hp_deleted500_idx": 34, "fam": 159, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Comet's 50-year period removed; gap between sightings unknown."}
+{"hp_deleted500_idx": 35, "fam": 222, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Xena's 24 customers/day removed; only ratios remain, no absolute base."}
+{"hp_deleted500_idx": 36, "fam": 304, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Interview-to-offer rate (32%) removed; chain breaks at offers."}
+{"hp_deleted500_idx": 37, "fam": 346, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "20% tax rate removed though question asks after-tax June earnings."}
+{"hp_deleted500_idx": 38, "fam": 175, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial 72 pebbles removed; one-sixth dropped has no base amount."}
+{"hp_deleted500_idx": 39, "fam": 410, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Writing rate (5 min/page) removed; pages cannot be converted to hours."}
+{"hp_deleted500_idx": 40, "fam": 76, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Elena's daily output (99 customers) removed; only a ratio remains, no absolute total."}
+{"hp_deleted500_idx": 41, "fam": 246, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Tax rate removed but question still asks 'after tax'; net pay undetermined."}
+{"hp_deleted500_idx": 42, "fam": 190, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Price of a loaf of bread removed; difference cannot be computed."}
+{"hp_deleted500_idx": 43, "fam": 445, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Friday's 43 minutes removed; Saturday+Friday sum unknown."}
+{"hp_deleted500_idx": 44, "fam": 44, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Oliver's 140 friends removed; only ratios to Rania, no absolute counts."}
+{"hp_deleted500_idx": 45, "fam": 425, "task": 2, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.88, "note": "Without the 33 received plants: 58x10 - 58x7 = 174, uniquely determined, not 207."}
+{"hp_deleted500_idx": 46, "fam": 379, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.94, "note": "Accountant's fee (109) removed; net advantage of hiring undetermined."}
+{"hp_deleted500_idx": 47, "fam": 177, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Total of 350 items removed; bouncy balls unconstrained."}
+{"hp_deleted500_idx": 48, "fam": 118, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.93, "note": "Clause that all remaining except 18 were found removed; friends' count unknown."}
+{"hp_deleted500_idx": 49, "fam": 270, "task": 4, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.85, "note": "Without husband's 5 spoons: package = 36 + 7 = 43, uniquely solvable, not 38."}
+{"hp_deleted500_idx": 50, "fam": 277, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Calories per teaspoon of sugar removed; sugar contribution unknown."}
+{"hp_deleted500_idx": 51, "fam": 359, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Comet's 55-year orbital period removed; gap between sightings unknown."}
+{"hp_deleted500_idx": 52, "fam": 259, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Starting bag of 58 pebbles removed; all later steps are relative to it."}
+{"hp_deleted500_idx": 53, "fam": 292, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Flower bed length (171 feet) removed; plant count undetermined."}
+{"hp_deleted500_idx": 54, "fam": 429, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Hospital's 120 floors removed; also leaves 'they' without antecedent."}
+{"hp_deleted500_idx": 55, "fam": 125, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Cold-water rate (12 min/mile) removed; 'two times as long' has no referent."}
+{"hp_deleted500_idx": 56, "fam": 81, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Theo's 45 friends removed; only ratios remain, no absolute average."}
+{"hp_deleted500_idx": 57, "fam": 305, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Starting bag of 74 marbles removed; no anchor for the sequence."}
+{"hp_deleted500_idx": 58, "fam": 330, "task": 1, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.85, "note": "Without the 33 received: 603 + 30 - 268 = 365, uniquely solvable; discount is a distractor."}
+{"hp_deleted500_idx": 59, "fam": 231, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "The 46 minutes from grocery to bank removed; bank travel time unknown."}
+{"hp_deleted500_idx": 60, "fam": 221, "task": 1, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.92, "note": "Deleted 28 new plants; 61*11-61*7=244 still uniquely determined, differs from intact 272."}
+{"hp_deleted500_idx": 61, "fam": 74, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.93, "note": "Sugar is added but calories per teaspoon are never stated; total calories undetermined."}
+{"hp_deleted500_idx": 62, "fam": 5, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Comet orbital period removed, so gap between Ravi's first and second sighting is unknown."}
+{"hp_deleted500_idx": 63, "fam": 65, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Accountant's fee removed; net gain from hiring cannot be computed."}
+{"hp_deleted500_idx": 64, "fam": 4, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Interview-to-offer rate removed; number receiving offers, hence relocations, is undetermined."}
+{"hp_deleted500_idx": 65, "fam": 273, "task": 5, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.55, "note": "Library leg removed; still computable (116) under intact's convention, though 'spent so far' is ambiguous about coffee."}
+{"hp_deleted500_idx": 66, "fam": 184, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Monday's exercise minutes removed; Tuesday-plus-Monday combined total unknown."}
+{"hp_deleted500_idx": 67, "fam": 363, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Sourdough price removed; difference against muffins cannot be computed."}
+{"hp_deleted500_idx": 68, "fam": 381, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total muffin count removed; lemon count and its percentage are undetermined."}
+{"hp_deleted500_idx": 69, "fam": 193, "task": 4, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.9, "note": "Discount sentence removed; revenue uniquely 88+18+34=140 versus intact 119."}
+{"hp_deleted500_idx": 70, "fam": 128, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Sunday's 229 apricots removed; Tuesday triple-of-Sunday and totals undetermined."}
+{"hp_deleted500_idx": 71, "fam": 37, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Calories per serving removed; grams allowed within calorie budget cannot be found."}
+{"hp_deleted500_idx": 72, "fam": 218, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Party budget removed; number of affordable guests undetermined."}
+{"hp_deleted500_idx": 73, "fam": 440, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Age gap removed; Ibrahim's age and the average are undetermined."}
+{"hp_deleted500_idx": 74, "fam": 217, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Interview-to-offer rate removed; offers and acceptances cannot be computed."}
+{"hp_deleted500_idx": 75, "fam": 379, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Consultant's fee removed; net money difference cannot be computed."}
+{"hp_deleted500_idx": 76, "fam": 417, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.9, "note": "Third-year price change removed; end-of-third-year profit undetermined despite tempting no-change assumption."}
+{"hp_deleted500_idx": 77, "fam": 58, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Comet period removed; Andre's age at first sighting, hence age gap, unknown."}
+{"hp_deleted500_idx": 78, "fam": 166, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Room count removed; daily cleaning minutes and percentage of workday undetermined."}
+{"hp_deleted500_idx": 79, "fam": 66, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Budget removed; number of friends affordable after bus rental undetermined."}
+{"hp_deleted500_idx": 80, "fam": 99, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Box size (17 grapes/box) removed; grape total known but number of boxes and revenue undetermined."}
+{"hp_deleted500_idx": 81, "fam": 365, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.87, "note": "Liam's 9 eggs removed; all other counts are relative, so no anchor value exists."}
+{"hp_deleted500_idx": 82, "fam": 363, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Sourdough price removed; only muffin price given, so the difference cannot be computed."}
+{"hp_deleted500_idx": 83, "fam": 402, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total of 216 toys removed; bouncy-ball count is unconstrained by the remaining text."}
+{"hp_deleted500_idx": 84, "fam": 198, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Ananya's 82 customers/day removed; only the 4x ratio remains, no absolute rate."}
+{"hp_deleted500_idx": 85, "fam": 167, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Initial 79 persimmons removed; all fig/persimmon counts stay relative to that missing base."}
+{"hp_deleted500_idx": 86, "fam": 90, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Initial 32 grapes removed; remaining relations cannot pin down the base quantity."}
+{"hp_deleted500_idx": 87, "fam": 271, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Final total of 33 forks removed; the unknown package size has no constraint."}
+{"hp_deleted500_idx": 88, "fam": 446, "task": 5, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.7, "note": "Gym leg removed, but 99-22=77 remains well-posed; answer differs from 26."}
+{"hp_deleted500_idx": 89, "fam": 19, "task": 6, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.7, "note": "Mall leg removed; 98-18=80 is still uniquely determined, differing from 16."}
+{"hp_deleted500_idx": 90, "fam": 89, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Plant price ($6) removed; plant count computable but total spending is not."}
+{"hp_deleted500_idx": 91, "fam": 43, "task": 5, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.75, "note": "Nursery's 48 plants removed; 488+160-244=404 still uniquely determined, differs from 452."}
+{"hp_deleted500_idx": 92, "fam": 444, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Cold-water 22 minutes removed; 'twice as long' now has no referent quantity."}
+{"hp_deleted500_idx": 93, "fam": 117, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial 100 beads removed; fractional loss cannot be evaluated without the starting count."}
+{"hp_deleted500_idx": 94, "fam": 177, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total of 350 items removed; bouncy balls are never otherwise constrained."}
+{"hp_deleted500_idx": 95, "fam": 172, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.62, "note": "Unfound-18 clause removed; text never says friends found all remaining toys, so 32 is assumption."}
+{"hp_deleted500_idx": 96, "fam": 418, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "40% tax rate removed while question still asks after-tax earnings; rate unstated."}
+{"hp_deleted500_idx": 97, "fam": 349, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Boy's 10 marbles removed; only the relative difference remains, plus dangling pronoun."}
+{"hp_deleted500_idx": 98, "fam": 407, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Initial 30 apples removed; all grape/apple relations are relative to that base."}
+{"hp_deleted500_idx": 99, "fam": 411, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Initial 37 kiwis removed; no absolute quantity anchors the pear/kiwi relations."}
+{"hp_deleted500_idx": 100, "fam": 437, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Total item count (315) removed; bouncy ball count undetermined."}
+{"hp_deleted500_idx": 101, "fam": 34, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Calories per serving removed; cannot convert remaining 675 calories to ounces."}
+{"hp_deleted500_idx": 102, "fam": 39, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total of 220 units removed; only ratios remain, scale undetermined."}
+{"hp_deleted500_idx": 103, "fam": 311, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Beatriz-Chen gap removed; Chen's age unknown, so average undetermined."}
+{"hp_deleted500_idx": 104, "fam": 263, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Gabrielle's daily 52 customers removed; no absolute rate anywhere."}
+{"hp_deleted500_idx": 105, "fam": 198, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Elena's daily 82 customers removed; only relative speed remains."}
+{"hp_deleted500_idx": 106, "fam": 12, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.93, "note": "Dancer/robotics 30% group removed; third of the 'three groups' undefined."}
+{"hp_deleted500_idx": 107, "fam": 53, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Cold-water 14 min/km removed; warm time defined only relative to it."}
+{"hp_deleted500_idx": 108, "fam": 148, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Initial apricot count (38) removed; all quantities relative, no anchor."}
+{"hp_deleted500_idx": 109, "fam": 14, "task": 1, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.85, "note": "Discount removed; full price total 252 is well-posed, differs from 189."}
+{"hp_deleted500_idx": 110, "fam": 125, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Cold-water 12 min/km removed; no absolute swim time given."}
+{"hp_deleted500_idx": 111, "fam": 234, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "10 minutes per floor removed; cleaning time undetermined."}
+{"hp_deleted500_idx": 112, "fam": 422, "task": 7, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.85, "note": "Insurance fee removed; 49+98=147 still uniquely determined, differs from 161."}
+{"hp_deleted500_idx": 113, "fam": 389, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Total 5400 biscuits removed; lemon count undetermined."}
+{"hp_deleted500_idx": 114, "fam": 349, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Boy's 10 stickers removed; no absolute quantity given."}
+{"hp_deleted500_idx": 115, "fam": 195, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Total 247 toys removed; bouncy ball count undetermined."}
+{"hp_deleted500_idx": 116, "fam": 169, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Tara's daily 50 customers removed; only relative speeds remain."}
+{"hp_deleted500_idx": 117, "fam": 287, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.93, "note": "Debate/dancer 25% group removed; third of the 'three groups' undefined."}
+{"hp_deleted500_idx": 118, "fam": 150, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Student's 13 books removed; no absolute quantity given."}
+{"hp_deleted500_idx": 119, "fam": 55, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Kid's 16 toys removed; no absolute quantity given."}
+{"hp_deleted500_idx": 120, "fam": 175, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial marble count (72) removed; remaining = total/6 + 10 - 4 is indeterminate."}
+{"hp_deleted500_idx": 121, "fam": 262, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Starting grape count (47) removed; only ratios and increments remain, total undetermined."}
+{"hp_deleted500_idx": 122, "fam": 116, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Sofia's 58 customers/day removed; only relative speeds remain, no absolute production."}
+{"hp_deleted500_idx": 123, "fam": 430, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Tax rate (15%) removed, yet question asks after-tax earnings; rate not stated."}
+{"hp_deleted500_idx": 124, "fam": 62, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Comet's 60-year period removed; gap between sightings unknown, age difference indeterminate."}
+{"hp_deleted500_idx": 125, "fam": 123, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial bead count (92) removed; final count depends on unknown starting total."}
+{"hp_deleted500_idx": 126, "fam": 211, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Bread price (¥7) removed; only bagel price given, difference undetermined."}
+{"hp_deleted500_idx": 127, "fam": 148, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial watermelon count (38) removed; combined total depends on unknown baseline."}
+{"hp_deleted500_idx": 128, "fam": 146, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Interview-to-offer rate (10%) removed; chain breaks between interviews and offers."}
+{"hp_deleted500_idx": 129, "fam": 241, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Third-year 25% increase removed, but question asks profit by third year's end."}
+{"hp_deleted500_idx": 130, "fam": 215, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Consultant's ₺175 fee removed; lost income 224 known, net difference not computable."}
+{"hp_deleted500_idx": 131, "fam": 304, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Interview-to-offer rate (32%) removed; number of offers undetermined."}
+{"hp_deleted500_idx": 132, "fam": 247, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial button count (36) removed; final count depends on unknown starting total."}
+{"hp_deleted500_idx": 133, "fam": 390, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Room count (210) removed; cleaning time per day and percentage undetermined."}
+{"hp_deleted500_idx": 134, "fam": 140, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total of 200 units removed; only ratios remain, scale factor unknown."}
+{"hp_deleted500_idx": 135, "fam": 221, "task": 6, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.9, "note": "54x11=594 minus 54x7=378 gives 216; intact 244 included the removed 28 plants."}
+{"hp_deleted500_idx": 136, "fam": 410, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Writing rate (page per 5 minutes) removed; pages known but hours not computable."}
+{"hp_deleted500_idx": 137, "fam": 71, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total of 185 units removed; ratios alone leave scale undetermined."}
+{"hp_deleted500_idx": 138, "fam": 210, "task": 6, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.9, "note": "68x11=748 minus 68x7=476 gives 272; intact 304 included the removed 32 plants."}
+{"hp_deleted500_idx": 139, "fam": 79, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Plate capacity (35 olives) removed; leftover count undetermined."}
+{"hp_deleted500_idx": 140, "fam": 151, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total brownie count (6825) removed; lemon count undetermined."}
+{"hp_deleted500_idx": 141, "fam": 90, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Initial kiwi count (32) removed; all quantities are relative, so no unique total."}
+{"hp_deleted500_idx": 142, "fam": 167, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Initial grape count (79) removed; only ratios remain, total undetermined."}
+{"hp_deleted500_idx": 143, "fam": 244, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Number of floors (135) removed; cleaning time per day cannot be computed."}
+{"hp_deleted500_idx": 144, "fam": 446, "task": 2, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.7, "note": "Removed the 51-minute mall leg; remaining time is uniquely 96-21=75, not 24."}
+{"hp_deleted500_idx": 145, "fam": 179, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Cold-water pace (10 min/mile) removed; 'twice as long' has no referent."}
+{"hp_deleted500_idx": 146, "fam": 205, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Child's 10 pencils removed; 'what he has' has no numeric antecedent."}
+{"hp_deleted500_idx": 147, "fam": 54, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.82, "note": "Grand total (175) removed; ratio 56:28 fixes only proportions, not absolute sugar amount."}
+{"hp_deleted500_idx": 148, "fam": 11, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total brownie count (7225) removed; vanilla count undetermined."}
+{"hp_deleted500_idx": 149, "fam": 87, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Cold-water pace (12 min/km) removed; warm pace defined relative to nothing."}
+{"hp_deleted500_idx": 150, "fam": 30, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.8, "note": "Grand total (195) removed; 50:10 is a ratio, giving no absolute scale."}
+{"hp_deleted500_idx": 151, "fam": 169, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Mei's 50 customers/day removed; only relative speeds remain, no absolute output."}
+{"hp_deleted500_idx": 152, "fam": 109, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Cold pace (23 min/km) removed; warm pace and comparison both undetermined."}
+{"hp_deleted500_idx": 153, "fam": 100, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Plant price (12) removed; cost of purchase cannot be computed."}
+{"hp_deleted500_idx": 154, "fam": 102, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.95, "note": "Offer rate (12% of interviewees) removed; chain from interviews to offers broken."}
+{"hp_deleted500_idx": 155, "fam": 257, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Plant price (13) removed; spend cannot be computed."}
+{"hp_deleted500_idx": 156, "fam": 189, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Consultant's fee (75) removed; net difference undetermined."}
+{"hp_deleted500_idx": 157, "fam": 138, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Initial 84 coins removed; also no antecedent for 'them', final count undetermined."}
+{"hp_deleted500_idx": 158, "fam": 83, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Box size (20 apples) removed; number of boxes, hence revenue, undetermined."}
+{"hp_deleted500_idx": 159, "fam": 152, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.93, "note": "Home-to-gym leg (12 min) removed; backtrack distance unknown, remaining time undetermined."}
+{"hp_deleted500_idx": 160, "fam": 150, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Child's own pencil count (13) removed; friend's count and total undetermined."}
+{"hp_deleted500_idx": 161, "fam": 98, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Monday's 37 minutes removed; Tuesday+Monday combined cannot be computed."}
+{"hp_deleted500_idx": 162, "fam": 23, "task": 1, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.68, "note": "Without park leg: 12 then double=24, plus 47 wasted; 193-83=110, not 29."}
+{"hp_deleted500_idx": 163, "fam": 339, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Minutes-per-floor (18) removed; total cleaning time unknown."}
+{"hp_deleted500_idx": 164, "fam": 286, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Accountant's fee (¥84) removed; net difference cannot be computed."}
+{"hp_deleted500_idx": 165, "fam": 137, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Minutes-per-floor (21) removed; cleaning time per day undetermined."}
+{"hp_deleted500_idx": 166, "fam": 180, "task": 4, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.9, "note": "Discount removed; full revenue 40+70+90=200 uniquely determined, differs from 168."}
+{"hp_deleted500_idx": 167, "fam": 363, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Bread price (¥2) removed; only croissant price remains."}
+{"hp_deleted500_idx": 168, "fam": 329, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Kid's 7 books removed; cousin's count and total undetermined."}
+{"hp_deleted500_idx": 169, "fam": 97, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Interview-to-offer rate (27%) removed; chain of fractions is broken."}
+{"hp_deleted500_idx": 170, "fam": 192, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total of 270 items removed; tube never introduced, bouncy balls undetermined."}
+{"hp_deleted500_idx": 171, "fam": 79, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Plate capacity (35 olives) removed; leftover count undetermined."}
+{"hp_deleted500_idx": 172, "fam": 335, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Box size (22 bananas) removed; number of boxes and revenue undetermined."}
+{"hp_deleted500_idx": 173, "fam": 154, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Thursday's 303 pears removed; Saturday triples Thursday, so all unknown."}
+{"hp_deleted500_idx": 174, "fam": 54, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Total of 175 items removed; only ratios remain, scale undetermined."}
+{"hp_deleted500_idx": 175, "fam": 291, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Starting 20 buttons removed; two-fifths dropped has no base quantity."}
+{"hp_deleted500_idx": 176, "fam": 40, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Muffins per jar (6) removed; total muffins and racks undetermined."}
+{"hp_deleted500_idx": 177, "fam": 307, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.85, "note": "Corner-to-bank leg (38 min) removed; time to reach bank undetermined."}
+{"hp_deleted500_idx": 178, "fam": 207, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Minutes-per-floor (30) removed; daily cleaning percentage undetermined."}
+{"hp_deleted500_idx": 179, "fam": 387, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Go-kart price (€11) removed; per-person cost and friend count undetermined."}
+{"hp_deleted500_idx": 180, "fam": 292, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Flower bed length (171 m) removed; number of plants needed is undetermined."}
+{"hp_deleted500_idx": 181, "fam": 393, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Boy's toy count (17) removed; no numeric anchor at all remains."}
+{"hp_deleted500_idx": 182, "fam": 371, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.98, "note": "Sunday's 398 grapes removed; Tuesday and totals depend on that unknown."}
+{"hp_deleted500_idx": 183, "fam": 360, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Interview-to-offer rate (50%) removed; offer count undetermined from 30 interviews."}
+{"hp_deleted500_idx": 184, "fam": 10, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total biscuits (6650) removed; vanilla count and percentage undetermined."}
+{"hp_deleted500_idx": 185, "fam": 17, "task": 6, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Thiago's 10 eggs removed; whole chain Carlos/Keisha/Uma unanchored."}
+{"hp_deleted500_idx": 186, "fam": 428, "task": 4, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Per-plant price (¥3) removed; spend cannot be computed despite known plant count."}
+{"hp_deleted500_idx": 187, "fam": 310, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Per-plant price (₺8) removed; cost undetermined though plant count derivable."}
+{"hp_deleted500_idx": 188, "fam": 5, "task": 1, "verdict": "UNSOLVABLE", "confidence": 0.94, "note": "Comet's 57-year period removed; first sighting age (80 minus period) undetermined."}
+{"hp_deleted500_idx": 189, "fam": 228, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Income tax rate (11%) removed; after-tax earnings undetermined."}
+{"hp_deleted500_idx": 190, "fam": 419, "task": 3, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.72, "note": "Fixed ¥13 insurance removed; still computes 42+4*84=378 instead of 391."}
+{"hp_deleted500_idx": 191, "fam": 377, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Sugar calories per teaspoon (18) removed; only soda's 308 calories determinable."}
+{"hp_deleted500_idx": 192, "fam": 6, "task": 7, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Total of 300 items removed; bouncy ball count undetermined."}
+{"hp_deleted500_idx": 193, "fam": 172, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.9, "note": "The 'all but 18 found' clause removed; friends' share undetermined, not necessarily remainder."}
+{"hp_deleted500_idx": 194, "fam": 56, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Age gap (20 years) removed; Viktor's age and thus average undetermined."}
+{"hp_deleted500_idx": 195, "fam": 204, "task": 2, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Wednesday's 50 minutes removed; Friday goal depends on that unknown."}
+{"hp_deleted500_idx": 196, "fam": 327, "task": 3, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Thursday's 59 minutes removed; Saturday target undetermined."}
+{"hp_deleted500_idx": 197, "fam": 434, "task": 0, "verdict": "UNSOLVABLE", "confidence": 0.96, "note": "Room count (135) removed; cleaning time and day percentage undetermined."}
+{"hp_deleted500_idx": 198, "fam": 284, "task": 5, "verdict": "UNSOLVABLE", "confidence": 0.97, "note": "Muffins per jar (14) removed; total muffins and racks undetermined."}
+{"hp_deleted500_idx": 199, "fam": 273, "task": 1, "verdict": "SOLVABLE_DIFFERENT", "confidence": 0.68, "note": "Mall's 37 minutes removed; same reading yields 186-(23+13+26)=124, not 13."}

@@ -1,0 +1,13 @@
+{
+ "gsm8k_test500": {
+  "n": 500,
+  "greedy_acc": 0.822,
+  "maj_acc": 0.862,
+  "pass_k": 0.956,
+  "k": 8,
+  "mean_p_mode": 0.58375,
+  "sample_trunc": 0.0015,
+  "mean_len": 124.17425,
+  "model": "/root/models/Qwen3-4B-Base"
+ }
+}

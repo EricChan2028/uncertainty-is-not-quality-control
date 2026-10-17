@@ -1,0 +1,84 @@
+{
+ "qwen_s0": {
+  "n_matched": {
+   "SOLVABLE": 341,
+   "AMBIGUOUS": 138,
+   "UNSOLVABLE": 245
+  },
+  "strata": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "retention": {
+   "r1": {
+    "SOLVABLE": 0.557,
+    "AMBIGUOUS": 0.689,
+    "UNSOLVABLE": 0.771
+   },
+   "r2": {
+    "SOLVABLE": 0.446,
+    "AMBIGUOUS": 0.617,
+    "UNSOLVABLE": 0.673
+   },
+   "r3": {
+    "SOLVABLE": 0.358,
+    "AMBIGUOUS": 0.571,
+    "UNSOLVABLE": 0.629
+   },
+   "r4": {
+    "SOLVABLE": 0.33,
+    "AMBIGUOUS": 0.539,
+    "UNSOLVABLE": 0.633
+   },
+   "r5": {
+    "SOLVABLE": 0.31,
+    "AMBIGUOUS": 0.474,
+    "UNSOLVABLE": 0.608
+   }
+  }
+ },
+ "qwen_s1": {
+  "n_matched": {
+   "SOLVABLE": 312,
+   "AMBIGUOUS": 133,
+   "UNSOLVABLE": 268
+  },
+  "strata": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "retention": {
+   "r1": {
+    "SOLVABLE": 0.497,
+    "AMBIGUOUS": 0.741,
+    "UNSOLVABLE": 0.687
+   },
+   "r2": {
+    "SOLVABLE": 0.36,
+    "AMBIGUOUS": 0.652,
+    "UNSOLVABLE": 0.657
+   },
+   "r3": {
+    "SOLVABLE": 0.348,
+    "AMBIGUOUS": 0.624,
+    "UNSOLVABLE": 0.631
+   },
+   "r4": {
+    "SOLVABLE": 0.288,
+    "AMBIGUOUS": 0.552,
+    "UNSOLVABLE": 0.608
+   },
+   "r5": {
+    "SOLVABLE": 0.324,
+    "AMBIGUOUS": 0.476,
+    "UNSOLVABLE": 0.56
+   }
+  }
+ }
+}

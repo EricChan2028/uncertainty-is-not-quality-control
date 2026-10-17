@@ -1,0 +1,234 @@
+== per checkpoint group, plain prompt: SC | SC_6 | SC_8 | NUM_U | ACC_A   (OLD / NEW-ORIG / NEW-STRICT)
+4B base      SC     OLD 28.7                     NEW-ORIG 28.5                     NEW-STRICT 28.2
+4B base      SC_6   OLD 7.2                      NEW-ORIG 7.2                      NEW-STRICT 9.0
+4B base      SC_8   OLD 0.2                      NEW-ORIG 0.2                      NEW-STRICT 0.5
+4B base      NUM_U  OLD 97.3                     NEW-ORIG 96.8                     NEW-STRICT 88.4
+4B base      ACC_A  OLD 91.3                     NEW-ORIG 91.0                     NEW-STRICT 91.5
+4B own r3    SC     OLD 58.7-75.8 (mean 67.9)    NEW-ORIG 57.3-74.7 (mean 67.4)    NEW-STRICT 41.3-47.5 (mean 44.0)
+4B own r3    SC_6   OLD 24.3-40.2 (mean 32.4)    NEW-ORIG 24.3-38.0 (mean 32.3)    NEW-STRICT 17.8-22.8 (mean 20.4)
+4B own r3    SC_8   OLD 5.2-11.8 (mean 8.0)      NEW-ORIG 5.2-12.2 (mean 8.0)      NEW-STRICT 3.5-7.5 (mean 5.0)
+4B own r3    NUM_U  OLD 97.1-99.1 (mean 97.8)    NEW-ORIG 96.7-99.2 (mean 97.8)    NEW-STRICT 68.0-77.8 (mean 71.8)
+4B own r3    ACC_A  OLD 95.3-96.5 (mean 95.9)    NEW-ORIG 95.5-96.7 (mean 96.0)    NEW-STRICT 95.3-96.5 (mean 95.9)
+4B own r5    SC     OLD 65.0-78.3 (mean 71.8)    NEW-ORIG 65.2-79.3 (mean 73.3)    NEW-STRICT 47.7-50.3 (mean 49.0)
+4B own r5    SC_6   OLD 28.5-45.5 (mean 37.4)    NEW-ORIG 28.8-45.0 (mean 37.1)    NEW-STRICT 22.2-24.0 (mean 23.3)
+4B own r5    SC_8   OLD 5.5-15.3 (mean 10.5)     NEW-ORIG 4.5-14.8 (mean 10.3)     NEW-STRICT 3.8-8.5 (mean 6.4)
+4B own r5    NUM_U  OLD 97.5-98.6 (mean 98.1)    NEW-ORIG 97.6-98.6 (mean 98.2)    NEW-STRICT 66.7-77.8 (mean 72.3)
+4B own r5    ACC_A  OLD 95.7-96.3 (mean 96.1)    NEW-ORIG 95.7-96.3 (mean 96.0)    NEW-STRICT 95.8-96.2 (mean 96.0)
+4B clean r3  SC     OLD 49.2-66.0 (mean 54.8)    NEW-ORIG 50.3-66.3 (mean 55.2)    NEW-STRICT 37.5-40.3 (mean 38.9)
+4B clean r3  SC_6   OLD 17.8-33.7 (mean 22.5)    NEW-ORIG 18.5-32.8 (mean 23.1)    NEW-STRICT 15.3-19.5 (mean 16.7)
+4B clean r3  SC_8   OLD 1.8-9.3 (mean 4.3)       NEW-ORIG 3.0-9.3 (mean 4.7)       NEW-STRICT 2.3-6.3 (mean 3.9)
+4B clean r3  NUM_U  OLD 96.6-98.2 (mean 97.4)    NEW-ORIG 96.3-98.1 (mean 97.3)    NEW-STRICT 70.2-82.0 (mean 76.2)
+4B clean r3  ACC_A  OLD 94.5-96.3 (mean 95.2)    NEW-ORIG 95.0-96.5 (mean 95.6)    NEW-STRICT 95.0-96.3 (mean 95.6)
+4B rnd r3    SC     OLD 51.5-74.8 (mean 60.2)    NEW-ORIG 51.5-73.7 (mean 60.0)    NEW-STRICT 44.5-49.8 (mean 46.9)
+4B rnd r3    SC_6   OLD 19.0-38.0 (mean 26.5)    NEW-ORIG 19.0-37.7 (mean 26.4)    NEW-STRICT 18.3-23.2 (mean 20.1)
+4B rnd r3    SC_8   OLD 3.3-11.2 (mean 6.4)      NEW-ORIG 3.2-10.3 (mean 6.2)      NEW-STRICT 3.8-7.2 (mean 5.2)
+4B rnd r3    NUM_U  OLD 98.2-98.8 (mean 98.5)    NEW-ORIG 98.2-98.8 (mean 98.5)    NEW-STRICT 73.3-85.8 (mean 80.9)
+4B rnd r3    ACC_A  OLD 93.7-96.5 (mean 94.9)    NEW-ORIG 94.0-96.8 (mean 95.1)    NEW-STRICT 93.7-96.7 (mean 95.1)
+4B guard r3  SC     OLD 43.2-57.7 (mean 50.2)    NEW-ORIG 40.2-56.8 (mean 48.8)    NEW-STRICT 33.0-42.3 (mean 37.3)
+4B guard r3  SC_6   OLD 15.3-27.0 (mean 20.9)    NEW-ORIG 12.5-26.2 (mean 19.2)    NEW-STRICT 13.2-19.3 (mean 15.3)
+4B guard r3  SC_8   OLD 1.5-6.5 (mean 3.6)       NEW-ORIG 1.2-6.7 (mean 3.6)       NEW-STRICT 1.7-5.8 (mean 3.4)
+4B guard r3  NUM_U  OLD 94.9-98.5 (mean 96.4)    NEW-ORIG 95.0-98.7 (mean 96.5)    NEW-STRICT 72.2-79.6 (mean 77.1)
+4B guard r3  ACC_A  OLD 92.5-95.3 (mean 93.9)    NEW-ORIG 92.7-95.5 (mean 94.0)    NEW-STRICT 93.3-95.7 (mean 94.2)
+4B cln1      SC     OLD 44.2-71.8 (mean 61.7)    NEW-ORIG 44.8-73.7 (mean 63.0)    NEW-STRICT 36.7-46.5 (mean 42.6)
+4B cln1      SC_6   OLD 12.7-41.8 (mean 28.8)    NEW-ORIG 12.8-41.5 (mean 28.9)    NEW-STRICT 13.8-27.0 (mean 19.7)
+4B cln1      SC_8   OLD 1.0-11.8 (mean 6.6)      NEW-ORIG 0.7-12.0 (mean 6.8)      NEW-STRICT 1.0-7.5 (mean 4.8)
+4B cln1      NUM_U  OLD 95.3-98.6 (mean 97.3)    NEW-ORIG 95.0-98.8 (mean 97.3)    NEW-STRICT 70.3-77.2 (mean 73.3)
+4B cln1      ACC_A  OLD 93.8-96.7 (mean 95.8)    NEW-ORIG 93.7-96.3 (mean 95.6)    NEW-STRICT 94.5-96.3 (mean 95.6)
+4B rnd1      SC     OLD 52.7-76.0 (mean 67.2)    NEW-ORIG 51.5-74.3 (mean 65.3)    NEW-STRICT 38.0-45.0 (mean 43.0)
+4B rnd1      SC_6   OLD 18.8-40.3 (mean 32.6)    NEW-ORIG 21.7-41.0 (mean 32.9)    NEW-STRICT 18.8-22.8 (mean 20.7)
+4B rnd1      SC_8   OLD 2.7-11.5 (mean 8.1)      NEW-ORIG 2.7-11.7 (mean 7.5)      NEW-STRICT 3.0-8.0 (mean 5.4)
+4B rnd1      NUM_U  OLD 96.9-98.5 (mean 97.9)    NEW-ORIG 97.1-98.4 (mean 97.8)    NEW-STRICT 66.1-77.3 (mean 71.6)
+4B rnd1      ACC_A  OLD 94.7-96.3 (mean 95.5)    NEW-ORIG 95.2-96.7 (mean 95.8)    NEW-STRICT 95.3-96.7 (mean 95.9)
+4B r0        SC     OLD 52.8-73.3 (mean 62.1)    NEW-ORIG 50.8-73.0 (mean 61.7)    NEW-STRICT 41.0-45.3 (mean 42.7)
+4B r0        SC_6   OLD 16.3-38.2 (mean 27.0)    NEW-ORIG 20.5-39.5 (mean 28.6)    NEW-STRICT 16.0-24.7 (mean 19.2)
+4B r0        SC_8   OLD 3.7-11.3 (mean 6.3)      NEW-ORIG 2.5-11.7 (mean 6.6)      NEW-STRICT 3.0-6.8 (mean 4.8)
+4B r0        NUM_U  OLD 96.3-98.5 (mean 97.4)    NEW-ORIG 96.4-98.6 (mean 97.3)    NEW-STRICT 68.3-77.4 (mean 73.7)
+4B r0        ACC_A  OLD 95.0-96.8 (mean 95.7)    NEW-ORIG 94.5-96.2 (mean 95.5)    NEW-STRICT 95.2-96.2 (mean 95.6)
+8B base      SC     OLD 6.5                      NEW-ORIG 7.0                      NEW-STRICT 26.0
+8B base      SC_6   OLD 1.5                      NEW-ORIG 0.7                      NEW-STRICT 6.5
+8B base      SC_8   OLD 0.0                      NEW-ORIG 0.0                      NEW-STRICT 0.5
+8B base      NUM_U  OLD 91.2                     NEW-ORIG 90.6                     NEW-STRICT 83.1
+8B base      ACC_A  OLD 74.3                     NEW-ORIG 73.5                     NEW-STRICT 88.3
+8B r3        SC     OLD 20.3-36.2 (mean 26.9)    NEW-ORIG 20.8-34.5 (mean 26.7)    NEW-STRICT 33.5-37.8 (mean 36.3)
+8B r3        SC_6   OLD 3.2-10.0 (mean 6.4)      NEW-ORIG 3.2-9.3 (mean 6.0)       NEW-STRICT 10.5-14.0 (mean 12.3)
+8B r3        SC_8   OLD 0.2-0.8 (mean 0.6)       NEW-ORIG 0.3-1.0 (mean 0.7)       NEW-STRICT 1.3-2.8 (mean 2.0)
+8B r3        NUM_U  OLD 94.5-95.0 (mean 94.8)    NEW-ORIG 94.4-95.0 (mean 94.7)    NEW-STRICT 81.7-85.8 (mean 84.0)
+8B r3        ACC_A  OLD 90.7-92.5 (mean 91.4)    NEW-ORIG 89.2-94.0 (mean 91.2)    NEW-STRICT 91.7-93.7 (mean 92.4)
+Phi base     SC     OLD 20.8                     NEW-ORIG 20.8                     NEW-STRICT 20.7
+Phi base     SC_6   OLD 13.2                     NEW-ORIG 12.7                     NEW-STRICT 12.7
+Phi base     SC_8   OLD 5.3                      NEW-ORIG 5.3                      NEW-STRICT 5.3
+Phi base     NUM_U  OLD 34.4                     NEW-ORIG 34.2                     NEW-STRICT 32.5
+Phi base     ACC_A  OLD 89.2                     NEW-ORIG 90.5                     NEW-STRICT 90.3
+Phi r3       SC     OLD 78.5-78.7 (mean 78.6)    NEW-ORIG 79.7-79.8 (mean 79.8)    NEW-STRICT 52.5-54.8 (mean 53.7)
+Phi r3       SC_6   OLD 48.7-49.0 (mean 48.8)    NEW-ORIG 48.2-49.2 (mean 48.7)    NEW-STRICT 30.7-31.0 (mean 30.8)
+Phi r3       SC_8   OLD 21.8-23.7 (mean 22.8)    NEW-ORIG 21.2-22.0 (mean 21.6)    NEW-STRICT 14.2-14.7 (mean 14.4)
+Phi r3       NUM_U  OLD 98.5-98.9 (mean 98.7)    NEW-ORIG 98.3-98.8 (mean 98.5)    NEW-STRICT 72.9-73.6 (mean 73.2)
+Phi r3       ACC_A  OLD 95.2-95.8 (mean 95.5)    NEW-ORIG 95.3-96.0 (mean 95.7)    NEW-STRICT 95.3-96.0 (mean 95.7)
+
+== STRICT non-answer branches on U samples (share of all U samples)
+4B base      qwen3_4b_base                            {'decline': 3.4, 'length': 3.0, 'no_number': 2.7, 'numeric': 88.4, 'symbolic': 2.5} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 3
+4B own r3    qwen3_4b_Base_own_a3_s0_r3               {'decline': 18.1, 'length': 1.3, 'no_number': 3.2, 'numeric': 71.4, 'symbolic': 6.0} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+4B own r3    qwen3_4b_Base_own_a3_s1_r3               {'decline': 13.4, 'length': 2.1, 'no_number': 3.2, 'numeric': 77.8, 'symbolic': 3.6} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+4B own r3    qwen3_4b_Base_own_a3_s2_r3               {'decline': 21.1, 'length': 1.5, 'no_number': 3.5, 'numeric': 68.0, 'symbolic': 5.9} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 1
+4B own r3    qwen3_4b_Base_own_a3_s3_r3               {'decline': 22.2, 'length': 0.3, 'no_number': 2.9, 'numeric': 69.8, 'symbolic': 4.9} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 3
+4B own r3    qwen3_4b_Base_own_a3_s4_r3               {'decline': 16.5, 'length': 2.8, 'no_number': 3.4, 'numeric': 72.3, 'symbolic': 5.0} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 1
+4B own r5    qwen3_4b_Base_own_a3_s0_r5               {'decline': 19.6, 'length': 0.6, 'no_number': 2.6, 'numeric': 72.4, 'symbolic': 4.7} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+4B own r5    qwen3_4b_Base_own_a3_s1_r5               {'decline': 14.2, 'length': 1.5, 'no_number': 3.0, 'numeric': 77.8, 'symbolic': 3.5} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+4B own r5    qwen3_4b_Base_own_a3_s2_r5               {'decline': 21.8, 'length': 0.4, 'no_number': 3.5, 'numeric': 66.7, 'symbolic': 7.7} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+4B clean r3  qwen3_4b_Base_own_clean_a3_s0_r3         {'decline': 10.1, 'length': 1.6, 'no_number': 2.4, 'numeric': 82.0, 'symbolic': 3.8} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+4B clean r3  qwen3_4b_Base_own_clean_a3_s1_r3         {'decline': 12.5, 'length': 3.0, 'no_number': 2.5, 'numeric': 79.0, 'symbolic': 3.0} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 1
+4B clean r3  qwen3_4b_Base_own_clean_a3_s2_r3         {'decline': 16.1, 'length': 2.5, 'no_number': 3.0, 'numeric': 73.5, 'symbolic': 4.9} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 1
+4B clean r3  qwen3_4b_Base_own_clean_a3_s3_r3         {'decline': 22.1, 'length': 0.7, 'no_number': 2.4, 'numeric': 70.2, 'symbolic': 4.5} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 1
+8B base      base_Qwen3-8B-Base                       {'decline': 4.8, 'length': 9.3, 'no_number': 0.6, 'numeric': 83.1, 'symbolic': 2.2} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 4
+8B r3        qwen3_8b_Base_own_a3_s0_r3               {'decline': 5.6, 'length': 5.2, 'no_number': 0.7, 'numeric': 85.8, 'symbolic': 2.7} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 6
+8B r3        qwen3_8b_Base_own_a3_s1_r3               {'decline': 6.6, 'length': 5.6, 'no_number': 0.9, 'numeric': 84.4, 'symbolic': 2.5} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 4
+8B r3        qwen3_8b_Base_own_a3_s2_r3               {'decline': 7.8, 'length': 4.9, 'no_number': 1.3, 'numeric': 81.7, 'symbolic': 4.4} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 1
+Phi base     base_Phi-4-mini-instruct                 {'decline': 0.5, 'length': 65.7, 'no_number': 0.5, 'numeric': 32.5, 'symbolic': 0.7} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+Phi r3       phi4mini_own_a4_s0_r3                    {'decline': 9.0, 'length': 0.6, 'no_number': 3.4, 'numeric': 72.9, 'symbolic': 14.1} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 1
+Phi r3       phi4mini_own_a4_s1_r3                    {'decline': 8.6, 'length': 0.2, 'no_number': 3.4, 'numeric': 73.6, 'symbolic': 14.1} mismatch 0 | stored-vs-probe-mode mismatches 0 | strict_parse.original vs stored 0
+
+== abstention prompt (absfix): ABS_U | ABS_A | CA_abs(SC) | NUM_U   (OLD / NEW-ORIG / NEW-STRICT)
+4B base      ABS_U  OLD 53.4                     NEW-ORIG 53.1                     NEW-STRICT 53.1
+4B base      ABS_A  OLD 4.9                      NEW-ORIG 4.9                      NEW-STRICT 4.9
+4B base      SC     OLD 9.2                      NEW-ORIG 10.0                     NEW-STRICT 12.0
+4B base      NUM_U  OLD 39.3                     NEW-ORIG 39.5                     NEW-STRICT 37.0
+4B base      ACC_A  OLD 85.7                     NEW-ORIG 84.8                     NEW-STRICT 86.5
+4B own r3    ABS_U  OLD 67.5-70.9 (mean 69.7)    NEW-ORIG 67.5-70.6 (mean 69.7)    NEW-STRICT 67.5-70.6 (mean 69.7)
+4B own r3    ABS_A  OLD 1.7-2.0 (mean 1.8)       NEW-ORIG 1.7-1.9 (mean 1.8)       NEW-STRICT 1.7-1.9 (mean 1.8)
+4B own r3    SC     OLD 18.5-22.2 (mean 20.0)    NEW-ORIG 18.5-21.8 (mean 20.1)    NEW-STRICT 18.5-21.7 (mean 20.1)
+4B own r3    NUM_U  OLD 25.3-28.1 (mean 26.9)    NEW-ORIG 25.8-28.2 (mean 27.0)    NEW-STRICT 25.7-27.9 (mean 26.9)
+4B own r3    ACC_A  OLD 94.7-95.5 (mean 95.0)    NEW-ORIG 94.5-95.5 (mean 95.0)    NEW-STRICT 94.5-95.5 (mean 95.0)
+4B clean r3  ABS_U  OLD 68.8-70.8 (mean 69.9)    NEW-ORIG 69.1-70.5 (mean 69.9)    NEW-STRICT 69.1-70.5 (mean 69.9)
+4B clean r3  ABS_A  OLD 1.7-2.4 (mean 2.1)       NEW-ORIG 1.7-2.5 (mean 2.1)       NEW-STRICT 1.7-2.5 (mean 2.1)
+4B clean r3  SC     OLD 17.8-20.7 (mean 19.0)    NEW-ORIG 17.5-20.5 (mean 18.9)    NEW-STRICT 17.5-20.5 (mean 18.9)
+4B clean r3  NUM_U  OLD 27.0-28.0 (mean 27.3)    NEW-ORIG 26.9-27.9 (mean 27.2)    NEW-STRICT 26.7-27.7 (mean 27.1)
+4B clean r3  ACC_A  OLD 94.3-94.8 (mean 94.7)    NEW-ORIG 94.7-95.2 (mean 94.9)    NEW-STRICT 94.7-95.2 (mean 94.9)
+4B guard r3  ABS_U  OLD 70.5-73.7 (mean 72.6)    NEW-ORIG 71.4-73.8 (mean 72.9)    NEW-STRICT 71.4-73.8 (mean 72.9)
+4B guard r3  ABS_A  OLD 2.1-2.6 (mean 2.4)       NEW-ORIG 2.1-2.6 (mean 2.4)       NEW-STRICT 2.1-2.6 (mean 2.4)
+4B guard r3  SC     OLD 17.7-19.8 (mean 18.4)    NEW-ORIG 17.8-19.2 (mean 18.4)    NEW-STRICT 17.8-19.0 (mean 18.4)
+4B guard r3  NUM_U  OLD 25.0-27.6 (mean 26.0)    NEW-ORIG 25.0-26.8 (mean 25.8)    NEW-STRICT 24.7-26.5 (mean 25.5)
+4B guard r3  ACC_A  OLD 94.8-95.2 (mean 95.1)    NEW-ORIG 94.5-95.0 (mean 94.8)    NEW-STRICT 94.5-95.0 (mean 94.8)
+4B cln1      ABS_U  OLD 67.9-71.3 (mean 69.5)    NEW-ORIG 66.4-71.5 (mean 69.2)    NEW-STRICT 66.4-71.5 (mean 69.2)
+4B cln1      ABS_A  OLD 1.5-2.0 (mean 1.9)       NEW-ORIG 1.4-2.0 (mean 1.8)       NEW-STRICT 1.4-2.0 (mean 1.8)
+4B cln1      SC     OLD 18.3-23.2 (mean 20.0)    NEW-ORIG 18.7-22.3 (mean 20.4)    NEW-STRICT 18.7-22.3 (mean 20.4)
+4B cln1      NUM_U  OLD 26.2-29.3 (mean 27.2)    NEW-ORIG 26.3-29.2 (mean 27.5)    NEW-STRICT 26.1-29.2 (mean 27.3)
+4B cln1      ACC_A  OLD 95.2-95.3 (mean 95.2)    NEW-ORIG 95.0-95.7 (mean 95.3)    NEW-STRICT 95.0-95.7 (mean 95.3)
+
+== contrasts (points; mean [CI]; n_neg/n)
+guard                  OLD -15.4 [-45.8, +15.0] neg 3/3     NEW-ORIG -16.9 [-52.3, +18.4] neg 3/3     NEW-STRICT -5.8 [-20.6, +9.1] neg 2/3
+planted_back           OLD +5.1 [-0.7, +10.9] neg 1/5       NEW-ORIG +3.6 [-0.9, +8.2] neg 0/5        NEW-STRICT +0.3 [-3.0, +3.6] neg 2/5
+random_loop            OLD -5.4 [-22.4, +11.6] neg 2/3      NEW-ORIG -5.7 [-20.2, +8.8] neg 2/3       NEW-STRICT +3.8 [+0.6, +7.1] neg 0/3
+same_size              OLD -5.6 [-9.0, -2.1] neg 5/5        NEW-ORIG -2.4 [-7.0, +2.3] neg 4/5        NEW-STRICT -0.4 [-2.9, +2.1] neg 3/5
+same_size_no_planted   OLD -0.5 [-7.5, +6.5] neg 3/5        NEW-ORIG +1.3 [-4.5, +7.0] neg 1/5        NEW-STRICT -0.1 [-3.6, +3.4] neg 2/5
+solvable_only          OLD -13.3 [-20.5, -6.2] neg 4/4      NEW-ORIG -12.8 [-22.6, -3.0] neg 4/4      NEW-STRICT -5.3 [-8.6, -1.9] neg 4/4
+
+== cross-seed agreement (round 5)
+umwp_r5  OLD        S 309 identical 265 (85.8%) null3base 55.9% eq_base_mode 185 (69.8%) tied_top 214 (80.8%) in_base_8 243 (91.7%) mean_count 3.18 base_SC {'identical': 123, 'eq_base_mode': 114} base_not_SC {'identical': 142, 'eq_base_mode': 71} per_seed_eq_base [66.7, 67.6, 64.1] eq_ref [99, 265]
+umwp_r5  NEW-ORIG   S 325 identical 278 (85.5%) null3base 55.7% eq_base_mode 188 (67.6%) tied_top 217 (78.1%) in_base_8 247 (88.8%) mean_count 3.09 base_SC {'identical': 128, 'eq_base_mode': 117} base_not_SC {'identical': 150, 'eq_base_mode': 71} per_seed_eq_base [63.4, 65.2, 62.5] eq_ref [104, 278]
+umwp_r5  NEW-STRICT S 205 identical 181 (88.3%) null3base 65.8% eq_base_mode 141 (77.9%) tied_top 155 (85.6%) in_base_8 170 (93.9%) mean_count 3.70 base_SC {'identical': 100, 'eq_base_mode': 96} base_not_SC {'identical': 81, 'eq_base_mode': 45} per_seed_eq_base [74.1, 75.6, 72.7] eq_ref [99, 181]
+a8_r5    NEW-ORIG   S 56 identical 45 (80.4%) null3base 45.0% eq_base_mode 30 (66.7%) tied_top 34 (75.6%) in_base_8 40 (88.9%) mean_count 2.38 base_SC {'identical': 11, 'eq_base_mode': 10} base_not_SC {'identical': 34, 'eq_base_mode': 20} per_seed_eq_base [66.1, 64.3, 62.5]
+a8_r5    NEW-STRICT S 31 identical 23 (74.2%) null3base 55.1% eq_base_mode 18 (78.3%) tied_top 20 (87.0%) in_base_8 22 (95.7%) mean_count 3.00 base_SC {'identical': 9, 'eq_base_mode': 9} base_not_SC {'identical': 14, 'eq_base_mode': 9} per_seed_eq_base [71.0, 77.4, 71.0]
+
+== frontier (CA_U in %)
+OLD        qwen3_4b_base                    CA@5% 21.2 default (FA 4.9, plain SC 28.7) | 5% held-out 20.8 200-split 21.0
+OLD        qwen3_4b_Base_own_a3_s0_r3       CA@5% 12.1 default (FA 2.0, plain SC 65.3) | guardFA 2.5: in-sample 17.1 held-out 16.3 (achieved FA 3.4) 200-split 17.2 | 5%: held-out 12.2 (FA 4.6) 200-split 12.1
+OLD        qwen3_4b_Base_own_a3_s1_r3       CA@5% 14.3 default (FA 1.9, plain SC 58.7) | guardFA 2.6: in-sample 17.8 held-out 17.8 (achieved FA 2.6) 200-split 18.1 | 5%: held-out 14.0 (FA 5.4) 200-split 13.7
+OLD        qwen3_4b_Base_own_a3_s2_r3       CA@5% 12.6 default (FA 1.7, plain SC 72.7) | guardFA 2.1: in-sample 17.9 held-out 17.9 (achieved FA 2.4) 200-split 18.0 | 5%: held-out 12.2 (FA 5.9) 200-split 12.8
+OLD        4B own r3    CA@5% 11.7-14.3 (mean 12.8)
+OLD        4B clean r3  CA@5% 12.4-13.9 (mean 13.4)
+OLD        4B guard r3  CA@5% 12.6-13.8 (mean 13.2)
+OLD        4B cln1      CA@5% 12.0-15.0 (mean 13.2)
+NEW-ORIG   qwen3_4b_base                    CA@5% 21.2 default (FA 4.9, plain SC 28.5) | 5% held-out 20.6 200-split 21.0
+NEW-ORIG   qwen3_4b_Base_own_a3_s0_r3       CA@5% 12.3 default (FA 1.9, plain SC 66.3) | guardFA 2.6: in-sample 16.8 held-out 16.3 (achieved FA 3.4) 200-split 16.9 | 5%: held-out 12.4 (FA 4.4) 200-split 12.3
+NEW-ORIG   qwen3_4b_Base_own_a3_s1_r3       CA@5% 13.4 default (FA 1.8, plain SC 57.3) | guardFA 2.5: in-sample 17.8 held-out 18.8 (achieved FA 2.7) 200-split 18.0 | 5%: held-out 13.2 (FA 5.4) 200-split 12.9
+NEW-ORIG   qwen3_4b_Base_own_a3_s2_r3       CA@5% 12.0 default (FA 1.8, plain SC 73.5) | guardFA 2.1: in-sample 17.6 held-out 17.9 (achieved FA 2.2) 200-split 17.8 | 5%: held-out 13.1 (FA 5.4) 200-split 12.1
+NEW-ORIG   4B own r3    CA@5% 11.9-13.4 (mean 12.6)
+NEW-ORIG   4B clean r3  CA@5% 12.5-13.7 (mean 13.0)
+NEW-ORIG   4B guard r3  CA@5% 12.2-13.1 (mean 12.5)
+NEW-ORIG   4B cln1      CA@5% 12.7-14.9 (mean 13.7)
+NEW-STRICT qwen3_4b_base                    CA@5% 21.3 default (FA 4.9, plain SC 28.2) | 5% held-out 20.7 200-split 21.3
+NEW-STRICT qwen3_4b_Base_own_a3_s0_r3       CA@5% 12.3 default (FA 1.9, plain SC 41.3) | guardFA 2.6: in-sample 16.8 held-out 16.3 (achieved FA 3.4) 200-split 16.9 | 5%: held-out 12.4 (FA 4.4) 200-split 12.3
+NEW-STRICT qwen3_4b_Base_own_a3_s1_r3       CA@5% 13.5 default (FA 1.8, plain SC 43.3) | guardFA 2.5: in-sample 17.8 held-out 18.9 (achieved FA 2.7) 200-split 18.0 | 5%: held-out 13.0 (FA 5.6) 200-split 13.0
+NEW-STRICT qwen3_4b_Base_own_a3_s2_r3       CA@5% 12.1 default (FA 1.8, plain SC 44.5) | guardFA 2.1: in-sample 17.6 held-out 17.9 (achieved FA 2.2) 200-split 17.8 | 5%: held-out 13.1 (FA 5.4) 200-split 12.2
+NEW-STRICT 4B own r3    CA@5% 11.9-13.5 (mean 12.6)
+NEW-STRICT 4B clean r3  CA@5% 12.5-13.7 (mean 13.0)
+NEW-STRICT 4B guard r3  CA@5% 12.2-13.1 (mean 12.5)
+NEW-STRICT 4B cln1      CA@5% 12.5-14.9 (mean 13.7)
+
+== reruns
+OLD        J-P2 UMWP in-band ratio growth factor per lineage: [2.46, 1.99, 2.85, 4.29, 1.96, 1.49, 1.37, 1.86, 4.53, 4.0] range 1.37-4.53; all > 1: True; verdict True
+OLD        A6 D1 pooled matched ratio 1.364 CI [1.311, 1.421]
+OLD        A6 D2: [{"run": "qwen3_4b_Base_own_a3_s0_r3", "read": true, "ratio": 1.1903221632811491, "n_matched_U": 390, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s1_r3", "read": true, "ratio": 1.1164653519292957, "n_matched_U": 390, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s2_r3", "read": true, "ratio": 1.2501310776329129, "n_matched_U": 390, "holds": true}, {"run": "qwen3_4b_Base_own_a3_s3_r3", "read": true, "ratio": 1.501457725947522, "n_matched_U": 390, "holds": true}, {"run": "qwen3_4b_Base_own_a3_s4_r3", "read": true, "ratio": 1.1882537519215226, "n_matched_U": 390, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s0_r3", "read": true, "ratio": 1.0013007388733186, "n_matched_U": 324, "holds": fa
+OLD        hardtraj Qwen3-4B r3 pooled exits: hard_A {"n_exits": 222, "n_above_correct": 209, "n_above_wrong": 8, "n_below": 5} | U {"n_exits": 519, "n_above_correct": 0, "n_above_wrong": 490, "n_below": 29}
+OLD        hardtraj fresh check (keys): ['n_hard_A', 'n_U', 'hard_ids_equal_base_band_hard_A', 'U_ids_subset_of_base_band_U', 'checkpoints', 'same_items_original_dumps']
+OLD        thresholds base               {'paper_CA': [28.7, 28.7], 'no_tie_at_top': [28.7, 28.7], '>=5': [17.2, 17.2], '>=6': [7.2, 7.2], '>=7': [2.8, 2.8], '8of8': [0.2, 0.2], 'ties_among_CA': [0.0, 0.0]}
+OLD        thresholds own_r3             {'paper_CA': [58.7, 75.8], 'no_tie_at_top': [57.8, 74.2], '>=5': [40.2, 55.2], '>=6': [24.3, 40.2], '>=7': [13.2, 25.7], '8of8': [5.2, 11.8], 'ties_among_CA': [0.2, 1.7]}
+OLD        thresholds solvable_only_r3   {'paper_CA': [49.2, 66.0], 'no_tie_at_top': [48.7, 64.8], '>=5': [32.0, 48.3], '>=6': [17.8, 33.7], '>=7': [7.5, 20.2], '8of8': [1.8, 9.3], 'ties_among_CA': [0.0, 1.2]}
+OLD        thresholds own_r5             {'paper_CA': [65.0, 78.3], 'no_tie_at_top': [64.3, 76.2], '>=5': [44.2, 62.2], '>=6': [28.5, 45.5], '>=7': [17.2, 31.0], '8of8': [5.5, 15.3], 'ties_among_CA': [0.7, 2.2]}
+OLD        a5_frontier F_P4 (AUROC): [{"run": "qwen3_4b_Base_own_a3_s0_r3", "auroc_base": 0.8104583333333333, "auroc_r3": 0.8396138888888889, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s1_r3", "auroc_base": 0.8104583333333333, "auroc_r3": 0.8258638888888888, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s2_r3", "auroc_base": 0.8104583333333333, "auroc_r3": 0.8353236111111111, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s3_r3", "auroc_base": 0.8104583333333333, "auroc_r3": 0.8505222222222222, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s4_r3", "auroc_base": 0.8104583333333333, "auroc_r3": 0.8104527777777778, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s0_r3", "auroc_base": 0.7351, "auroc_r3": 0.795175, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s1_r3", "auroc_base": 0.7351, "auroc_r3": 0.8006986111111111, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s2_r3", "auroc_base": 0.7351, "auroc_r3": 0.835563888888
+NEW-ORIG   J-P2 UMWP in-band ratio growth factor per lineage: [2.54, 2.01, 3.47, 4.49, 2.06, 1.44, 1.32, 1.73, 4.79, 4.29] range 1.32-4.79; all > 1: True; verdict True
+NEW-ORIG   A6 D1 pooled matched ratio 1.319 CI [1.266, 1.375]
+NEW-ORIG   A6 D2: [{"run": "qwen3_4b_Base_own_a3_s0_r3", "read": true, "ratio": 1.2353100845332576, "n_matched_U": 384, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s1_r3", "read": true, "ratio": 1.1589017529793746, "n_matched_U": 384, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s2_r3", "read": true, "ratio": 1.3462657382678365, "n_matched_U": 384, "holds": true}, {"run": "qwen3_4b_Base_own_a3_s3_r3", "read": true, "ratio": 1.4087254173797914, "n_matched_U": 384, "holds": true}, {"run": "qwen3_4b_Base_own_a3_s4_r3", "read": true, "ratio": 1.1211860154563773, "n_matched_U": 384, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s0_r3", "read": true, "ratio": 0.9636214022314032, "n_matched_U": 348, "holds": f
+NEW-ORIG   hardtraj Qwen3-4B r3 pooled exits: hard_A {"n_exits": 209, "n_above_correct": 195, "n_above_wrong": 7, "n_below": 7} | U {"n_exits": 512, "n_above_correct": 0, "n_above_wrong": 483, "n_below": 29}
+NEW-ORIG   hardtraj fresh check (keys): ['n_hard_A', 'n_U', 'hard_ids_equal_base_band_hard_A', 'U_ids_subset_of_base_band_U', 'checkpoints', 'same_items_original_dumps']
+NEW-ORIG   thresholds base               {'paper_CA': [28.5, 28.5], 'no_tie_at_top': [28.5, 28.5], '>=5': [17.5, 17.5], '>=6': [7.2, 7.2], '>=7': [2.8, 2.8], '8of8': [0.2, 0.2], 'ties_among_CA': [0.0, 0.0]}
+NEW-ORIG   thresholds own_r3             {'paper_CA': [57.3, 74.7], 'no_tie_at_top': [56.7, 73.2], '>=5': [40.2, 54.2], '>=6': [24.3, 38.0], '>=7': [13.7, 24.8], '8of8': [5.2, 12.2], 'ties_among_CA': [0.5, 1.7]}
+NEW-ORIG   thresholds solvable_only_r3   {'paper_CA': [50.3, 66.3], 'no_tie_at_top': [49.5, 65.2], '>=5': [31.8, 48.0], '>=6': [18.5, 32.8], '>=7': [9.5, 19.8], '8of8': [3.0, 9.3], 'ties_among_CA': [0.2, 1.2]}
+NEW-ORIG   thresholds own_r5             {'paper_CA': [65.2, 79.3], 'no_tie_at_top': [64.7, 77.5], '>=5': [44.7, 61.8], '>=6': [28.8, 45.0], '>=7': [16.3, 31.8], '8of8': [4.5, 14.8], 'ties_among_CA': [0.5, 1.8]}
+NEW-ORIG   a5_frontier F_P4 (AUROC): [{"run": "qwen3_4b_Base_own_a3_s0_r3", "auroc_base": 0.8131944444444444, "auroc_r3": 0.8381416666666667, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s1_r3", "auroc_base": 0.8131944444444444, "auroc_r3": 0.8279972222222223, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s2_r3", "auroc_base": 0.8131944444444444, "auroc_r3": 0.8367819444444444, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s3_r3", "auroc_base": 0.8131944444444444, "auroc_r3": 0.8539986111111111, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s4_r3", "auroc_base": 0.8131944444444444, "auroc_r3": 0.8150013888888888, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s0_r3", "auroc_base": 0.7317277777777778, "auroc_r3": 0.798525, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s1_r3", "auroc_base": 0.7317277777777778, "auroc_r3": 0.8028541666666666, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s2_r3", "auroc_base": 0.73172777
+NEW-STRICT J-P2 UMWP in-band ratio growth factor per lineage: [2.03, 1.87, 2.63, 3.43, 1.86, 1.6, 1.3, 1.47, 4.73, 4.19] range 1.30-4.73; all > 1: True; verdict True
+NEW-STRICT A6 D1 pooled matched ratio 1.219 CI [1.173, 1.271]
+NEW-STRICT A6 D2: [{"run": "qwen3_4b_Base_own_a3_s0_r3", "read": true, "ratio": 0.9263330095598384, "n_matched_U": 425, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s1_r3", "read": true, "ratio": 1.0917288390317212, "n_matched_U": 425, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s2_r3", "read": true, "ratio": 1.2576962988585265, "n_matched_U": 425, "holds": true}, {"run": "qwen3_4b_Base_own_a3_s3_r3", "read": true, "ratio": 1.3544121000228015, "n_matched_U": 425, "holds": true}, {"run": "qwen3_4b_Base_own_a3_s4_r3", "read": true, "ratio": 1.0373331892592794, "n_matched_U": 425, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s0_r3", "read": true, "ratio": 1.0359868349669066, "n_matched_U": 417, "holds": f
+NEW-STRICT hardtraj Qwen3-4B r3 pooled exits: hard_A {"n_exits": 161, "n_above_correct": 148, "n_above_wrong": 7, "n_below": 6} | U {"n_exits": 658, "n_above_correct": 0, "n_above_wrong": 314, "n_below": 344}
+NEW-STRICT hardtraj fresh check (keys): ['n_hard_A', 'n_U', 'hard_ids_equal_base_band_hard_A', 'U_ids_subset_of_base_band_U', 'checkpoints', 'same_items_original_dumps']
+NEW-STRICT thresholds base               {'paper_CA': [28.2, 28.2], 'no_tie_at_top': [28.0, 28.0], '>=5': [15.8, 15.8], '>=6': [9.0, 9.0], '>=7': [3.0, 3.0], '8of8': [0.5, 0.5], 'ties_among_CA': [0.2, 0.2]}
+NEW-STRICT thresholds own_r3             {'paper_CA': [41.3, 47.5], 'no_tie_at_top': [41.0, 45.3], '>=5': [28.5, 33.2], '>=6': [17.8, 22.8], '>=7': [10.3, 15.7], '8of8': [3.5, 7.5], 'ties_among_CA': [0.3, 2.2]}
+NEW-STRICT thresholds solvable_only_r3   {'paper_CA': [37.5, 40.3], 'no_tie_at_top': [37.2, 39.3], '>=5': [24.5, 28.3], '>=6': [15.3, 19.5], '>=7': [8.7, 13.0], '8of8': [2.3, 6.3], 'ties_among_CA': [0.3, 1.3]}
+NEW-STRICT thresholds own_r5             {'paper_CA': [47.7, 50.3], 'no_tie_at_top': [46.8, 48.5], '>=5': [32.0, 37.3], '>=6': [22.2, 24.0], '>=7': [12.5, 17.0], '8of8': [3.8, 8.5], 'ties_among_CA': [0.5, 2.2]}
+NEW-STRICT a5_frontier F_P4 (AUROC): [{"run": "qwen3_4b_Base_own_a3_s0_r3", "auroc_base": 0.8400569444444445, "auroc_r3": 0.8952125, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s1_r3", "auroc_base": 0.8400569444444445, "auroc_r3": 0.8874777777777778, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s2_r3", "auroc_base": 0.8400569444444445, "auroc_r3": 0.9065236111111111, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s3_r3", "auroc_base": 0.8400569444444445, "auroc_r3": 0.9036125, "holds": false}, {"run": "qwen3_4b_Base_own_a3_s4_r3", "auroc_base": 0.8400569444444445, "auroc_r3": 0.8839902777777778, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s0_r3", "auroc_base": 0.8577986111111111, "auroc_r3": 0.8584277777777778, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s1_r3", "auroc_base": 0.8577986111111111, "auroc_r3": 0.866125, "holds": false}, {"run": "qwen3_8b_Base_own_a3_s2_r3", "auroc_base": 0.8577986111111111, "auroc_r
+NEW-ORIG   R-Zero plain_s0: CA 0.285->0.315 diff 0.03 CI [-0.0067, 0.0683] | ACC 0.91->0.9017
+NEW-ORIG   R-Zero plain_s1: CA 0.285->0.2933 diff 0.0083 CI [-0.025, 0.0433] | ACC 0.91->0.8867
+NEW-ORIG   R-Zero plainchat_s0: CA 0.2917->0.71 diff 0.4183 CI [0.3767, 0.46] | ACC 0.8817->0.95
+NEW-ORIG   R-Zero plainchat_s1: CA 0.2917->0.6417 diff 0.35 CI [0.305, 0.395] | ACC 0.8817->0.9517
+NEW-ORIG   R-Zero rates plain_qwen3_4b_base: {'A': {'n': 600, 'nonanswer': 0.0333, 'no_mode': 0.0083, 'mean_p_mode': 0.6412}, 'U': {'n': 600, 'nonanswer': 0.0323, 'no_mode': 0.0267, 'mean_p_mode': 0.3634}}
+NEW-ORIG   R-Zero rates plain_rzero_s0_it3: {'A': {'n': 600, 'nonanswer': 0.0362, 'no_mode': 0.0083, 'mean_p_mode': 0.6477}, 'U': {'n': 600, 'nonanswer': 0.0415, 'no_mode': 0.0267, 'mean_p_mode': 0.3812}}
+NEW-ORIG   R-Zero rates plain_rzero_s1_it3: {'A': {'n': 600, 'nonanswer': 0.0431, 'no_mode': 0.0133, 'mean_p_mode': 0.6328}, 'U': {'n': 600, 'nonanswer': 0.0394, 'no_mode': 0.0333, 'mean_p_mode': 0.375}}
+NEW-ORIG   R-Zero rates plainchat_qwen3_4b_base: {'A': {'n': 600, 'nonanswer': 0.1542, 'no_mode': 0.07, 'mean_p_mode': 0.5547}, 'U': {'n': 600, 'nonanswer': 0.1721, 'no_mode': 0.2, 'mean_p_mode': 0.3979}}
+NEW-ORIG   R-Zero rates plainchat_rzero_s0_it3: {'A': {'n': 600, 'nonanswer': 0.0315, 'no_mode': 0.0017, 'mean_p_mode': 0.8339}, 'U': {'n': 600, 'nonanswer': 0.0452, 'no_mode': 0.01, 'mean_p_mode': 0.5772}}
+NEW-ORIG   R-Zero rates plainchat_rzero_s1_it3: {'A': {'n': 600, 'nonanswer': 0.035, 'no_mode': 0.0, 'mean_p_mode': 0.8137}, 'U': {'n': 600, 'nonanswer': 0.0638, 'no_mode': 0.025, 'mean_p_mode': 0.5517}}
+NEW-STRICT R-Zero plain_s0: CA 0.2817->0.33 diff 0.0483 CI [0.0133, 0.0833] | ACC 0.915->0.9017
+NEW-STRICT R-Zero plain_s1: CA 0.2817->0.29 diff 0.0083 CI [-0.025, 0.04] | ACC 0.915->0.8983
+NEW-STRICT R-Zero plainchat_s0: CA 0.1583->0.445 diff 0.2867 CI [0.2483, 0.3267] | ACC 0.8->0.935
+NEW-STRICT R-Zero plainchat_s1: CA 0.1583->0.3967 diff 0.2383 CI [0.2, 0.2767] | ACC 0.8->0.94
+NEW-STRICT R-Zero rates plain_qwen3_4b_base: {'A': {'n': 600, 'nonanswer': 0.0688, 'no_mode': 0.015, 'mean_p_mode': 0.683}, 'U': {'n': 600, 'nonanswer': 0.1156, 'no_mode': 0.1417, 'mean_p_mode': 0.3847}}
+NEW-STRICT R-Zero rates plain_rzero_s0_it3: {'A': {'n': 600, 'nonanswer': 0.0742, 'no_mode': 0.0217, 'mean_p_mode': 0.6966}, 'U': {'n': 600, 'nonanswer': 0.1319, 'no_mode': 0.1567, 'mean_p_mode': 0.4118}}
+NEW-STRICT R-Zero rates plain_rzero_s1_it3: {'A': {'n': 600, 'nonanswer': 0.0825, 'no_mode': 0.0233, 'mean_p_mode': 0.683}, 'U': {'n': 600, 'nonanswer': 0.1404, 'no_mode': 0.2067, 'mean_p_mode': 0.4097}}
+NEW-STRICT R-Zero rates plainchat_qwen3_4b_base: {'A': {'n': 600, 'nonanswer': 0.249, 'no_mode': 0.1733, 'mean_p_mode': 0.5557}, 'U': {'n': 600, 'nonanswer': 0.4125, 'no_mode': 0.645, 'mean_p_mode': 0.4349}}
+NEW-STRICT R-Zero rates plainchat_rzero_s0_it3: {'A': {'n': 600, 'nonanswer': 0.105, 'no_mode': 0.0217, 'mean_p_mode': 0.7924}, 'U': {'n': 600, 'nonanswer': 0.29, 'no_mode': 0.3667, 'mean_p_mode': 0.5615}}
+NEW-STRICT R-Zero rates plainchat_rzero_s1_it3: {'A': {'n': 600, 'nonanswer': 0.1117, 'no_mode': 0.015, 'mean_p_mode': 0.7716}, 'U': {'n': 600, 'nonanswer': 0.3281, 'no_mode': 0.415, 'mean_p_mode': 0.5502}}
+
+== frontier CA_U at FA_A = 0.05 (a5_frontier.py curve/frontier_at on the pseudo-dumps; OLD = original absfix dumps)
+OLD qwen3_4b_base:21.2 own_a3_s0_r3:12.1 own_a3_s1_r3:14.3 own_a3_s2_r3:12.6 own_a3_s3_r3:11.7 own_a3_s4_r3:13.2 own_clean_a3_s0_r3:13.2 own_clean_a3_s1_r3:13.9 own_clean_a3_s2_r3:12.4 own_clean_a3_s3_r3:13.9 own_ag_a4_s0_r3:12.6 own_ag_a4_s1_r3:13.4 own_ag_a4_s2_r3:13.8 rescue_uv_a4_s0_r3:10.8 rescue_uv_a4_s1_r3:12.5 rescue_uv_a4_s2_r3:10.2 rescue_uv_a4_s4_r3:11.7 rescue_abs_a4_s0_r3:18.3 rescue_abs_a4_s1_r3:25.4 rescue_abs_a4_s2_r3:21.2 loop_uv_a4_s0_r4:11.6 loop_uv_a4_s1_r4:- loop_uv_a4_s2_r4:12.1 coev_ag_a4_s0_r3:10.6 coev_ag_a4_s1_r3:12.1 tg_abs4_a5_s0_r4:17.3 tg_abs4_a5_s1_r4:20.6 tg_abs4_a5_s2_r4:19.9 tg_t4_a5_s1_r4:14.5
+   OLD        rescue_uv_a4   minus own r3 (same seed), points: [-1.3, -1.9, -2.4, -1.5] mean -1.8
+   OLD        rescue_abs_a4  minus own r3 (same seed), points: [6.2, 11.1, 8.6] mean +8.6
+   OLD        coev_ag_a4     minus own r3 (same seed), points: [-1.5, -2.3] mean -1.9
+   OLD        tg_abs4_a5     minus own r3 (same seed), points: [5.2, 6.2, 7.3] mean +6.2
+   OLD        own_ag_a4      minus own r3 (same seed), points: [0.5, -1.0, 1.2] mean +0.2
+   OLD        own_clean_a3   minus own r3 (same seed), points: [1.1, -0.4, -0.2, 2.3] mean +0.7
+   OLD        loop_uv r4     minus own r3 (same seed), points: [-0.5, -0.5] mean -0.5
+NEW-ORIG qwen3_4b_base:21.2 own_a3_s0_r3:12.3 own_a3_s1_r3:13.4 own_a3_s2_r3:12.0 own_a3_s3_r3:11.9 own_a3_s4_r3:13.2 own_clean_a3_s0_r3:12.9 own_clean_a3_s1_r3:12.7 own_clean_a3_s2_r3:12.5 own_clean_a3_s3_r3:13.7 own_ag_a4_s0_r3:12.2 own_ag_a4_s1_r3:12.3 own_ag_a4_s2_r3:13.1 rescue_uv_a4_s0_r3:10.7 rescue_uv_a4_s1_r3:11.6 rescue_uv_a4_s2_r3:9.9 rescue_uv_a4_s4_r3:10.7 rescue_abs_a4_s0_r3:21.3 rescue_abs_a4_s1_r3:24.6 rescue_abs_a4_s2_r3:23.0 loop_uv_a4_s0_r4:11.4 loop_uv_a4_s1_r4:13.1 loop_uv_a4_s2_r4:10.6 coev_ag_a4_s0_r3:10.8 coev_ag_a4_s1_r3:11.8 tg_abs4_a5_s0_r4:17.9 tg_abs4_a5_s1_r4:18.1 tg_abs4_a5_s2_r4:20.5 tg_t4_a5_s1_r4:15.5
+   NEW-ORIG   rescue_uv_a4   minus own r3 (same seed), points: [-1.6, -1.9, -2.1, -2.6] mean -2.0
+   NEW-ORIG   rescue_abs_a4  minus own r3 (same seed), points: [9.0, 11.2, 11.0] mean +10.4
+   NEW-ORIG   coev_ag_a4     minus own r3 (same seed), points: [-1.5, -1.6] mean -1.6
+   NEW-ORIG   tg_abs4_a5     minus own r3 (same seed), points: [5.6, 4.7, 8.6] mean +6.3
+   NEW-ORIG   own_ag_a4      minus own r3 (same seed), points: [-0.1, -1.1, 1.1] mean -0.1
+   NEW-ORIG   own_clean_a3   minus own r3 (same seed), points: [0.6, -0.7, 0.6, 1.9] mean +0.6
+   NEW-ORIG   loop_uv r4     minus own r3 (same seed), points: [-0.9, -0.3, -1.3] mean -0.9
+NEW-STRICT qwen3_4b_base:21.3 own_a3_s0_r3:12.3 own_a3_s1_r3:13.5 own_a3_s2_r3:12.1 own_a3_s3_r3:11.9 own_a3_s4_r3:13.2 own_clean_a3_s0_r3:12.9 own_clean_a3_s1_r3:12.6 own_clean_a3_s2_r3:12.5 own_clean_a3_s3_r3:13.7 own_ag_a4_s0_r3:12.2 own_ag_a4_s1_r3:12.2 own_ag_a4_s2_r3:13.1 rescue_uv_a4_s0_r3:10.7 rescue_uv_a4_s1_r3:11.6 rescue_uv_a4_s2_r3:9.9 rescue_uv_a4_s4_r3:10.7 rescue_abs_a4_s0_r3:21.3 rescue_abs_a4_s1_r3:24.2 rescue_abs_a4_s2_r3:23.0 loop_uv_a4_s0_r4:11.4 loop_uv_a4_s1_r4:13.1 loop_uv_a4_s2_r4:10.6 coev_ag_a4_s0_r3:10.9 coev_ag_a4_s1_r3:11.8 tg_abs4_a5_s0_r4:17.9 tg_abs4_a5_s1_r4:18.3 tg_abs4_a5_s2_r4:20.6 tg_t4_a5_s1_r4:15.5
+   NEW-STRICT rescue_uv_a4   minus own r3 (same seed), points: [-1.6, -1.9, -2.2, -2.5] mean -2.0
+   NEW-STRICT rescue_abs_a4  minus own r3 (same seed), points: [9.0, 10.7, 10.9] mean +10.2
+   NEW-STRICT coev_ag_a4     minus own r3 (same seed), points: [-1.5, -1.7] mean -1.6
+   NEW-STRICT tg_abs4_a5     minus own r3 (same seed), points: [5.6, 4.8, 8.5] mean +6.3
+   NEW-STRICT own_ag_a4      minus own r3 (same seed), points: [-0.2, -1.3, 1.0] mean -0.1
+   NEW-STRICT own_clean_a3   minus own r3 (same seed), points: [0.6, -0.8, 0.4, 1.9] mean +0.5
+   NEW-STRICT loop_uv r4     minus own r3 (same seed), points: [-0.9, -0.4, -1.5] mean -0.9

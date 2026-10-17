@@ -1,0 +1,293 @@
+{
+ "FB1": [
+  {
+   "seed": 0,
+   "own": 0.13648148148148148,
+   "arm": 0.10773809523809523,
+   "holds": false
+  },
+  {
+   "seed": 1,
+   "own": 0.13499999999999998,
+   "arm": 0.11595238095238095,
+   "holds": false
+  },
+  {
+   "seed": 2,
+   "own": 0.12188405797101448,
+   "arm": 0.12366666666666667,
+   "holds": false
+  },
+  {
+   "seed": 4,
+   "own": 0.14727272727272728,
+   "arm": 0.11599999999999999,
+   "holds": true
+  }
+ ],
+ "FB2": [
+  {
+   "seed": 0,
+   "own": 0.13648148148148148,
+   "arm": 0.14055555555555554,
+   "holds": false
+  },
+  {
+   "seed": 1,
+   "own": 0.13499999999999998,
+   "arm": null,
+   "holds": null
+  },
+  {
+   "seed": 2,
+   "own": 0.12188405797101448,
+   "arm": 0.1225,
+   "holds": false
+  }
+ ],
+ "FB3_rescue": [
+  {
+   "seed": 0,
+   "own": 0.11387237814614773,
+   "arm": 0.11908231065576912,
+   "holds": false
+  },
+  {
+   "seed": 1,
+   "own": 0.11303686221156861,
+   "arm": 0.09219858868761145,
+   "holds": false
+  },
+  {
+   "seed": 2,
+   "own": 0.1348657642792677,
+   "arm": 0.09706346333328333,
+   "holds": true
+  },
+  {
+   "seed": 4,
+   "own": 0.13939364457069478,
+   "arm": 0.11471219768296483,
+   "holds": false
+  }
+ ],
+ "FB3_loop": [
+  {
+   "seed": 0,
+   "own": 0.11387237814614773,
+   "arm": 0.14718903544509462,
+   "holds": false
+  },
+  {
+   "seed": 1,
+   "own": 0.11303686221156861,
+   "arm": 0.11346315994478864,
+   "holds": false
+  },
+  {
+   "seed": 2,
+   "own": 0.1348657642792677,
+   "arm": 0.10845452958402521,
+   "holds": false
+  }
+ ],
+ "descriptive": [
+  {
+   "tag": "qwen3_4b_Base_own_ag_a4_s0_r3",
+   "bench": "umwp",
+   "own_r3": 0.13648148148148148,
+   "arm": 0.13208333333333333
+  },
+  {
+   "tag": "qwen3_4b_Base_own_ag_a4_s0_r3",
+   "bench": "twins",
+   "own_r3": 0.11387237814614773,
+   "arm": 0.1183261123276446
+  },
+  {
+   "tag": "qwen3_4b_Base_own_ag_a4_s1_r3",
+   "bench": "umwp",
+   "own_r3": 0.13499999999999998,
+   "arm": 0.12944444444444445
+  },
+  {
+   "tag": "qwen3_4b_Base_own_ag_a4_s1_r3",
+   "bench": "twins",
+   "own_r3": 0.11303686221156861,
+   "arm": 0.10429265051287628
+  },
+  {
+   "tag": "qwen3_4b_Base_own_ag_a4_s2_r3",
+   "bench": "umwp",
+   "own_r3": 0.12188405797101448,
+   "arm": 0.11717391304347825
+  },
+  {
+   "tag": "qwen3_4b_Base_own_ag_a4_s2_r3",
+   "bench": "twins",
+   "own_r3": 0.1348657642792677,
+   "arm": 0.09545838867773329
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s0_r3",
+   "bench": "umwp",
+   "own_r3": 0.13648148148148148,
+   "arm": 0.1337179487179487
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s0_r3",
+   "bench": "twins",
+   "own_r3": 0.11387237814614773,
+   "arm": 0.09365077250293613
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s1_r3",
+   "bench": "umwp",
+   "own_r3": 0.13499999999999998,
+   "arm": 0.11777777777777777
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s1_r3",
+   "bench": "twins",
+   "own_r3": 0.11303686221156861,
+   "arm": 0.07501964863615349
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s2_r3",
+   "bench": "umwp",
+   "own_r3": 0.12188405797101448,
+   "arm": 0.1380392156862745
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s2_r3",
+   "bench": "twins",
+   "own_r3": 0.1348657642792677,
+   "arm": 0.06130184749042188
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s3_r3",
+   "bench": "umwp",
+   "own_r3": 0.14047619047619048,
+   "arm": 0.1475490196078431
+  },
+  {
+   "tag": "qwen3_4b_Base_own_clean_a3_s3_r3",
+   "bench": "twins",
+   "own_r3": 0.14609704205729884,
+   "arm": 0.08358565713987182
+  },
+  {
+   "tag": "qwen3_4b_Base_rescue_abs_a4_s0_r3",
+   "bench": "umwp",
+   "own_r3": 0.13648148148148148,
+   "arm": 0.2033333333333333
+  },
+  {
+   "tag": "qwen3_4b_Base_rescue_abs_a4_s0_r3",
+   "bench": "twins",
+   "own_r3": 0.11387237814614773,
+   "arm": 0.23223162013665438
+  },
+  {
+   "tag": "qwen3_4b_Base_rescue_abs_a4_s1_r3",
+   "bench": "umwp",
+   "own_r3": 0.13499999999999998,
+   "arm": 0.2737301587301587
+  },
+  {
+   "tag": "qwen3_4b_Base_rescue_abs_a4_s1_r3",
+   "bench": "twins",
+   "own_r3": 0.11303686221156861,
+   "arm": 0.31804430153960794
+  },
+  {
+   "tag": "qwen3_4b_Base_rescue_abs_a4_s2_r3",
+   "bench": "umwp",
+   "own_r3": 0.12188405797101448,
+   "arm": 0.21039682539682542
+  },
+  {
+   "tag": "qwen3_4b_Base_rescue_abs_a4_s2_r3",
+   "bench": "twins",
+   "own_r3": 0.1348657642792677,
+   "arm": 0.2545851065384429
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_abs4_a5_s0_r4",
+   "bench": "umwp",
+   "own_r3": 0.13648148148148148,
+   "arm": 0.1687179487179487
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_abs4_a5_s0_r4",
+   "bench": "twins",
+   "own_r3": 0.11387237814614773,
+   "arm": 0.18517612638483688
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_abs4_a5_s1_r4",
+   "bench": "umwp",
+   "own_r3": 0.13499999999999998,
+   "arm": 0.19359649122807018
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_abs4_a5_s1_r4",
+   "bench": "twins",
+   "own_r3": 0.11303686221156861,
+   "arm": 0.2085164977276747
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_abs4_a5_s2_r4",
+   "bench": "umwp",
+   "own_r3": 0.12188405797101448,
+   "arm": 0.1932843137254902
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_abs4_a5_s2_r4",
+   "bench": "twins",
+   "own_r3": 0.1348657642792677,
+   "arm": 0.2294346646062765
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_t4_a5_s0_r4",
+   "bench": "umwp",
+   "own_r3": 0.13648148148148148,
+   "arm": null
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_t4_a5_s0_r4",
+   "bench": "twins",
+   "own_r3": 0.11387237814614773,
+   "arm": null
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_t4_a5_s1_r4",
+   "bench": "umwp",
+   "own_r3": 0.13499999999999998,
+   "arm": 0.21
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_t4_a5_s1_r4",
+   "bench": "twins",
+   "own_r3": 0.11303686221156861,
+   "arm": 0.10195873786407766
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_t4_a5_s2_r4",
+   "bench": "umwp",
+   "own_r3": 0.12188405797101448,
+   "arm": null
+  },
+  {
+   "tag": "qwen3_4b_Base_tg_t4_a5_s2_r4",
+   "bench": "twins",
+   "own_r3": 0.1348657642792677,
+   "arm": null
+  }
+ ],
+ "verdicts": {
+  "FB1": false,
+  "FB2": null,
+  "FB3": false
+ }
+}

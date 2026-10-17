@@ -1,0 +1,8 @@
+{"verdicts": [
+{"k": 1100, "id": "evo3:1100", "verdict": "SOLVABLE", "confidence": 0.7, "note": "9+18+36+72=135, plus 10 extra = 145 (assumes empty shelf initially)."},
+{"k": 1101, "id": "evo3:1101", "verdict": "SOLVABLE", "confidence": 0.7, "note": "20+0.05*300=35 leaves 0 for texts; answer 0 messages (degenerate)."},
+{"k": 1102, "id": "evo3:1102", "verdict": "UNSOLVABLE", "confidence": 0.8, "note": "Contradiction: 20+0.10*100=30, not stated 35; answers 35 vs 42.5."},
+{"k": 1103, "id": "evo3:1103", "verdict": "AMBIGUOUS", "confidence": 0.75, "note": "$10/book coupon (save 40, coupon +5) vs $20 coupon (save 20, discount +15)."},
+{"k": 1104, "id": "evo3:1104", "verdict": "AMBIGUOUS", "confidence": 0.7, "note": "$5 threshold pre-discount: coupon better by 5; post-discount (105 vs 100): tie."},
+{"k": 1105, "id": "evo3:1105", "verdict": "SOLVABLE", "confidence": 0.7, "note": "Fares 2,6,2,4,3.5; fourth stop 4; route total 17.5."}
+]}

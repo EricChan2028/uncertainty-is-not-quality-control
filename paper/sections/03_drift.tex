@@ -1,0 +1,39 @@
+\section{The Curriculum Drifts Toward Ill-Posed Problems}
+\label{sec:drift}
+
+
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Model (seeds) & R1 & R2 & R3 & $\Delta_{1\to3}$ \\
+\midrule
+Qwen3-4B (5) & 56.7 & 72.7 & 79.9 & $+23.2$ {\scriptsize(19--27)} \\
+Qwen3-8B (3) & 56.0 & 68.0 & 73.3 & $+17.3$ {\scriptsize(11.5--21.5)} \\
+Phi-4-mini (2) & 60.3 & 76.3 & 82.0 & $+21.8$ {\scriptsize(19.5--24)} \\
+Llama-3.2-3B (3)$^{a}$ & 66.3 & 74.8 & 70.8 & $+4.5$ {\scriptsize(2--6.5)} \\
+Qwen3-14B (1) & 57.0 & 72.0 & -- & $+15.0^{b}$ \\
+R-Zero, official (2) & 33.3 & 43.3 & 58.3 & $+25.0$ {\scriptsize(23--27)} \\
+R-Zero, blind (2) & 33.5 & 43.8 & 57.5 & $+24.0$ {\scriptsize(22--26)} \\
+\midrule
+\emph{Qwen3-4B, same problems (3)} & R1 & R3 & R5 & $\Delta_{1\to5}$ \\
+\quad original labels & 54.0 & 79.7 & 77.0 & $+23.0$ \\
+\quad blind to round & 51.0 & 78.3 & 75.7 & $+24.7$ \\
+\quad open-weight judge & 44.3 & 63.3 & 63.7 & $+19.3$ \\
+\quad human annotators$^{c}$ & 56.2 & 78.8 & 76.2 & $+20.0$ \\
+\bottomrule
+\end{tabular}}
+\caption{Share (\%) of admitted problems that are ill-posed, by round (R-Zero: iteration), averaged over seeds (200 labelled problems per seed and round); per-seed range of the change in parentheses. R-Zero, blind: the same problems re-judged blind to iteration. Lower block: 100 of these problems per seed and round (seeds 0--2), with their original labels, re-judged blind to round and by an open-weight judge. $^{a}$Seeds 2--4; seeds 0 and 1 collapsed in round 1. $^{b}$Round 1 to 2. $^{c}$240 of these problems (80 per round), labelled by two mathematicians with a third adjudicating.}
+\label{tab:drift}
+\end{table}
+
+\paragraph{The curriculum drifts in every model.} In Qwen3-4B, the ill-posed share of the admitted curriculum (Table~\ref{tab:drift}) rises in all five seeds, from 57\% to 80\% on average by round three, and stays near 80\% through round six; Qwen3-8B, Phi-4-mini and one round of Qwen3-14B follow the same course. Llama-3.2-3B collapsed in three of five seeds; from a higher start (65--67\%), the others' share rises by 6.5--9.5 points in round two and ends 2--6.5 points above round one. Absolute Zero's learnability rule \citep{zhao2025absolute}, computed on agreement (admit unless unanimous), drifts from 50\% to 67--74\% by round three. Contradictory or impossible conditions are the most common defect in every round (38--43\% of 540 ill-posed problems typed blind), ahead of missing premises (18--29\%) and ambiguous references (14--17\%; examples in Table~\ref{tab:examples}, Appendix~\ref{app:results}).
+
+\paragraph{A frozen proposer is not the cause.} Its output is fixed by construction: labelled in full, its first-round output is 45\% and 47\% ill-posed in two pools (Figure~\ref{fig:teaser}a, dashed). What changes is the band: scored by successive solvers, one fully labelled pool yields an admitted ill-posed share rising from 52.9\% to 81.2\% by round five (\S\ref{sec:mechanism}). The drift does not need training on ill-posed problems either: a solver trained only on admitted problems labelled solvable still admits curricula 72--82\% ill-posed at rounds two and three. Nor does changing the proposer help: one fine-tuned on its admitted problems writes no more ill-posed ones, yet its admitted set reaches 71--77\% ill-posed by round three, and the pool of a stronger proposer, Qwen2.5-7B-Instruct \citep{qwen2025qwen25}, drifts from 47\% to 74\%.
+
+\paragraph{The official R-Zero code drifts too.} In R-Zero \citep{huang2026rzero}, a challenger trained by reinforcement learning writes questions, and the released code filters them with its band on nine pseudo-labelling samples (\S\ref{sec:setting}). We ran it on Qwen3-4B-Base (three iterations, two seeds, all algorithmic defaults; Appendix~\ref{app:rzero}). The ill-posed share of its admitted questions rises from 32.5\% to 55.5\% and from 34.0\% to 61.0\%, while the admitted pool grows from about 3,550 to 4,600 questions, so a shrinking pool cannot explain the drift. Most of it comes from the challenger, whose reward in the code is the solver's uncertainty, $\min(\hat p, 1{-}\hat p)$, minus a BLEU-based repetition penalty: judged blind before pseudo-labelling, its output grows more ill-posed by 14.0 points (95\% CI $[7.2, 20.8]$; 21.0 and 7.0 per seed), and it accounts for 69\% (95\% CI $[44, 98]$) of the change in the ill-posed log-odds of admitted questions. Downstream selection contributes the rest, but the band's own part is not established ($+0.18$ in log-odds, CI $[-0.06, 0.43]$). The replication thus supports the drift, not the band as its cause, and its solvers' behaviour depends on the format: their self-consistent answers to unanswerable UMWP questions rise little under our plain prompt (28\% to 33\% and 29\%) but strongly in their chat format (16\% to 45\% and 40\%; Appendix~\ref{app:rzero}).
+
+\paragraph{The drift does not depend on the judge.} The original judges could see a problem's round. Re-judged blind (Appendix~\ref{app:judge}), 900 Qwen3-4B problems and all 1,200 labelled R-Zero questions show the same drift (Table~\ref{tab:drift}; for R-Zero, 95\% CI of the difference $[-3.0, +1.0]$). An open-weight judge, Qwen2.5-32B-Instruct, more lenient and in only fair agreement with Opus ($\kappa{=}0.38$), finds the same drift (95\% CI $[11.7, 27.0]$). Two external mathematicians ($\kappa{=}0.91$), with a third adjudicating, labelled 240 of the Qwen3-4B problems blind to round and judge labels: their ill-posed share rises by 20.0 points from round one to five (95\% CI $[6.2, 33.8]$). Blind Opus agrees with them at $\kappa{=}0.89$ and measures a slightly larger drift (Appendix~\ref{app:judge}). Without any judge, scored by each solver, UMWP's unanswerable questions become more admissible relative to its answerable ones: from base to round three, the ratio of their in-band rates grows in all ten lineages, by a factor of 1.3--4.8 (under either reading of \S\ref{sec:setting}), as does that for the 412 premise-deleted problems and their originals.

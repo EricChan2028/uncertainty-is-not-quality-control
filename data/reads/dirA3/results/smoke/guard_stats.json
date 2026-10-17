@@ -1,0 +1,19 @@
+{
+ "tracer_deleted_n": 20,
+ "tracer_deleted_admit": 11,
+ "tracer_deleted_confident": 2,
+ "proposed_n": 36,
+ "proposed_admit": 18,
+ "proposed_confident": 12,
+ "tracer_intact_n": 20,
+ "tracer_intact_admit": 10,
+ "tracer_intact_confident": 5,
+ "proposed_admit_rate": 0.5,
+ "proposed_confident_rate": 0.3333333333333333,
+ "tracer_deleted_admit_rate": 0.55,
+ "tracer_deleted_confident_rate": 0.1,
+ "tracer_intact_admit_rate": 0.5,
+ "tracer_intact_confident_rate": 0.25,
+ "n_admitted": 39,
+ "admitted_tracer_deleted": 11
+}

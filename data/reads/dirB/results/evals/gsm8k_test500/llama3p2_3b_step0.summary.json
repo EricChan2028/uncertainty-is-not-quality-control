@@ -1,0 +1,13 @@
+{
+ "gsm8k_test500": {
+  "n": 500,
+  "greedy_acc": 0.72,
+  "maj_acc": 0.816,
+  "pass_k": 0.924,
+  "k": 8,
+  "mean_p_mode": 0.67925,
+  "sample_trunc": 0.00175,
+  "mean_len": 172.48175,
+  "model": "/root/models/Llama-3.2-3B-Instruct"
+ }
+}

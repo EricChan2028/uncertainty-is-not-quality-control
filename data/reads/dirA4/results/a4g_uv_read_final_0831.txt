@@ -1,0 +1,33 @@
+seed | arm        | acc(len) acc(strict) | Q1u   | abstain uns / intact (abs prompt)
+s0   | own        | 81.9    81.9       | 0.347 | 0.714 / 0.072
+s0   | rescue_uv  | 81.4    81.4       | 0.347 | 0.795 / 0.134
+s0   | rescue_abs | 82.3    82.2       | 0.335 | 0.321 / 0.012
+s0   | own_clean  | 81.8    81.8       | 0.240 | 0.662 / 0.065
+  -> seed 0: HU1 False | HU2 True | HU3 False
+s1   | own        | 81.5    81.4       | 0.316 | 0.693 / 0.064
+s1   | rescue_uv  | 82.2    82.2       | 0.233 | 0.824 / 0.133
+s1   | rescue_abs | 81.9    81.9       | 0.197 | 0.242 / 0.006
+s1   | own_clean  | 81.7    81.7       | 0.218 | 0.733 / 0.063
+  -> seed 1: HU1 True | HU2 True | HU3 True
+s2   | own        | 81.8    81.8       | 0.410 | 0.699 / 0.071
+s2   | rescue_uv  | 81.5    81.6       | 0.367 | 0.806 / 0.114
+s2   | rescue_abs | 81.8    81.7       | 0.357 | 0.304 / 0.009
+s2   | own_clean  | 82.7    82.7       | 0.257 | 0.735 / 0.058
+  -> seed 2: HU1 False | HU2 True | HU3 True
+s4   | own        | 81.8    81.8       | 0.393 | 0.669 / 0.063
+s4   | rescue_uv  | 81.4    81.4       | 0.299 | 0.758 / 0.087
+s4   | rescue_abs | -       -          | - | - / -
+s4   | own_clean  | -       -          | - | - / -
+  -> seed 4: HU1 True | HU2 True | HU3 False
+pool qwen_s0 (seed 0); admission on count-unknown majority share | plain p_mode band
+  own_r3     n  422 ill  78.0 uns  55.0 ill&unknown-majority  11.8 hallucination-target  66.1 | plain ill  76.8 (n 400) | in-band S/A/U 0.15/0.54/0.68 | unknown plurality S/A/U 0.00/0.01/0.20
+  base       n  774 ill  57.1 uns  37.2 ill&unknown-majority  14.9 hallucination-target  42.2 | plain ill  53.8 (n 675) | in-band S/A/U 0.52/0.86/0.85 | unknown plurality S/A/U 0.04/0.07/0.34
+  rescue_uv  n  414 ill  73.2 uns  49.3 ill&unknown-majority  16.9 hallucination-target  56.3 | plain ill  72.5 (n 389) | in-band S/A/U 0.17/0.55/0.60 | unknown plurality S/A/U 0.03/0.07/0.42
+  rescue_abs n  419 ill  77.1 uns  54.2 ill&unknown-majority   1.0 hallucination-target  76.1 | plain ill  76.9 (n 416) | in-band S/A/U 0.15/0.53/0.67 | unknown plurality S/A/U 0.00/0.00/0.01
+  -> seed 0: HU4 False
+pool qwen_s1 (seed 1); admission on count-unknown majority share | plain p_mode band
+  own_r3     n  415 ill  81.0 uns  56.4 ill&unknown-majority   9.6 hallucination-target  71.3 | plain ill  80.5 (n 394) | in-band S/A/U 0.13/0.57/0.67 | unknown plurality S/A/U 0.00/0.00/0.17
+  base       n  800 ill  56.0 uns  37.0 ill&unknown-majority  14.8 hallucination-target  41.2 | plain ill  51.7 (n 706) | in-band S/A/U 0.58/0.85/0.84 | unknown plurality S/A/U 0.02/0.08/0.34
+  rescue_uv  n  407 ill  76.2 uns  47.9 ill&unknown-majority  18.4 hallucination-target  57.7 | plain ill  75.0 (n 380) | in-band S/A/U 0.16/0.65/0.56 | unknown plurality S/A/U 0.02/0.11/0.42
+  rescue_abs n  404 ill  81.2 uns  58.4 ill&unknown-majority   0.0 hallucination-target  81.2 | plain ill  81.2 (n 404) | in-band S/A/U 0.13/0.52/0.67 | unknown plurality S/A/U 0.00/0.00/0.00
+  -> seed 1: HU4 False

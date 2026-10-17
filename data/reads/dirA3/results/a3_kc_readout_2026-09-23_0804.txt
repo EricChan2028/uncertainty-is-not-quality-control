@@ -1,0 +1,51 @@
+========================================================================================================================
+qwen3_4b_Base: mean greedy acc (MATH-500, held-out, GSM8K) per round; trunc = MATH-500 sample truncation; C = collapsed
+  s0 own        base  73.5 | r1  79.8 t0.04  | r2  80.9 t0.03  | r3  81.9 t0.02  | r4  82.4 t0.02  | r5  80.5 t0.01  | r6  81.2 t0.01    -> read r3  81.9 (final)
+  s0 own_clean  base  73.5 | r1  79.9 t0.04  | r2  81.4 t0.03  | r3  81.8 t0.02  | r4     - t   -    -> read r3  81.8 (final)
+  s0 own_sub    base  73.5 | r1  77.7 t0.03  | r2  81.5 t0.03  | r3  81.1 t0.02  | r4     - t   -    -> read r3  81.1 (final)
+  s0 own_dirty  base  73.5 | r1  80.0 t0.04  | r2     - t   -    -> read r1  80.0 (pending)
+  s0 own_tg     base  73.5 | r1  78.9 t0.03  | r2  80.9 t0.02  | r3  81.8 t0.02  | r4     - t   -    -> read r3  81.8 (final)
+  s0 own_azr    base  73.5 | r1  78.1 t0.04  | r2  81.1 t0.02  | r3  81.6 t0.02  | r4     - t   -    -> read r3  81.6 (final)
+  s1 own        base  73.5 | r1  80.0 t0.04  | r2  81.9 t0.03  | r3  81.5 t0.02  | r4  80.9 t0.01  | r5  81.0 t0.01  | r6  80.8 t0.01    -> read r3  81.5 (final)
+  s1 own_clean  base  73.5 | r1  79.7 t0.03  | r2  80.9 t0.03  | r3  81.7 t0.02  | r4     - t   -    -> read r3  81.7 (final)
+  s1 own_sub    base  73.5 | r1  79.5 t0.04  | r2  81.1 t0.02  | r3  81.7 t0.02  | r4     - t   -    -> read r3  81.7 (final)
+  s1 own_dirty  base  73.5 | r1  76.2 t0.04  | r2     - t   -    -> read r1  76.2 (pending)
+  s1 own_tg     base  73.5 | r1  79.4 t0.03  | r2  80.9 t0.03  | r3  82.3 t0.02  | r4     - t   -    -> read r3  82.3 (final)
+  s1 own_azr    base  73.5 | r1  79.9 t0.03  | r2  81.4 t0.02  | r3  80.9 t0.02  | r4     - t   -    -> read r3  80.9 (final)
+  s2 own        base  73.5 | r1  79.4 t0.05  | r2  82.1 t0.03  | r3  81.8 t0.02  | r4  81.4 t0.01  | r5     - t   -    -> read r3  81.8 (final)
+  s2 own_sub    base  73.5 | r1  79.4 t0.04  | r2  81.9 t0.03  | r3  81.2 t0.02  | r4     - t   -    -> read r3  81.2 (final)
+  s3 own        base  73.5 | r1  78.9 t0.03  | r2  81.8 t0.02  | r3  81.4 t0.02  | r4     - t   -    -> read r3  81.4 (final)
+  s4 own        base  73.5 | r1  79.7 t0.03  | r2  80.8 t0.02  | r3  81.8 t0.02  | r4     - t   -    -> read r3  81.8 (final)
+  seed 0: clean-own -0.1  sub-own -0.8  (read rounds own r3, clean r3, sub r3)
+  seed 1: clean-own +0.3  sub-own +0.2  (read rounds own r3, clean r3, sub r3)
+  KC1 (clean>own by >=2 both seeds, |sub-own|<2): False   KC2 (all within 2): True   KC3 (sub moves as much as clean): False
+  seed 0 round 1 descriptive: dirty 80.0 vs own 79.8 (base  73.5)
+  seed 1 round 1 descriptive: dirty 76.2 vs own 80.0 (base  73.5)
+========================================================================================================================
+llama3p2_3b: mean greedy acc (MATH-500, held-out, GSM8K) per round; trunc = MATH-500 sample truncation; C = collapsed
+  s0 own        base  49.9 | r1   0.0 t0.50C   -> read r0  49.9 (final)
+  s0 own_clean  base  49.9 | r1  43.9 t0.07  | r2  46.7 t0.02  | r3  39.7 t0.46  | r4     - t   -    -> read r3  39.7 (final)
+  s0 own_sub    base  49.9 | r1  44.6 t0.05  | r2  45.1 t0.02  | r3  29.2 t0.51C   -> read r2  45.1 (final)
+  s0 own_dirty  base  49.9 | r1  45.2 t0.04  | r2     - t   -    -> read r1  45.2 (pending)
+  s0 own_tg     base  49.9 | r1  20.9 t0.50C   -> read r0  49.9 (final)
+  s1 own        base  49.9 | r1  20.5 t0.62C   -> read r0  49.9 (final)
+  s1 own_clean  base  49.9 | r1  19.9 t0.67C   -> read r0  49.9 (final)
+  s1 own_sub    base  49.9 | r1  21.3 t0.73C   -> read r0  49.9 (final)
+  s1 own_dirty  base  49.9 | r1  41.2 t0.24  | r2     - t   -    -> read r1  41.2 (pending)
+  s1 own_tg     base  49.9 | r1  48.7 t0.06  | r2  44.5 t0.30  | r3  36.9 t0.40  | r4     - t   -    -> read r3  36.9 (final)
+  s2 own        base  49.9 | r1  46.8 t0.03  | r2  33.7 t0.02  | r3  27.6 t0.83C   -> read r2  33.7 (final)
+  s2 own_sub    base  49.9 | r1  45.5 t0.04  | r2  39.7 t0.13  | r3   3.6 t0.00C   -> read r2  39.7 (final)
+  s3 own        base  49.9 | r1  46.1 t0.05  | r2  28.0 t0.00  | r3  45.7 t0.06  | r4     - t   -    -> read r3  45.7 (final)
+  s4 own        base  49.9 | r1  49.1 t0.04  | r2  48.2 t0.02  | r3  38.9 t0.08  | r4     - t   -    -> read r3  38.9 (final)
+  seed 0: clean-own -10.2  sub-own -4.8  (read rounds own r0, clean r3, sub r2)
+  seed 1: clean-own +0.0  sub-own +0.0  (read rounds own r0, clean r0, sub r0)
+  KC1 (clean>own by >=2 both seeds, |sub-own|<2): False   KC2 (all within 2): False   KC3 (sub moves as much as clean): False
+  own collapsed but own_clean reached round 3 at seed(s) [0]: evidence for KC1 regardless of margins
+  seed 0 round 1 descriptive: dirty 45.2 vs own 0.0 (base  49.9)
+  seed 1 round 1 descriptive: dirty 41.2 vs own 20.5 (base  49.9)
+========================================================================================================================
+qwen3_8b_Base: mean greedy acc (MATH-500, held-out, GSM8K) per round; trunc = MATH-500 sample truncation; C = collapsed
+  s0 own        base  78.2 | r1  82.8 t0.02  | r2  83.2 t0.01  | r3  83.3 t0.01  | r4     - t   -    -> read r3  83.3 (final)
+  s1 own        base  78.2 | r1  83.7 t0.02  | r2  83.2 t0.01  | r3  83.7 t0.01  | r4  83.2 t0.01  | r5     - t   -    -> read r3  83.7 (final)
+  s2 own        base  78.2 | r1  83.7 t0.02  | r2  83.8 t0.02  | r3  83.5 t0.01  | r4  83.3 t0.01  | r5     - t   -    -> read r3  83.5 (final)
+  KC reads pending (0/2 seeds final)

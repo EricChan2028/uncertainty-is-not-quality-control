@@ -1,0 +1,86 @@
+{
+ "n_items": 900,
+ "n_blind": 900,
+ "complete": true,
+ "n_invalid_labels": 0,
+ "n_normalised_labels": 0,
+ "n_conflicting_duplicate_keys": 0,
+ "n_extra_keys": 0,
+ "rule": "labels normalised by strip().upper(); invalid labels and conflicting duplicate keys count as missing; any missing -> verdicts None",
+ "blindness_check": "all 36 judges ran exactly one command: sed -n <range> on dirA5/results/a7b_blind/items.jsonl (transcripts wf_4d05cd5c-73f); none read key_full.jsonl",
+ "cells": {
+  "s0_r1": {
+   "n": 100,
+   "orig": 53.0,
+   "blind": 51.0
+  },
+  "s0_r3": {
+   "n": 100,
+   "orig": 73.0,
+   "blind": 74.0
+  },
+  "s0_r5": {
+   "n": 100,
+   "orig": 78.0,
+   "blind": 74.0
+  },
+  "s1_r1": {
+   "n": 100,
+   "orig": 50.0,
+   "blind": 49.0
+  },
+  "s1_r3": {
+   "n": 100,
+   "orig": 84.0,
+   "blind": 82.0
+  },
+  "s1_r5": {
+   "n": 100,
+   "orig": 73.0,
+   "blind": 72.0
+  },
+  "s2_r1": {
+   "n": 100,
+   "orig": 59.0,
+   "blind": 53.0
+  },
+  "s2_r3": {
+   "n": 100,
+   "orig": 82.0,
+   "blind": 79.0
+  },
+  "s2_r5": {
+   "n": 100,
+   "orig": 80.0,
+   "blind": 81.0
+  }
+ },
+ "D_blind": 24.66666666666667,
+ "D_orig": 23.0,
+ "D_blind_ci95": [
+  17.33333333333333,
+  32.00000000000001
+ ],
+ "D_diff_ci95": [
+  -2.6666666666666785,
+  6.3333333333333215
+ ],
+ "kappa_binary": 0.7834405983649331,
+ "raw_agreement_binary": 0.9077777777777778,
+ "kappa_3class": 0.7136646612930042,
+ "raw_agreement_3class": 0.8277777777777777,
+ "pooled_r3": {
+  "orig": 79.66666666666667,
+  "blind": 78.33333333333333
+ },
+ "verdicts": {
+  "B-P1": true,
+  "B-P1_per_seed": [
+   true,
+   true,
+   true
+  ],
+  "B-P2": true,
+  "B-P3": true
+ }
+}

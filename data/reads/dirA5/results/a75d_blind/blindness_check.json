@@ -1,0 +1,2273 @@
+{
+ "transcript_dirs": [
+  "wf_c8ae8bd7-99d"
+ ],
+ "port": "<PORT>",
+ "n_expected": 48,
+ "n_batches_seen": 48,
+ "unexpected": [],
+ "passed": [
+  [
+   1,
+   25
+  ],
+  [
+   26,
+   50
+  ],
+  [
+   51,
+   75
+  ],
+  [
+   76,
+   100
+  ],
+  [
+   101,
+   125
+  ],
+  [
+   126,
+   150
+  ],
+  [
+   151,
+   175
+  ],
+  [
+   176,
+   200
+  ],
+  [
+   201,
+   225
+  ],
+  [
+   226,
+   250
+  ],
+  [
+   251,
+   275
+  ],
+  [
+   276,
+   300
+  ],
+  [
+   301,
+   325
+  ],
+  [
+   326,
+   350
+  ],
+  [
+   351,
+   375
+  ],
+  [
+   376,
+   400
+  ],
+  [
+   401,
+   425
+  ],
+  [
+   426,
+   450
+  ],
+  [
+   451,
+   475
+  ],
+  [
+   476,
+   500
+  ],
+  [
+   501,
+   525
+  ],
+  [
+   526,
+   550
+  ],
+  [
+   551,
+   575
+  ],
+  [
+   576,
+   600
+  ],
+  [
+   601,
+   625
+  ],
+  [
+   651,
+   675
+  ],
+  [
+   676,
+   700
+  ],
+  [
+   701,
+   725
+  ],
+  [
+   726,
+   750
+  ],
+  [
+   751,
+   775
+  ],
+  [
+   776,
+   800
+  ],
+  [
+   801,
+   825
+  ],
+  [
+   826,
+   850
+  ],
+  [
+   851,
+   875
+  ],
+  [
+   876,
+   900
+  ],
+  [
+   901,
+   925
+  ],
+  [
+   926,
+   950
+  ],
+  [
+   951,
+   975
+  ],
+  [
+   976,
+   1000
+  ],
+  [
+   1001,
+   1025
+  ],
+  [
+   1026,
+   1050
+  ],
+  [
+   1051,
+   1075
+  ],
+  [
+   1076,
+   1100
+  ],
+  [
+   1101,
+   1125
+  ],
+  [
+   1126,
+   1150
+  ],
+  [
+   1151,
+   1175
+  ],
+  [
+   1176,
+   1200
+  ]
+ ],
+ "dropped": [
+  [
+   626,
+   650
+  ]
+ ],
+ "absent": [],
+ "n_judge_sessions": 48,
+ "n_sessions_with_local_computation": 46,
+ "per_batch": {
+  "1-25": {
+   "lines": [
+    1,
+    25
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-af81dc562573a01b7.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "8de29d33d45e3cb6a7d90758b2d798a88f27b405f6b110183e1d9551065b5657",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "1e220f7660a0aca85d7167a396ddf2799decb46496d35b88514306de90f355fc"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "26-50": {
+   "lines": [
+    26,
+    50
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a06b7733ebb05ed88.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "207e59b83964bf93be4a4552015274a263b104773e902aa49a43e2912b62a454",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "9badeedeb86288464731009ed2e2b8d34945634c4c18ac8ef91e2ea14c47a31f"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit2\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "51-75": {
+   "lines": [
+    51,
+    75
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a740f2f8387c107fc.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "f4543aa6a79befa908da33a1efd0123e57347024dc7019e044a302db799f870a",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "1db23a7a40fa27f1e3d8d2c4c5ba4a02a475aaf7cf26624597f5bc2a9c22bff2"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nimport numpy as np\\nfrom scipy.optimize"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "76-100": {
+   "lines": [
+    76,
+    100
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a64e59e8101f2a280.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "ada439d2748b56717392ec2f43dff827ae9ac7589049c64a2c93db1c6e71b073",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "ef0aa1abaec974d073d191c0a2a9757882d1a0d72d6c9f70d301885c8ecc6880"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "101-125": {
+   "lines": [
+    101,
+    125
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a080ad0c227f9a3cd.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "2012edff9faf17e58985494d4d35e26b12fa8bc68758c86e6c1f2a859e6fcf0e",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "d1e74f86ec4306a873655c0d3fd19202351d4eeb3e080d6c79bafb50f7f28e4c"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit && cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "126-150": {
+   "lines": [
+    126,
+    150
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a1a1253561a905ad1.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 5,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "03ac1207d39eae79976d5ad573b2e0437120b0bee9635cae19ef1629d4b74313",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "ecf9e35523cab9fdf11b81afd76b7d0af2fdb52072aff5ac2a2ede2520062adb"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && ls -la && head -20 a.py\", \"description\": \"Inspect the scrat"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"D=\\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit_z0125_$$\\\"; mkdir -p \\\"$D\\\" && cd \\\"$D\\\" && cat > z.py <<'EOF'\\nf"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "151-175": {
+   "lines": [
+    151,
+    175
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a7631651cd13f398a.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "92a5b303f1649ea49175f06289e01439dabe0263ac79e9df8ac34004df76ddff",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "504f5e3512f529c903b29f5ff6ff37032a19e9fc090716692494c841204d6aa1"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && python -c \\\"\\nimport numpy as np, sympy as sp\\nx=sp.symbols('x')\\"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "176-200": {
+   "lines": [
+    176,
+    200
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-af5f8bc1a939f1fa9.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 6,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "143afa1803e8ebbb46673e5bee5f1e25d73112cf9e9cd4dd0ef9bb7d62f0c001",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "0e1e97537545fa8532afdb7bf2ba8d5cde6e3a399773018e07bac0ce375df94b"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && sed -i 's/    assert s<=k/    if s>k: print(\\\"undefined at "
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"D=\\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit_z0175_$$\\\"; mkdir -p \\\"$D\\\" && cat > \\\"$D/chk.py\\\" <<'EOF'\\nimpor"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"D=\\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit_z0175_1189\\\"; cat > \\\"$D/z185.py\\\" <<'EOF'\\nfrom sympy import isp"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "201-225": {
+   "lines": [
+    201,
+    225
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a4dbeb4989c91293b.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "5d349649714c561497177d1a421c5c1d64cc46da2fe85e4ffd5859ee894541af",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "1918a8d0fc32f633a2a724da64d96c93f718ab31712b6cf811755bb5ed7102db"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nimport sympy as sp\\nx,n=sp.symbols('x n"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "226-250": {
+   "lines": [
+    226,
+    250
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a95573c7d8639d66c.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "a664b4e0a272f60cbd8ba0e85088cf1d71b576f47b97f1bd95a61bf0d5230ac7",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "6c35d23f577c8f9b0ce354a583cbc97553139eeb2838174068e9ab5552ae137d"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nimport math\\nfrom sympy import factorin"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "251-275": {
+   "lines": [
+    251,
+    275
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a71b9b866025dc46c.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 7,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "d6af83293b938ed870fe60b831d6cc0331fb9f80bccaaf2a3037b893217e1d6a",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "450bdb10d09d88e46f06d68034c40d02deaf89f2d76a0351ac20cfa3e258d403"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud && cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud && cat > b.py <<'EOF'\\nfrom itertools import combinations_with_repla"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud && cat > c.py <<'EOF'\\nfrom math import prod\\n# m non-one entries (>"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud && python -c \\\"\\nexec(open('c.py').read().replace('print(sorted(foun"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud && python -c \\\"\\nexec(open('c.py').read().replace('print(sorted(foun"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "276-300": {
+   "lines": [
+    276,
+    300
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a1dba7cd1f5b2dbb6.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "871b70e9e31979468bb22c2318f41fc8a30321360dfaa2a4502ffe4c56002698",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "ccb5f84f889b1bf361f702185ea41b9ec1c220da561fd957f6bdf94b5e8f9f58"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "301-325": {
+   "lines": [
+    301,
+    325
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a7b71d467a3d430a5.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "826161d3a9afc3fe8a54066fd5c1a902ce2c84e82017f0dba168930ecf62a471",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "77e97459d7b3e45de32f39c8f4739e1aa7051b6bc10e0b96a4bf9921a482cda1"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nimport itertools\\nN=300\\ndef ok(t):\\n  "
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "326-350": {
+   "lines": [
+    326,
+    350
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a873eeced3e6570ac.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "76ef0600d9fdcdb53ed637446d7e989f95a541e35182025e8c7899de33f57f9e",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "69c56fdcac229404c05af86340c2d52d09528e1b226e0682b8cf979939a55cdb"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "351-375": {
+   "lines": [
+    351,
+    375
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-af125caf17de95963.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 2,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "5f606f7290f7f508c7c727a47ffca381bf75895d6efa3c1e216ecfd22a0cc344",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "c2e80e273c51a3b8751a129b0d5014e81fadcaad9c850f9f7244ea2d70f7e17b"
+     ],
+     "non_fetch_calls": []
+    }
+   ],
+   "status": "passed"
+  },
+  "376-400": {
+   "lines": [
+    376,
+    400
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a52113c484b212325.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "50c7326f676742e85c321a4244342c9332cd545aa459781fb49a210d1880b8d2",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "417598b97e3688f5806d9e08aae0e73c89f9869361a009797b29fe5cb316b718"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "401-425": {
+   "lines": [
+    401,
+    425
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-acffb2c00a6554841.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "e9c9bfe9cfe58aa3cdde02910a6f489dd8fd3ceca6dade03fb98f7f48875e966",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "51fb9401713e148c7f3daf491782f88d479af34d07348a6b26a2f2e4b3b5696f"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud && cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "426-450": {
+   "lines": [
+    426,
+    450
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a435b23e6b19f8daa.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "37a1e2c27c007b6c6a4f5ac19ac3a7a61e4f7fd8f71bfda3fb89c8212d855f78",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "5503808037c86f50f7099a8558c48fa2355e5402258bd99e66791311bdca569d"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nimport numpy as np, sympy as sp\\nn=sp.s"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "451-475": {
+   "lines": [
+    451,
+    475
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-aa058a9dc618cb2c0.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "49f2273a92b53bf0a20a3842a264da8c548ac5d35d34e402f43a67264b99cc42",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "5bfa32262a5c5cc5dba6c1cbedff36a622e6ede01e4643a977b9f78f921a3188"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-RO"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cat > b.py <<'EOF'\\nfrom fractions import Fraction\\nimport ma"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "476-500": {
+   "lines": [
+    476,
+    500
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a731f03c226778918.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "56a23cf7a5a35dbd4ee4c82b08be43d355d3e2fcc46445241b220f1c78833ea2",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "e5374e79ab34c5cab5616a2df7c0ecc622e1c153bfe7f527a3cd1fac3158287d"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-RO"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "501-525": {
+   "lines": [
+    501,
+    525
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a94d710233288e81b.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "d077cd40aefe01d56f4e7cd6c04748f78c713406114ba114974f6bb73cf0e76d",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "80f39ab62f194a083c8498d3d8fc054e61087240eb568f237a89e127b6af111a"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "526-550": {
+   "lines": [
+    526,
+    550
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a6f80259fb9c0e0e0.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "3611d0703e93caf223b60351e30faff841f835f718ceedfdc33e98f6e5617bb9",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "b298e4b9be1ad36a60b7b59379cabc5f5b68b139ab23c0bc9068f8c5192ef7d3"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-RO"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cat > b.py <<'EOF'\\nfrom math import gcd, isqrt\\nR=range(-18,"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "551-575": {
+   "lines": [
+    551,
+    575
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a763d7458d16303c3.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "e5e3157493c1c2bf5836bd7ab9ff9359ae36fd0eb9e524a8bc84283af111c710",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "d70d4cef89494bd1c17007d0a190c120ac7ce16d6af8420efe72942895eb5154"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "576-600": {
+   "lines": [
+    576,
+    600
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-aaf26dcbe73179565.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 5,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "5d87d2a1ed1a2a7a0556c2df910ab0170b322c096a382db391922bcc5f0b3f2a",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "8e4339fd09e280037191318488d851b4ffd6825def15d9a9f8066f0e5b0d58ee"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && sed -i '1i import sys; sys.set_int_max_str_digits(0)' a.py "
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && mkdir -p audit_z0575 && cd audit_z0575 && cat > chk_z0575.py <<'E"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "601-625": {
+   "lines": [
+    601,
+    625
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-ab21a04879c399500.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "a5e32110699f0f96a0e7b8ef4612436082eedca5138c9b39aed066e972786a9a",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "a439dc7c401978c2feb8d267cb654fe735bc9e2998693289625d049b242c58ea"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit && cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "626-650": {
+   "lines": [
+    626,
+    650
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-aac45a682b98ce323.jsonl",
+     "neutral": false,
+     "ok": false,
+     "returned": true,
+     "tool_calls": 10,
+     "full_fetch": true,
+     "bad_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cat \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/tasks/b1u4sfuwn.output\\\"\", \"description\": \"Check interim output of isomorphism r"
+      },
+      {
+       "tool": "TaskStop",
+       "input": "{\"task_id\": \"b1u4sfuwn\"}"
+      }
+     ],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "c212b50ed70ecf366018739085136d5b1282ddd47b5e0e4d3f431b271340b692",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "712f084d3ae010f03f6303074c32f7bb1be315226184dce5e0a5aefebd0bc0e6"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"which python python3; python --version 2>&1; python -c \\\"import networkx; print(networkx.__version__)\\\" 2>&1\", \"description\": \"Check local Python and networkx availability\"}"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit && cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit && cat > cubic.py <<'EOF'\\nimport sys, itertools\\nimport networkx "
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit && cat > iso.py <<'EOF'\\nimport sys\\nsys.argv=['x']\\nexec(open('cu"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cat \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/tasks/b1u4sfuwn.output\\\"\", \"description\": \"Check interim output of isomorphism r"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit && sed -i 's/for n in \\\\[8,10,12\\\\]/for n in [8,10]/' iso.py && py"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd <LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit && python -c \\\"\\nprint(2*674**2+675**2)\\nprint(sum(1 for n in rang"
+      },
+      {
+       "tool": "TaskStop",
+       "input": "{\"task_id\": \"b1u4sfuwn\"}"
+      }
+     ]
+    }
+   ],
+   "status": "dropped"
+  },
+  "651-675": {
+   "lines": [
+    651,
+    675
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a79bef63aeb22d128.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 5,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "5f2d53c7abcb7e8983562395bbe4f81da5f5b2f17ba69b9bb690f5fb89fd3793",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "8254d1537a6688690f4dbb128c213cbb532a03f69394729a16f229d07c4c7cd4"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/a\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/a\\\" && cat > p.py <<'EOF'\\nimport numpy as np, math\\nA=np.array([0.,0."
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/a\\\" && cat > p2.py <<'EOF'\\nimport numpy as np, math\\nfrom scipy.optim"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "676-700": {
+   "lines": [
+    676,
+    700
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a4e312f67b4beeb17.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 6,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "ea62d35f24120fec423fab49977a22fd30a98a4a19af88c8b942129763f55cee",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "e2d36e664aebf48f4e238af719b7d2279e66c3d3cbe6757b8686669ff229ca09"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nT=2023\\nfor n in range(1,30):\\n    S={("
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && pip list 2>/dev/null | grep -i -E \\\"pulp|ortools|networkx\\\""
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > d.py <<'EOF'\\nimport itertools\\ncells=[(r,c) for r in"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "701-725": {
+   "lines": [
+    701,
+    725
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a3e8491deecd2d142.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "3ad9a429a209ba83fe9ec1d60a6f8d02c6030f5966dbae18043fa04800a5a3d6",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "23244d2d1e9310c303843849e83712863a23ce4b80483d1300ffeb5c51578779"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nfrom sympy import *\\nB=Matrix([0,0]);C="
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "726-750": {
+   "lines": [
+    726,
+    750
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a1e1cf9a58a6dc908.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "c30a0f7dbf278c055eb837c1795f02583b443c28ffa7203f2481091e762376a4",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "e54f2e3963d49c4193e8774c291426e6823e1cff0467634a54c355d93acb9e65"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p /tmp/aud 2>/dev/null; cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && cat > a.py <<'EOF'\\nimport math, i"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && cat > b.py <<'EOF'\\nimport math\\n# z0731: vertices (0,0),(a,b),(c"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "751-775": {
+   "lines": [
+    751,
+    775
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a9dddf140a7fd431c.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 6,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "67a0ac5b3f7bf685313cf95ac78dae3dabb7e786c73021aa6839c6a2f2471598",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "d3681df612b72b6f7b57af5f834c438998a5e95c49eba16461d94391de3bfa89"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\nfrom math import sqrt\\ndirs=[(1,0),(-1,"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && sed -i 's/<1e-9/<1e-5/' b.py && sed -i 's/range(-20,21)/ran"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > c.py <<'EOF'\\ndef cr(t): return t**(1/3) if t>=0 else"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "776-800": {
+   "lines": [
+    776,
+    800
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a93c6b0cf8ebfd232.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 7,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "ebb84d546aab32307f928efff0a47313a79078ea47cb23274ddc09a57eddca24",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "9d36bbdbdbfbf85a25101659282718cce604ce5b9e7afe90ab978f8d3570f400"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p /tmp/aud && cd /tmp/aud && cat > a.py <<'EOF'\\nimport itertools, math, cmath\\n# z0777\\na=[None,1,3]\\nfor n in range(1,200000):\\n    a.append(3*a[n+1]-a[n]+2*n)\\n    if a[-1]%2023"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd /tmp/aud && cat > b.py <<'EOF'\\n# z0785: find acute triangles with [AHB]=3,[ABC]=15,[AOG]=2; compute BGCO area\\nimport numpy as np\\nfrom scipy.optimize import least_squares\\ndef tri(p)"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd /tmp/aud && sed -i 's/range(3000)/range(300)/' b.py && timeout 110 python b.py\", \"description\": \"Rerun triangle solver with fewer starts\", \"timeout\": 120000}"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd /tmp/aud && cat > c.py <<'EOF'\\nimport numpy as np\\ndef area(P,Q,R): return 0.5*((Q[0]-P[0])*(R[1]-P[1])-(Q[1]-P[1])*(R[0]-P[0]))\\ndef build(A,B):\\n    C=np.pi-A-B\\n    # circumradius "
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd /tmp/aud && cat > d.py <<'EOF'\\nimport numpy as np\\nexec(open('c.py').read().split('# cotA')[0])\\nfor sgn in [1,-1]:\\n    vals=[];out=[]\\n    prev=None\\n    for A in np.linspace(1e-4,n"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "801-825": {
+   "lines": [
+    801,
+    825
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a3e98c27e56a593ef.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 8,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "a701584a659c3490e62c21353ce5f4c8041e32a6b2234d9ae9594cb80bae326b",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "9bb35694c867830587ce7bd7f742790ef8f5433fad394ff39f6f3cac718d3285"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > b.py <<'EOF'\\n# z0803 modular obstruction: S(n)=n(n^2"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > c.py <<'EOF'\\nfrom math import lcm\\ndef S(n): return "
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && python -c \\\"import cypari2\\\" 2>&1; which gp sage magma 2>&1"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > d.py <<'EOF'\\nimport numpy as np\\ndef f(k):\\n    D1=("
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cat > e.py <<'EOF'\\nfrom math import isqrt\\ns=0;hits=[]\\nfo"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "826-850": {
+   "lines": [
+    826,
+    850
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a242a6ec5c2a71c3e.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "016f382726bdc4021bbd9a4452679b4218c439061826a204afc8d3cee62fd082",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "f9bca5bff0b19fa298ffe633e6e6b62caefd6ead9466a004d42f9d073c438b99"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p <LOCAL_HOME>/AppData/Local/Temp/claude/audit && cd <LOCAL_HOME>/AppData/Local/Temp/claude/audit && cat > a.py <<'EOF'\\nimport numpy as np, sympy as sp\\nx=sp.symbols('x')\\n# z0826"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "851-875": {
+   "lines": [
+    851,
+    875
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-acf61ceb3281e18fd.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "63999049ee9ca54d80beb7e4ebbe4151bd9671264a45aa48afcd031263c27eab",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "68a1f18608f06c0aa4bafe3c1a916983b32cecf5e3660a5b3e2014fdcd3fe13d"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && python -c \\\"\\nimport numpy as np\\nprint(np.roots([1,1,-14,1]))\\nd"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && python -c \\\"\\nimport numpy as np\\ndef nreal(c):\\n    r=np.roots(c"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "876-900": {
+   "lines": [
+    876,
+    900
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-ac37ef5ec1e9c2ce7.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "c59b30c048a1cca750cc6acad6d054329c81c6dac01dcbd7147bdfa72096c2e8",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "d8f34baacb54dfaf843c5584a4289be2bb54b4b8c4df9c9188ff3a484c24e457"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-RO"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "901-925": {
+   "lines": [
+    901,
+    925
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-ab60014902bec3bd7.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "788bc769998f484a0aee83a3f1661d618b5a0d014811d4bb451a5d02af9e4c4f",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "db2c058a02ad0d4f24f0751b570ed69c71982fef420ceffc8ed4daf6e700d9f2"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p /tmp/aud 2>/dev/null; cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && cat > a.py <<'EOF'\\nimport math\\n#"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "926-950": {
+   "lines": [
+    926,
+    950
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-ad7244d7842405e16.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "d4699f8c3bfe84d81c87db950254f8374a18c06dd34047aa4b1828a2ecfad5ae",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "f82467db65baa3c13c6002bdaa22367e9c39f7103a67229e323a8faf98c73be1"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "951-975": {
+   "lines": [
+    951,
+    975
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-af8ae938eac20ed6a.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 4,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "b3e29075441b7acf83048623abf489e777bd43ac2f952fcccc0366714c9b8773",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "36b59e9ec9d06cc1c5bf8a74a372e0044c5fbeed2793172df66b210e7f9ffe05"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-RO"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cat > b.py <<'EOF'\\nimport sympy as sp\\nx=sp.symbols('x')\\nfo"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "976-1000": {
+   "lines": [
+    976,
+    1000
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-ab38d7ee9c35bd48c.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "9759a880254bb10d20aeef19ca5ecbc27c5ff569c94884a12e12378b8f294956",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "5ab1c44cad21ef786eb6e8155cf13ed1c98d0c7049835dfb4560453a02929300"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1001-1025": {
+   "lines": [
+    1001,
+    1025
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a279c03d34e971829.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "acf024461a4ebe435368a3a0b6a32d7d32846680a3cc01d9a583ceab5777b105",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "723a2c161957ac9cada69e529d21ae16cb51bf6ea871012daa976ce04e78115e"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && cat > chk.py <<'EOF'\\nimport math\\nfrom math import comb\\nprint(\\"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1026-1050": {
+   "lines": [
+    1026,
+    1050
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a488c12c7caad2a2e.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "08ac71696d9a195dd67d6e748911040d0c05062f30abb31eaf60d7f8ad844976",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "bf95e760233751331f55cb5de3824d78f161266e7d3920d54bc3a2f0e8f0adc9"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad\\\" && cat > chk.py <<'EOF'\\nfrom math import isqrt\\n# z1038\\ndef ok(x):"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1051-1075": {
+   "lines": [
+    1051,
+    1075
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-ac61dbefae9b70569.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 5,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "b4baaea301715f1bf6ba945b5d0b72af07d76203255bc5d3187991064966f00c",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "5d871d45f4a41f6145148f7bed8f917a27b598f8ee58b5c1db7f0a4051344576"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-RO"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && python -c \\\"\\nimport importlib\\nfor m in ['pulp','ortools','n"
+      },
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/aud\\\" && cat > b.py <<'EOF'\\nimport numpy as np\\nfrom scipy.optimize i"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1076-1100": {
+   "lines": [
+    1076,
+    1100
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a473dd159de92e32d.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "8976d150f96ba87f0cd78587f33ec6497bc82434920e3c632593febba7738696",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "d3c88688e753340a5a54dc788ac549eacac6b24feae258895d806b506498e996"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1101-1125": {
+   "lines": [
+    1101,
+    1125
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a852493ce96526123.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "e777416266951497bb09fa0dbebc66c600f8012bcb792082356b888fbad21b45",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "f584c664824a4591e9a364ea275b3b76c952e7c4f0ec98807976b714fa6ac52e"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1126-1150": {
+   "lines": [
+    1126,
+    1150
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a1131f0d23474bccf.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "d70bf5d0dcbd91982c926d9380c69642aba233f5d6e6c273be702655e5d39548",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "565c80cea63491c65426ab53b82fccc777c937d41296c7d01be27c7424ec0d4b"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1151-1175": {
+   "lines": [
+    1151,
+    1175
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a8abc4eac7175eb99.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 3,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "e092cc323321ef30e08eaf0bc3ee790b76dc1a01f0b2d74256dabfc4f27da8ee",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "cb045a7f37af2e988d3efda5bd4b051ec8287188553a70bb7389509a059e75fd"
+     ],
+     "non_fetch_calls": [
+      {
+       "tool": "Bash",
+       "input": "{\"command\": \"mkdir -p \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/<PROJECT>/2efd25ae-b7e6-4662-a1b4-af6db733f1d7/scratchpad/audit\\\" && cd \\\"<LOCAL_HOME>/AppData/Local/Temp/claude/C--Users-"
+      }
+     ]
+    }
+   ],
+   "status": "passed"
+  },
+  "1176-1200": {
+   "lines": [
+    1176,
+    1200
+   ],
+   "transcripts": [
+    {
+     "file": "wf_c8ae8bd7-99d\\agent-a979fb73c5facf38c.jsonl",
+     "neutral": false,
+     "ok": true,
+     "returned": true,
+     "tool_calls": 2,
+     "full_fetch": true,
+     "bad_calls": [],
+     "n_leaking_results": 0,
+     "models": [
+      "claude-opus-5-5"
+     ],
+     "efforts": [
+      "xhigh/xhigh"
+     ],
+     "versions": [
+      "2.1.282"
+     ],
+     "task_sha256": "846ea8cf466ff608bbc8f9c6a0845669849d6220223cf10f4428ca08f3832c52",
+     "relayed_user_requests": [],
+     "structured_output_pair_sha256": [
+      "94ab0b68e546f0ea0d2eb1e17848d88ec8f39461712d8c6499bc3664bba88ed9"
+     ],
+     "non_fetch_calls": []
+    }
+   ],
+   "status": "passed"
+  }
+ }
+}

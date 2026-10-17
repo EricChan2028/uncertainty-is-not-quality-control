@@ -1,0 +1,75 @@
+{
+ "seeds": {
+  "0": {
+   "arms": {
+    "own": {
+     "acc": 77.8,
+     "acc_strict": 77.7,
+     "q1u": 0.6407766990291263,
+     "abs_uns": 0.4783828883495146,
+     "abs_int": 0.022905156537753223
+    },
+    "rescue_uv": {
+     "acc": 76.86666666666666,
+     "acc_strict": 76.76666666666667,
+     "q1u": 0.5970873786407767,
+     "abs_uns": 0.6516990291262136,
+     "abs_int": 0.04995395948434622
+    },
+    "rescue_abs": {
+     "acc": null,
+     "acc_strict": null,
+     "q1u": null,
+     "abs_uns": null,
+     "abs_int": null
+    },
+    "own_clean": {
+     "acc": null,
+     "acc_strict": null,
+     "q1u": null,
+     "abs_uns": null,
+     "abs_int": null
+    }
+   },
+   "HU1": false,
+   "HU2": true,
+   "HU3": true
+  },
+  "1": {
+   "arms": {
+    "own": {
+     "acc": 77.76666666666667,
+     "acc_strict": 77.6,
+     "q1u": 0.587378640776699,
+     "abs_uns": 0.5082675970873787,
+     "abs_int": 0.021351289134438307
+    },
+    "rescue_uv": {
+     "acc": 77.6,
+     "acc_strict": 77.4,
+     "q1u": 0.5898058252427184,
+     "abs_uns": 0.6545054611650486,
+     "abs_int": 0.045752762430939224
+    },
+    "rescue_abs": {
+     "acc": null,
+     "acc_strict": null,
+     "q1u": null,
+     "abs_uns": null,
+     "abs_int": null
+    },
+    "own_clean": {
+     "acc": null,
+     "acc_strict": null,
+     "q1u": null,
+     "abs_uns": null,
+     "abs_int": null
+    }
+   },
+   "HU1": false,
+   "HU2": true,
+   "HU3": true
+  }
+ },
+ "pools": {}
+}

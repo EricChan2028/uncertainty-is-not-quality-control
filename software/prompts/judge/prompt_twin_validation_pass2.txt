@@ -1,0 +1,20 @@
+# Placeholders (the only edits to the verbatim workflow text)
+# <SSH>          ssh command to the compute host (host, port and user removed)
+# <REPO>         project root on the compute host; <RUN_DIR> = the directory holding the item file (<REPO>/dirB/runs/<RUN>)
+# <PART_FILE>    <RUN_DIR>/audit_parts/<A>-<B>.json (fixed pools: <REPO>/dirA3/results/pool_audit/<POOL>/parts/<A>-<B>.json)
+# <LOCAL_PART>   a temporary local file of the judge (workstation path removed)
+# <A>, <B>, <M>  item slice [A, B) of the ordered item list, M = B - A (20 or 25)
+# <MODEL>        the proposer's model name as written in the workflow (e.g. Qwen3-4B-Base, Llama-3.2-3B, Phi-4-mini-instruct)
+# The judge's structured return schema: verdict in {SOLVABLE, UNSOLVABLE, AMBIGUOUS}, confidence (number), note (string), k, id.
+# The fetch command and the returned run="<RUN>" show the judge the run directory and name (see PROTOCOL.md).
+# <IDX_LIST>: 15 indices of the stratified 150-twin subsample (every 4th index of 0..542, then 1, 5, 9, ... until 150)
+
+You are a strong mathematician. You will be shown math word problems ONE AT A TIME with no reference solution and no companion version. Fetch them with this exact command (Bash tool, one call):
+<SSH> 'cd <REPO>; python3 -c "
+import json
+tw=[json.loads(l) for l in open(\"data/hp_twins.jsonl\")]
+P=[r for r in tw if r[\"task\"]==0 or r[\"split_kind\"]==\"template\"]
+for i in <IDX_LIST>:
+    print(\"=== idx\", i); print(P[i][\"deleted\"])
+"'
+For EACH problem, TRY TO SOLVE IT. Report solvable=true only if the text as written determines a unique numeric answer without any assumption you had to invent (give the answer). Otherwise solvable=false and name in <= 15 words which quantity or relation is missing. Confidence 0-1. Return all <M> verdicts with the printed idx.

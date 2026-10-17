@@ -1,0 +1,129 @@
+{
+ "second_pass_keys": [
+  "m0012",
+  "m0018",
+  "m0026",
+  "m0039",
+  "m0053",
+  "m0070",
+  "m0084",
+  "m0089",
+  "m0119",
+  "m0124",
+  "m0127",
+  "m0128",
+  "m0179",
+  "m0192",
+  "m0200",
+  "m0205",
+  "m0238",
+  "m0261",
+  "m0283",
+  "m0284",
+  "m0292",
+  "m0298",
+  "m0301",
+  "m0393",
+  "m0403",
+  "m0418",
+  "m0433",
+  "m0440",
+  "m0450",
+  "m0453",
+  "m0479",
+  "m0487",
+  "m0495",
+  "m0525",
+  "m0554",
+  "m0560",
+  "m0569",
+  "m0584",
+  "m0605",
+  "m0609",
+  "m0611",
+  "m0628",
+  "m0632",
+  "m0643",
+  "m0653",
+  "m0662",
+  "m0724",
+  "m0733",
+  "m0735",
+  "m0754",
+  "m0755",
+  "m0789",
+  "m0804",
+  "m0816",
+  "m0865",
+  "m0877"
+ ],
+ "n_main": 896,
+ "repro": {
+  "a8_base": {
+   "identical_answer_vectors": 16,
+   "n": 224
+  },
+  "a8_own_s0_r5": {
+   "identical_answer_vectors": 68,
+   "n": 224
+  },
+  "a8_own_s1_r5": {
+   "identical_answer_vectors": 50,
+   "n": 224
+  },
+  "a8_own_s2_r5": {
+   "identical_answer_vectors": 96,
+   "n": 224
+  },
+  "a8_own_s0_r3": {
+   "identical_answer_vectors": 53,
+   "n": 224
+  },
+  "a8_own_s1_r3": {
+   "identical_answer_vectors": 35,
+   "n": 224
+  },
+  "a8_own_s2_r3": {
+   "identical_answer_vectors": 45,
+   "n": 224
+  }
+ },
+ "cut_stats": {
+  "a8_base": {
+   "texts_cut_at_Question": 238,
+   "texts_truncated": 50,
+   "n_texts": 1792
+  },
+  "a8_own_s0_r5": {
+   "texts_cut_at_Question": 52,
+   "texts_truncated": 16,
+   "n_texts": 1792
+  },
+  "a8_own_s1_r5": {
+   "texts_cut_at_Question": 124,
+   "texts_truncated": 30,
+   "n_texts": 1792
+  },
+  "a8_own_s2_r5": {
+   "texts_cut_at_Question": 19,
+   "texts_truncated": 9,
+   "n_texts": 1792
+  },
+  "a8_own_s0_r3": {
+   "texts_cut_at_Question": 66,
+   "texts_truncated": 27,
+   "n_texts": 1792
+  },
+  "a8_own_s1_r3": {
+   "texts_cut_at_Question": 128,
+   "texts_truncated": 23,
+   "n_texts": 1792
+  },
+  "a8_own_s2_r3": {
+   "texts_cut_at_Question": 51,
+   "texts_truncated": 15,
+   "n_texts": 1792
+  }
+ },
+ "n_r3": 672
+}

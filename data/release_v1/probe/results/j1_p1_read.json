@@ -1,0 +1,27 @@
+{
+ "n": 400,
+ "detection_unanswerable": 0.985,
+ "false_illposed_answerable": 0.045,
+ "kappa_binary": 0.94,
+ "agreement": 0.97,
+ "J_P1": true,
+ "detection_by_category": {
+  "1": 0.984,
+  "2": 1.0,
+  "3": 0.955,
+  "4": 1.0,
+  "5": 0.909
+ },
+ "confusion": {
+  "answerable": {
+   "SOLVABLE": 191,
+   "UNSOLVABLE": 3,
+   "AMBIGUOUS": 6
+  },
+  "unanswerable": {
+   "UNSOLVABLE": 191,
+   "AMBIGUOUS": 6,
+   "SOLVABLE": 3
+  }
+ }
+}

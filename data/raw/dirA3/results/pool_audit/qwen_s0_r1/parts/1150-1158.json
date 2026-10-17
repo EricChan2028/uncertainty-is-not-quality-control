@@ -1,0 +1,10 @@
+{"verdicts": [
+{"k": 1150, "id": "prop1:1150", "verdict": "SOLVABLE", "confidence": 0.75, "note": "4+8=12 touchdowns x 6 = 72 points."},
+{"k": 1151, "id": "prop1:1151", "verdict": "AMBIGUOUS", "confidence": 0.6, "note": "Waste per piece (15x3): 5 in; waste per cut (14x3): 5.2 in."},
+{"k": 1152, "id": "prop1:1152", "verdict": "UNSOLVABLE", "confidence": 0.8, "note": "'Room that's a mix of 2 double rooms and 1 single' is incoherent; mixed-room occupancy undefined."},
+{"k": 1153, "id": "prop1:1153", "verdict": "SOLVABLE", "confidence": 0.55, "note": "400-120-25=255; $25 at $3 each inconsistent but irrelevant; trailing prompt junk."},
+{"k": 1154, "id": "prop1:1154", "verdict": "AMBIGUOUS", "confidence": 0.6, "note": "'One paper is free' unclear: 399x2=798 vs 800 vs one free per customer/distributor."},
+{"k": 1155, "id": "prop1:1155", "verdict": "SOLVABLE", "confidence": 0.85, "note": "Vanilla sold = 120/4 = 30; 30 x 0.75 = $22.50."},
+{"k": 1156, "id": "prop1:1156", "verdict": "UNSOLVABLE", "confidence": 0.8, "note": "Selling half of 40 leaves 20, but text says remaining 10; contradictory (18 vs 8)."},
+{"k": 1157, "id": "prop1:1157", "verdict": "SOLVABLE", "confidence": 0.6, "note": "400+150+100=650; appended junk claims expected 550, ignored."}
+]}

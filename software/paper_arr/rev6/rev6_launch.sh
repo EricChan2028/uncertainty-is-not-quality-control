@@ -1,0 +1,34 @@
+#!/bin/bash
+# rev6: re-run the UMWP probe with texts saved (plan: paper_arr/rev6/rev6_plan_2026-10-06.md). One GPU per job, atomic GPU
+# claims (noclobber lock + two memory checks 15 s apart, only GPUs with < 1500 MiB in use), resumable (the probe skips done ids).
+# Usage: bash rev6_launch.sh JOBFILE MAXGPU   (JOBFILE lines: plain|absfix  TAG  MODEL_PATH)
+R=/home/tione/notebook/rsi_rl; D=$R/paper_arr/rev6; OUT=$D/texts; LOGD=$D/logs; IDS=$D/ids_all.json
+export HF_HOME=$R/hf_home TOKENIZERS_PARALLELISM=false
+mkdir -p $OUT $LOGD
+JOBS=$1; MAXG=${2:-5}; HOST=$(hostname)
+log(){ echo "$(date '+%F %T') $HOST rev6: $*" >> $LOGD/launch.log; }
+claim(){ while true; do
+  n=$(ls /dev/shm/gpu_single_* 2>/dev/null | xargs -r -n1 cat 2>/dev/null | grep -c "^rev6$")
+  if [ "$n" -lt "$MAXG" ]; then
+    for g in $(seq 0 7); do
+      m=$(nvidia-smi -i $g --query-gpu=memory.used --format=csv,noheader,nounits | tr -d " "); [ "$m" -lt 1500 ] || continue
+      sleep 15; m=$(nvidia-smi -i $g --query-gpu=memory.used --format=csv,noheader,nounits | tr -d " ")
+      if [ "$m" -lt 1500 ] && ( set -o noclobber; echo rev6 > /dev/shm/gpu_single_$g ) 2>/dev/null; then echo $g; return; fi
+    done
+  fi
+  sleep 30; done; }
+while read -r kind tag model; do
+  [ -z "$kind" ] && continue
+  case $kind in
+    plain)  script=$R/dirA3/code/umwp_probe_text.py; flag=0;;
+    absfix) script=$D/umwp_probe_text_absfix.py; flag=1;;
+    *) continue;;
+  esac
+  out=$OUT/${kind}_${tag}.jsonl
+  if [ -f "$out" ] && [ "$(wc -l < $out)" -ge 1200 ]; then log "skip $kind $tag (complete)"; continue; fi
+  g=$(claim); log "start $kind $tag on gpu $g"
+  ( CUDA_VISIBLE_DEVICES=$g python3 $script --model $model --tag ${kind}_${tag} --abstain_prompt $flag --ids $IDS --outdir $OUT \
+      > $LOGD/${kind}_${tag}.log 2>&1 < /dev/null && log "done $kind $tag" || log "FAILED $kind $tag"; rm -f /dev/shm/gpu_single_$g ) &
+  sleep 20
+done < $JOBS
+wait; log "all jobs of $JOBS finished"

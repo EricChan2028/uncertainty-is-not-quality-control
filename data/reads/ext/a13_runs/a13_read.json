@@ -1,0 +1,780 @@
+{
+ "registration": "A13_registration_2026-09-27.md",
+ "read_sha256": "59304a6389fe8040d679d7d81dfaa380096a87a43d259a0dc44bcf2d452f5f80",
+ "root": "/home/tione/notebook/rsi_rl",
+ "check_R_minus_S": {
+  "recomputed": {
+   "contrast": "cln1 - rnd1",
+   "metric": "CA",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    -0.06499999999999995,
+    -0.08499999999999996,
+    -0.07166666666666666,
+    -0.04166666666666663,
+    -0.015000000000000013
+   ],
+   "mean": -0.05566666666666664,
+   "sd": 0.02762848771346945,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.08997196518529677,
+    -0.021361368148036526
+   ],
+   "t": -4.505293667839967,
+   "p_two_sided": 0.01077878588546231,
+   "n_negative": 5,
+   "n_positive": 0
+  },
+  "stored": {
+   "contrast": "cln1 - rnd1",
+   "metric": "CA",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    -0.06499999999999995,
+    -0.08499999999999996,
+    -0.07166666666666666,
+    -0.04166666666666663,
+    -0.015000000000000013
+   ],
+   "mean": -0.05566666666666664,
+   "sd": 0.02762848771346945,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.08997196518529677,
+    -0.021361368148036526
+   ],
+   "t": -4.505293667839967,
+   "p_two_sided": 0.01077878588546231,
+   "n_negative": 5,
+   "n_positive": 0
+  },
+  "equal_to_stored": true,
+  "rounded_points": [
+   -5.6,
+   -9.0,
+   -2.1
+  ],
+  "paper": [
+   -5.6,
+   -9.0,
+   -2.1
+  ],
+  "inputs_changed_since_registration": [],
+  "attribution_json_sha256": "6146256cad82dcaea2076fcd088aac0e8479429acedc5c6d2c7b0e99022c479f",
+  "bench_recomputed_mean": 0.8133333333333326,
+  "bench_equal_to_stored_and_paper": true
+ },
+ "check_ok": true,
+ "manifest_ok": true,
+ "per_seed": {
+  "0": {
+   "accepted": true,
+   "reasons": [],
+   "umwp": {
+    "n_unanswerable": 600,
+    "n_answerable": 600,
+    "CA": 0.6483333333333333,
+    "CA_count": 389,
+    "ACC_A": 95.66666666666667
+   },
+   "failed_check": false,
+   "train": {
+    "host": "<NODE>",
+    "n_attempts": 0,
+    "n_yields": 0,
+    "n_resumes": 0,
+    "resumes": [],
+    "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s0_r2/final"
+   }
+  },
+  "1": {
+   "accepted": true,
+   "reasons": [],
+   "umwp": {
+    "n_unanswerable": 600,
+    "n_answerable": 600,
+    "CA": 0.5283333333333333,
+    "CA_count": 317,
+    "ACC_A": 95.5
+   },
+   "failed_check": false,
+   "train": {
+    "host": "<NODE>",
+    "n_attempts": 0,
+    "n_yields": 0,
+    "n_resumes": 0,
+    "resumes": [],
+    "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s1_r2/final"
+   }
+  },
+  "2": {
+   "accepted": true,
+   "reasons": [],
+   "umwp": {
+    "n_unanswerable": 600,
+    "n_answerable": 600,
+    "CA": 0.5733333333333334,
+    "CA_count": 344,
+    "ACC_A": 95.33333333333333
+   },
+   "failed_check": false,
+   "train": {
+    "host": "<NODE>",
+    "n_attempts": 0,
+    "n_yields": 0,
+    "n_resumes": 0,
+    "resumes": [],
+    "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s2_r2/final"
+   }
+  },
+  "3": {
+   "accepted": true,
+   "reasons": [],
+   "umwp": {
+    "n_unanswerable": 600,
+    "n_answerable": 600,
+    "CA": 0.7333333333333333,
+    "CA_count": 440,
+    "ACC_A": 96.83333333333333
+   },
+   "failed_check": false,
+   "train": {
+    "host": "<NODE>",
+    "n_attempts": 0,
+    "n_yields": 0,
+    "n_resumes": 0,
+    "resumes": [],
+    "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s3_r2/final"
+   }
+  },
+  "4": {
+   "accepted": true,
+   "reasons": [],
+   "umwp": {
+    "n_unanswerable": 600,
+    "n_answerable": 600,
+    "CA": 0.6233333333333333,
+    "CA_count": 374,
+    "ACC_A": 95.0
+   },
+   "failed_check": false,
+   "train": {
+    "host": "<NODE>",
+    "n_attempts": 0,
+    "n_yields": 0,
+    "n_resumes": 0,
+    "resumes": [],
+    "start_ckpt": "/dev/shm/ckpt_b/qwen3_4b_Base_own_a3_s4_r2/final"
+   }
+  }
+ },
+ "accepted_seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "composition": {
+  "items": "148--177",
+  "ill_R0": "103--117",
+  "ill_R": "79--95",
+  "intact_R0": "14--26",
+  "intact_S": "60--82",
+  "k": "20--39"
+ },
+ "E_prop": {
+  "contrast": "R0 - S (r0_a13 - cln1)",
+  "metric": "CA",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "n": 5,
+  "diffs": [
+   0.018333333333333313,
+   0.08666666666666667,
+   -0.05166666666666664,
+   0.014999999999999902,
+   -0.04500000000000004
+  ],
+  "mean": 0.004666666666666641,
+  "sd": 0.056253394959277295,
+  "t_crit": 2.7764451051977987,
+  "ci95": [
+   -0.0651811486310052,
+   0.07451448196433848
+  ],
+  "t": 0.185499629001112,
+  "p_two_sided": 0.8618637053809797,
+  "n_negative": 2,
+  "n_positive": 3
+ },
+ "E_plant": {
+  "contrast": "R - R0 (rnd1 - r0_a13)",
+  "metric": "CA",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "n": 5,
+  "diffs": [
+   0.046666666666666634,
+   -0.0016666666666667052,
+   0.1233333333333333,
+   0.026666666666666727,
+   0.06000000000000005
+  ],
+  "mean": 0.051000000000000004,
+  "sd": 0.046630938704302786,
+  "t_crit": 2.7764451051977987,
+  "ci95": [
+   -0.006899957791579356,
+   0.10889995779157936
+  ],
+  "t": 2.4455751915190698,
+  "p_two_sided": 0.07078180385981699,
+  "n_negative": 1,
+  "n_positive": 4
+ },
+ "table3_S_minus_R0": {
+  "contrast": "S - R0 (Table 3 convention)",
+  "metric": "CA",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "n": 5,
+  "diffs": [
+   -0.018333333333333313,
+   -0.08666666666666667,
+   0.05166666666666664,
+   -0.014999999999999902,
+   0.04500000000000004
+  ],
+  "mean": -0.004666666666666641,
+  "sd": 0.056253394959277295,
+  "t_crit": 2.7764451051977987,
+  "ci95": [
+   -0.07451448196433848,
+   0.0651811486310052
+  ],
+  "t": -0.185499629001112,
+  "p_two_sided": 0.8618637053809797,
+  "n_negative": 3,
+  "n_positive": 2
+ },
+ "R_minus_S_same_seeds": {
+  "contrast": "R - S (same seeds)",
+  "metric": "CA",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "n": 5,
+  "diffs": [
+   0.06499999999999995,
+   0.08499999999999996,
+   0.07166666666666666,
+   0.04166666666666663,
+   0.015000000000000013
+  ],
+  "mean": 0.05566666666666664,
+  "sd": 0.02762848771346945,
+  "t_crit": 2.7764451051977987,
+  "ci95": [
+   0.021361368148036526,
+   0.08997196518529677
+  ],
+  "t": 4.505293667839967,
+  "p_two_sided": 0.01077878588546231,
+  "n_negative": 0,
+  "n_positive": 5
+ },
+ "identity_max_abs_error": 0.0,
+ "reading": "NOT DETECTED",
+ "E_prop_points": {
+  "mean": 0.4666666666666641,
+  "ci95": [
+   -6.51811486310052,
+   7.451448196433848
+  ],
+  "sd": 5.625339495927729,
+  "half_width": 6.984781529767184
+ },
+ "E_plant_points": {
+  "mean": 5.1000000000000005,
+  "ci95": [
+   -0.6899957791579356,
+   10.889995779157937
+  ]
+ },
+ "descriptive": {
+  "bench_R0": {
+   "0": 81.13333333333333,
+   "1": 81.8,
+   "2": 81.3,
+   "3": 81.86666666666667,
+   "4": 81.73333333333333
+  },
+  "bench_S_minus_R0": {
+   "contrast": "S - R0",
+   "metric": "bench",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    0.6666666666666714,
+    0.30000000000001137,
+    0.8666666666666742,
+    -0.2333333333333485,
+    0.9666666666666686
+   ],
+   "mean": 0.5133333333333354,
+   "sd": 0.489103488253998,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.09396885942753275,
+    1.1206355260942036
+   ],
+   "t": 2.3468412228002835,
+   "p_two_sided": 0.0787868020210969,
+   "n_negative": 1,
+   "n_positive": 4
+  },
+  "bench_R_minus_R0": {
+   "contrast": "R - R0",
+   "metric": "bench",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    -0.06666666666666288,
+    -0.5333333333333314,
+    0.13333333333333997,
+    -0.10000000000000853,
+    -0.9333333333333229
+   ],
+   "mean": -0.29999999999999716,
+   "sd": 0.4294699575575013,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.833257384609246,
+    0.23325738460925172
+   ],
+   "t": -1.5619728026263984,
+   "p_two_sided": 0.19332408738621942,
+   "n_negative": 4,
+   "n_positive": 1
+  },
+  "bench_complete": true,
+  "ACC_A_S_minus_R0": {
+   "contrast": "S - R0",
+   "metric": "ACC_A",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    0.3333333333333286,
+    -1.6666666666666714,
+    1.3333333333333428,
+    -0.6666666666666572,
+    1.1666666666666714
+   ],
+   "mean": 0.10000000000000284,
+   "sd": 1.2671051872498842,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -1.4733188929454204,
+    1.673318892945426
+   ],
+   "t": 0.17647058823529868,
+   "p_two_sided": 0.8684987885437301,
+   "n_negative": 2,
+   "n_positive": 3
+  },
+  "absfix": {
+   "S": {
+    "0": {
+     "ABS_U": 69.97916666666667,
+     "ABS_A": 1.875,
+     "CA_abs": 0.18333333333333332,
+     "ACC_A_abs": 95.16666666666667
+    },
+    "1": {
+     "ABS_U": 71.3125,
+     "ABS_A": 1.9583333333333333,
+     "CA_abs": 0.19333333333333333,
+     "ACC_A_abs": 95.33333333333333
+    },
+    "2": {
+     "ABS_U": 68.14583333333333,
+     "ABS_A": 1.9583333333333333,
+     "CA_abs": 0.23166666666666666,
+     "ACC_A_abs": 95.16666666666667
+    },
+    "3": {
+     "ABS_U": 70.16666666666667,
+     "ABS_A": 1.9583333333333333,
+     "CA_abs": 0.18666666666666668,
+     "ACC_A_abs": 95.16666666666667
+    },
+    "4": {
+     "ABS_U": 67.9375,
+     "ABS_A": 1.5416666666666667,
+     "CA_abs": 0.20666666666666667,
+     "ACC_A_abs": 95.16666666666667
+    }
+   },
+   "R": {
+    "0": {
+     "ABS_U": 72.0,
+     "ABS_A": 2.3333333333333335,
+     "CA_abs": 0.18166666666666667,
+     "ACC_A_abs": 94.16666666666667
+    },
+    "1": {
+     "ABS_U": 70.6875,
+     "ABS_A": 1.8125,
+     "CA_abs": 0.18333333333333332,
+     "ACC_A_abs": 95.16666666666667
+    },
+    "2": {
+     "ABS_U": 68.91666666666667,
+     "ABS_A": 2.1458333333333335,
+     "CA_abs": 0.19833333333333333,
+     "ACC_A_abs": 95.0
+    },
+    "3": {
+     "ABS_U": 72.3125,
+     "ABS_A": 1.7916666666666667,
+     "CA_abs": 0.19333333333333333,
+     "ACC_A_abs": 95.0
+    },
+    "4": {
+     "ABS_U": 69.16666666666667,
+     "ABS_A": 1.6666666666666667,
+     "CA_abs": 0.20166666666666666,
+     "ACC_A_abs": 94.83333333333333
+    }
+   },
+   "R0": {
+    "0": {
+     "ABS_U": 72.16666666666667,
+     "ABS_A": 2.25,
+     "CA_abs": 0.18333333333333332,
+     "ACC_A_abs": 94.66666666666667
+    },
+    "1": {
+     "ABS_U": 67.64583333333333,
+     "ABS_A": 2.0208333333333335,
+     "CA_abs": 0.21,
+     "ACC_A_abs": 94.16666666666667
+    },
+    "2": {
+     "ABS_U": 68.70833333333333,
+     "ABS_A": 1.9375,
+     "CA_abs": 0.22333333333333333,
+     "ACC_A_abs": 95.16666666666667
+    },
+    "3": {
+     "ABS_U": 70.39583333333333,
+     "ABS_A": 1.9375,
+     "CA_abs": 0.21333333333333335,
+     "ACC_A_abs": 95.0
+    },
+    "4": {
+     "ABS_U": 63.208333333333336,
+     "ABS_A": 1.4375,
+     "CA_abs": 0.23333333333333334,
+     "ACC_A_abs": 94.83333333333333
+    }
+   }
+  },
+  "absfix_seeds_all_arms": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "absfix_ABS_U_R0_minus_S": {
+   "contrast": "R0 - S",
+   "metric": "ABS_U",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    2.1875,
+    -3.6666666666666714,
+    0.5625,
+    0.2291666666666572,
+    -4.729166666666664
+   ],
+   "mean": -1.0833333333333357,
+   "sd": 2.9620721678881785,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -4.76123170428147,
+    2.5945650376147986
+   ],
+   "t": -0.8178082228671162,
+   "p_two_sided": 0.4593820081526714,
+   "n_negative": 2,
+   "n_positive": 3
+  },
+  "absfix_ABS_U_R_minus_R0": {
+   "contrast": "R - R0",
+   "metric": "ABS_U",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    -0.1666666666666714,
+    3.0416666666666714,
+    0.2083333333333428,
+    1.9166666666666714,
+    5.958333333333336
+   ],
+   "mean": 2.19166666666667,
+   "sd": 2.4739265348833626,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.8801188458989957,
+    5.263452179232336
+   ],
+   "t": 1.9809463141225006,
+   "p_two_sided": 0.11867303247937493,
+   "n_negative": 1,
+   "n_positive": 4
+  },
+  "absfix_ABS_U_seed_means": {
+   "S": 69.50833333333334,
+   "R": 70.61666666666667,
+   "R0": 68.425
+  },
+  "absfix_ABS_A_R0_minus_S": {
+   "contrast": "R0 - S",
+   "metric": "ABS_A",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    0.375,
+    0.06250000000000022,
+    -0.02083333333333326,
+    -0.02083333333333326,
+    -0.10416666666666674
+   ],
+   "mean": 0.05833333333333339,
+   "sd": 0.18657177647698425,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.17332612459905827,
+    0.2899927912657251
+   ],
+   "t": 0.6991266372144921,
+   "p_two_sided": 0.5229910032395635,
+   "n_negative": 3,
+   "n_positive": 2
+  },
+  "absfix_ABS_A_R_minus_R0": {
+   "contrast": "R - R0",
+   "metric": "ABS_A",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    0.08333333333333348,
+    -0.20833333333333348,
+    0.20833333333333348,
+    -0.14583333333333326,
+    0.22916666666666674
+   ],
+   "mean": 0.033333333333333395,
+   "sd": 0.20123317735072094,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.2165306582272104,
+    0.28319732489387717
+   ],
+   "t": 0.37039418763481596,
+   "p_two_sided": 0.729868412088303,
+   "n_negative": 2,
+   "n_positive": 3
+  },
+  "absfix_ABS_A_seed_means": {
+   "S": 1.8583333333333334,
+   "R": 1.9500000000000002,
+   "R0": 1.9166666666666667
+  },
+  "absfix_CA_abs_R0_minus_S": {
+   "contrast": "R0 - S",
+   "metric": "CA_abs",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    0.0,
+    0.016666666666666663,
+    -0.008333333333333331,
+    0.026666666666666672,
+    0.026666666666666672
+   ],
+   "mean": 0.012333333333333335,
+   "sd": 0.01588150566609546,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.007386160489526526,
+    0.032052827156193196
+   ],
+   "t": 1.736496041516549,
+   "p_two_sided": 0.15748175640617534,
+   "n_negative": 1,
+   "n_positive": 3
+  },
+  "absfix_CA_abs_R_minus_R0": {
+   "contrast": "R - R0",
+   "metric": "CA_abs",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n": 5,
+   "diffs": [
+    -0.0016666666666666496,
+    -0.026666666666666672,
+    -0.024999999999999994,
+    -0.020000000000000018,
+    -0.031666666666666676
+   ],
+   "mean": -0.021,
+   "sd": 0.011583033569262711,
+   "t_crit": 2.7764451051977987,
+   "ci95": [
+    -0.03538223577293918,
+    -0.00661776422706082
+   ],
+   "t": -4.053983548153055,
+   "p_two_sided": 0.01542497613653137,
+   "n_negative": 5,
+   "n_positive": 0
+  },
+  "absfix_CA_abs_seed_means": {
+   "S": 0.20033333333333334,
+   "R": 0.19166666666666665,
+   "R0": 0.21266666666666667
+  }
+ },
+ "not_detected_subcase": "estimate > 0",
+ "paper": {
+  "edits": [
+   {
+    "file": "05_accommodation.tex",
+    "find": "The drifted curriculum thus adds about six points in one round to the sharpening any label-free curriculum shares, an estimate that does not separate proposer-written from planted ill-posed ones.",
+    "replace": "The drifted curriculum adds about six points in one round to the sharpening any label-free curriculum shares. With the random subset's planted premise-deleted problems replaced by other random admitted proposals, one round on the subset changes the rate relative to the solvable problems by +0.5 points on average (95\\% CI $[-6.5, 7.5]$, an interval that includes zero; higher in three of five seeds), against 5.6 points with them; putting the planted problems back changes it by +5.1 points (95\\% CI $[-0.7, 10.9]$)."
+   },
+   {
+    "file": "05_accommodation.tex",
+    "find": "Same size$^{\\dagger}$ (5) & 148--177 (0) & $-30$ & $-5.6$ {\\scriptsize$[-9.0, -2.1]$} & $+0.8$ \\\\",
+    "replace": "Same size$^{\\dagger}$ (5) & 148--177 (0) & $-30$ & $-5.6$ {\\scriptsize$[-9.0, -2.1]$} & $+0.8$ \\\\\nSame size, no planted (5) & 148--177 (0) & $0$ & $-0.5$ {\\scriptsize$[-7.5, 6.5]$} & $+0.5$ \\\\"
+   },
+   {
+    "file": "05_accommodation.tex",
+    "find": " Last row: a loop admitting a random subset of the band of the guard's size (\\S\\ref{sec:remedies}).}",
+    "replace": " Same size, no planted: as Same size, with the random subset's planted premise-deleted problems replaced by other random admitted proposals. Last row: a loop admitting a random subset of the band of the guard's size (\\S\\ref{sec:remedies}).}"
+   },
+   {
+    "file": "09_limitations.tex",
+    "find": "\\paragraph{Attribution.} The drift's own contribution to the solver's behaviour is estimated from one-round, same-size contrasts, and these do not separate proposer-written from planted ill-posed problems (\\S\\ref{sec:accommodation}).",
+    "replace": "\\paragraph{Attribution.} The drift's own contribution to the solver's behaviour is estimated from one-round, same-size contrasts over five seeds, which do not resolve how much of it proposer-written rather than planted ill-posed problems contribute (\\S\\ref{sec:accommodation}); without planted premise-deleted problems the random subset also holds fewer intact planted problems than the solvable set (14--26 against 60--82; Appendix~\\ref{app:setup})."
+   },
+   {
+    "file": "11_appendix.tex",
+    "find": "or on a random subset of that set of the same size (148--177 problems, of which 20--39 are premise-deleted).",
+    "replace": "or on a random subset of that set of the same size (148--177 problems, of which 20--39 are premise-deleted). The \\emph{same-size contrast without planted problems}, registered before any of its new runs existed, replaces in place each premise-deleted problem of that random subset (20--39 per seed) with a random admitted proposal not already in it, leaving the size, the order of the other problems and every setting unchanged; its runs were trained three days after the others, and GPU sampling is not bitwise reproducible. Of its problems, 103--117 are ill-posed proposals (79--95 in the random subset) and 14--26 intact planted problems, against none and 60--82 in the solvable set. Putting the planted premise-deleted problems back in place of these proposals changes the rate by +5.1 points on average (95\\% CI $[-0.7, 10.9]$; higher in four of five seeds); this and the difference without them add up to the same-size contrast by construction."
+   },
+   {
+    "file": "11_appendix.tex",
+    "find": "Four analyses were registered with a pre-stated interpretation for each possible outcome instead of pass/fail predictions, three before any of their data existed",
+    "replace": "Five analyses were registered with a pre-stated interpretation for each possible outcome instead of pass/fail predictions, three before any of their data existed, the same-size contrast without planted problems before any of its new runs existed"
+   },
+   {
+    "file": "11_appendix.tex",
+    "find": " and a verifier on top of the band (the level falls, the drift persists, and the change in odds is consistent with a fixed miss rate; \\S\\ref{sec:remedies}).",
+    "replace": ", a verifier on top of the band (the level falls, the drift persists, and the change in odds is consistent with a fixed miss rate; \\S\\ref{sec:remedies}) and the same-size contrast without planted problems (not resolved at five seeds; \\S\\ref{sec:accommodation})."
+   }
+  ],
+  "appendix_absfix_sentence": "With the abstention option, one round on the solvable problems, on the random subset and on the subset without planted problems abstains on 70, 71 and 68\\% of the unanswerable UMWP questions and on 2, 2 and 2\\% of the answerable ones (seed means, five seeds)."
+ }
+}

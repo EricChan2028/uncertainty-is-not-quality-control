@@ -1,0 +1,13 @@
+{
+ "math500_train": {
+  "n": 500,
+  "greedy_acc": 0.636,
+  "maj_acc": 0.73,
+  "pass_k": 0.858,
+  "k": 8,
+  "mean_p_mode": 0.47725,
+  "sample_trunc": 0.03475,
+  "mean_len": 513.23475,
+  "model": "/root/models/Qwen3-4B-Base"
+ }
+}

@@ -1,0 +1,32 @@
+\section{The Filters We Tested Fail; Test-Time Abstention Works}
+\label{sec:remedies}
+
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcc}
+\toprule
+Admission rule & Base & R5 \\
+\midrule
+Band, $0.25 \le p \le 0.75$ & 52.9 & 81.2 \\
+Band, reject if $\ge$2/8 samples abstain & 45.8 & 76.9 \\
+Band, no abstention, two prompts agree & 29.5 & 74.7 \\
+Band, executable solutions agree & 40.4 & 75.0 \\
+Floor $0.5 \le p \le 0.875$, no abstention & 22.4 & 65.9 \\
+Learning progress (top half)$^{\ast}$ & 61.2 & 74.3 \\
+\midrule
+Band, open-weight verifier says solvable & 32.0 & 65.6 \\
+Classifier trained \emph{with} labels & 12.7 & 55.7 \\
+$0.5 \le p \le 1$ (admits unanimous) & 28.0 & 40.5 \\
+\bottomrule
+\end{tabular}
+\caption{Ill-posed share (\%) that each rule admits offline from the fixed, fully labelled pool, scored by the base model and by the round-5 solver of the band-trained loop$^{\dagger}$ (verifier row pre-registered). \emph{Abstain}: of eight samples, answer \unk{} under the prompt that offers it. \emph{Two prompts agree}: the same most frequent answer under both prompts. \emph{Executable}: at least three of four Python programs written by the base model run, use only numbers from the text and agree. \emph{Learning progress}: the half of the problems with $1/8 \le p \le 7/8$ whose agreement changed most since the previous solver ($^{\ast}$round 1, not base). \emph{Verifier}: Qwen2.5-32B-Instruct. \emph{Classifier}: logistic regression on six label-free features (Appendix~\ref{app:results}), admitting the top 25\% of problems with $1/8 \le p \le 7/8$.}
+\label{tab:filters}
+\end{table}
+
+\paragraph{None of the label-free filters we tested stops the drift.} A filter on top of the band that passes fractions $\varepsilon_t$ of its ill-posed and $k_t$ of its solvable problems multiplies the odds of Equation~\ref{eq:odds} by $\varepsilon_t/k_t$ (Appendix~\ref{app:theory}): a constant ratio leaves the drift's growth unchanged, and holding the share at its base level requires the ratio to fall by the factor by which $\rho_I/\rho_S$ rises (3.8 by round five on the fixed pool). Table~\ref{tab:filters} applies rules offline to the fixed pool, scored by the band-trained loop. Every label-free rule in its upper block admits a steeply rising ill-posed share$^{\dagger}$, and the five we also applied to the held-out pool drift by 26--42 points by round five. Even the classifier trained on the labels admits an increasingly ill-posed set (AUROC 0.80 to 0.72), as ill-posed problems gain agreement too. The open-weight verifier lowers the ill-posed share to 32\% at base, but it still rises to 66\%, as its ratio $\varepsilon_t/k_t$ barely changes (factor 1.06). Only a rule that also admits unanimous problems stays flatter (28.0\% to 40.5\%$^{\dagger}$), but these give group-relative rewards no signal. In closed loops, Absolute Zero's rule (\S\ref{sec:drift}) and the abstention guard (below) drift too, and a band recalibrated on the planted problems delays it (Appendix~\ref{app:results}).
+
+\paragraph{An abstention guard slows the drift but does not stop it.} Rejecting a problem when the solver, offered the option, abstains on two or more of eight samples halves the unsolvable share at round three (34.5--39.5\% against 64.0--66.5\%, seeds 0--2), but the ambiguous share doubles: the ill-posed share falls only to 63--69\% and rises to 72--79\% by round five, near the guard's offline 77\%. On UMWP the guard lowers self-consistent answering in two of three seeds, by 6 points on average (95\% CI $[-21, +9]$), whereas a same-size random subset of the band raises it by 4 points ($[0.6, 7.1]$); on premise-deleted problems, read with the first parser, the random subset matches the guard in two of three seeds. Training with \unk{} does not help: unrewarded, it suppresses abstention; rewarded, it helps briefly or collapses into refusal (Appendix~\ref{app:results}).
+
+\paragraph{Offering abstention at test time works.} The drifted model still recognises unanswerable questions: its agreement separates them from answerable ones as well as the base model's (UMWP AUROC 0.88--0.91 against 0.84), and the option alone makes all 14 round-3 Qwen3-4B solvers trained with the standard prompt and reward abstain in 68--76\% of their answers to unanswerable questions at 2--3\% false abstention (base model: 53\% at 5\%). Label-free rules on the eight samples, such as answering only when enough agree, trade committed answers against false abstention; their \emph{frontier} is the lowest rate of committed answers to unanswerable questions reachable at a given false-abstention rate (Figure~\ref{fig:frontier}). The drifted, solvable-only and guard-trained solvers share one frontier, which no training-time remedy lowers by more than 2.1 points on average. Self-play trains in a default; the cheapest fix is to change it at test time.

@@ -1,0 +1,1922 @@
+[
+ {
+  "hid": "D001",
+  "a7b_key": "b0679",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D002",
+  "a7b_key": "b0562",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D003",
+  "a7b_key": "b0757",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D004",
+  "a7b_key": "b0607",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D005",
+  "a7b_key": "b0039",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D006",
+  "a7b_key": "b0080",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D007",
+  "a7b_key": "b0137",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D008",
+  "a7b_key": "b0368",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D009",
+  "a7b_key": "b0069",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D010",
+  "a7b_key": "b0441",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D011",
+  "a7b_key": "b0608",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D012",
+  "a7b_key": "b0000",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D013",
+  "a7b_key": "b0501",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D014",
+  "a7b_key": "b0407",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D015",
+  "a7b_key": "b0115",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D016",
+  "a7b_key": "b0173",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D017",
+  "a7b_key": "b0795",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D018",
+  "a7b_key": "b0885",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D019",
+  "a7b_key": "b0488",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D020",
+  "a7b_key": "b0634",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D021",
+  "a7b_key": "b0385",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D022",
+  "a7b_key": "b0089",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D023",
+  "a7b_key": "b0460",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D024",
+  "a7b_key": "b0875",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D025",
+  "a7b_key": "b0007",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D026",
+  "a7b_key": "b0108",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D027",
+  "a7b_key": "b0733",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D028",
+  "a7b_key": "b0235",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D029",
+  "a7b_key": "b0528",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D030",
+  "a7b_key": "b0585",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D031",
+  "a7b_key": "b0680",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D032",
+  "a7b_key": "b0677",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D033",
+  "a7b_key": "b0405",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D034",
+  "a7b_key": "b0527",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D035",
+  "a7b_key": "b0784",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D036",
+  "a7b_key": "b0668",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D037",
+  "a7b_key": "b0212",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D038",
+  "a7b_key": "b0018",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D039",
+  "a7b_key": "b0063",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D040",
+  "a7b_key": "b0769",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D041",
+  "a7b_key": "b0540",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D042",
+  "a7b_key": "b0174",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D043",
+  "a7b_key": "b0122",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D044",
+  "a7b_key": "b0863",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D045",
+  "a7b_key": "b0877",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D046",
+  "a7b_key": "b0162",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D047",
+  "a7b_key": "b0826",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D048",
+  "a7b_key": "b0068",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D049",
+  "a7b_key": "b0476",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D050",
+  "a7b_key": "b0700",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D051",
+  "a7b_key": "b0636",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D052",
+  "a7b_key": "b0708",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D053",
+  "a7b_key": "b0646",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D054",
+  "a7b_key": "b0587",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D055",
+  "a7b_key": "b0432",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D056",
+  "a7b_key": "b0663",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D057",
+  "a7b_key": "b0767",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D058",
+  "a7b_key": "b0158",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D059",
+  "a7b_key": "b0865",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D060",
+  "a7b_key": "b0635",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D061",
+  "a7b_key": "b0479",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D062",
+  "a7b_key": "b0256",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D063",
+  "a7b_key": "b0400",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D064",
+  "a7b_key": "b0070",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D065",
+  "a7b_key": "b0035",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D066",
+  "a7b_key": "b0653",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D067",
+  "a7b_key": "b0743",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D068",
+  "a7b_key": "b0777",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D069",
+  "a7b_key": "b0095",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D070",
+  "a7b_key": "b0409",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D071",
+  "a7b_key": "b0151",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D072",
+  "a7b_key": "b0831",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D073",
+  "a7b_key": "b0463",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D074",
+  "a7b_key": "b0199",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D075",
+  "a7b_key": "b0169",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D076",
+  "a7b_key": "b0538",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D077",
+  "a7b_key": "b0537",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D078",
+  "a7b_key": "b0012",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D079",
+  "a7b_key": "b0801",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D080",
+  "a7b_key": "b0225",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D081",
+  "a7b_key": "b0712",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D082",
+  "a7b_key": "b0854",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D083",
+  "a7b_key": "b0880",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D084",
+  "a7b_key": "b0304",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D085",
+  "a7b_key": "b0485",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D086",
+  "a7b_key": "b0427",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D087",
+  "a7b_key": "b0211",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D088",
+  "a7b_key": "b0299",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D089",
+  "a7b_key": "b0713",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D090",
+  "a7b_key": "b0642",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D091",
+  "a7b_key": "b0883",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D092",
+  "a7b_key": "b0624",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D093",
+  "a7b_key": "b0042",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D094",
+  "a7b_key": "b0351",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D095",
+  "a7b_key": "b0625",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D096",
+  "a7b_key": "b0542",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D097",
+  "a7b_key": "b0247",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D098",
+  "a7b_key": "b0423",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D099",
+  "a7b_key": "b0876",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D100",
+  "a7b_key": "b0110",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D101",
+  "a7b_key": "b0803",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D102",
+  "a7b_key": "b0425",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D103",
+  "a7b_key": "b0789",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D104",
+  "a7b_key": "b0482",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D105",
+  "a7b_key": "b0307",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D106",
+  "a7b_key": "b0160",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D107",
+  "a7b_key": "b0622",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D108",
+  "a7b_key": "b0255",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D109",
+  "a7b_key": "b0711",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D110",
+  "a7b_key": "b0839",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D111",
+  "a7b_key": "b0650",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D112",
+  "a7b_key": "b0600",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D113",
+  "a7b_key": "b0346",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D114",
+  "a7b_key": "b0166",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D115",
+  "a7b_key": "b0182",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D116",
+  "a7b_key": "b0043",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D117",
+  "a7b_key": "b0019",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D118",
+  "a7b_key": "b0641",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D119",
+  "a7b_key": "b0726",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D120",
+  "a7b_key": "b0705",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D121",
+  "a7b_key": "b0066",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D122",
+  "a7b_key": "b0361",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D123",
+  "a7b_key": "b0783",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D124",
+  "a7b_key": "b0547",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D125",
+  "a7b_key": "b0760",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D126",
+  "a7b_key": "b0770",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D127",
+  "a7b_key": "b0117",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D128",
+  "a7b_key": "b0025",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D129",
+  "a7b_key": "b0529",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D130",
+  "a7b_key": "b0335",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D131",
+  "a7b_key": "b0223",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D132",
+  "a7b_key": "b0029",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D133",
+  "a7b_key": "b0749",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D134",
+  "a7b_key": "b0576",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D135",
+  "a7b_key": "b0759",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D136",
+  "a7b_key": "b0833",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D137",
+  "a7b_key": "b0088",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D138",
+  "a7b_key": "b0574",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D139",
+  "a7b_key": "b0279",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D140",
+  "a7b_key": "b0248",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D141",
+  "a7b_key": "b0343",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D142",
+  "a7b_key": "b0778",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D143",
+  "a7b_key": "b0406",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D144",
+  "a7b_key": "b0484",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D145",
+  "a7b_key": "b0191",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D146",
+  "a7b_key": "b0850",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D147",
+  "a7b_key": "b0275",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D148",
+  "a7b_key": "b0834",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D149",
+  "a7b_key": "b0896",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D150",
+  "a7b_key": "b0827",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D151",
+  "a7b_key": "b0704",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D152",
+  "a7b_key": "b0419",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D153",
+  "a7b_key": "b0500",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D154",
+  "a7b_key": "b0134",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D155",
+  "a7b_key": "b0375",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D156",
+  "a7b_key": "b0152",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D157",
+  "a7b_key": "b0072",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D158",
+  "a7b_key": "b0461",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D159",
+  "a7b_key": "b0209",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D160",
+  "a7b_key": "b0774",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D161",
+  "a7b_key": "b0349",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D162",
+  "a7b_key": "b0176",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D163",
+  "a7b_key": "b0824",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D164",
+  "a7b_key": "b0241",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D165",
+  "a7b_key": "b0571",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D166",
+  "a7b_key": "b0232",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D167",
+  "a7b_key": "b0552",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D168",
+  "a7b_key": "b0521",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D169",
+  "a7b_key": "b0780",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D170",
+  "a7b_key": "b0238",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D171",
+  "a7b_key": "b0038",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D172",
+  "a7b_key": "b0165",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D173",
+  "a7b_key": "b0741",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D174",
+  "a7b_key": "b0316",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D175",
+  "a7b_key": "b0470",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D176",
+  "a7b_key": "b0853",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D177",
+  "a7b_key": "b0519",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D178",
+  "a7b_key": "b0181",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D179",
+  "a7b_key": "b0695",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D180",
+  "a7b_key": "b0085",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D181",
+  "a7b_key": "b0478",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D182",
+  "a7b_key": "b0648",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D183",
+  "a7b_key": "b0790",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D184",
+  "a7b_key": "b0360",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D185",
+  "a7b_key": "b0398",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D186",
+  "a7b_key": "b0655",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D187",
+  "a7b_key": "b0087",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D188",
+  "a7b_key": "b0105",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D189",
+  "a7b_key": "b0222",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D190",
+  "a7b_key": "b0554",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D191",
+  "a7b_key": "b0630",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D192",
+  "a7b_key": "b0541",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D193",
+  "a7b_key": "b0224",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D194",
+  "a7b_key": "b0220",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D195",
+  "a7b_key": "b0886",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D196",
+  "a7b_key": "b0281",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D197",
+  "a7b_key": "b0412",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D198",
+  "a7b_key": "b0710",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D199",
+  "a7b_key": "b0570",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D200",
+  "a7b_key": "b0656",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D201",
+  "a7b_key": "b0779",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D202",
+  "a7b_key": "b0707",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D203",
+  "a7b_key": "b0295",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D204",
+  "a7b_key": "b0284",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D205",
+  "a7b_key": "b0297",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D206",
+  "a7b_key": "b0701",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D207",
+  "a7b_key": "b0546",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D208",
+  "a7b_key": "b0512",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D209",
+  "a7b_key": "b0771",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D210",
+  "a7b_key": "b0503",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D211",
+  "a7b_key": "b0449",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D212",
+  "a7b_key": "b0572",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D213",
+  "a7b_key": "b0145",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D214",
+  "a7b_key": "b0617",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D215",
+  "a7b_key": "b0231",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D216",
+  "a7b_key": "b0579",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D217",
+  "a7b_key": "b0362",
+  "seed": 0,
+  "round": 1,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D218",
+  "a7b_key": "b0329",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D219",
+  "a7b_key": "b0849",
+  "seed": 0,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D220",
+  "a7b_key": "b0498",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D221",
+  "a7b_key": "b0337",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D222",
+  "a7b_key": "b0548",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D223",
+  "a7b_key": "b0477",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D224",
+  "a7b_key": "b0127",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D225",
+  "a7b_key": "b0623",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D226",
+  "a7b_key": "b0077",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D227",
+  "a7b_key": "b0264",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D228",
+  "a7b_key": "b0177",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D229",
+  "a7b_key": "b0633",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D230",
+  "a7b_key": "b0136",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D231",
+  "a7b_key": "b0354",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D232",
+  "a7b_key": "b0009",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D233",
+  "a7b_key": "b0147",
+  "seed": 0,
+  "round": 3,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D234",
+  "a7b_key": "b0594",
+  "seed": 1,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D235",
+  "a7b_key": "b0130",
+  "seed": 1,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D236",
+  "a7b_key": "b0175",
+  "seed": 1,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D237",
+  "a7b_key": "b0786",
+  "seed": 2,
+  "round": 1,
+  "opus_original": "SOLVABLE",
+  "opus_blind": "SOLVABLE"
+ },
+ {
+  "hid": "D238",
+  "a7b_key": "b0466",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ },
+ {
+  "hid": "D239",
+  "a7b_key": "b0806",
+  "seed": 2,
+  "round": 3,
+  "opus_original": "AMBIGUOUS",
+  "opus_blind": "AMBIGUOUS"
+ },
+ {
+  "hid": "D240",
+  "a7b_key": "b0261",
+  "seed": 2,
+  "round": 5,
+  "opus_original": "UNSOLVABLE",
+  "opus_blind": "UNSOLVABLE"
+ }
+]

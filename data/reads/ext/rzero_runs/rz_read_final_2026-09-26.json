@@ -1,0 +1,475 @@
+{
+ "per_seed": {
+  "0": {
+   "host": "<NODE1>",
+   "mode": "full",
+   "audit": {
+    "1": {
+     "complete": true,
+     "n": 200,
+     "counts": {
+      "SOLVABLE": 135,
+      "UNSOLVABLE": 55,
+      "AMBIGUOUS": 10
+     },
+     "ill": 0.325,
+     "uns_only": 0.275,
+     "n_numeric_label": 165,
+     "ill_numeric_label": 0.3090909090909091
+    },
+    "2": {
+     "complete": true,
+     "n": 200,
+     "counts": {
+      "SOLVABLE": 112,
+      "UNSOLVABLE": 78,
+      "AMBIGUOUS": 10
+     },
+     "ill": 0.44,
+     "uns_only": 0.39,
+     "n_numeric_label": 168,
+     "ill_numeric_label": 0.4226190476190476
+    },
+    "3": {
+     "complete": true,
+     "n": 200,
+     "counts": {
+      "SOLVABLE": 89,
+      "UNSOLVABLE": 99,
+      "AMBIGUOUS": 12
+     },
+     "ill": 0.555,
+     "uns_only": 0.495,
+     "n_numeric_label": 174,
+     "ill_numeric_label": 0.5689655172413793
+    }
+   },
+   "pool_summaries": {
+    "1": {
+     "seed": 0,
+     "iteration": 1,
+     "sample_seed": 20260925,
+     "audit_run": "rzero_qwen3_4b_Base_s0_it1",
+     "audit_sample_n": 200,
+     "n_raw_shards": 8,
+     "n_generated": 8000,
+     "n_parsed": 7499,
+     "n_scored": 6859,
+     "n_admitted": 3678,
+     "n_admitted_unique": 3631,
+     "n_admitted_over_2048_tokens": 0,
+     "n_solver_batches_of_512": 7,
+     "admitted_share_of_scored": 0.5362297711036594,
+     "share_numeric_label_admitted": 0.8126699293094073,
+     "pool_score_hist": {
+      "0.111": 390,
+      "0.125": 82,
+      "0.143": 5,
+      "0.167": 2,
+      "0.222": 1110,
+      "0.25": 215,
+      "0.286": 21,
+      "0.333": 1199,
+      "0.375": 210,
+      "0.429": 11,
+      "0.444": 903,
+      "0.5": 172,
+      "0.556": 693,
+      "0.571": 19,
+      "0.625": 107,
+      "0.667": 630,
+      "0.714": 14,
+      "0.75": 77,
+      "0.778": 449,
+      "0.833": 3,
+      "0.857": 7,
+      "0.875": 56,
+      "0.889": 326,
+      "1.0": 158
+     },
+     "admitted_parquet_mtime": 1790291333.5139158,
+     "extract_host": "<NODE1>",
+     "sha256_admitted_jsonl": "8d236558404fc8cb5144d56d800ed3b5e229c217df7ec8a9b945ef53b137b6cf"
+    },
+    "2": {
+     "seed": 0,
+     "iteration": 2,
+     "sample_seed": 20260926,
+     "audit_run": "rzero_qwen3_4b_Base_s0_it2",
+     "audit_sample_n": 200,
+     "n_raw_shards": 8,
+     "n_generated": 8000,
+     "n_parsed": 7083,
+     "n_scored": 6290,
+     "n_admitted": 3817,
+     "n_admitted_unique": 3750,
+     "n_admitted_over_2048_tokens": 0,
+     "n_solver_batches_of_512": 7,
+     "admitted_share_of_scored": 0.6068362480127186,
+     "share_numeric_label_admitted": 0.8171338747707624,
+     "pool_score_hist": {
+      "0.111": 300,
+      "0.125": 7,
+      "0.2": 1,
+      "0.222": 886,
+      "0.25": 16,
+      "0.333": 1105,
+      "0.375": 13,
+      "0.429": 2,
+      "0.444": 1017,
+      "0.5": 9,
+      "0.556": 757,
+      "0.625": 5,
+      "0.667": 582,
+      "0.75": 5,
+      "0.778": 502,
+      "0.875": 5,
+      "0.889": 520,
+      "1.0": 558
+     },
+     "admitted_parquet_mtime": 1790321485.448143,
+     "extract_host": "<NODE1>",
+     "sha256_admitted_jsonl": "aff1fe534932f4d6a0b6f2bb172ff7cd975741f19fc6265819370a8580b305f8"
+    },
+    "3": {
+     "seed": 0,
+     "iteration": 3,
+     "sample_seed": 20260927,
+     "audit_run": "rzero_qwen3_4b_Base_s0_it3",
+     "audit_sample_n": 200,
+     "n_raw_shards": 8,
+     "n_generated": 8000,
+     "n_parsed": 6840,
+     "n_scored": 6379,
+     "n_admitted": 4271,
+     "n_admitted_unique": 4245,
+     "n_admitted_over_2048_tokens": 0,
+     "n_solver_batches_of_512": 8,
+     "admitted_share_of_scored": 0.6695406803574228,
+     "share_numeric_label_admitted": 0.8489815031608523,
+     "pool_score_hist": {
+      "0.111": 204,
+      "0.125": 1,
+      "0.143": 2,
+      "0.222": 761,
+      "0.25": 9,
+      "0.333": 1048,
+      "0.375": 9,
+      "0.429": 1,
+      "0.444": 1091,
+      "0.5": 6,
+      "0.556": 910,
+      "0.571": 1,
+      "0.625": 5,
+      "0.667": 716,
+      "0.75": 5,
+      "0.778": 560,
+      "0.875": 3,
+      "0.889": 529,
+      "1.0": 518
+     },
+     "admitted_parquet_mtime": 1790350098.7689457,
+     "extract_host": "<NODE1>",
+     "sha256_admitted_jsonl": "4e3429a129a15c9583f4dcb5f5c4ffa605bd6b2d6698331b099caa688b48a3b5"
+    }
+   },
+   "finding_admitted_lt512": null,
+   "RZ-P1": {
+    "ill_it1": 0.325,
+    "ill_it3": 0.555,
+    "diff_points": 23.0,
+    "holds": true
+   },
+   "secondary": {
+    "unsolvable_only_diff_points": 22.0,
+    "numeric_label_subset_diff_points": 25.99
+   },
+   "RZ-P2": {
+    "CA_base": 0.2866666666666667,
+    "CA_final": 0.3383333333333333,
+    "holds": true,
+    "ACC_A_base": 91.33333333333333,
+    "ACC_A_final": 89.0
+   },
+   "descriptive_abstention_prompt": {
+    "final": {
+     "complete": true,
+     "CA": 0.12666666666666668,
+     "ACC_A": 90.66666666666667,
+     "ABS_U": 55.520833333333336,
+     "ABS_A": 4.895833333333333
+    },
+    "base": {
+     "complete": true,
+     "CA": 0.11333333333333333,
+     "ACC_A": 86.83333333333333,
+     "ABS_U": 44.166666666666664,
+     "ABS_A": 4.270833333333333
+    }
+   },
+   "exploratory_chat_template": {
+    "final": {
+     "complete": true,
+     "CA": 0.705,
+     "ACC_A": 95.83333333333333,
+     "ABS_U": 0.3541666666666667,
+     "ABS_A": 0.0
+    },
+    "base": {
+     "complete": true,
+     "CA": 0.3,
+     "ACC_A": 88.16666666666667,
+     "ABS_U": 0.375,
+     "ABS_A": 0.041666666666666664
+    }
+   }
+  },
+  "1": {
+   "host": "<NODE2>",
+   "mode": "full",
+   "audit": {
+    "1": {
+     "complete": true,
+     "n": 200,
+     "counts": {
+      "SOLVABLE": 132,
+      "UNSOLVABLE": 60,
+      "AMBIGUOUS": 8
+     },
+     "ill": 0.34,
+     "uns_only": 0.3,
+     "n_numeric_label": 152,
+     "ill_numeric_label": 0.3026315789473684
+    },
+    "2": {
+     "complete": true,
+     "n": 200,
+     "counts": {
+      "SOLVABLE": 115,
+      "UNSOLVABLE": 72,
+      "AMBIGUOUS": 13
+     },
+     "ill": 0.425,
+     "uns_only": 0.36,
+     "n_numeric_label": 164,
+     "ill_numeric_label": 0.4329268292682927
+    },
+    "3": {
+     "complete": true,
+     "n": 200,
+     "counts": {
+      "SOLVABLE": 78,
+      "UNSOLVABLE": 108,
+      "AMBIGUOUS": 14
+     },
+     "ill": 0.61,
+     "uns_only": 0.54,
+     "n_numeric_label": 163,
+     "ill_numeric_label": 0.588957055214724
+    }
+   },
+   "pool_summaries": {
+    "1": {
+     "seed": 1,
+     "iteration": 1,
+     "sample_seed": 20260925,
+     "audit_run": "rzero_qwen3_4b_Base_s1_it1",
+     "audit_sample_n": 200,
+     "n_raw_shards": 8,
+     "n_generated": 8000,
+     "n_parsed": 7489,
+     "n_scored": 6593,
+     "n_admitted": 3423,
+     "n_admitted_unique": 3360,
+     "n_admitted_over_2048_tokens": 0,
+     "n_solver_batches_of_512": 6,
+     "admitted_share_of_scored": 0.5191870165326862,
+     "share_numeric_label_admitted": 0.8174116272275781,
+     "pool_score_hist": {
+      "0.111": 488,
+      "0.125": 82,
+      "0.143": 7,
+      "0.167": 2,
+      "0.222": 1279,
+      "0.25": 199,
+      "0.286": 12,
+      "0.333": 1218,
+      "0.375": 166,
+      "0.429": 18,
+      "0.444": 886,
+      "0.5": 122,
+      "0.556": 653,
+      "0.571": 11,
+      "0.6": 1,
+      "0.625": 87,
+      "0.667": 495,
+      "0.714": 14,
+      "0.75": 69,
+      "0.778": 410,
+      "0.857": 5,
+      "0.875": 29,
+      "0.889": 231,
+      "1.0": 109
+     },
+     "admitted_parquet_mtime": 1790291795.7916303,
+     "extract_host": "<NODE2>",
+     "sha256_admitted_jsonl": "f0da8ae29b369a57c1d73ba7c1a85d0019b9f7e79ba68f432813fa3375c752e0"
+    },
+    "2": {
+     "seed": 1,
+     "iteration": 2,
+     "sample_seed": 20260926,
+     "audit_run": "rzero_qwen3_4b_Base_s1_it2",
+     "audit_sample_n": 200,
+     "n_raw_shards": 8,
+     "n_generated": 8000,
+     "n_parsed": 7801,
+     "n_scored": 6033,
+     "n_admitted": 3697,
+     "n_admitted_unique": 3614,
+     "n_admitted_over_2048_tokens": 0,
+     "n_solver_batches_of_512": 7,
+     "admitted_share_of_scored": 0.6127962870876844,
+     "share_numeric_label_admitted": 0.833919394103327,
+     "pool_score_hist": {
+      "0.111": 320,
+      "0.125": 10,
+      "0.143": 2,
+      "0.222": 915,
+      "0.25": 18,
+      "0.286": 1,
+      "0.333": 1047,
+      "0.375": 11,
+      "0.429": 1,
+      "0.444": 973,
+      "0.5": 12,
+      "0.556": 728,
+      "0.625": 7,
+      "0.667": 561,
+      "0.75": 4,
+      "0.778": 517,
+      "0.875": 5,
+      "0.889": 471,
+      "1.0": 430
+     },
+     "admitted_parquet_mtime": 1790330697.3726795,
+     "extract_host": "<NODE2>",
+     "sha256_admitted_jsonl": "456aa69ca8d387b73e08edb57f6358de3ad84d742dd36657959976614737c473"
+    },
+    "3": {
+     "seed": 1,
+     "iteration": 3,
+     "sample_seed": 20260927,
+     "audit_run": "rzero_qwen3_4b_Base_s1_it3",
+     "audit_sample_n": 200,
+     "n_raw_shards": 8,
+     "n_generated": 8000,
+     "n_parsed": 7917,
+     "n_scored": 7391,
+     "n_admitted": 4941,
+     "n_admitted_unique": 4931,
+     "n_admitted_over_2048_tokens": 0,
+     "n_solver_batches_of_512": 9,
+     "admitted_share_of_scored": 0.6685157624137464,
+     "share_numeric_label_admitted": 0.8328273628820076,
+     "pool_score_hist": {
+      "0.111": 281,
+      "0.125": 5,
+      "0.143": 1,
+      "0.167": 1,
+      "0.222": 852,
+      "0.25": 14,
+      "0.333": 1219,
+      "0.375": 12,
+      "0.444": 1199,
+      "0.5": 6,
+      "0.556": 1033,
+      "0.625": 2,
+      "0.667": 840,
+      "0.75": 8,
+      "0.778": 693,
+      "0.875": 3,
+      "0.889": 643,
+      "1.0": 579
+     },
+     "admitted_parquet_mtime": 1790360431.5778317,
+     "extract_host": "<NODE2>",
+     "sha256_admitted_jsonl": "93b0c46c5e9cbe8585ad89c138cd382408e30d5446f3a526596d39eb92011114"
+    }
+   },
+   "finding_admitted_lt512": null,
+   "RZ-P1": {
+    "ill_it1": 0.34,
+    "ill_it3": 0.61,
+    "diff_points": 27.0,
+    "holds": true
+   },
+   "secondary": {
+    "unsolvable_only_diff_points": 24.0,
+    "numeric_label_subset_diff_points": 28.63
+   },
+   "RZ-P2": {
+    "CA_base": 0.2866666666666667,
+    "CA_final": 0.30333333333333334,
+    "holds": true,
+    "ACC_A_base": 91.33333333333333,
+    "ACC_A_final": 89.83333333333333
+   },
+   "descriptive_abstention_prompt": {
+    "final": {
+     "complete": true,
+     "CA": 0.12,
+     "ACC_A": 89.0,
+     "ABS_U": 53.520833333333336,
+     "ABS_A": 4.770833333333333
+    },
+    "base": {
+     "complete": true,
+     "CA": 0.11333333333333333,
+     "ACC_A": 86.83333333333333,
+     "ABS_U": 44.166666666666664,
+     "ABS_A": 4.270833333333333
+    }
+   },
+   "exploratory_chat_template": {
+    "final": {
+     "complete": true,
+     "CA": 0.6233333333333333,
+     "ACC_A": 95.0,
+     "ABS_U": 0.2916666666666667,
+     "ABS_A": 0.020833333333333332
+    },
+    "base": {
+     "complete": true,
+     "CA": 0.3,
+     "ACC_A": 88.16666666666667,
+     "ABS_U": 0.375,
+     "ABS_A": 0.041666666666666664
+    }
+   }
+  }
+ },
+ "abandoned": {},
+ "not_started": [
+  2,
+  3
+ ],
+ "counted_seed_ids": [
+  0,
+  1
+ ],
+ "RZ-P1": {
+  "verdict": "HOLDS",
+  "seeds_run": [
+   0,
+   1
+  ]
+ },
+ "RZ-P2": {
+  "verdict": "HOLDS",
+  "seeds_run": [
+   0,
+   1
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage[preprint]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{subcaption}
+\usepackage{placeins}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newcommand{\pp}{\,pp}
+\newcommand{\unk}{\texttt{unknown}}
+
+\title{Uncertainty Is Not Quality Control:\\ Label-Free Self-Play Drifts Toward Ill-Posed Problems}
+
+\author{Changyuan Chen\textsuperscript{1,2}\thanks{This work was done while Changyuan Chen was a visiting student at Yale University.} \\
+  \textsuperscript{1}Yale University \quad \textsuperscript{2}Eastern Michigan University}
+
+\begin{document}
+\maketitle
+
+\input{sections/00_abstract}
+\input{sections/01_introduction}
+\input{sections/02_setting}
+\input{sections/03_drift}
+\input{sections/04_mechanism}
+\input{sections/05_accommodation}
+\input{sections/06_remedies}
+\input{sections/07_related}
+\input{sections/08_conclusion}
+
+\section*{Limitations}
+\input{sections/09_limitations}
+
+\section*{Ethics Statement}
+\input{sections/10_ethics}
+
+\section*{Acknowledgments}
+We thank the three mathematicians who labelled the problems of Appendix~\ref{app:judge} and the two annotators who labelled the sample of Appendix~\ref{app:readings}. Claude (Anthropic), used through Claude Code, gave substantive assistance with the design of experiments and analyses, the code and its execution, the literature search, and the drafting and revision of the text; the author takes full responsibility for the content.
+
+\bibliography{refs}
+
+\appendix
+\input{sections/11_appendix}
+
+\end{document}

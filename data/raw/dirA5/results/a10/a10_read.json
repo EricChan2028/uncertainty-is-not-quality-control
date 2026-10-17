@@ -1,0 +1,127 @@
+{
+ "inputs": {
+  "n_items": 900,
+  "n_verdicts": 900,
+  "n_missing": 0,
+  "duplicate_keys": 0,
+  "unknown_keys": 0,
+  "verdicts_sha256": "574b222f5dbd160bbe9e0d91cc88cb84b75b20b2f553f95e6a782904fde68915",
+  "blind_opus_conflicts": 0
+ },
+ "rule": "J2-P1 shares and J2-P2 kappa use the items with an open-weight verdict (<= 45 missing allowed)",
+ "confirmatory": {
+  "J2-P1": {
+   "diff_r5_r1": 19.33333333333333,
+   "ci95": [
+    11.666666666666664,
+    27.000000000000007
+   ],
+   "threshold": 10,
+   "n_r1": 300,
+   "n_r5": 300,
+   "holds": true
+  },
+  "J2-P2": {
+   "kappa_binary_vs_blind_opus": 0.3787120975304784,
+   "n_pairs": 900,
+   "threshold": 0.4,
+   "holds": false
+  }
+ },
+ "descriptive": {
+  "note": "no thresholds registered for anything in this block",
+  "cells": {
+   "s0_r1": {
+    "n": 100,
+    "share_illposed": 46.0
+   },
+   "s0_r3": {
+    "n": 100,
+    "share_illposed": 63.0
+   },
+   "s0_r5": {
+    "n": 100,
+    "share_illposed": 64.0
+   },
+   "s1_r1": {
+    "n": 100,
+    "share_illposed": 39.0
+   },
+   "s1_r3": {
+    "n": 100,
+    "share_illposed": 70.0
+   },
+   "s1_r5": {
+    "n": 100,
+    "share_illposed": 57.0
+   },
+   "s2_r1": {
+    "n": 100,
+    "share_illposed": 48.0
+   },
+   "s2_r3": {
+    "n": 100,
+    "share_illposed": 57.0
+   },
+   "s2_r5": {
+    "n": 100,
+    "share_illposed": 70.0
+   }
+  },
+  "pooled": {
+   "r1": 44.333333333333336,
+   "r3": 63.333333333333336,
+   "r5": 63.666666666666664
+  },
+  "per_seed_diff_r5_r1": {
+   "0": 18.0,
+   "1": 18.0,
+   "2": 22.0
+  },
+  "kappa_3class_vs_blind_opus": 0.32500638507473584,
+  "raw_agreement_binary_vs_blind_opus": 0.7055555555555556,
+  "kappa_binary_vs_original_opus": 0.38224383291765346,
+  "kappa_3class_vs_original_opus": 0.321760243794674,
+  "raw_agreement_binary_vs_original_opus": 0.7088888888888889,
+  "overall_illposed_rate": 57.111111111111114,
+  "confusion_ow_vs_blind_opus": {
+   "SOLVABLE|UNSOLVABLE": 119,
+   "UNSOLVABLE|UNSOLVABLE": 293,
+   "SOLVABLE|SOLVABLE": 203,
+   "UNSOLVABLE|AMBIGUOUS": 64,
+   "SOLVABLE|AMBIGUOUS": 64,
+   "UNSOLVABLE|SOLVABLE": 67,
+   "AMBIGUOUS|AMBIGUOUS": 34,
+   "AMBIGUOUS|UNSOLVABLE": 41,
+   "AMBIGUOUS|SOLVABLE": 15
+  },
+  "retries": {
+   "n_retried": 0,
+   "n_recovered": 0
+  },
+  "parse_audit": {
+   "tails_with_multiple_distinct_verdicts": 1,
+   "tails_with_template_echo": 0,
+   "strict_last_line_parsed": 821,
+   "strict_parse_diff_r5_r1": 21.381718154887857,
+   "strict_parse_ci95": [
+    13.044858231062214,
+    29.39853999153619
+   ],
+   "strict_parse_kappa_vs_blind_opus": 0.4039175238457297
+  },
+  "missing_bounds_diff": {
+   "all_missing_illposed": 19.33333333333333,
+   "all_missing_solvable": 19.33333333333333
+  },
+  "both_judges_same_items": {
+   "D_open_weight": 19.33333333333333,
+   "D_blind_opus": 24.66666666666667,
+   "D_diff_open_minus_opus": -5.333333333333343,
+   "paired_ci95": [
+    -14.333333333333329,
+    3.0
+   ]
+  }
+ }
+}

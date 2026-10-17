@@ -1,0 +1,29 @@
+F_P1 qwen3_4b_Base_own_a3_s0_r3 umwp: guard (FA_A 0.022, CA_U 0.577) vs own frontier 0.1892824074074074 (sensitivity 0.1892824074074074) -> False
+F_P1 qwen3_4b_Base_own_a3_s0_r3 twins: guard (FA_A 0.084, CA_U 0.257) vs own frontier 0.1312690121191784 (sensitivity 0.1312690121191784) -> False
+F_P1 qwen3_4b_Base_own_a3_s1_r3 umwp: guard (FA_A 0.020, CA_U 0.497) vs own frontier 0.22708333333333333 (sensitivity 0.22708333333333333) -> False
+F_P1 qwen3_4b_Base_own_a3_s1_r3 twins: guard (FA_A 0.081, CA_U 0.216) vs own frontier 0.13941915972347338 (sensitivity 0.13941915972347338) -> False
+F_P1 qwen3_4b_Base_own_a3_s2_r3 umwp: guard (FA_A 0.018, CA_U 0.432) vs own frontier 0.18833333333333335 (sensitivity 0.18833333333333335) -> False
+F_P1 qwen3_4b_Base_own_a3_s2_r3 twins: guard (FA_A 0.071, CA_U 0.192) vs own frontier 0.1670460289037529 (sensitivity 0.1670460289037529) -> False
+F_P1_phi_exploratory phi4mini_own_a4_s0_r3 umwp: guard (FA_A 0.010, CA_U 0.787) vs own frontier 0.19023809523809523 (sensitivity 0.19023809523809523) -> False
+F_P1_phi_exploratory phi4mini_own_a4_s0_r3 twins: guard (FA_A 0.023, CA_U 0.600) vs own frontier 0.3287598568433157 (sensitivity 0.3287598568433157) -> False
+F_P1_phi_exploratory phi4mini_own_a4_s1_r3 umwp: guard (FA_A 0.014, CA_U 0.763) vs own frontier 0.20224358974358975 (sensitivity 0.20224358974358975) -> False
+F_P1_phi_exploratory phi4mini_own_a4_s1_r3 twins: guard (FA_A 0.032, CA_U 0.541) vs own frontier 0.28211010149303956 (sensitivity 0.28211010149303956) -> False
+F-P2 qwen3_4b_Base_own_ag_a4_s0_r3: UMWP FA_A own 0.022 guard 0.022; twins own 0.072 guard 0.084 -> True
+F-P2 qwen3_4b_Base_own_ag_a4_s1_r3: UMWP FA_A own 0.019 guard 0.020; twins own 0.064 guard 0.081 -> True
+F-P2 qwen3_4b_Base_own_ag_a4_s2_r3: UMWP FA_A own 0.019 guard 0.018; twins own 0.071 guard 0.071 -> True
+F-P2 phi4mini_own_ag_a4_s0_r3: UMWP FA_A own 0.009 guard 0.010; twins own 0.023 guard 0.023 -> True
+F-P2 phi4mini_own_ag_a4_s1_r3: UMWP FA_A own 0.009 guard 0.014; twins own 0.021 guard 0.032 -> True
+F-P3 s0: mix tau0.375/tau0.5 w=0.16; test guard (FA 0.022, CA 0.573) vs own tuned (FA 0.018, CA 0.233) -> False
+F-P3 s1: mix tau0.375/tau0.5 w=0.50; test guard (FA 0.022, CA 0.503) vs own tuned (FA 0.020, CA 0.230) -> False
+F-P3 s2: mix tau0.25/tau0.375 w=0.75; test guard (FA 0.015, CA 0.457) vs own tuned (FA 0.016, CA 0.276) -> False
+F-P4 qwen3_4b_Base_own_a3_s0_r3: AUROC base 0.810 -> r3 0.840 -> False
+F-P4 qwen3_4b_Base_own_a3_s1_r3: AUROC base 0.810 -> r3 0.826 -> False
+F-P4 qwen3_4b_Base_own_a3_s2_r3: AUROC base 0.810 -> r3 0.835 -> False
+F-P4 qwen3_4b_Base_own_a3_s3_r3: AUROC base 0.810 -> r3 0.851 -> False
+F-P4 qwen3_4b_Base_own_a3_s4_r3: AUROC base 0.810 -> r3 0.810 -> False
+F-P4 qwen3_8b_Base_own_a3_s0_r3: AUROC base 0.735 -> r3 0.795 -> False
+F-P4 qwen3_8b_Base_own_a3_s1_r3: AUROC base 0.735 -> r3 0.801 -> False
+F-P4 qwen3_8b_Base_own_a3_s2_r3: AUROC base 0.735 -> r3 0.836 -> False
+F-P4 phi4mini_own_a4_s0_r3: AUROC base 0.917 -> r3 0.824 -> True
+F-P4 phi4mini_own_a4_s1_r3: AUROC base 0.917 -> r3 0.830 -> True
+verdicts: {'F_P1': False, 'F_P2': True, 'F_P3': False, 'F_P4': False}

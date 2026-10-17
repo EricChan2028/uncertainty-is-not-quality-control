@@ -1,0 +1,50 @@
+{
+ "math500_train": {
+  "n": 500,
+  "greedy_acc": 0.69,
+  "maj_acc": 0.734,
+  "pass_k": 0.796,
+  "k": 8,
+  "mean_p_mode": 0.57425,
+  "sample_trunc": 0.315,
+  "mean_len": 974.172,
+  "model": "/root/models/Phi-4-mini-instruct",
+  "abstain_prompt": 0,
+  "abstain_greedy": 0.0,
+  "abstain_samples": 0.0,
+  "greedy_acc_lenient": 0.692,
+  "greedy_boxed_rate": 0.968
+ },
+ "math_heldout1000": {
+  "n": 1000,
+  "greedy_acc": 0.697,
+  "maj_acc": 0.718,
+  "pass_k": 0.791,
+  "k": 8,
+  "mean_p_mode": 0.593125,
+  "sample_trunc": 0.29025,
+  "mean_len": 923.537625,
+  "model": "/root/models/Phi-4-mini-instruct",
+  "abstain_prompt": 0,
+  "abstain_greedy": 0.0,
+  "abstain_samples": 0.0,
+  "greedy_acc_lenient": 0.698,
+  "greedy_boxed_rate": 0.975
+ },
+ "gsm8k_test500": {
+  "n": 500,
+  "greedy_acc": 0.898,
+  "maj_acc": 0.924,
+  "pass_k": 0.974,
+  "k": 8,
+  "mean_p_mode": 0.84475,
+  "sample_trunc": 0.053,
+  "mean_len": 323.152,
+  "model": "/root/models/Phi-4-mini-instruct",
+  "abstain_prompt": 0,
+  "abstain_greedy": 0.0,
+  "abstain_samples": 0.0,
+  "greedy_acc_lenient": 0.898,
+  "greedy_boxed_rate": 0.022
+ }
+}

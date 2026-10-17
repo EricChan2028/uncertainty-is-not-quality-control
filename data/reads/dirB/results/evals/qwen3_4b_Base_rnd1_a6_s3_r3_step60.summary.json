@@ -1,0 +1,50 @@
+{
+ "math500_train": {
+  "n": 500,
+  "greedy_acc": 0.76,
+  "maj_acc": 0.802,
+  "pass_k": 0.902,
+  "k": 8,
+  "mean_p_mode": 0.80975,
+  "sample_trunc": 0.01325,
+  "mean_len": 538.309,
+  "model": "/dev/shm/ckpt_b/qwen3_4b_Base_rnd1_a6_s3_r3/final",
+  "abstain_prompt": 0,
+  "abstain_greedy": 0.0,
+  "abstain_samples": 0.0,
+  "greedy_acc_lenient": 0.76,
+  "greedy_boxed_rate": 0.984
+ },
+ "math_heldout1000": {
+  "n": 1000,
+  "greedy_acc": 0.768,
+  "maj_acc": 0.811,
+  "pass_k": 0.884,
+  "k": 8,
+  "mean_p_mode": 0.800875,
+  "sample_trunc": 0.017125,
+  "mean_len": 539.19075,
+  "model": "/dev/shm/ckpt_b/qwen3_4b_Base_rnd1_a6_s3_r3/final",
+  "abstain_prompt": 0,
+  "abstain_greedy": 0.0,
+  "abstain_samples": 0.0,
+  "greedy_acc_lenient": 0.769,
+  "greedy_boxed_rate": 0.975
+ },
+ "gsm8k_test500": {
+  "n": 500,
+  "greedy_acc": 0.924,
+  "maj_acc": 0.948,
+  "pass_k": 0.972,
+  "k": 8,
+  "mean_p_mode": 0.92175,
+  "sample_trunc": 0.006,
+  "mean_len": 307.677,
+  "model": "/dev/shm/ckpt_b/qwen3_4b_Base_rnd1_a6_s3_r3/final",
+  "abstain_prompt": 0,
+  "abstain_greedy": 0.0,
+  "abstain_samples": 0.0,
+  "greedy_acc_lenient": 0.924,
+  "greedy_boxed_rate": 0.992
+ }
+}
